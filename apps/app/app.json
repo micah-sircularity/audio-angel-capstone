@@ -1,0 +1,17 @@
+{
+  "expo": {
+    "name": "Audio Angel",
+    "slug": "audio-angel",
+    "scheme": "audio-angel",
+    "version": "0.1.0",
+    "orientation": "default",
+    "userInterfaceStyle": "automatic",
+    "icon": "./assets/icon.png",
+    "plugins": ["expo-router", "expo-font"],
+    "web": {
+      "bundler": "metro",
+      "output": "single",
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}

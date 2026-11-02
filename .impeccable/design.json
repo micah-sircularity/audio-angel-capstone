@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-26T18:01:57.460682+00:00",
+  "title": "Design System: Audio Angel",
+  "extensions": {
+    "provenance": {
+      "mode": "operate",
+      "authority": "User-approved interactive HTML mobile mockup; authorized same-build documentation merge",
+      "source": "https://github.com/pingdotgg/t3code/tree/main/apps/mobile",
+      "license": "MIT",
+      "implementation": [
+        "apps/app/src/ui/theme.ts",
+        "apps/app/src/ui/components.tsx",
+        "apps/app/src/ui/shell.tsx",
+        "apps/app/global.css"
+      ],
+      "assetNotes": "Original shield/check PNGs generated with Pillow; demo cover geometry is React Native layout; Library covers come from Spotify; DM Sans from @expo-google-fonts/dm-sans; Tabler runtime SVG icons."
+    },
+    "breakpoints": [
+      {
+        "name": "sidebar",
+        "value": "760px"
+      }
+    ],
+    "focus": {
+      "value": "2px solid #4b7cf3",
+      "offset": "3px",
+      "purpose": "Shared web focus-visible outline in both themes"
+    },
+    "interaction": {
+      "buttonPressedOpacity": 0.65,
+      "iconPressedOpacity": 0.6,
+      "disabledOpacity": 0.4
+    },
+    "shadows": [],
+    "motion": []
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "description": "Implementation-derived dark-theme preview; web focus is shared.",
+      "html": "<button class=\"ds-primary\">Play demo</button>",
+      "css": ".ds-primary{font-family:\"DM Sans\",sans-serif;font-size:14px;font-weight:700;background:#f5f5f5;color:#0a0a0a;border:0;border-radius:9px;min-height:44px;padding:11px 16px}.ds-primary:active{opacity:.65}.ds-primary:disabled{opacity:.4}.ds-primary:focus-visible{outline:2px solid #4b7cf3;outline-offset:3px}",
+      "refersTo": "button-primary"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "description": "Implementation-derived dark-theme preview; web focus is shared.",
+      "html": "<button class=\"ds-secondary\">Cancel</button>",
+      "css": ".ds-secondary{font-family:\"DM Sans\",sans-serif;font-size:14px;font-weight:700;background:#1a1b1b;color:#f5f5f5;border:0;border-radius:9px;min-height:44px;padding:11px 16px}.ds-secondary:active{opacity:.65}.ds-secondary:disabled{opacity:.4}.ds-secondary:focus-visible{outline:2px solid #4b7cf3;outline-offset:3px}",
+      "refersTo": "button-secondary"
+    },
+    {
+      "name": "Field",
+      "kind": "input",
+      "description": "Implementation-derived dark-theme preview; web focus is shared.",
+      "html": "<input class=\"ds-field\" aria-label=\"Profile name\" placeholder=\"Profile name\" maxlength=\"120\">",
+      "css": ".ds-field{font-family:\"DM Sans\",sans-serif;font-size:14px;background:#1a1b1b;color:#f5f5f5;border:1px solid #282929;border-radius:9px;min-height:46px;padding:13px}.ds-field::placeholder{color:#a3a3a3}.ds-field:focus-visible{outline:2px solid #4b7cf3;outline-offset:3px}",
+      "refersTo": "field"
+    },
+    {
+      "name": "Selected Chip",
+      "kind": "chip",
+      "description": "Implementation-derived dark-theme preview; web focus is shared.",
+      "html": "<button class=\"ds-chip\" aria-pressed=\"true\">Family</button>",
+      "css": ".ds-chip{font-family:\"DM Sans\",sans-serif;font-size:14px;font-size:12px;line-height:1.45;background:#1a1b1b;color:#4b7cf3;border:1px solid #4b7cf3;border-radius:9px;min-height:44px;padding:10px 13px}.ds-chip:active{opacity:.65}.ds-chip:focus-visible{outline:2px solid #4b7cf3;outline-offset:3px}",
+      "refersTo": "chip"
+    },
+    {
+      "name": "Grouped List",
+      "kind": "card",
+      "description": "Implementation-derived dark-theme preview; web focus is shared.",
+      "html": "<div class=\"ds-group\"><div class=\"ds-row\">Listening profile</div><div class=\"ds-row\">Demo settings</div></div>",
+      "css": ".ds-group{font-family:\"DM Sans\",sans-serif;font-size:14px;line-height:1.45;background:#1a1b1b;color:#f5f5f5;border-radius:12px;padding:0 16px;margin:16px 0}.ds-row{min-height:74px;display:flex;align-items:center;padding:13px 0}.ds-row:first-child{border-bottom:1px solid #282929}",
+      "refersTo": "group"
+    },
+    {
+      "name": "Desktop Navigation",
+      "kind": "nav",
+      "description": "Implementation-derived dark-theme preview; web focus is shared.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Main\"><button aria-current=\"page\">Now Playing</button><button>Library</button></nav>",
+      "css": ".ds-nav{display:grid;gap:5px;background:#0a0a0a;padding:20px;width:175px}.ds-nav button{font-family:\"DM Sans\",sans-serif;font-size:14px;min-height:50px;padding:10px 12px;border:0;border-radius:9px;text-align:left;background:transparent;color:#a3a3a3}.ds-nav button[aria-current]{background:#1a1b1b;color:#f5f5f5}.ds-nav button:active{opacity:.6}.ds-nav button:focus-visible{outline:2px solid #4b7cf3;outline-offset:3px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "User-approved T3 mobile-derived direction",
+    "overview": "Quiet mobile-derived grouped lists, restrained borders and direct playback controls. The landing player remains a demo; Library uses real account metadata, catalog search reaches Spotify songs, and the separate Spotify pilot offers opt-in experimental foreground whole-lyric-line skipping. Surface badges distinguish DEMO, SPOTIFY, UNFILTERED, LINE SKIP and STOPPED. Track identity and transport precede artwork and secondary navigation on the live player. Only metadata reaches the lyric provider; no Spotify audio is captured or analyzed. Real LRCLIB data and simulated SDK tests do not establish audible timing or background protection. No new creative metaphor or theme tokens were assigned.",
+    "keyCharacteristics": [
+      "Dark/light tonal surfaces",
+      "DM Sans and Tabler outlines",
+      "Minimum 44px control targets",
+      "Fictional geometric demo artwork; Spotify cover imagery in Library"
+    ],
+    "rules": [],
+    "dos": [
+      "Do preserve paired semantic theme roles.",
+      "Do keep source/filtering status and keyboard focus visible."
+    ],
+    "donts": [
+      "Do not generalize artwork palettes into UI tokens.",
+      "Do not imply verified protection or validated background filtering."
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "audio-angel",
+  "private": true,
+  "packageManager": "pnpm@11.10.0",
+  "scripts": {
+    "dev": "pnpm --parallel --filter @audio-angel/app --filter @audio-angel/server dev",
+    "dev:web": "pnpm --filter @audio-angel/app dev",
+    "dev:server": "pnpm --filter @audio-angel/server dev",
+    "build": "pnpm --filter @audio-angel/server build && pnpm --filter @audio-angel/app build",
+    "typecheck": "pnpm -r typecheck && tsc --noEmit -p convex/tsconfig.json",
+    "test": "vitest run",
+    "start": "pnpm --filter @audio-angel/server start",
+    "lint": "pnpm --filter @audio-angel/app lint",
+    "dev:convex": "convex dev"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "~6.0.3",
+    "vitest": "^4.1.0"
+  },
+  "dependencies": {
+    "@convex-dev/better-auth": "^0.12.6",
+    "better-auth": "~1.6.33",
+    "convex": "^1.48.0"
+  }
+}

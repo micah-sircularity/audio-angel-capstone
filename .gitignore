@@ -1,0 +1,11 @@
+node_modules/
+.expo/
+dist/
+coverage/
+.env
+.env.local
+.firecrawl/
+.impeccable/review/
+*.tsbuildinfo
+
+.convex/

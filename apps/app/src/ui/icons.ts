@@ -1,0 +1,21 @@
+// Import individual icons so Metro does not traverse the full icon library.
+export { default as IconArrowUpRight } from "@tabler/icons-react-native/IconArrowUpRight";
+export { default as IconChevronDown } from "@tabler/icons-react-native/IconChevronDown";
+export { default as IconChevronRight } from "@tabler/icons-react-native/IconChevronRight";
+export { default as IconHeart } from "@tabler/icons-react-native/IconHeart";
+export { default as IconLibrary } from "@tabler/icons-react-native/IconLibrary";
+export { default as IconListDetails } from "@tabler/icons-react-native/IconListDetails";
+export { default as IconMusic } from "@tabler/icons-react-native/IconMusic";
+export { default as IconPencil } from "@tabler/icons-react-native/IconPencil";
+export { default as IconPlayerPause } from "@tabler/icons-react-native/IconPlayerPause";
+export { default as IconPlayerPlay } from "@tabler/icons-react-native/IconPlayerPlay";
+export { default as IconPlayerSkipBack } from "@tabler/icons-react-native/IconPlayerSkipBack";
+export { default as IconPlayerSkipForward } from "@tabler/icons-react-native/IconPlayerSkipForward";
+export { default as IconPlus } from "@tabler/icons-react-native/IconPlus";
+export { default as IconRewindBackward10 } from "@tabler/icons-react-native/IconRewindBackward10";
+export { default as IconRewindForward10 } from "@tabler/icons-react-native/IconRewindForward10";
+export { default as IconSearch } from "@tabler/icons-react-native/IconSearch";
+export { default as IconSettings } from "@tabler/icons-react-native/IconSettings";
+export { default as IconShieldCheck } from "@tabler/icons-react-native/IconShieldCheck";
+export { default as IconX } from "@tabler/icons-react-native/IconX";
+export type { IconProps } from "@tabler/icons-react-native";

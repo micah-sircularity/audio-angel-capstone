@@ -1,0 +1,20 @@
+{
+  "name": "@audio-angel/server",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsup",
+    "start": "node --env-file-if-exists=../../.env.local dist/index.js",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "effect": "^3.22.4",
+    "@audio-angel/contracts": "workspace:*",
+    "@audio-angel/filters": "workspace:*"
+  },
+  "devDependencies": {
+    "tsx": "^4.20.0",
+    "tsup": "^8.5.0"
+  }
+}

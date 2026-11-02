@@ -1,0 +1,33 @@
+@import "tailwindcss";
+@import "uniwind";
+@source "./src";
+@theme {
+  --font-sans: "DMSans_400Regular";
+}
+@layer base {
+  html,
+  body,
+  #root {
+    min-height: 100%;
+  }
+  body {
+    margin: 0;
+    background: #f6f3ec;
+  }
+  :focus-visible {
+    outline: 2px solid #256b5b;
+    outline-offset: 3px;
+  }
+  ::selection {
+    background: #256b5b;
+    color: white;
+  }
+  input {
+    caret-color: #256b5b;
+  }
+}
+
+[data-theme="dark"] :focus-visible { outline-color: #8ccdbb; }
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { scroll-behavior: auto !important; }
+}

@@ -1,0 +1,18 @@
+[ti:Demo Song]
+[ar:Fictional Artist]
+[al:Capstone Sessions]
+[by:QA]
+[offset:+100]
+Untimed lyrics are ignored.
+[00:30.00]Chorus plays later
+[00:05.00]First verse line
+[00:12.34][00:45.67]Repeated tag line
+[00:05.00]Same instant, different words
+[00:20.000]
+[00:60.00]Invalid seconds
+[-1:00.00]Negative minutes
+[00:05.1234]Too many fraction digits
+[01:02]Whole seconds only
+[00:08.00]Lyrics with [brackets] inside stay literal
+[00:05.00][bad]Mixed valid and invalid tags
+[99999999999999:00]Unsafe timestamp

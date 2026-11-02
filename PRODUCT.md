@@ -1,0 +1,25 @@
+# Audio Angel
+
+An adult-operated music player with switchable listening profiles, including use while driving with family. The main experience is a player, with activity as a secondary explanation of commands.
+
+## Platform
+
+Expo PWA first; shared React Native components and pure TypeScript logic support later Android/iOS builds. BrowserStack real devices are the selected mobile test environment. Cloud sessions do not establish locked-screen behavior automatically.
+
+## Stack
+
+pnpm monorepo; Expo Router, React Native Web, Uniwind/Tailwind 4, DM Sans, Tabler icons; Effect server and shared schemas. Railway is the hosting target.
+
+## Current phase
+
+Approved UI and architecture scaffold. The landing player still uses fictional demo tracks and simulated filtering. Library now reads the signed-in user’s real Spotify saved music, playlists, followed artists, saved shows and episodes. Album, playlist and show contents use on-demand paginated requests; restricted content offers an Open in Spotify fallback. A live `/spotify` player streams the selected Spotify song in the browser through the Web Playback SDK. `/search` searches the Spotify catalog rather than only the saved library. Playback is unfiltered by default; opt-in experimental line skipping applies the active profile’s custom terms and limited profanity/drug vocabulary. Playback selections now prefer a matching Spotify non-explicit recording (same artist IDs/title, tightly bounded duration), with visible swap/no-match/unavailable status. Timed mute rules use estimated word positions and temporary full-mix volume zero after a browser volume check; iPhone/iPad and failed checks fall back to full-line seeks. Volume is restored on action end, pause/seek, track/profile changes, disabling and faults. Skip-song rules pause the song. Unsupported categories/topics are explicitly listed. Missing lyrics pause enabled filtering; hidden pages, stale position updates and failed/hung commands pause playback and show a fault. Premium, a user gesture and a visible app are required; audible synchronization and real-device background behavior are not verified. Synced lyrics are fetched live through the app server from LRCLIB (track metadata only; transient memory, no caching) and shared by the lyrics display and scheduler — line-level, inferred ends, no accuracy guarantee. Podcast episodes get a display-only transcript preview via Taddy: the server searches by show name, episode title and duration, then downloads the publisher- or Taddy-hosted transcript file itself (HTTPS-only, private hosts rejected, Taddy credentials never forwarded to other hosts). Episodes are never filtered. AI, native bridges and real-device measurements are future work. Better Auth now owns Spotify social sign-in, sessions and encrypted provider tokens through its Convex component. The legacy PKCE module is no longer used by the UI. The cloud Convex development deployment `your-deployment` now holds account/session data. The PWA uses its cloud client endpoint; auth routes proxy through the registered Tailscale callback. Spotify credentials are configured and authorization initialization succeeds; the user reports their saved library working. Browser filtering tests use a simulated SDK with real LRCLIB data; the user confirmed the previous whole-line Creep test worked. New clean-selection and mute behavior remains simulated-SDK verified pending audible device testing. Premium and allowlisting are still required. App profiles stay local; no Spotify library data is persisted in Convex.
+
+## Boundaries
+
+Never capture, read, record, decode or analyze Spotify audio. Filtering uses independently sourced lyrics/timestamps and playback state. iPhone mute becomes seek. Audio continuing does not establish background filtering. No verified protection counts. Spotify policy compatibility and lyric provider permissions remain open requirements for live filtering. AI receives no Spotify content or payloads.
+
+## Visual reference
+
+User approved the interactive mobile mockup in this thread. Inherit T3 Code mobile's theme, grouped rows and controls without its branding. Keep reuse notices. UI-first, mockups-first workflow was selected explicitly; the user requested HTML mockups and approved them.
+
+First test song: Creep by Radiohead, original Pablo Honey recording. Live LRCLIB recording496 has38 timed lines and currently yields6 skip regions under the default With the kids profile. This is a first technical test, not a protection claim.
