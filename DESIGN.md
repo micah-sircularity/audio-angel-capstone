@@ -2,25 +2,25 @@
 name: Audio Angel
 description: A quiet, adult-operated music player with switchable listening profiles.
 colors:
-  dark-screen: "#0a0a0a"
-  dark-card: "#111111"
-  dark-grouped: "#1a1b1b"
-  dark-text: "#f5f5f5"
-  dark-muted: "#a3a3a3"
-  dark-border: "#282929"
-  dark-primary: "#4b7cf3"
-  dark-button: "#f5f5f5"
-  dark-button-text: "#0a0a0a"
+  dark-screen: "#152321"
+  dark-card: "#1b2c29"
+  dark-grouped: "#243833"
+  dark-text: "#f5f1e8"
+  dark-muted: "#b3c1ba"
+  dark-border: "#3e514a"
+  dark-primary: "#8ccdbb"
+  dark-button: "#f5f1e8"
+  dark-button-text: "#152321"
   dark-danger: "#ff9ca4"
-  light-screen: "#fcfcfc"
-  light-card: "#ffffff"
-  light-grouped: "#f4f4f5"
-  light-text: "#27272a"
-  light-muted: "#6f6f79"
-  light-border: "#e4e4e7"
-  light-primary: "#1b4ed8"
-  light-button: "#27272a"
-  light-button-text: "#fcfcfc"
+  light-screen: "#f6f3ec"
+  light-card: "#fffdf8"
+  light-grouped: "#ebe9df"
+  light-text: "#203832"
+  light-muted: "#596a62"
+  light-border: "#d7ddd2"
+  light-primary: "#256b5b"
+  light-button: "#203832"
+  light-button-text: "#f6f3ec"
   light-danger: "#b91c1c"
   toggle-off: "#666666"
   toggle-thumb: "#ffffff"
@@ -48,6 +48,8 @@ rounded:
   control: "9px"
   group: "12px"
   icon-button: "30px"
+  filter-trigger: "22px"
+  sheet-top: "24px"
 spacing:
   row-gap: "12px"
   group-inset: "16px"
@@ -88,11 +90,11 @@ components:
 
 ## Overview
 
-Mode: Operate. Visual authority is the user-approved interactive HTML mobile mockup from this project thread, adapted from [T3 Code mobile](https://github.com/pingdotgg/t3code/tree/main/apps/mobile) (MIT). This merges the provisional scaffold documentation into an implementation-derived reference; it does not introduce a new visual direction or a newly named creative metaphor.
+Mode: Operate. Visual authority is the user-approved warm neutral, ink and teal player direction from this project thread, adapted from [T3 Code mobile](https://github.com/pingdotgg/t3code/tree/main/apps/mobile) (MIT). This merges the provisional scaffold documentation into an implementation-derived reference; it does not introduce a new visual direction or a newly named creative metaphor.
 
-The approved world is quiet and mobile-derived: DM Sans, Tabler outline icons, grouped lists, restrained borders, and direct playback controls. The landing player is the primary demo surface; activity explains simulated commands. Library uses real account content; catalog search and the separate Spotify playback pilot use live Spotify metadata and playback. Keep each surface’s source and filtering status visible and avoid simulated protection claims.
+The approved world is warm, calm and mobile-derived: DM Sans, Tabler outline icons, grouped lists, restrained borders, and direct playback controls. The landing player is the primary demo surface; activity explains simulated commands. Library uses real account content; catalog search and the separate Spotify playback pilot use live Spotify metadata and playback. Keep each surface’s source and filtering status visible and avoid simulated protection claims.
 
-Key characteristics: dark/light tonal surfaces, compact readable labels, generous control targets, and geometric fictional album artwork.
+Key characteristics: warm neutral and deep green-ink tonal surfaces with teal accents, compact readable labels, generous control targets, and geometric fictional album artwork.
 
 ## Colors
 
@@ -100,11 +102,11 @@ The frontmatter preserves the exact theme values from `apps/app/src/ui/theme.ts`
 
 ### Primary
 
-Blue `primary` marks selected mobile tabs, selected chip borders/text, enabled switches and shield icons. Main filled buttons use the neutral `button`/`button-text` pair rather than blue. `danger` is the theme's warning/error foreground role.
+Teal `primary` marks selected mobile tabs, selected chip borders/text, enabled switches and shield icons. Main filled buttons use the neutral `button`/`button-text` pair rather than teal. `danger` is the theme's warning/error foreground role.
 
 ### Neutral
 
-`screen` is the page canvas, `card` the navigation/mini-player surface, and `grouped` the list, field, chip and notice fill. `text`, `muted`, and `border` carry the information hierarchy. Dark muted foreground was raised from upstream #838383 to the recorded dark-muted token for readable small text. Toggle off and thumb colors are explicit fixed component values.
+`screen` is the page canvas, `card` the navigation/mini-player surface, and `grouped` the list, field, chip and notice fill. `text`, `muted`, and `border` carry the information hierarchy. Toggle off and thumb colors are explicit fixed component values.
 
 ## Typography
 
@@ -120,7 +122,7 @@ Groups have 16px horizontal inset and 16px vertical margins. Shared rows use a 1
 
 ## Elevation & Depth
 
-The implemented system is flat: no shared shadows or animated elevation. Tonal surface changes and thin dividers provide structure. Web keyboard focus uses a 2px solid #4b7cf3 outline with a 3px offset in `apps/app/global.css`, including in light mode. Pressed opacity provides immediate feedback; no transition duration or easing token is defined.
+The implemented system uses flat tonal surfaces, without shared shadows or animated elevation. Tonal surface changes and thin dividers provide structure. Web keyboard focus uses a 2px solid #256b5b outline with a 3px offset in `apps/app/global.css`, including in light mode. Pressed opacity provides immediate feedback; explicit player and sheet motion is documented below.
 
 ## Shapes
 
@@ -146,11 +148,23 @@ Fields use grouped fill, border stroke, muted placeholder, 9px corners and 13px 
 
 ### Navigation
 
-Five destinations remain available: Now Playing, Library, Profiles, Activity and Settings. Selected phone tabs use primary-colored icon/text. Selected desktop items use grouped fill and normal text; other items use muted foreground. Pressed opacity is 0.6. The shell identifies the current route and displays a bordered status badge: DEMO on scaffold routes, SPOTIFY on Library and catalog search, and UNFILTERED, LINE SKIP or STOPPED on the Spotify playback pilot according to opt-in filtering and fault state. LINE SKIP identifies the experimental mode, not verified protection.
+Five destinations remain available: Now Playing, Library, Profiles, Activity and Settings. Selected phone tabs use primary-colored icon/text. Selected desktop items use grouped fill and normal text; other items use muted foreground. Pressed opacity is 0.6. The shell identifies the current route and displays a bordered status badge: DEMO on scaffold routes, SPOTIFY on Library and catalog search, and UNFILTERED, FILTERING or STOPPED on the Spotify playback pilot according to opt-in filtering and fault state. FILTERING identifies the experimental mode, not verified protection.
 
 ### Playback and artwork
 
-The player combines fictional geometric album art, title/artist, timeline, controls, profile selection and a filtering explanation. Demo artwork is semantic React Native geometry. Library uses Spotify-provided cover imagery and the existing grouped-list, chip, field and button vocabulary; this adds no general theme tokens. Catalog search reuses the shared field, buttons, notices, rows and theme roles, with paginated results and an original-album Creep by Radiohead pilot entry. Live filter controls reuse profile chips, a switch and explanatory notices; planned skips use the existing danger role in the timeline. These are extensions of the incumbent system, without new theme tokens. Album palettes remain local to Artwork and are not general UI theme colors. The web seek control supports keyboard adjustment and exposes its value to assistive technology; consult player source for exact behavior.
+The player combines fictional geometric album art, title/artist, timeline, controls, profile selection and a filtering explanation. Demo artwork is semantic React Native geometry. Library uses Spotify-provided cover imagery and the existing grouped-list, chip, field and button vocabulary; this adds no general theme tokens. Catalog search reuses the shared field, buttons, notices, rows and theme roles, with paginated results and an original-album Creep by Radiohead pilot entry. Live filter controls reuse profile chips, a switch and explanatory notices; planned skips use the existing danger role in the timeline. These are extensions of the incumbent system, without new theme tokens. Album palettes remain local to Artwork and are not general UI theme colors. The web seek control implements arrow-key five-second adjustment, Home/End seeking and accessibility values; source inspection does not establish verified keyboard or assistive-technology behavior.
+
+### Demo player, preferences and motion
+
+The landing player says “Your listening space” and labels itself illustrative: fictional music, simulated playback, no audio or content analysis, screen open only. Ready, Loading and Unavailable are local preview states. Loading disables the primary play control; switching away from Ready pauses simulated playback. No category detection or protection is established by the preview.
+
+Artwork expansion and minimization use 380ms with `Easing.out(Easing.exp)`, interpolating region height from 70px to 234px and artwork scale from 0.3 to 1. The preferences sheet enters from a 32px vertical offset over 300ms with the same easing. Closing is immediate: the Modal uses `animationType="none"`. Reduced motion sets both durations to zero and sheet entry offset to zero. The accessibility preference hook starts with reduced motion enabled, then observes the platform preference and its changes.
+
+The sheet uses a #10251f66 backdrop, card fill, 24px top corners and padding, a 620px maximum width and 88% maximum height. “Your filters” and “Inspect active filters” open the same sheet; its trigger has 22px corners. Toggles update this device’s active profile and show a local confirmation. Details describe preview actions discreetly. Done and Return to listening close the sheet. App profiles stay local; the refresh does not change Spotify services or product boundaries.
+
+The desktop shell uses a 30px inline SVG brand mark: a sheltering arc above an audio waveform, primary-colored 2px stroke with round caps. Filter controls retain shield icons.
+
+This reference records source inspection only, without verified visual, keyboard, screen-reader or device results. Never capture, read, record, decode or analyze Spotify audio. AI receives no Spotify content or payloads. PRODUCT.md remains the authority for product facts and live-filtering limitations.
 
 ## Do's and Don'ts
 
@@ -159,5 +173,5 @@ The player combines fictional geometric album art, title/artist, timeline, contr
 - Do keep demo status and simulated-action explanations clear.
 - Do preserve provenance: runtime icons come from `@tabler/icons-react-native`, DM Sans from the Expo Google Fonts package, and original shield/check PNGs were generated with Pillow. Expo template leftovers are not used by app config.
 - Don't apply the album's Georgia lettering or cover palettes to general UI controls.
-- Don't add decorative shadows or animation as if they were established tokens.
+- Don't add decorative shadows or unrecorded motion as if they were established tokens.
 - Don't present demo playback as live, or imply verified protection or validated background filtering. The user reports Spotify account Library access working. Opt-in foreground line skipping uses independently sourced timed lyrics and playback state; limited vocabulary, approximate whole-line seeks and pause-on-fault behavior must remain explicit. Only metadata goes to the lyric provider; Spotify audio is never captured or analyzed. Real LRCLIB data and simulated SDK tests establish the current test boundary; audible timing and real-device background behavior remain unverified.
