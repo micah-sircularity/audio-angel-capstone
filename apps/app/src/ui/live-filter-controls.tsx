@@ -4,7 +4,7 @@ import { useRouter } from "expo-router";
 import { useApp } from "../state/app-state";
 import { useSpotifyPlayer } from "../services/spotify/player-provider";
 import { Button, Chip, Label, Notice, Row, Toggle } from "./components";
-import { time } from "../data/demo";
+import { time } from "../data/defaults";
 export function LiveFilterControls() {
   const live=useSpotifyPlayer();const app=useApp();const router=useRouter();
   const [busy,setBusy]=useState(false);
@@ -35,7 +35,7 @@ export function LiveFilterControls() {
     </>}
     {events.slice(0,3).map((event,index)=><Label key={index} muted size={12}>{event.kind==="stop"?"Stop sent":event.kind==="mute"?`Mute sent ${time(event.startMs)} → ${time(event.endMs)}`:`Jump sent ${time(event.startMs)} → ${time(event.endMs)}`} · {event.reason}</Label>)}
     {error&&<Label>{error}</Label>}
-    <Button secondary onPress={()=>router.navigate("/profiles")}>Edit filter rules</Button>
+    <Button secondary onPress={()=>router.navigate("/filtering")}>Edit filters</Button>
   </View>;
 }
 

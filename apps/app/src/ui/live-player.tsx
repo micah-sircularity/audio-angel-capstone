@@ -1,7 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import { Image, Linking, Platform, View } from "react-native";
 import { useLocalSearchParams, useRouter } from "expo-router";
-import { useApp } from "../state/app-state";
 import { useSpotifyPlayer } from "../services/spotify/player-provider";
 import { useSpotify } from "../services/spotify/use-spotify";
 import { useTheme } from "./theme";
@@ -22,7 +21,7 @@ import {
   IconRewindBackward10,
   IconRewindForward10,
 } from "./icons";
-import { time } from "../data/demo";
+import { time } from "../data/defaults";
 import { LiveFilterControls, LiveFilterToggle } from "./live-filter-controls";
 import { LyricsPanel, TranscriptPanel } from "./lyrics-panel";
 const DEFAULT_TRACK = "https://open.spotify.com/track/0fuLRqMU6IaRoNAFIUdjPx";
@@ -61,7 +60,6 @@ export function PlayerStatus({error}:{error?:string|null}) {
 }
 
 export function LivePlayer() {
-  const app = useApp();
   const t = useTheme();
   const router = useRouter();
   const spotify = useSpotify();
@@ -78,9 +76,6 @@ export function LivePlayer() {
     setSeenUri(selectedUri);
     if (selectedUri) {setInput(selectedUri);}
   }
-  useEffect(() => {
-    void app.player.pause(); // Keep the demo player silent during the live test.
-  }, [app.player]);
   const run = (action: () => Promise<void>) => {
     if (busyRef.current) return;
     busyRef.current = true;
@@ -128,8 +123,8 @@ export function LivePlayer() {
             </Label>
           </Notice>
           <View style={{ marginTop: 16 }}>
-            <Button secondary onPress={() => router.navigate("/settings")}>
-              Open Settings
+            <Button secondary onPress={() => router.navigate("/filtering")}>
+              Open Filtering
             </Button>
           </View>
         </>
@@ -138,13 +133,13 @@ export function LivePlayer() {
           <Notice>
             <Label size={12}>
               {spotify.status === "connected"
-                ? "Your Spotify connection predates playback access. Reconnect from Settings to allow live playback."
-                : "Connect Spotify from Settings before testing playback."}
+                ? "Your Spotify connection predates playback access. Reconnect from Filtering to allow live playback."
+                : "Connect Spotify from Filtering before testing playback."}
             </Label>
           </Notice>
           <View style={{ marginTop: 16 }}>
-            <Button secondary onPress={() => router.navigate("/settings")}>
-              Open Settings
+            <Button secondary onPress={() => router.navigate("/filtering")}>
+              Open Filtering
             </Button>
           </View>
         </>

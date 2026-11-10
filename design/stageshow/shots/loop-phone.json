@@ -1,0 +1,41 @@
+{
+  "status": "inconclusive",
+  "mode": "motion",
+  "stages": [
+    {
+      "key": "stage-1",
+      "label": "ss-fit aa-scene",
+      "coverage": {
+        "status": "inconclusive",
+        "frames": 913,
+        "durationMs": 16942.200000286102,
+        "medianMs": 16.800000190734863,
+        "maxGapMs": 80.7000002861023,
+        "skippedGaps": 65,
+        "cameraFrames": 0,
+        "reasons": [
+          "65 sampling gap(s) exceeded 27ms; motion during those gaps was not judged"
+        ],
+        "framingSamples": 14,
+        "layout": {
+          "controls": 0,
+          "paddedContainers": 5,
+          "compositionCrops": 0
+        }
+      },
+      "findings": [
+        "clipped: div.aa-orbit clipped right by 75px, bottom by 122px by div.aa-cover (14 frames from 0.0s)",
+        "clipped: div.aa-orbit clipped right by 105px, bottom by 91px by div.aa-cover (14 frames from 0.0s)",
+        "uneven padding: div.aa-cover has bottom -122px against 18px at the side; a card pads its content the same on every side (the outer radius is the inner radius plus the padding) (13 frames from 0.0s)",
+        "framing: div.ss-phone ends 16px short of the right edge; give it a full gutter (24px) or run it well past the edge so it is clearly masked (14 frames from 0.0s)",
+        "small text: span \"3:32\" renders at 9.1px on a phone; the floor is about 10px, so lay compact out at the column's width and set its type for it, not shrunk from the wide design (14 frames from 0.0s)",
+        "half-pixel glyph: a 18px svg.lucide centered in the 152x19 span.ss-states__item sits on a half pixel, so it draws there while span.ss-states__item moves and hops sideways when it settles; size it 18px in an even box (even inside even) (6.0s, 7.2s)",
+        "lands on a transform: div.ss-expand__content \"Now playingA little \" comes to rest at the end of a transform, so its text hops a fraction of a pixel as it lands; keep it on a layer for good (will-change: transform), or scale only its surface"
+      ],
+      "manual": []
+    }
+  ],
+  "errors": [],
+  "manualReviewRequired": true,
+  "exitCode": 2
+}

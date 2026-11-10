@@ -31,3 +31,25 @@
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { scroll-behavior: auto !important; }
 }
+
+/* Touch-down feedback. Keyboard and reduced-motion paths keep geometry still. */
+.aa-tactile {
+  cursor: pointer;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+  transition: transform 160ms cubic-bezier(0.23, 1, 0.32, 1), opacity 120ms ease-out, background-color 160ms ease;
+}
+.aa-tactile[aria-disabled="true"] { cursor: default; }
+.aa-tactile:active:not([aria-disabled="true"]) { opacity: 0.78; }
+.aa-tactile:active:not(:focus-visible):not(.aa-highlight):not([aria-disabled="true"]) { transform: scale(0.97); }
+.aa-tactile:focus-visible { transition-duration: 0ms; }
+@media (hover: hover) and (pointer: fine) {
+  .aa-tactile:hover:not([aria-disabled="true"]) { filter: brightness(0.96); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .aa-tactile:active:not(:focus-visible):not(.aa-highlight):not([aria-disabled="true"]) { transform: none; }
+}
+@media (prefers-contrast: more) {
+  .aa-tactile:focus-visible { outline-width: 3px; }
+}
+.aa-sheet-handle { touch-action: none; }

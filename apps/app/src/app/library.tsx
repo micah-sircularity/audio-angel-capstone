@@ -1,5 +1,6 @@
+import { TactilePressable } from "../ui/tactile-pressable";
 import React, { useEffect, useState } from "react";
-import { Image, Linking, Pressable, View } from "react-native";
+import { Image, Linking, View } from "react-native";
 import { useLocalSearchParams, useRouter } from "expo-router";
 import { Button, Chip, Field, Label, Notice, Row, Title } from "../ui/components";
 import { IconMusic, IconPlayerPlay } from "../ui/icons";
@@ -8,7 +9,7 @@ import { useSpotify } from "../services/spotify/use-spotify";
 import { useSpotifyPlayer } from "../services/spotify/player-provider";
 import { getSpotifyAuth } from "../services/spotify/client";
 import { fetchLibraryPage, type Collection, type LibraryItem, type LibraryKind } from "../services/spotify/library";
-import { time } from "../data/demo";
+import { time } from "../data/defaults";
 const tabs: {kind: LibraryKind; label: string}[] = [
   {kind:"tracks",label:"Liked songs"}, {kind:"playlists",label:"Playlists"}, {kind:"albums",label:"Albums"},
   {kind:"shows",label:"Podcasts"}, {kind:"episodes",label:"Saved episodes"}, {kind:"artists",label:"Artists"},
@@ -63,7 +64,7 @@ export default function Library() {
       <Label bold>Bring your Spotify library here</Label>
       <Label muted style={{marginTop:6}}>Connect Spotify to browse your liked songs, playlists, albums and followed podcasts.</Label>
       {spotify.error && <Label style={{marginTop:8}}>{spotify.error}</Label>}
-      <View style={{marginTop:16}}><Button onPress={()=>router.navigate("/settings")}>{spotify.status === "connected" ? "Update Spotify permissions" : "Connect Spotify"}</Button></View>
+      <View style={{marginTop:16}}><Button onPress={()=>router.navigate("/filtering")}>{spotify.status === "connected" ? "Update Spotify permissions" : "Connect Spotify"}</Button></View>
     </Notice> : <>
       {collection ? <Button secondary onPress={()=>fromSearch?(router.canGoBack()?router.back():router.navigate("/search")):select(kind)}>{fromSearch?"Back to search":`Back to ${tabs.find(tab=>tab.kind===kind)?.label.toLowerCase()}`}</Button> : <View style={{flexDirection:"row",flexWrap:"wrap",gap:8}}>
         {tabs.map(tab=><Chip key={tab.kind} selected={kind===tab.kind} onPress={()=>select(tab.kind)}>{tab.label}</Chip>)}
@@ -71,21 +72,21 @@ export default function Library() {
       <Field value={query} onChangeText={setQuery} label="Find in this page" placeholder="Find in this page" />
       {error ? <Notice><Label>{collection?.kind==="playlist"&&error.includes("not allow")?"Spotify doesn't let this app open this playlist (Spotify-curated playlists are restricted). Open it in Spotify.":error}</Label><View style={{marginTop:12}}><Button secondary onPress={()=>{setFailure(null);setRetry(n=>n+1);}}>Retry library</Button></View>
         {collection && <View style={{marginTop:8}}><Button secondary onPress={()=>void Linking.openURL(collection.url)}>Open in Spotify</Button></View>}
-        <View style={{marginTop:8}}><Button secondary onPress={()=>router.navigate("/settings")}>Connection settings</Button></View>
+        <View style={{marginTop:8}}><Button secondary onPress={()=>router.navigate("/filtering")}>Connection settings</Button></View>
       </Notice> : !result ? <Label muted>Loading your library…</Label> : <>
         <Row><Label muted size={12}>{result.total} {result.total === 1 ? "item" : "items"}</Label><Button secondary onPress={()=>setRetry(n=>n+1)}>Refresh</Button></Row>
         {result.items.length === 0 ? <Notice><Label>No items here yet.</Label><Label muted>Save or follow content in Spotify, then refresh.</Label></Notice> : null}
         {result.items.length > 0 && !result.items.some(item=>`${item.name} ${item.subtitle}`.toLowerCase().includes(query.toLowerCase())) ? <Label muted>No matches on this page.</Label> : null}
-        <View>{result.items.filter(item=>`${item.name} ${item.subtitle}`.toLowerCase().includes(query.toLowerCase())).map(item=><Pressable
+        <View>{result.items.filter(item=>`${item.name} ${item.subtitle}`.toLowerCase().includes(query.toLowerCase())).map(item=><TactilePressable feedback="highlight"
           key={`${item.kind}:${item.id}`} accessibilityRole="button" accessibilityLabel={`${item.playable ? "Play" : item.kind==="artist" ? "Open in Spotify" : "Open"} ${item.name}`}
-          onPress={()=>open(item)} style={({pressed})=>({minHeight:80,paddingVertical:12,borderBottomWidth:1,borderBottomColor:t.border,opacity:pressed?0.6:1})}>
+          onPress={()=>open(item)} style={{minHeight:80,paddingVertical:12,borderBottomWidth:1,borderBottomColor:t.border}}>
           <Row>
             {item.imageUrl ? <Image source={{uri:item.imageUrl}} accessibilityLabel={`Artwork for ${item.name}`} style={{width:48,height:48,borderRadius:6}}/> : <View style={{width:48,height:48,backgroundColor:t.grouped,borderRadius:6,alignItems:"center",justifyContent:"center"}}><IconMusic size={20} color={t.muted}/></View>}
             <View style={{flex:1,minWidth:0}}><Label bold>{item.name}</Label><Label muted size={12}>{item.subtitle || item.kind}</Label>{!item.playable && (item.kind==="track" || item.kind==="episode") && <Label muted size={11}>Open in Spotify · playback unavailable here</Label>}</View>
             {item.durationMs !== null && <Label muted size={11}>{time(item.durationMs)}</Label>}
             {item.playable && <IconPlayerPlay size={20} color={t.text}/>}
           </Row>
-        </Pressable>)}</View>
+        </TactilePressable>)}</View>
         <Row>
           {page.offset>0 && <Button secondary onPress={()=>setPage({offset:0,after:undefined})}>First page</Button>}
           {result.nextOffset!==null && <Button secondary onPress={()=>setPage({offset:result.nextOffset!,after:result.after??undefined})}>Next page</Button>}

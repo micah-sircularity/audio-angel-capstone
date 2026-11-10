@@ -1,0 +1,38 @@
+{
+  "status": "inconclusive",
+  "mode": "motion",
+  "stages": [
+    {
+      "key": "stage-1",
+      "label": "ss-fit aa-scene",
+      "coverage": {
+        "status": "inconclusive",
+        "frames": 938,
+        "durationMs": 16950.699999809265,
+        "medianMs": 16.699999809265137,
+        "maxGapMs": 81.69999980926514,
+        "skippedGaps": 63,
+        "cameraFrames": 0,
+        "reasons": [
+          "63 sampling gap(s) exceeded 27ms; motion during those gaps was not judged"
+        ],
+        "framingSamples": 14,
+        "layout": {
+          "controls": 0,
+          "paddedContainers": 5,
+          "compositionCrops": 0
+        }
+      },
+      "findings": [
+        "near-tangent: div.aa-sheet sits 2px from the stage's bottom edge (4 frames from 3.6s)",
+        "near-tangent: div.ss-expand and div.aa-sheet bottom edges are 2px apart (4 frames from 3.6s)",
+        "near-tangent: div.aa-dimmer and div.aa-sheet bottom edges are 2px apart (4 frames from 3.6s)",
+        "jump: ss-toggle__knob x -11.2px in one frame at 12.40s [minimize]"
+      ],
+      "manual": []
+    }
+  ],
+  "errors": [],
+  "manualReviewRequired": true,
+  "exitCode": 2
+}

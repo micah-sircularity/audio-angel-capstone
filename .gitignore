@@ -9,3 +9,7 @@ coverage/
 *.tsbuildinfo
 
 .convex/
+
+# Local audio/GPU experiment outputs
+tools/spleeter/output/
+tools/spleeter/__pycache__/

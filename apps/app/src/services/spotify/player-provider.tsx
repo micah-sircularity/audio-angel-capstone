@@ -7,10 +7,11 @@ import { buildLivePlan, unsupportedRules } from "@audio-angel/filters";
 import { useApp } from "../../state/app-state";
 import { useTrackLyrics, type LyricsLookupState } from "../use-track-lyrics";
 import { useEpisodeTranscript, type TranscriptLookupState } from "../use-track-transcript";
-import { FilterScheduler, type FilterEvent } from "./filter-scheduler";
+import { FilterScheduler, type FilterEvent } from "../filtering/filter-scheduler";
 import type { PlannedAction } from "@audio-angel/contracts";
 import type { PlaybackSnapshot, SpotifyPlayback } from "./playback";
 export type PendingPlay = { uri: string; error: string | null };
+export type FilterActivity = FilterEvent & { at: number };
 const initialSnapshot: PlaybackSnapshot = {
   status: "idle",
   track: null,
@@ -26,7 +27,7 @@ const PlaybackContext = createContext<{
   startPlayback: (uri: string) => void; pendingPlay: PendingPlay | null;
   lyrics: LyricsLookupState; transcript: TranscriptLookupState; filterEnabled:boolean; setFilterEnabled:(enabled:boolean)=>void;
   preferClean:boolean;setPreferClean:(value:boolean)=>void;canMute:boolean;wordMuting:boolean;setWordMuting:(value:boolean)=>void;
-  filterFault:string|null; filterPlan:readonly PlannedAction[]; filterEvents:readonly FilterEvent[]; unsupported:string[];
+  filterFault:string|null; filterPlan:readonly PlannedAction[]; filterEvents:readonly FilterActivity[]; clearFilterEvents:()=>void; unsupported:string[];
 
 } | null>(null);
 export function SpotifyPlayerProvider({children}: React.PropsWithChildren) {
@@ -43,13 +44,13 @@ export function SpotifyPlayerProvider({children}: React.PropsWithChildren) {
   const [wordMuting,setWordMuting]=useState(true);
   const [filterEnabled,setEnabled]=useState(false);
   const [filterFault,setFilterFault]=useState<string|null>(null);
-  const [filterEvents,setFilterEvents]=useState<FilterEvent[]>([]);
+  const [filterEvents,setFilterEvents]=useState<FilterActivity[]>([]);
   const scheduler=useRef<FilterScheduler|null>(null);
   const [pendingPlay,setPendingPlay]=useState<PendingPlay|null>(null);
   const filterPlan=useMemo(()=>lyrics.data?.status==="synced" ? buildLivePlan(app.active,lyrics.data.spans,{canMute:canMute&&wordMuting,canSeek:true,background:"unsupported"},snapshot.durationMs) : [],[app.active,lyrics.data,snapshot.durationMs,canMute,wordMuting]);
   useEffect(()=>{
     if(!service) return;
-    const controller=new FilterScheduler(service,{onEvent:event=>setFilterEvents(events=>[event,...events].slice(0,10)),onFault:setFilterFault});
+    const controller=new FilterScheduler(service,{onEvent:event=>setFilterEvents(events=>[{...event,at:Date.now()},...events].slice(0,25)),onFault:setFilterFault});
     scheduler.current=controller;
     const visibility=()=>controller.setVisible(document.visibilityState==="visible");
     if(Platform.OS==="web") {visibility();document.addEventListener("visibilitychange",visibility);}
@@ -108,7 +109,7 @@ export function SpotifyPlayerProvider({children}: React.PropsWithChildren) {
       .then(()=>{if(playSeq.current===call)setPendingPlay(null);})
       .catch((caught:unknown)=>{if(playSeq.current===call)setPendingPlay({uri,error:caught instanceof Error?caught.message:"Spotify playback failed. Try again."});});
   };
-  return <PlaybackContext.Provider value={{preferClean,setPreferClean,canMute,wordMuting,setWordMuting,service,snapshot,connectionError:error,lyrics,transcript,filterEnabled,filterFault,filterPlan,filterEvents,unsupported:unsupportedRules(app.active),startPlayback,pendingPlay,setFilterEnabled:enabled=>{setFilterFault(null);setEnabled(enabled);},retry:()=>{setError(null);setRetryNonce(n=>n+1);}}}>{children}</PlaybackContext.Provider>;
+  return <PlaybackContext.Provider value={{preferClean,setPreferClean,canMute,wordMuting,setWordMuting,service,snapshot,connectionError:error,lyrics,transcript,filterEnabled,filterFault,filterPlan,filterEvents,clearFilterEvents:()=>setFilterEvents([]),unsupported:unsupportedRules(app.active),startPlayback,pendingPlay,setFilterEnabled:enabled=>{setFilterFault(null);setEnabled(enabled);},retry:()=>{setError(null);setRetryNonce(n=>n+1);}}}>{children}</PlaybackContext.Provider>;
 }
 export function useSpotifyPlayer() {
   const value = useContext(PlaybackContext);

@@ -4,8 +4,10 @@ import { View, ActivityIndicator } from "react-native";
 import { useFonts } from "expo-font";
 import { SafeAreaProvider } from "react-native-safe-area-context";
 import { SpotifyPlayerProvider } from "../services/spotify/player-provider";
+import { AudioLaneProvider } from "../services/audio/audio-lane-provider";
 import { AccountProvider } from "../services/account";
 import { AppProvider } from "../state/app-state";
+import { MotionProvider } from "../ui/use-motion";
 import { Shell } from "../ui/shell";
 import { PwaRegistration } from "../services/pwa";
 const DMSans_400Regular = require("@expo-google-fonts/dm-sans/400Regular/DMSans_400Regular.ttf");
@@ -22,13 +24,13 @@ export default function Layout() {
       <View
         style={{
           flex: 1,
-          backgroundColor: "#0a0a0a",
+          backgroundColor: "#f6f3ec",
           alignItems: "center",
           justifyContent: "center",
         }}
       >
         <ActivityIndicator
-          color="#4b7cf3"
+          color="#256b5b"
           accessibilityLabel="Loading Audio Angel"
         />
       </View>
@@ -38,8 +40,10 @@ export default function Layout() {
       <AccountProvider>
       <AppProvider>
       <SpotifyPlayerProvider>
-        <PwaRegistration />
-        <Shell />
+        <AudioLaneProvider>
+          <PwaRegistration />
+          <MotionProvider><Shell /></MotionProvider>
+        </AudioLaneProvider>
       </SpotifyPlayerProvider>
       </AppProvider>
       </AccountProvider>

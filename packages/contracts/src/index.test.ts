@@ -5,18 +5,12 @@ import {
   Capabilities,
   DeviceCapabilities,
   LyricSpan,
-  Lyrics,
   PlannedAction,
   Profile,
   Rule,
   TimedLyricLine,
 } from "./index";
-import {
-  defaultProfiles,
-  demoCapabilities,
-  demoLyrics,
-  tracks,
-} from "../../../apps/app/src/data/demo";
+import { defaultProfiles } from "../../../apps/app/src/data/defaults";
 import { buildPlan } from "../../filters/src/index";
 
 const rule = {
@@ -86,22 +80,22 @@ describe("shared sample contracts", () => {
     },
   );
 
-  it("validates the app's real demo fixtures and generated plans", () => {
+  it("validates the app's default profiles and generated plans", () => {
     defaultProfiles.forEach((value) =>
       Schema.decodeUnknownSync(Profile)(value),
     );
-    Object.values(demoCapabilities).forEach((value) =>
-      Schema.decodeUnknownSync(DeviceCapabilities)(value),
-    );
-    for (const track of tracks) {
-      const lyrics = Schema.decodeUnknownSync(Lyrics)(demoLyrics(track.id));
-      for (const value of defaultProfiles) {
-        for (const device of Object.values(demoCapabilities)) {
-          buildPlan(value, lyrics.spans, device, track.durationMs).forEach(
-            (item) => Schema.decodeUnknownSync(PlannedAction)(item),
-          );
-        }
-      }
+    const spans = [
+      Schema.decodeUnknownSync(LyricSpan)({
+        startMs: 102000,
+        endMs: 104000,
+        text: "damn",
+        timing: "estimated",
+      }),
+    ];
+    for (const value of defaultProfiles) {
+      buildPlan(value, spans, capabilities, 212000).forEach((item) =>
+        Schema.decodeUnknownSync(PlannedAction)(item),
+      );
     }
   });
 

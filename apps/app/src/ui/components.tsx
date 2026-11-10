@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import {
-  Pressable,
+  Animated,
+  Easing,
   Text,
   View,
   TextInput,
@@ -9,8 +10,9 @@ import {
   type TextProps,
   type ViewStyle,
 } from "react-native";
-import { IconMusic, IconShieldCheck, type IconProps } from "./icons";
-import type { Track } from "@audio-angel/contracts";
+import { type IconProps } from "./icons";
+import { TactilePressable } from "./tactile-pressable";
+import { isKeyboardInput, useReducedMotion } from "./use-motion";
 import { fonts, useTheme } from "./theme";
 export function Label({
   children,
@@ -87,27 +89,27 @@ export function IconButton({
 }) {
   const t = useTheme();
   return (
-    <Pressable
+    <TactilePressable
       accessibilityRole="button"
       accessibilityLabel={label}
+      accessibilityState={{ selected }}
       disabled={disabled}
       onPress={onPress}
-      style={({ pressed }) => ({
-        width: prominent ? 56 : 44,
-        height: prominent ? 56 : 44,
+      style={{
+        width: prominent ? 64 : 44,
+        height: prominent ? 64 : 44,
         alignItems: "center",
         justifyContent: "center",
-        borderRadius: 30,
+        borderRadius: 32,
         backgroundColor: prominent ? t.button : "transparent",
-        opacity: disabled ? 0.4 : pressed ? 0.6 : 1,
-      })}
+      }}
     >
       <Icon
-        size={prominent ? 25 : 22}
+        size={prominent ? 28 : 22}
         strokeWidth={1.7}
         color={prominent ? t.buttonText : selected ? t.primary : t.text}
       />
-    </Pressable>
+    </TactilePressable>
   );
 }
 export function Button({
@@ -122,39 +124,40 @@ export function Button({
 }>) {
   const t = useTheme();
   return (
-    <Pressable
+    <TactilePressable
       accessibilityRole="button"
       disabled={disabled}
       onPress={onPress}
-      style={({ pressed }) => ({
+      style={{
         minHeight: 44,
-        borderRadius: 9,
+        borderRadius: 12,
         paddingHorizontal: 16,
         paddingVertical: 11,
         alignItems: "center",
         justifyContent: "center",
         backgroundColor: secondary ? t.grouped : t.button,
-        opacity: disabled ? 0.4 : pressed ? 0.65 : 1,
-      })}
+      }}
     >
       <Label bold style={{ color: secondary ? t.text : t.buttonText }}>
         {children}
       </Label>
-    </Pressable>
+    </TactilePressable>
   );
 }
 export function Chip({
   children,
   onPress,
   selected = false,
-}: React.PropsWithChildren<{ onPress: () => void; selected?: boolean }>) {
+  disabled = false,
+}: React.PropsWithChildren<{ onPress: () => void; selected?: boolean; disabled?: boolean }>) {
   const t = useTheme();
   return (
-    <Pressable
+    <TactilePressable
       accessibilityRole="button"
       accessibilityState={{ selected }}
+      disabled={disabled}
       onPress={onPress}
-      style={({ pressed }) => ({
+      style={{
         minHeight: 44,
         paddingHorizontal: 13,
         paddingVertical: 10,
@@ -162,13 +165,12 @@ export function Chip({
         borderWidth: 1,
         borderColor: selected ? t.primary : t.border,
         backgroundColor: t.grouped,
-        opacity: pressed ? 0.65 : 1,
-      })}
+      }}
     >
       <Label size={12} style={{ color: selected ? t.primary : t.text }}>
         {children}
       </Label>
-    </Pressable>
+    </TactilePressable>
   );
 }
 export function Group({ children }: React.PropsWithChildren) {
@@ -267,155 +269,26 @@ export function Field({
     />
   );
 }
-export function Toggle({
-  value,
-  onChange,
-  label,
-}: {
-  value: boolean;
-  onChange: (value: boolean) => void;
-  label: string;
-}) {
+export function Toggle({ value, onChange, label }: { value: boolean; onChange: (value: boolean) => void; label: string }) {
   const t = useTheme();
+  const reduced = useReducedMotion();
+  const [position] = useState(() => new Animated.Value(value ? 1 : 0));
+  useEffect(() => {
+    const instant = reduced || isKeyboardInput();
+    const animation = Animated.timing(position, { toValue: value ? 1 : 0, duration: instant ? 0 : 180, easing: Easing.bezier(0.23, 1, 0.32, 1), useNativeDriver: false });
+    animation.start();
+    return () => animation.stop();
+  }, [value, reduced, position]);
   return (
-    <Pressable
-      accessibilityRole="switch"
-      accessibilityLabel={label}
-      accessibilityState={{ checked: value }}
+    <TactilePressable accessibilityRole="switch" accessibilityLabel={label}
+      accessibilityState={{ checked: value }} feedback="highlight"
       onPress={() => onChange(!value)}
-      style={{
-        width: 48,
-        minHeight: 44,
-        alignItems: "center",
-        justifyContent: "center",
-      }}
-    >
-      <View
-        style={{
-          width: 36,
-          height: 22,
-          borderRadius: 12,
-          backgroundColor: value ? t.primary : "#666666",
-          padding: 3,
-          alignItems: value ? "flex-end" : "flex-start",
-        }}
-      >
-        <View
-          style={{
-            width: 16,
-            height: 16,
-            borderRadius: 8,
-            backgroundColor: "#ffffff",
-          }}
-        />
-      </View>
-    </Pressable>
-  );
-}
-export function Artwork({
-  kind,
-  large = false,
-}: {
-  kind: Track["artwork"];
-  large?: boolean;
-}) {
-  const palette =
-    kind === "country"
-      ? { bg: "#d4c9ac", ink: "#30362e", line: "#85866d" }
-      : kind === "blue"
-        ? { bg: "#485a71", ink: "#e4ecf5", line: "#8da0b7" }
-        : { bg: "#53615d", ink: "#f0eadb", line: "#a3b0a9" };
-  return (
-    <View
-      accessibilityLabel={large ? "Fictional demo album artwork" : undefined}
-      style={{
-        width: large ? "100%" : 44,
-        height: large ? 210 : 44,
-        maxWidth: large ? 300 : 44,
-        borderRadius: large ? 7 : 6,
-        backgroundColor: palette.bg,
-        overflow: "hidden",
-        alignItems: "center",
-        justifyContent: "center",
-      }}
-    >
-      {large ? (
-        <>
-          <View
-            style={{
-              position: "absolute",
-              width: 270,
-              height: 270,
-              borderWidth: 1,
-              borderColor: palette.line,
-              borderRadius: 140,
-              left: "35%",
-              top: 65,
-            }}
-          />
-          <View
-            style={{
-              position: "absolute",
-              width: 230,
-              height: 230,
-              borderWidth: 1,
-              borderColor: palette.line,
-              borderRadius: 120,
-              left: "45%",
-              top: 35,
-            }}
-          />
-          <Text
-            style={{
-              color: palette.ink,
-              fontFamily: fonts.medium,
-              fontSize: 10,
-              letterSpacing: 3,
-              marginBottom: 13,
-            }}
-          >
-            {kind === "country"
-              ? "NORTHBOUND"
-              : kind === "blue"
-                ? "THE LANTERNS"
-                : "JUNE & THE PINES"}
-          </Text>
-          <Text
-            style={{
-              fontFamily: "Georgia",
-              color: palette.ink,
-              fontSize: 43,
-              textAlign: "center",
-              lineHeight: 44,
-              letterSpacing: -1,
-            }}
-          >
-            {kind === "country"
-              ? "Open\ncountry"
-              : kind === "blue"
-                ? "Blue\nhour"
-                : "Slow\nmornings"}
-          </Text>
-          <Text
-            style={{
-              color: palette.ink,
-              fontFamily: fonts.regular,
-              fontSize: 9,
-              letterSpacing: 2,
-              marginTop: 16,
-            }}
-          >
-            DEMO ALBUM
-          </Text>
-        </>
-      ) : (
-        <IconMusic size={19} color={palette.ink} />
-      )}
-    </View>
-  );
-}
-export function Shield({ size = 18 }: { size?: number }) {
-  return (
-    <IconShieldCheck size={size} color={useTheme().primary} strokeWidth={1.7} />
+      style={{ width: 54, minHeight: 44, alignItems: "center", justifyContent: "center" }}>
+      <Animated.View style={{ width: 50, height: 30, borderRadius: 15, padding: 3,
+        backgroundColor: position.interpolate({ inputRange: [0, 1], outputRange: [t.muted, t.primary] }) }}>
+        <Animated.View style={{ width: 24, height: 24, borderRadius: 12, backgroundColor: "#ffffff",
+          transform: [{ translateX: position.interpolate({ inputRange: [0, 1], outputRange: [0, 20] }) }] }} />
+      </Animated.View>
+    </TactilePressable>
   );
 }

@@ -8,10 +8,9 @@ export default function Privacy() {
     <View style={{ gap: 16 }}>
       <Title>Privacy and account data</Title>
       <Label>
-        This development preview lets you connect Spotify and play one real
-        track in the browser for testing. Playback is unfiltered by default.
-        Experimental timed filtering can apply word rules using timed lyrics;
-        the landing player and its activity remain simulated.
+        This development preview lets you connect Spotify and play music in
+        the browser. Playback is unfiltered by default.
+        Experimental timed filtering can apply word rules using timed lyrics.
       </Label>
       <Label bold>Spotify account</Label>
       <Label muted>
@@ -31,7 +30,7 @@ export default function Privacy() {
       </Label>
       <Label bold>Disconnecting</Label>
       <Label muted>
-        Sign out in Settings to end this app session. To revoke Spotify access,
+        Sign out in Filtering to end this app session. To revoke Spotify access,
         remove Audio Angel from Spotify&rsquo;s app-access page. Signing out does not delete
         your account or its stored provider connection. Browser site-data controls
         can remove locally saved profiles and settings.
@@ -49,8 +48,8 @@ export default function Privacy() {
         publisher-hosted transcript file itself; transcripts are shown for
         display only and are not filtered.
       </Label>
-      <Button secondary onPress={() => router.replace("/settings")}>
-        Back to Settings
+      <Button secondary onPress={() => router.replace("/filtering")}>
+        Back to Filtering
       </Button>
     </View>
   );

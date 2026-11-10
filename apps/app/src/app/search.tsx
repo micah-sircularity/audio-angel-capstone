@@ -1,5 +1,6 @@
+import { TactilePressable } from "../ui/tactile-pressable";
 import React, { useEffect, useState } from "react";
-import { Image, Linking, Pressable, View } from "react-native";
+import { Image, Linking, View } from "react-native";
 import { useRouter } from "expo-router";
 import { Button, Chip, Field, Label, Notice, Row, Title } from "../ui/components";
 import { IconChevronRight, IconMusic, IconPlayerPlay } from "../ui/icons";
@@ -59,13 +60,13 @@ export default function Search() {
   const renderRow=(item:LibraryItem)=>{
     const playable=item.playable&&(item.kind==="track"||item.kind==="episode");
     const label=item.kind==="album"||item.kind==="playlist"||item.kind==="show"?`Open ${item.name}`:item.kind==="artist"?`Find songs by ${item.name}`:`${item.playable?"Select":"Open in Spotify"} ${item.name} by ${item.subtitle}`;
-    return <Pressable key={`${item.kind}:${item.id}`} accessibilityRole="button" accessibilityLabel={label} onPress={()=>open(item)} style={({pressed})=>({minHeight:80,paddingVertical:12,borderBottomWidth:1,borderBottomColor:t.border,opacity:pressed?0.65:1})}>
+    return <TactilePressable feedback="highlight" key={`${item.kind}:${item.id}`} accessibilityRole="button" accessibilityLabel={label} onPress={()=>open(item)} style={{minHeight:80,paddingVertical:12,borderBottomWidth:1,borderBottomColor:t.border}}>
       <Row>
         {item.imageUrl?<Image source={{uri:item.imageUrl}} accessibilityLabel={`Artwork for ${item.name}`} style={{width:48,height:48,borderRadius:6}}/>:<View style={{width:48,height:48,backgroundColor:t.grouped,alignItems:"center",justifyContent:"center",borderRadius:6}}><IconMusic size={20} color={t.muted}/></View>}
         <View style={{flex:1,minWidth:0}}><Label bold>{item.name}</Label><Label muted size={12}>{item.subtitle||item.kind}{item.albumName?` · ${item.albumName}`:""}</Label>{item.explicit && <Label muted size={11}>Explicit</Label>}{!item.playable&&(item.kind==="track"||item.kind==="episode")&&<Label muted size={11}>Unavailable here · Open in Spotify</Label>}</View>
         {playable?<IconPlayerPlay size={20} color={t.text}/>:<IconChevronRight size={20} color={t.muted}/>}
       </Row>
-    </Pressable>;
+    </TactilePressable>;
   };
   return <View style={{gap:16}}>
     <Title>Search Spotify</Title>
@@ -75,7 +76,7 @@ export default function Search() {
     {connected && <View style={{flexDirection:"row",flexWrap:"wrap",gap:8}}>
       {chips.map(chip=><Chip key={chip.type} selected={type===chip.type} onPress={()=>selectType(chip.type)}>{chip.label}</Chip>)}
     </View>}
-    {!connected ? <Notice><Label>Connect Spotify to search the catalog.</Label><View style={{marginTop:12}}><Button secondary onPress={()=>router.navigate("/settings")}>Connect Spotify</Button></View></Notice> : <>
+    {!connected ? <Notice><Label>Connect Spotify to search the catalog.</Label><View style={{marginTop:12}}><Button secondary onPress={()=>router.navigate("/filtering")}>Connect Spotify</Button></View></Notice> : <>
       {!submitted && <Notice>
         <Label bold>Try the first filtering test</Label>
         <Label muted size={12} style={{marginVertical:8}}>Creep by Radiohead, from Pablo Honey. Choose the original album recording. Enable Cuss words in your profile, then turn on filtering in the player.</Label>

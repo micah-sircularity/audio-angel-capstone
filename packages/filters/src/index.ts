@@ -15,8 +15,18 @@ const categories: Record<string, readonly string[]> = {
   violence: [],
   blasphemy: [],
 };
-const normalize = (text: string) =>
+/** Shared text normalization used by every matcher in this package. */
+export const normalize = (text: string) =>
   text.normalize("NFKC").toLocaleLowerCase("en").replace(/[’']/g, "");
+/** Word-list terms for a category rule value; [] for unknown categories. */
+export function categoryTerms(value: string): readonly string[] {
+  return categories[value] ?? [];
+}
+/** All known category values (some have empty word lists); mirrors the
+ *  model's category keys in convex/lib/questions.ts. */
+export function categoryKeys(): string[] {
+  return Object.keys(categories);
+}
 export function matchesTerm(text: string, term: string): boolean {
   const tokens = normalize(text).match(/[\p{L}\p{N}]+/gu) ?? [];
   const terms = normalize(term).match(/[\p{L}\p{N}]+/gu) ?? [];

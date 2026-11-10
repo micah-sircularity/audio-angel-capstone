@@ -32,6 +32,13 @@ type Env = {
   readonly CONVEX_SITE_URL: string;
   readonly AUTH_PUBLIC_URL: string | undefined;
   readonly BETTER_AUTH_SECRET: string | undefined;
+  readonly DEEPGRAM_API_KEY: string | undefined;
+  readonly MEDIA_PREVIEW_URL: string | undefined;
+  readonly MEDIA_RENDER_URL: string | undefined;
+  readonly MEDIA_SEPARATE_URL: string | undefined;
+  readonly MEDIA_WORKER_TOKEN: string | undefined;
+  readonly OPENROUTER_API_KEY: string | undefined;
+  readonly REPLICATE_API_TOKEN: string | undefined;
   readonly SITE_URL: string | undefined;
   readonly SPOTIFY_CLIENT_ID: string | undefined;
   readonly SPOTIFY_CLIENT_SECRET: string | undefined;

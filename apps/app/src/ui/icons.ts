@@ -2,6 +2,7 @@
 export { default as IconArrowUpRight } from "@tabler/icons-react-native/IconArrowUpRight";
 export { default as IconChevronDown } from "@tabler/icons-react-native/IconChevronDown";
 export { default as IconChevronRight } from "@tabler/icons-react-native/IconChevronRight";
+export { default as IconHeadphones } from "@tabler/icons-react-native/IconHeadphones";
 export { default as IconHeart } from "@tabler/icons-react-native/IconHeart";
 export { default as IconLibrary } from "@tabler/icons-react-native/IconLibrary";
 export { default as IconListDetails } from "@tabler/icons-react-native/IconListDetails";

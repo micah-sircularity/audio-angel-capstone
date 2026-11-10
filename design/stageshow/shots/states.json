@@ -1,0 +1,35 @@
+{
+  "status": "inconclusive",
+  "mode": "motion",
+  "stages": [
+    {
+      "key": "stage-1",
+      "label": "ss-fit aa-scene",
+      "coverage": {
+        "status": "inconclusive",
+        "frames": 822,
+        "durationMs": 15753.5,
+        "medianMs": 16.700000286102295,
+        "maxGapMs": 113.2999997138977,
+        "skippedGaps": 88,
+        "cameraFrames": 0,
+        "reasons": [
+          "88 sampling gap(s) exceeded 27ms; motion during those gaps was not judged"
+        ],
+        "framingSamples": 16,
+        "layout": {
+          "controls": 0,
+          "paddedContainers": 5,
+          "compositionCrops": 0
+        }
+      },
+      "findings": [
+        "settle snap: span.ss-toggle__knob came to rest after moving, then shifted 710.3px with no transition running, so it hops after the motion has ended; land it exactly where it stays (measure the element, mind borders and rounding) or carry the last part in the transition"
+      ],
+      "manual": []
+    }
+  ],
+  "errors": [],
+  "manualReviewRequired": true,
+  "exitCode": 2
+}
