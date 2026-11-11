@@ -90,6 +90,43 @@ def _entry_in_line(entry: str, line: str) -> bool:
     )
 
 
+_MAX_PREMATCH_HITS = 15
+
+
+def _prematch_lines(entries: list, chunk: list) -> list[tuple[int, str, str, str]]:
+    """Deterministically find lexicon terms inside a chunk's lines.
+
+    For each segment, match every entry's term and variants against both
+    the segment text and the joined word tokens, returning (line_index,
+    matched_surface_form, category, definition) evidence for the prompt.
+    Capped so dense lines can't flood the prompt.
+    """
+    hits: list[tuple[int, str, str, str]] = []
+    seen: set[tuple[int, str]] = set()
+    for segment in chunk:
+        words_text = " ".join(w.text for w in segment.words)
+        for entry in entries:
+            for surface in (entry.term, *entry.variants):
+                if (segment.index, entry.id) in seen:
+                    break
+                if _entry_in_line(surface, segment.text) or _entry_in_line(
+                    surface, words_text
+                ):
+                    seen.add((segment.index, entry.id))
+                    hits.append(
+                        (
+                            segment.index,
+                            surface,
+                            entry.category,
+                            entry.definition,
+                        )
+                    )
+                    break
+            if len(hits) >= _MAX_PREMATCH_HITS:
+                return hits
+    return hits
+
+
 # ---------- tools (module-level so tests can call them with stub ctx) ----------
 
 
@@ -266,8 +303,10 @@ async def flag_transcript(
     lexicon_retriever: Retriever | None = None
     lexicon_docs: dict[str, Doc] = {}
     transcript_retriever: Retriever | None = None
+    entries = (
+        load_lexicon() if (config.tools_enabled or config.lexicon_prematch) else []
+    )
     if config.tools_enabled:
-        entries = load_lexicon()
         docs = [entry_doc(e) for e in entries]
         lexicon_docs = {d["id"]: d for d in docs}
         lexicon_retriever = build_retriever(
@@ -285,6 +324,7 @@ async def flag_transcript(
             search_method=config.search_method,
             min_confidence=config.min_confidence,
             tools_enabled=config.tools_enabled,
+            lexicon_prematch=config.lexicon_prematch,
         )
     agent = _build_agent(config, rules, media_kind)
     chunks = [
@@ -307,7 +347,8 @@ async def flag_transcript(
             line_lo=lo,
             line_hi=hi,
         )
-        prompt = render_batch([(s.index, s.text) for s in chunk])
+        prematch = _prematch_lines(entries, chunk) if config.lexicon_prematch else None
+        prompt = render_batch([(s.index, s.text) for s in chunk], lexicon_hits=prematch)
         async with semaphore:
             with logfire.span(
                 "flagger.chunk", line_lo=lo, line_hi=hi, lines=len(chunk)

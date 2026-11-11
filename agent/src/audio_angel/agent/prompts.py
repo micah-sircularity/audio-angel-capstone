@@ -156,7 +156,27 @@ def render_instructions(
     return _TEMPLATES[version].format(media_kind=media_kind, rules=format_rules(rules))
 
 
-def render_batch(lines: list[tuple[int, str]]) -> str:
-    """Build the user message for one chunk: `[index] text` per line."""
+def render_batch(
+    lines: list[tuple[int, str]],
+    lexicon_hits: list[tuple[int, str, str, str]] | None = None,
+) -> str:
+    """Build the user message for one chunk: `[index] text` per line.
+
+    `lexicon_hits` are deterministic (line_index, matched_text, category,
+    definition) matches found in the batch before the model sees it —
+    evidence surfaced so the model can't miss a term by never calling
+    search_lexicon. The model still decides whether a rule applies.
+    """
     body = "\n".join(f"[{index}] {text}" for index, text in lines)
-    return f"Transcript lines:\n{body}"
+    message = f"Transcript lines:\n{body}"
+    if lexicon_hits:
+        evidence = "\n".join(
+            f"[{index}] {matched!r} — {category}: {definition}"
+            for index, matched, category, definition in lexicon_hits
+        )
+        message += (
+            "\n\nLexicon matches in this batch (evidence, not verdicts — "
+            "check each against the definition and only flag it if a "
+            "rule applies):\n" + evidence
+        )
+    return message

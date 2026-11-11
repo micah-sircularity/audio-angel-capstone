@@ -20,6 +20,8 @@ STAGE1 = [
 ]
 # Stage 2: retriever and tool ablation on the stage-1 winner's prompt/chunk.
 STAGE2_SEARCH_METHODS = ("text", "vector", "hybrid")
+# Crossed with the search methods: deterministic lexicon prematch on/off.
+STAGE2_PREMATCH = (True, False)
 # Stage 3: confidence threshold on the stage-2 winner (no new model calls:
 # re-score the stage-2 winner's raw flags at each threshold).
 STAGE3_THRESHOLDS = (0.3, 0.5, 0.7, 0.8)

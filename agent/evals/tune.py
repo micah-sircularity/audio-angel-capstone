@@ -18,7 +18,13 @@ from dataclasses import replace
 
 from audio_angel.ground_truth import ExpectedFlag
 from audio_angel.models import LineFlag
-from evals.experiments import BASELINE, STAGE1, STAGE2_SEARCH_METHODS, STAGE3_THRESHOLDS
+from evals.experiments import (
+    BASELINE,
+    STAGE1,
+    STAGE2_PREMATCH,
+    STAGE2_SEARCH_METHODS,
+    STAGE3_THRESHOLDS,
+)
 from evals.metrics import case_metrics, summarize
 from evals.run_eval import build_dataset, evaluate_config
 
@@ -81,8 +87,13 @@ async def tune(limit: int | None, judge: bool) -> str:
     lines += ["## Stage 2 — retriever + tools ablation", HEADER]
 
     stage2_configs = [
-        replace(stage1_winner, search_method=m) for m in STAGE2_SEARCH_METHODS
-    ] + [replace(stage1_winner, tools_enabled=False)]
+        replace(stage1_winner, search_method=m, lexicon_prematch=p)
+        for m in STAGE2_SEARCH_METHODS
+        for p in STAGE2_PREMATCH
+    ] + [
+        replace(stage1_winner, tools_enabled=False, lexicon_prematch=p)
+        for p in STAGE2_PREMATCH
+    ]
     stage2_results = {}
     for config in stage2_configs:
         if config.name in results:

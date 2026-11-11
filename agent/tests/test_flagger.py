@@ -260,3 +260,74 @@ def test_tool_budget_returns_hint(music_transcript):
     # Below the budget the tools still work.
     deps2 = deps_for(music_transcript)
     assert search_lexicon(_ctx(deps2), "molly", k=1)
+
+
+def _user_prompts(captured: list) -> list[str]:
+    """Pull user-prompt text out of messages captured by a FunctionModel."""
+    texts = []
+    for messages in captured:
+        for message in messages:
+            for part in getattr(message, "parts", []):
+                content = getattr(part, "content", None)
+                if isinstance(content, str):
+                    texts.append(content)
+    return texts
+
+
+async def test_prematch_injects_lexicon_evidence(music_transcript):
+    """Chunk lines are pre-matched against the lexicon and the hits are
+    injected into the batch prompt as evidence — even with tools off."""
+    captured = []
+
+    def fn(messages, info):
+        captured.append(messages)
+        return ModelResponse(parts=[TextPart(json.dumps({"flags": []}))])
+
+    await flag_transcript(
+        music_transcript,
+        RULES,
+        AgentConfig(tools_enabled=False, lexicon_prematch=True),
+        model=FunctionModel(fn),
+    )
+    prompt = "\n".join(_user_prompts(captured))
+    assert "Lexicon matches in this batch" in prompt
+    assert "'damn'" in prompt
+    assert "profanity" in prompt
+
+
+async def test_prematch_disabled_leaves_prompt_clean(music_transcript):
+    captured = []
+
+    def fn(messages, info):
+        captured.append(messages)
+        return ModelResponse(parts=[TextPart(json.dumps({"flags": []}))])
+
+    await flag_transcript(
+        music_transcript,
+        RULES,
+        AgentConfig(tools_enabled=False, lexicon_prematch=False),
+        model=FunctionModel(fn),
+    )
+    prompt = "\n".join(_user_prompts(captured))
+    assert "Lexicon matches" not in prompt
+
+
+def test_prematch_lines_finds_terms_and_variants():
+    from audio_angel.agent.flagger import _prematch_lines
+    from tests.conftest import make_segment
+
+    entries = load_lexicon()
+    chunk = [
+        make_segment(0, "pass me the burner quick", 0),
+        make_segment(1, "clean line nothing here", 5000),
+        make_segment(2, "hella good dayum", 10000),
+    ]
+    hits = _prematch_lines(entries, chunk)
+    by_line = {}
+    for index, surface, category, _definition in hits:
+        by_line.setdefault(index, []).append((surface, category))
+    assert ("burner", "violence") in by_line[0]
+    assert 1 not in by_line
+    # "hella" is a variant of hell; "dayum" a variant of damn.
+    assert ("hella", "profanity") in by_line[2]
+    assert ("dayum", "profanity") in by_line[2]

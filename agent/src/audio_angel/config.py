@@ -25,11 +25,17 @@ class AgentConfig:
     min_confidence: float = 0.5
     # False disables all tools: the plain-LLM baseline.
     tools_enabled: bool = True
+    # Pre-match each chunk against the lexicon deterministically and
+    # inject the hits into the batch prompt as evidence. The model still
+    # judges each hit by its definition; this only removes "never looked
+    # the word up" misses. Works with tools_enabled=False.
+    lexicon_prematch: bool = True
 
     @property
     def name(self) -> str:
         tools = "tools" if self.tools_enabled else "notools"
+        pre = "pre" if self.lexicon_prematch else "nopre"
         return (
             f"{self.prompt_version}-chunk{self.chunk_size}-{self.search_method}"
-            f"-{tools}-conf{self.min_confidence}"
+            f"-{tools}-{pre}-conf{self.min_confidence}"
         )

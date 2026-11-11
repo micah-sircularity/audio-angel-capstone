@@ -216,7 +216,7 @@ def _parse_overrides(pairs: list[str]) -> dict:
             out[key] = int(value)
         elif key in ("min_confidence",):
             out[key] = float(value)
-        elif key in ("tools_enabled",):
+        elif key in ("tools_enabled", "lexicon_prematch"):
             out[key] = value.lower() in ("1", "true", "yes")
         else:
             out[key] = value
