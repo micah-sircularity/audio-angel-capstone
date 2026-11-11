@@ -1,0 +1,1588 @@
+{
+  "source_key": "aud:BKjbEop",
+  "title": "All Alone ! ",
+  "artist": "Jr Don ",
+  "kind": "music",
+  "rules": [
+    {
+      "label": "Profanity",
+      "kind": "category",
+      "value": "profanity"
+    },
+    {
+      "label": "Slurs",
+      "kind": "category",
+      "value": "slurs"
+    },
+    {
+      "label": "Sexual content",
+      "kind": "category",
+      "value": "sexual"
+    },
+    {
+      "label": "Drugs",
+      "kind": "category",
+      "value": "drugs"
+    },
+    {
+      "label": "Graphic violence",
+      "kind": "category",
+      "value": "violence"
+    },
+    {
+      "label": "Blasphemy",
+      "kind": "category",
+      "value": "blasphemy"
+    },
+    {
+      "label": "drug use or dealing",
+      "kind": "term",
+      "value": "drug use or dealing"
+    }
+  ],
+  "transcript": {
+    "source_key": "aud:BKjbEop",
+    "kind": "music",
+    "duration_ms": 120000,
+    "segments": [
+      {
+        "index": 0,
+        "start_ms": 0,
+        "end_ms": 2160,
+        "text": "I've been all alone.",
+        "words": [
+          {
+            "start_ms": 0,
+            "end_ms": 480,
+            "text": "I've"
+          },
+          {
+            "start_ms": 480,
+            "end_ms": 880,
+            "text": "been"
+          },
+          {
+            "start_ms": 880,
+            "end_ms": 1200,
+            "text": "all"
+          },
+          {
+            "start_ms": 1200,
+            "end_ms": 2160,
+            "text": "alone."
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "start_ms": 3040,
+        "end_ms": 3680,
+        "text": "No",
+        "words": [
+          {
+            "start_ms": 3040,
+            "end_ms": 3680,
+            "text": "No"
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "start_ms": 6320,
+        "end_ms": 8000,
+        "text": "one left alone.",
+        "words": [
+          {
+            "start_ms": 6320,
+            "end_ms": 6560,
+            "text": "one"
+          },
+          {
+            "start_ms": 6560,
+            "end_ms": 7040,
+            "text": "left"
+          },
+          {
+            "start_ms": 7040,
+            "end_ms": 8000,
+            "text": "alone."
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "start_ms": 11840,
+        "end_ms": 13600,
+        "text": "I've been all alone.",
+        "words": [
+          {
+            "start_ms": 11840,
+            "end_ms": 12240,
+            "text": "I've"
+          },
+          {
+            "start_ms": 12240,
+            "end_ms": 12480,
+            "text": "been"
+          },
+          {
+            "start_ms": 12480,
+            "end_ms": 12960,
+            "text": "all"
+          },
+          {
+            "start_ms": 12960,
+            "end_ms": 13600,
+            "text": "alone."
+          }
+        ]
+      },
+      {
+        "index": 4,
+        "start_ms": 21745,
+        "end_ms": 23505,
+        "text": "Yeah. That's heaven.",
+        "words": [
+          {
+            "start_ms": 21745,
+            "end_ms": 22225,
+            "text": "Yeah."
+          },
+          {
+            "start_ms": 22225,
+            "end_ms": 22705,
+            "text": "That's"
+          },
+          {
+            "start_ms": 22705,
+            "end_ms": 23505,
+            "text": "heaven."
+          }
+        ]
+      },
+      {
+        "index": 5,
+        "start_ms": 23745,
+        "end_ms": 31265,
+        "text": "I won't be afraid to talk my talk. Let the envy echo. Let the whispers turn to screams. Every line of manifesto.",
+        "words": [
+          {
+            "start_ms": 23745,
+            "end_ms": 24065,
+            "text": "I"
+          },
+          {
+            "start_ms": 24065,
+            "end_ms": 24465,
+            "text": "won't"
+          },
+          {
+            "start_ms": 24465,
+            "end_ms": 24705,
+            "text": "be"
+          },
+          {
+            "start_ms": 24705,
+            "end_ms": 25025,
+            "text": "afraid"
+          },
+          {
+            "start_ms": 25025,
+            "end_ms": 25265,
+            "text": "to"
+          },
+          {
+            "start_ms": 25265,
+            "end_ms": 25505,
+            "text": "talk"
+          },
+          {
+            "start_ms": 25505,
+            "end_ms": 25825,
+            "text": "my"
+          },
+          {
+            "start_ms": 25825,
+            "end_ms": 26385,
+            "text": "talk."
+          },
+          {
+            "start_ms": 26385,
+            "end_ms": 26625,
+            "text": "Let"
+          },
+          {
+            "start_ms": 26625,
+            "end_ms": 26785,
+            "text": "the"
+          },
+          {
+            "start_ms": 26785,
+            "end_ms": 27105,
+            "text": "envy"
+          },
+          {
+            "start_ms": 27105,
+            "end_ms": 27825,
+            "text": "echo."
+          },
+          {
+            "start_ms": 27825,
+            "end_ms": 27985,
+            "text": "Let"
+          },
+          {
+            "start_ms": 27985,
+            "end_ms": 28145,
+            "text": "the"
+          },
+          {
+            "start_ms": 28145,
+            "end_ms": 28545,
+            "text": "whispers"
+          },
+          {
+            "start_ms": 28545,
+            "end_ms": 28865,
+            "text": "turn"
+          },
+          {
+            "start_ms": 28865,
+            "end_ms": 29105,
+            "text": "to"
+          },
+          {
+            "start_ms": 29105,
+            "end_ms": 29665,
+            "text": "screams."
+          },
+          {
+            "start_ms": 29665,
+            "end_ms": 29985,
+            "text": "Every"
+          },
+          {
+            "start_ms": 29985,
+            "end_ms": 30225,
+            "text": "line"
+          },
+          {
+            "start_ms": 30225,
+            "end_ms": 30465,
+            "text": "of"
+          },
+          {
+            "start_ms": 30465,
+            "end_ms": 31265,
+            "text": "manifesto."
+          }
+        ]
+      },
+      {
+        "index": 6,
+        "start_ms": 31380,
+        "end_ms": 63000,
+        "text": "I won't be afraid to cut ties. Sip the vibes off. Turn the finger over ghost. Leave his name on the sidewalk. I won't be afraid to let the money change me. Took losses on the chin. Now my whims feel amazed. Look. I won't be afraid to flex when I'm feeling blessed. Fur drape gold links every like a king's chest. I won't be afraid to stand alone in a crowded room. Carry pain like a trench coat tailored to the wounds. I won't be afraid to show the scars. They tell the tale. Heavy stretch testament.",
+        "words": [
+          {
+            "start_ms": 31380,
+            "end_ms": 31620,
+            "text": "I"
+          },
+          {
+            "start_ms": 31620,
+            "end_ms": 31940,
+            "text": "won't"
+          },
+          {
+            "start_ms": 31940,
+            "end_ms": 32100,
+            "text": "be"
+          },
+          {
+            "start_ms": 32100,
+            "end_ms": 32500,
+            "text": "afraid"
+          },
+          {
+            "start_ms": 32500,
+            "end_ms": 32740,
+            "text": "to"
+          },
+          {
+            "start_ms": 32740,
+            "end_ms": 32980,
+            "text": "cut"
+          },
+          {
+            "start_ms": 32980,
+            "end_ms": 33380,
+            "text": "ties."
+          },
+          {
+            "start_ms": 33380,
+            "end_ms": 33620,
+            "text": "Sip"
+          },
+          {
+            "start_ms": 33620,
+            "end_ms": 33780,
+            "text": "the"
+          },
+          {
+            "start_ms": 33780,
+            "end_ms": 34180,
+            "text": "vibes"
+          },
+          {
+            "start_ms": 34180,
+            "end_ms": 34740,
+            "text": "off."
+          },
+          {
+            "start_ms": 34820,
+            "end_ms": 35060,
+            "text": "Turn"
+          },
+          {
+            "start_ms": 35060,
+            "end_ms": 35220,
+            "text": "the"
+          },
+          {
+            "start_ms": 35220,
+            "end_ms": 35460,
+            "text": "finger"
+          },
+          {
+            "start_ms": 35460,
+            "end_ms": 35700,
+            "text": "over"
+          },
+          {
+            "start_ms": 35700,
+            "end_ms": 36420,
+            "text": "ghost."
+          },
+          {
+            "start_ms": 36420,
+            "end_ms": 36580,
+            "text": "Leave"
+          },
+          {
+            "start_ms": 36580,
+            "end_ms": 36820,
+            "text": "his"
+          },
+          {
+            "start_ms": 36820,
+            "end_ms": 37060,
+            "text": "name"
+          },
+          {
+            "start_ms": 37060,
+            "end_ms": 37300,
+            "text": "on"
+          },
+          {
+            "start_ms": 37300,
+            "end_ms": 37460,
+            "text": "the"
+          },
+          {
+            "start_ms": 37460,
+            "end_ms": 38180,
+            "text": "sidewalk."
+          },
+          {
+            "start_ms": 38180,
+            "end_ms": 38340,
+            "text": "I"
+          },
+          {
+            "start_ms": 38340,
+            "end_ms": 38580,
+            "text": "won't"
+          },
+          {
+            "start_ms": 38580,
+            "end_ms": 38820,
+            "text": "be"
+          },
+          {
+            "start_ms": 38820,
+            "end_ms": 39140,
+            "text": "afraid"
+          },
+          {
+            "start_ms": 39140,
+            "end_ms": 39300,
+            "text": "to"
+          },
+          {
+            "start_ms": 39300,
+            "end_ms": 39540,
+            "text": "let"
+          },
+          {
+            "start_ms": 39540,
+            "end_ms": 39700,
+            "text": "the"
+          },
+          {
+            "start_ms": 39700,
+            "end_ms": 40020,
+            "text": "money"
+          },
+          {
+            "start_ms": 40020,
+            "end_ms": 40340,
+            "text": "change"
+          },
+          {
+            "start_ms": 40340,
+            "end_ms": 40820,
+            "text": "me."
+          },
+          {
+            "start_ms": 40820,
+            "end_ms": 41140,
+            "text": "Took"
+          },
+          {
+            "start_ms": 41140,
+            "end_ms": 41540,
+            "text": "losses"
+          },
+          {
+            "start_ms": 41540,
+            "end_ms": 41780,
+            "text": "on"
+          },
+          {
+            "start_ms": 41780,
+            "end_ms": 41940,
+            "text": "the"
+          },
+          {
+            "start_ms": 41940,
+            "end_ms": 42260,
+            "text": "chin."
+          },
+          {
+            "start_ms": 42260,
+            "end_ms": 42500,
+            "text": "Now"
+          },
+          {
+            "start_ms": 42500,
+            "end_ms": 42660,
+            "text": "my"
+          },
+          {
+            "start_ms": 42660,
+            "end_ms": 43060,
+            "text": "whims"
+          },
+          {
+            "start_ms": 43060,
+            "end_ms": 43380,
+            "text": "feel"
+          },
+          {
+            "start_ms": 43380,
+            "end_ms": 44100,
+            "text": "amazed."
+          },
+          {
+            "start_ms": 44100,
+            "end_ms": 44420,
+            "text": "Look."
+          },
+          {
+            "start_ms": 44575,
+            "end_ms": 44895,
+            "text": "I"
+          },
+          {
+            "start_ms": 44895,
+            "end_ms": 45215,
+            "text": "won't"
+          },
+          {
+            "start_ms": 45215,
+            "end_ms": 45455,
+            "text": "be"
+          },
+          {
+            "start_ms": 45455,
+            "end_ms": 45775,
+            "text": "afraid"
+          },
+          {
+            "start_ms": 45775,
+            "end_ms": 45935,
+            "text": "to"
+          },
+          {
+            "start_ms": 45935,
+            "end_ms": 46255,
+            "text": "flex"
+          },
+          {
+            "start_ms": 46255,
+            "end_ms": 46575,
+            "text": "when"
+          },
+          {
+            "start_ms": 46575,
+            "end_ms": 46735,
+            "text": "I'm"
+          },
+          {
+            "start_ms": 46735,
+            "end_ms": 47055,
+            "text": "feeling"
+          },
+          {
+            "start_ms": 47055,
+            "end_ms": 47695,
+            "text": "blessed."
+          },
+          {
+            "start_ms": 47855,
+            "end_ms": 48175,
+            "text": "Fur"
+          },
+          {
+            "start_ms": 48175,
+            "end_ms": 48575,
+            "text": "drape"
+          },
+          {
+            "start_ms": 48575,
+            "end_ms": 48895,
+            "text": "gold"
+          },
+          {
+            "start_ms": 48895,
+            "end_ms": 49215,
+            "text": "links"
+          },
+          {
+            "start_ms": 49215,
+            "end_ms": 49535,
+            "text": "every"
+          },
+          {
+            "start_ms": 49535,
+            "end_ms": 49855,
+            "text": "like"
+          },
+          {
+            "start_ms": 49855,
+            "end_ms": 50015,
+            "text": "a"
+          },
+          {
+            "start_ms": 50015,
+            "end_ms": 50495,
+            "text": "king's"
+          },
+          {
+            "start_ms": 50495,
+            "end_ms": 50895,
+            "text": "chest."
+          },
+          {
+            "start_ms": 50895,
+            "end_ms": 51055,
+            "text": "I"
+          },
+          {
+            "start_ms": 51055,
+            "end_ms": 51295,
+            "text": "won't"
+          },
+          {
+            "start_ms": 51295,
+            "end_ms": 51455,
+            "text": "be"
+          },
+          {
+            "start_ms": 51455,
+            "end_ms": 51855,
+            "text": "afraid"
+          },
+          {
+            "start_ms": 51855,
+            "end_ms": 52095,
+            "text": "to"
+          },
+          {
+            "start_ms": 52095,
+            "end_ms": 52415,
+            "text": "stand"
+          },
+          {
+            "start_ms": 52415,
+            "end_ms": 52975,
+            "text": "alone"
+          },
+          {
+            "start_ms": 52975,
+            "end_ms": 53295,
+            "text": "in"
+          },
+          {
+            "start_ms": 53295,
+            "end_ms": 53455,
+            "text": "a"
+          },
+          {
+            "start_ms": 53455,
+            "end_ms": 53935,
+            "text": "crowded"
+          },
+          {
+            "start_ms": 53935,
+            "end_ms": 54575,
+            "text": "room."
+          },
+          {
+            "start_ms": 54575,
+            "end_ms": 54895,
+            "text": "Carry"
+          },
+          {
+            "start_ms": 54895,
+            "end_ms": 55215,
+            "text": "pain"
+          },
+          {
+            "start_ms": 55215,
+            "end_ms": 55455,
+            "text": "like"
+          },
+          {
+            "start_ms": 55455,
+            "end_ms": 55615,
+            "text": "a"
+          },
+          {
+            "start_ms": 55615,
+            "end_ms": 55935,
+            "text": "trench"
+          },
+          {
+            "start_ms": 55935,
+            "end_ms": 56335,
+            "text": "coat"
+          },
+          {
+            "start_ms": 56600,
+            "end_ms": 57080,
+            "text": "tailored"
+          },
+          {
+            "start_ms": 57080,
+            "end_ms": 57320,
+            "text": "to"
+          },
+          {
+            "start_ms": 57320,
+            "end_ms": 57560,
+            "text": "the"
+          },
+          {
+            "start_ms": 57560,
+            "end_ms": 58200,
+            "text": "wounds."
+          },
+          {
+            "start_ms": 58200,
+            "end_ms": 58360,
+            "text": "I"
+          },
+          {
+            "start_ms": 58360,
+            "end_ms": 58600,
+            "text": "won't"
+          },
+          {
+            "start_ms": 58600,
+            "end_ms": 58840,
+            "text": "be"
+          },
+          {
+            "start_ms": 58840,
+            "end_ms": 59080,
+            "text": "afraid"
+          },
+          {
+            "start_ms": 59080,
+            "end_ms": 59320,
+            "text": "to"
+          },
+          {
+            "start_ms": 59320,
+            "end_ms": 59560,
+            "text": "show"
+          },
+          {
+            "start_ms": 59560,
+            "end_ms": 59720,
+            "text": "the"
+          },
+          {
+            "start_ms": 59720,
+            "end_ms": 60280,
+            "text": "scars."
+          },
+          {
+            "start_ms": 60280,
+            "end_ms": 60360,
+            "text": "They"
+          },
+          {
+            "start_ms": 60360,
+            "end_ms": 60600,
+            "text": "tell"
+          },
+          {
+            "start_ms": 60600,
+            "end_ms": 60760,
+            "text": "the"
+          },
+          {
+            "start_ms": 60760,
+            "end_ms": 61400,
+            "text": "tale."
+          },
+          {
+            "start_ms": 61560,
+            "end_ms": 61800,
+            "text": "Heavy"
+          },
+          {
+            "start_ms": 61800,
+            "end_ms": 62120,
+            "text": "stretch"
+          },
+          {
+            "start_ms": 62120,
+            "end_ms": 63000,
+            "text": "testament."
+          }
+        ]
+      },
+      {
+        "index": 7,
+        "start_ms": 63000,
+        "end_ms": 67080,
+        "text": "Every cut of holy grail. I won't be afraid to move mountains",
+        "words": [
+          {
+            "start_ms": 63000,
+            "end_ms": 63240,
+            "text": "Every"
+          },
+          {
+            "start_ms": 63240,
+            "end_ms": 63560,
+            "text": "cut"
+          },
+          {
+            "start_ms": 63560,
+            "end_ms": 63720,
+            "text": "of"
+          },
+          {
+            "start_ms": 63720,
+            "end_ms": 64040,
+            "text": "holy"
+          },
+          {
+            "start_ms": 64040,
+            "end_ms": 64600,
+            "text": "grail."
+          },
+          {
+            "start_ms": 64600,
+            "end_ms": 64920,
+            "text": "I"
+          },
+          {
+            "start_ms": 64920,
+            "end_ms": 65160,
+            "text": "won't"
+          },
+          {
+            "start_ms": 65160,
+            "end_ms": 65400,
+            "text": "be"
+          },
+          {
+            "start_ms": 65400,
+            "end_ms": 65880,
+            "text": "afraid"
+          },
+          {
+            "start_ms": 65880,
+            "end_ms": 66040,
+            "text": "to"
+          },
+          {
+            "start_ms": 66040,
+            "end_ms": 66280,
+            "text": "move"
+          },
+          {
+            "start_ms": 66280,
+            "end_ms": 67080,
+            "text": "mountains"
+          }
+        ]
+      },
+      {
+        "index": 8,
+        "start_ms": 67080,
+        "end_ms": 75095,
+        "text": "out of spite. Turn whispers into echoes. Put my name in neon lights. I won't be afraid to let my past pure decline. Let the pain",
+        "words": [
+          {
+            "start_ms": 67080,
+            "end_ms": 67320,
+            "text": "out"
+          },
+          {
+            "start_ms": 67320,
+            "end_ms": 67400,
+            "text": "of"
+          },
+          {
+            "start_ms": 67400,
+            "end_ms": 67960,
+            "text": "spite."
+          },
+          {
+            "start_ms": 67960,
+            "end_ms": 68120,
+            "text": "Turn"
+          },
+          {
+            "start_ms": 68120,
+            "end_ms": 68600,
+            "text": "whispers"
+          },
+          {
+            "start_ms": 68600,
+            "end_ms": 68920,
+            "text": "into"
+          },
+          {
+            "start_ms": 68920,
+            "end_ms": 69480,
+            "text": "echoes."
+          },
+          {
+            "start_ms": 69575,
+            "end_ms": 69815,
+            "text": "Put"
+          },
+          {
+            "start_ms": 69815,
+            "end_ms": 70055,
+            "text": "my"
+          },
+          {
+            "start_ms": 70055,
+            "end_ms": 70295,
+            "text": "name"
+          },
+          {
+            "start_ms": 70295,
+            "end_ms": 70535,
+            "text": "in"
+          },
+          {
+            "start_ms": 70535,
+            "end_ms": 71015,
+            "text": "neon"
+          },
+          {
+            "start_ms": 71015,
+            "end_ms": 71415,
+            "text": "lights."
+          },
+          {
+            "start_ms": 71415,
+            "end_ms": 71575,
+            "text": "I"
+          },
+          {
+            "start_ms": 71575,
+            "end_ms": 71815,
+            "text": "won't"
+          },
+          {
+            "start_ms": 71815,
+            "end_ms": 72055,
+            "text": "be"
+          },
+          {
+            "start_ms": 72055,
+            "end_ms": 72375,
+            "text": "afraid"
+          },
+          {
+            "start_ms": 72375,
+            "end_ms": 72615,
+            "text": "to"
+          },
+          {
+            "start_ms": 72615,
+            "end_ms": 72775,
+            "text": "let"
+          },
+          {
+            "start_ms": 72775,
+            "end_ms": 72935,
+            "text": "my"
+          },
+          {
+            "start_ms": 72935,
+            "end_ms": 73255,
+            "text": "past"
+          },
+          {
+            "start_ms": 73255,
+            "end_ms": 73575,
+            "text": "pure"
+          },
+          {
+            "start_ms": 73575,
+            "end_ms": 74375,
+            "text": "decline."
+          },
+          {
+            "start_ms": 74375,
+            "end_ms": 74615,
+            "text": "Let"
+          },
+          {
+            "start_ms": 74615,
+            "end_ms": 74775,
+            "text": "the"
+          },
+          {
+            "start_ms": 74775,
+            "end_ms": 75095,
+            "text": "pain"
+          }
+        ]
+      },
+      {
+        "index": 9,
+        "start_ms": 76615,
+        "end_ms": 78375,
+        "text": "lost a new design.",
+        "words": [
+          {
+            "start_ms": 76615,
+            "end_ms": 77255,
+            "text": "lost"
+          },
+          {
+            "start_ms": 77255,
+            "end_ms": 77415,
+            "text": "a"
+          },
+          {
+            "start_ms": 77415,
+            "end_ms": 77655,
+            "text": "new"
+          },
+          {
+            "start_ms": 77655,
+            "end_ms": 78375,
+            "text": "design."
+          }
+        ]
+      },
+      {
+        "index": 10,
+        "start_ms": 78615,
+        "end_ms": 90270,
+        "text": "I won't be afraid to walk away when the love fade. Seeing the villain's turn goes for a cut. A downgrade look, I won't be afraid to double back and set it right. Put a crown on my name. Let",
+        "words": [
+          {
+            "start_ms": 78615,
+            "end_ms": 78775,
+            "text": "I"
+          },
+          {
+            "start_ms": 78775,
+            "end_ms": 79175,
+            "text": "won't"
+          },
+          {
+            "start_ms": 79175,
+            "end_ms": 79415,
+            "text": "be"
+          },
+          {
+            "start_ms": 79415,
+            "end_ms": 79895,
+            "text": "afraid"
+          },
+          {
+            "start_ms": 79895,
+            "end_ms": 80055,
+            "text": "to"
+          },
+          {
+            "start_ms": 80055,
+            "end_ms": 80375,
+            "text": "walk"
+          },
+          {
+            "start_ms": 80375,
+            "end_ms": 80695,
+            "text": "away"
+          },
+          {
+            "start_ms": 80695,
+            "end_ms": 81015,
+            "text": "when"
+          },
+          {
+            "start_ms": 81015,
+            "end_ms": 81175,
+            "text": "the"
+          },
+          {
+            "start_ms": 81175,
+            "end_ms": 81415,
+            "text": "love"
+          },
+          {
+            "start_ms": 81415,
+            "end_ms": 82135,
+            "text": "fade."
+          },
+          {
+            "start_ms": 82135,
+            "end_ms": 82455,
+            "text": "Seeing"
+          },
+          {
+            "start_ms": 82455,
+            "end_ms": 82615,
+            "text": "the"
+          },
+          {
+            "start_ms": 82615,
+            "end_ms": 83095,
+            "text": "villain's"
+          },
+          {
+            "start_ms": 83095,
+            "end_ms": 83335,
+            "text": "turn"
+          },
+          {
+            "start_ms": 83335,
+            "end_ms": 83735,
+            "text": "goes"
+          },
+          {
+            "start_ms": 83735,
+            "end_ms": 83975,
+            "text": "for"
+          },
+          {
+            "start_ms": 83975,
+            "end_ms": 84135,
+            "text": "a"
+          },
+          {
+            "start_ms": 84135,
+            "end_ms": 84375,
+            "text": "cut."
+          },
+          {
+            "start_ms": 84590,
+            "end_ms": 84910,
+            "text": "A"
+          },
+          {
+            "start_ms": 84910,
+            "end_ms": 85550,
+            "text": "downgrade"
+          },
+          {
+            "start_ms": 85550,
+            "end_ms": 86030,
+            "text": "look,"
+          },
+          {
+            "start_ms": 86030,
+            "end_ms": 86110,
+            "text": "I"
+          },
+          {
+            "start_ms": 86110,
+            "end_ms": 86350,
+            "text": "won't"
+          },
+          {
+            "start_ms": 86350,
+            "end_ms": 86590,
+            "text": "be"
+          },
+          {
+            "start_ms": 86590,
+            "end_ms": 86910,
+            "text": "afraid"
+          },
+          {
+            "start_ms": 86910,
+            "end_ms": 87150,
+            "text": "to"
+          },
+          {
+            "start_ms": 87150,
+            "end_ms": 87470,
+            "text": "double"
+          },
+          {
+            "start_ms": 87470,
+            "end_ms": 87710,
+            "text": "back"
+          },
+          {
+            "start_ms": 87710,
+            "end_ms": 87950,
+            "text": "and"
+          },
+          {
+            "start_ms": 87950,
+            "end_ms": 88110,
+            "text": "set"
+          },
+          {
+            "start_ms": 88110,
+            "end_ms": 88270,
+            "text": "it"
+          },
+          {
+            "start_ms": 88270,
+            "end_ms": 88590,
+            "text": "right."
+          },
+          {
+            "start_ms": 88590,
+            "end_ms": 88750,
+            "text": "Put"
+          },
+          {
+            "start_ms": 88750,
+            "end_ms": 88910,
+            "text": "a"
+          },
+          {
+            "start_ms": 88910,
+            "end_ms": 89150,
+            "text": "crown"
+          },
+          {
+            "start_ms": 89150,
+            "end_ms": 89390,
+            "text": "on"
+          },
+          {
+            "start_ms": 89390,
+            "end_ms": 89470,
+            "text": "my"
+          },
+          {
+            "start_ms": 89470,
+            "end_ms": 89790,
+            "text": "name."
+          },
+          {
+            "start_ms": 89790,
+            "end_ms": 90270,
+            "text": "Let"
+          }
+        ]
+      },
+      {
+        "index": 11,
+        "start_ms": 90910,
+        "end_ms": 104365,
+        "text": "them sturdy as you strike. Look. I won't be afraid to flex when I'm in the trenches. Gold teeth grinning every breath, slept in breathless. I won't be afraid to face the mirror. Watch the shadows dance. See the king in my reflection.",
+        "words": [
+          {
+            "start_ms": 90910,
+            "end_ms": 91070,
+            "text": "them"
+          },
+          {
+            "start_ms": 91070,
+            "end_ms": 91470,
+            "text": "sturdy"
+          },
+          {
+            "start_ms": 91470,
+            "end_ms": 91710,
+            "text": "as"
+          },
+          {
+            "start_ms": 91710,
+            "end_ms": 91870,
+            "text": "you"
+          },
+          {
+            "start_ms": 91870,
+            "end_ms": 92350,
+            "text": "strike."
+          },
+          {
+            "start_ms": 92350,
+            "end_ms": 92910,
+            "text": "Look."
+          },
+          {
+            "start_ms": 92990,
+            "end_ms": 93070,
+            "text": "I"
+          },
+          {
+            "start_ms": 93070,
+            "end_ms": 93390,
+            "text": "won't"
+          },
+          {
+            "start_ms": 93390,
+            "end_ms": 93630,
+            "text": "be"
+          },
+          {
+            "start_ms": 93630,
+            "end_ms": 93950,
+            "text": "afraid"
+          },
+          {
+            "start_ms": 93950,
+            "end_ms": 94190,
+            "text": "to"
+          },
+          {
+            "start_ms": 94190,
+            "end_ms": 94430,
+            "text": "flex"
+          },
+          {
+            "start_ms": 94430,
+            "end_ms": 94750,
+            "text": "when"
+          },
+          {
+            "start_ms": 94750,
+            "end_ms": 94990,
+            "text": "I'm"
+          },
+          {
+            "start_ms": 94990,
+            "end_ms": 95070,
+            "text": "in"
+          },
+          {
+            "start_ms": 95070,
+            "end_ms": 95230,
+            "text": "the"
+          },
+          {
+            "start_ms": 95230,
+            "end_ms": 95950,
+            "text": "trenches."
+          },
+          {
+            "start_ms": 96030,
+            "end_ms": 96350,
+            "text": "Gold"
+          },
+          {
+            "start_ms": 96350,
+            "end_ms": 96590,
+            "text": "teeth"
+          },
+          {
+            "start_ms": 96590,
+            "end_ms": 97070,
+            "text": "grinning"
+          },
+          {
+            "start_ms": 97070,
+            "end_ms": 97390,
+            "text": "every"
+          },
+          {
+            "start_ms": 97390,
+            "end_ms": 97790,
+            "text": "breath,"
+          },
+          {
+            "start_ms": 97790,
+            "end_ms": 98030,
+            "text": "slept"
+          },
+          {
+            "start_ms": 98030,
+            "end_ms": 98190,
+            "text": "in"
+          },
+          {
+            "start_ms": 98190,
+            "end_ms": 98670,
+            "text": "breathless."
+          },
+          {
+            "start_ms": 98765,
+            "end_ms": 99005,
+            "text": "I"
+          },
+          {
+            "start_ms": 99005,
+            "end_ms": 99325,
+            "text": "won't"
+          },
+          {
+            "start_ms": 99325,
+            "end_ms": 99485,
+            "text": "be"
+          },
+          {
+            "start_ms": 99485,
+            "end_ms": 99805,
+            "text": "afraid"
+          },
+          {
+            "start_ms": 99805,
+            "end_ms": 100045,
+            "text": "to"
+          },
+          {
+            "start_ms": 100045,
+            "end_ms": 100285,
+            "text": "face"
+          },
+          {
+            "start_ms": 100285,
+            "end_ms": 100445,
+            "text": "the"
+          },
+          {
+            "start_ms": 100445,
+            "end_ms": 101085,
+            "text": "mirror."
+          },
+          {
+            "start_ms": 101165,
+            "end_ms": 101405,
+            "text": "Watch"
+          },
+          {
+            "start_ms": 101405,
+            "end_ms": 101565,
+            "text": "the"
+          },
+          {
+            "start_ms": 101565,
+            "end_ms": 102045,
+            "text": "shadows"
+          },
+          {
+            "start_ms": 102045,
+            "end_ms": 102685,
+            "text": "dance."
+          },
+          {
+            "start_ms": 102685,
+            "end_ms": 102765,
+            "text": "See"
+          },
+          {
+            "start_ms": 102765,
+            "end_ms": 103005,
+            "text": "the"
+          },
+          {
+            "start_ms": 103005,
+            "end_ms": 103245,
+            "text": "king"
+          },
+          {
+            "start_ms": 103245,
+            "end_ms": 103405,
+            "text": "in"
+          },
+          {
+            "start_ms": 103405,
+            "end_ms": 103645,
+            "text": "my"
+          },
+          {
+            "start_ms": 103645,
+            "end_ms": 104365,
+            "text": "reflection."
+          }
+        ]
+      },
+      {
+        "index": 12,
+        "start_ms": 104445,
+        "end_ms": 106285,
+        "text": "Heavy lies the circumstance.",
+        "words": [
+          {
+            "start_ms": 104445,
+            "end_ms": 104765,
+            "text": "Heavy"
+          },
+          {
+            "start_ms": 104765,
+            "end_ms": 105085,
+            "text": "lies"
+          },
+          {
+            "start_ms": 105085,
+            "end_ms": 105325,
+            "text": "the"
+          },
+          {
+            "start_ms": 105325,
+            "end_ms": 106285,
+            "text": "circumstance."
+          }
+        ]
+      },
+      {
+        "index": 13,
+        "start_ms": 106365,
+        "end_ms": 113405,
+        "text": "Look. I won't be afraid to walk my walk. Look. I won't be afraid to talk my talk. Yeah. Won't.",
+        "words": [
+          {
+            "start_ms": 106365,
+            "end_ms": 106925,
+            "text": "Look."
+          },
+          {
+            "start_ms": 106925,
+            "end_ms": 107165,
+            "text": "I"
+          },
+          {
+            "start_ms": 107165,
+            "end_ms": 107485,
+            "text": "won't"
+          },
+          {
+            "start_ms": 107485,
+            "end_ms": 107725,
+            "text": "be"
+          },
+          {
+            "start_ms": 107725,
+            "end_ms": 108045,
+            "text": "afraid"
+          },
+          {
+            "start_ms": 108045,
+            "end_ms": 108205,
+            "text": "to"
+          },
+          {
+            "start_ms": 108205,
+            "end_ms": 108525,
+            "text": "walk"
+          },
+          {
+            "start_ms": 108525,
+            "end_ms": 108845,
+            "text": "my"
+          },
+          {
+            "start_ms": 108845,
+            "end_ms": 109325,
+            "text": "walk."
+          },
+          {
+            "start_ms": 109325,
+            "end_ms": 109805,
+            "text": "Look."
+          },
+          {
+            "start_ms": 109885,
+            "end_ms": 110045,
+            "text": "I"
+          },
+          {
+            "start_ms": 110045,
+            "end_ms": 110365,
+            "text": "won't"
+          },
+          {
+            "start_ms": 110365,
+            "end_ms": 110605,
+            "text": "be"
+          },
+          {
+            "start_ms": 110605,
+            "end_ms": 110925,
+            "text": "afraid"
+          },
+          {
+            "start_ms": 110925,
+            "end_ms": 111165,
+            "text": "to"
+          },
+          {
+            "start_ms": 111165,
+            "end_ms": 111485,
+            "text": "talk"
+          },
+          {
+            "start_ms": 111485,
+            "end_ms": 111805,
+            "text": "my"
+          },
+          {
+            "start_ms": 111805,
+            "end_ms": 112365,
+            "text": "talk."
+          },
+          {
+            "start_ms": 112365,
+            "end_ms": 112925,
+            "text": "Yeah."
+          },
+          {
+            "start_ms": 112925,
+            "end_ms": 113405,
+            "text": "Won't."
+          }
+        ]
+      }
+    ],
+    "audio_source": "vocals"
+  },
+  "expected": [],
+  "labeled_by": "human",
+  "labeled_at": "2026-11-11T14:26:23.662256+00:00",
+  "prefilled_from": null,
+  "notes": "Looks good"
+}

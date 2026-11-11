@@ -1,0 +1,1859 @@
+{
+  "source_key": "aud:bbylX3M",
+  "title": "Blue Chew Ads",
+  "artist": "Ronnie Stelly",
+  "kind": "music",
+  "rules": [
+    {
+      "label": "Profanity",
+      "kind": "category",
+      "value": "profanity"
+    },
+    {
+      "label": "Slurs",
+      "kind": "category",
+      "value": "slurs"
+    },
+    {
+      "label": "Sexual content",
+      "kind": "category",
+      "value": "sexual"
+    },
+    {
+      "label": "Drugs",
+      "kind": "category",
+      "value": "drugs"
+    },
+    {
+      "label": "Graphic violence",
+      "kind": "category",
+      "value": "violence"
+    },
+    {
+      "label": "Blasphemy",
+      "kind": "category",
+      "value": "blasphemy"
+    },
+    {
+      "label": "insults and put-downs",
+      "kind": "term",
+      "value": "insults and put-downs"
+    },
+    {
+      "label": "death and dying",
+      "kind": "topic",
+      "value": "death and dying"
+    }
+  ],
+  "transcript": {
+    "source_key": "aud:bbylX3M",
+    "kind": "music",
+    "duration_ms": 124557,
+    "segments": [
+      {
+        "index": 0,
+        "start_ms": 80,
+        "end_ms": 27600,
+        "text": "The guy who invented Twitter is coming on, and Gary was speculating that Ronnie could potentially go up to the Twitter guest and say, hey. I wanna be verified. Yeah. Ronnie was saying, hey. When do I ever bother a guest with my needs? Just trying to watch YouTube, but I started getting ads for the blue chew and vote red and vote blue. X and x was my go to. Don't need no lube. Hit it sandpaper style, porn up trial. Right click, open the link up in a new tab.",
+        "words": [
+          {
+            "start_ms": 80,
+            "end_ms": 320,
+            "text": "The"
+          },
+          {
+            "start_ms": 320,
+            "end_ms": 480,
+            "text": "guy"
+          },
+          {
+            "start_ms": 480,
+            "end_ms": 640,
+            "text": "who"
+          },
+          {
+            "start_ms": 640,
+            "end_ms": 960,
+            "text": "invented"
+          },
+          {
+            "start_ms": 960,
+            "end_ms": 1280,
+            "text": "Twitter"
+          },
+          {
+            "start_ms": 1280,
+            "end_ms": 1440,
+            "text": "is"
+          },
+          {
+            "start_ms": 1440,
+            "end_ms": 1760,
+            "text": "coming"
+          },
+          {
+            "start_ms": 1760,
+            "end_ms": 2160,
+            "text": "on,"
+          },
+          {
+            "start_ms": 2160,
+            "end_ms": 2480,
+            "text": "and"
+          },
+          {
+            "start_ms": 2480,
+            "end_ms": 2880,
+            "text": "Gary"
+          },
+          {
+            "start_ms": 2880,
+            "end_ms": 3200,
+            "text": "was"
+          },
+          {
+            "start_ms": 3200,
+            "end_ms": 3600,
+            "text": "speculating"
+          },
+          {
+            "start_ms": 3600,
+            "end_ms": 3920,
+            "text": "that"
+          },
+          {
+            "start_ms": 3920,
+            "end_ms": 4320,
+            "text": "Ronnie"
+          },
+          {
+            "start_ms": 4320,
+            "end_ms": 4640,
+            "text": "could"
+          },
+          {
+            "start_ms": 4640,
+            "end_ms": 5120,
+            "text": "potentially"
+          },
+          {
+            "start_ms": 5120,
+            "end_ms": 5440,
+            "text": "go"
+          },
+          {
+            "start_ms": 5440,
+            "end_ms": 5600,
+            "text": "up"
+          },
+          {
+            "start_ms": 5600,
+            "end_ms": 5760,
+            "text": "to"
+          },
+          {
+            "start_ms": 5760,
+            "end_ms": 5840,
+            "text": "the"
+          },
+          {
+            "start_ms": 5840,
+            "end_ms": 6160,
+            "text": "Twitter"
+          },
+          {
+            "start_ms": 6160,
+            "end_ms": 6480,
+            "text": "guest"
+          },
+          {
+            "start_ms": 6480,
+            "end_ms": 6800,
+            "text": "and"
+          },
+          {
+            "start_ms": 6800,
+            "end_ms": 7200,
+            "text": "say,"
+          },
+          {
+            "start_ms": 7200,
+            "end_ms": 7440,
+            "text": "hey."
+          },
+          {
+            "start_ms": 7440,
+            "end_ms": 7520,
+            "text": "I"
+          },
+          {
+            "start_ms": 7520,
+            "end_ms": 7760,
+            "text": "wanna"
+          },
+          {
+            "start_ms": 7760,
+            "end_ms": 7920,
+            "text": "be"
+          },
+          {
+            "start_ms": 7920,
+            "end_ms": 8400,
+            "text": "verified."
+          },
+          {
+            "start_ms": 8400,
+            "end_ms": 8640,
+            "text": "Yeah."
+          },
+          {
+            "start_ms": 8640,
+            "end_ms": 8960,
+            "text": "Ronnie"
+          },
+          {
+            "start_ms": 8960,
+            "end_ms": 9200,
+            "text": "was"
+          },
+          {
+            "start_ms": 9200,
+            "end_ms": 9520,
+            "text": "saying,"
+          },
+          {
+            "start_ms": 9520,
+            "end_ms": 9760,
+            "text": "hey."
+          },
+          {
+            "start_ms": 9760,
+            "end_ms": 10080,
+            "text": "When"
+          },
+          {
+            "start_ms": 10080,
+            "end_ms": 10240,
+            "text": "do"
+          },
+          {
+            "start_ms": 10240,
+            "end_ms": 10400,
+            "text": "I"
+          },
+          {
+            "start_ms": 10400,
+            "end_ms": 10720,
+            "text": "ever"
+          },
+          {
+            "start_ms": 10720,
+            "end_ms": 11040,
+            "text": "bother"
+          },
+          {
+            "start_ms": 11040,
+            "end_ms": 11280,
+            "text": "a"
+          },
+          {
+            "start_ms": 11280,
+            "end_ms": 11440,
+            "text": "guest"
+          },
+          {
+            "start_ms": 11440,
+            "end_ms": 11600,
+            "text": "with"
+          },
+          {
+            "start_ms": 11600,
+            "end_ms": 11760,
+            "text": "my"
+          },
+          {
+            "start_ms": 11760,
+            "end_ms": 12000,
+            "text": "needs?"
+          },
+          {
+            "start_ms": 12195,
+            "end_ms": 12675,
+            "text": "Just"
+          },
+          {
+            "start_ms": 12675,
+            "end_ms": 12915,
+            "text": "trying"
+          },
+          {
+            "start_ms": 12915,
+            "end_ms": 12995,
+            "text": "to"
+          },
+          {
+            "start_ms": 12995,
+            "end_ms": 13315,
+            "text": "watch"
+          },
+          {
+            "start_ms": 13315,
+            "end_ms": 14035,
+            "text": "YouTube,"
+          },
+          {
+            "start_ms": 14035,
+            "end_ms": 14275,
+            "text": "but"
+          },
+          {
+            "start_ms": 14275,
+            "end_ms": 14515,
+            "text": "I"
+          },
+          {
+            "start_ms": 14515,
+            "end_ms": 14915,
+            "text": "started"
+          },
+          {
+            "start_ms": 14915,
+            "end_ms": 15235,
+            "text": "getting"
+          },
+          {
+            "start_ms": 15235,
+            "end_ms": 15635,
+            "text": "ads"
+          },
+          {
+            "start_ms": 15635,
+            "end_ms": 15795,
+            "text": "for"
+          },
+          {
+            "start_ms": 15795,
+            "end_ms": 16035,
+            "text": "the"
+          },
+          {
+            "start_ms": 16035,
+            "end_ms": 16275,
+            "text": "blue"
+          },
+          {
+            "start_ms": 16275,
+            "end_ms": 16595,
+            "text": "chew"
+          },
+          {
+            "start_ms": 16595,
+            "end_ms": 16835,
+            "text": "and"
+          },
+          {
+            "start_ms": 16835,
+            "end_ms": 17155,
+            "text": "vote"
+          },
+          {
+            "start_ms": 17155,
+            "end_ms": 17395,
+            "text": "red"
+          },
+          {
+            "start_ms": 17395,
+            "end_ms": 17635,
+            "text": "and"
+          },
+          {
+            "start_ms": 17635,
+            "end_ms": 17875,
+            "text": "vote"
+          },
+          {
+            "start_ms": 17875,
+            "end_ms": 18515,
+            "text": "blue."
+          },
+          {
+            "start_ms": 18675,
+            "end_ms": 18915,
+            "text": "X"
+          },
+          {
+            "start_ms": 18915,
+            "end_ms": 19075,
+            "text": "and"
+          },
+          {
+            "start_ms": 19075,
+            "end_ms": 19315,
+            "text": "x"
+          },
+          {
+            "start_ms": 19315,
+            "end_ms": 19635,
+            "text": "was"
+          },
+          {
+            "start_ms": 19635,
+            "end_ms": 19875,
+            "text": "my"
+          },
+          {
+            "start_ms": 19875,
+            "end_ms": 20115,
+            "text": "go"
+          },
+          {
+            "start_ms": 20115,
+            "end_ms": 20515,
+            "text": "to."
+          },
+          {
+            "start_ms": 20515,
+            "end_ms": 20755,
+            "text": "Don't"
+          },
+          {
+            "start_ms": 20755,
+            "end_ms": 20995,
+            "text": "need"
+          },
+          {
+            "start_ms": 20995,
+            "end_ms": 21235,
+            "text": "no"
+          },
+          {
+            "start_ms": 21235,
+            "end_ms": 21715,
+            "text": "lube."
+          },
+          {
+            "start_ms": 21715,
+            "end_ms": 21875,
+            "text": "Hit"
+          },
+          {
+            "start_ms": 21875,
+            "end_ms": 22035,
+            "text": "it"
+          },
+          {
+            "start_ms": 22035,
+            "end_ms": 22755,
+            "text": "sandpaper"
+          },
+          {
+            "start_ms": 22755,
+            "end_ms": 23235,
+            "text": "style,"
+          },
+          {
+            "start_ms": 23235,
+            "end_ms": 23555,
+            "text": "porn"
+          },
+          {
+            "start_ms": 23555,
+            "end_ms": 23875,
+            "text": "up"
+          },
+          {
+            "start_ms": 23875,
+            "end_ms": 24275,
+            "text": "trial."
+          },
+          {
+            "start_ms": 24640,
+            "end_ms": 24960,
+            "text": "Right"
+          },
+          {
+            "start_ms": 24960,
+            "end_ms": 25360,
+            "text": "click,"
+          },
+          {
+            "start_ms": 25360,
+            "end_ms": 25680,
+            "text": "open"
+          },
+          {
+            "start_ms": 25680,
+            "end_ms": 25840,
+            "text": "the"
+          },
+          {
+            "start_ms": 25840,
+            "end_ms": 26080,
+            "text": "link"
+          },
+          {
+            "start_ms": 26080,
+            "end_ms": 26240,
+            "text": "up"
+          },
+          {
+            "start_ms": 26240,
+            "end_ms": 26480,
+            "text": "in"
+          },
+          {
+            "start_ms": 26480,
+            "end_ms": 26640,
+            "text": "a"
+          },
+          {
+            "start_ms": 26640,
+            "end_ms": 26960,
+            "text": "new"
+          },
+          {
+            "start_ms": 26960,
+            "end_ms": 27600,
+            "text": "tab."
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "start_ms": 27760,
+        "end_ms": 39760,
+        "text": "Unobtainable beauty standards and fake ads. Natural dent growth remedy and fake ads and fake chas turning out to be some apps and dads with ED. Don't worry, it's just psychological because the TV,",
+        "words": [
+          {
+            "start_ms": 27760,
+            "end_ms": 28560,
+            "text": "Unobtainable"
+          },
+          {
+            "start_ms": 28560,
+            "end_ms": 29040,
+            "text": "beauty"
+          },
+          {
+            "start_ms": 29040,
+            "end_ms": 29440,
+            "text": "standards"
+          },
+          {
+            "start_ms": 29440,
+            "end_ms": 29680,
+            "text": "and"
+          },
+          {
+            "start_ms": 29680,
+            "end_ms": 30000,
+            "text": "fake"
+          },
+          {
+            "start_ms": 30000,
+            "end_ms": 30720,
+            "text": "ads."
+          },
+          {
+            "start_ms": 30800,
+            "end_ms": 31120,
+            "text": "Natural"
+          },
+          {
+            "start_ms": 31120,
+            "end_ms": 31440,
+            "text": "dent"
+          },
+          {
+            "start_ms": 31440,
+            "end_ms": 31760,
+            "text": "growth"
+          },
+          {
+            "start_ms": 31760,
+            "end_ms": 32240,
+            "text": "remedy"
+          },
+          {
+            "start_ms": 32240,
+            "end_ms": 32560,
+            "text": "and"
+          },
+          {
+            "start_ms": 32560,
+            "end_ms": 32960,
+            "text": "fake"
+          },
+          {
+            "start_ms": 32960,
+            "end_ms": 33200,
+            "text": "ads"
+          },
+          {
+            "start_ms": 33200,
+            "end_ms": 33440,
+            "text": "and"
+          },
+          {
+            "start_ms": 33440,
+            "end_ms": 33760,
+            "text": "fake"
+          },
+          {
+            "start_ms": 33760,
+            "end_ms": 34080,
+            "text": "chas"
+          },
+          {
+            "start_ms": 34080,
+            "end_ms": 34560,
+            "text": "turning"
+          },
+          {
+            "start_ms": 34560,
+            "end_ms": 34800,
+            "text": "out"
+          },
+          {
+            "start_ms": 34800,
+            "end_ms": 34960,
+            "text": "to"
+          },
+          {
+            "start_ms": 34960,
+            "end_ms": 35120,
+            "text": "be"
+          },
+          {
+            "start_ms": 35120,
+            "end_ms": 35360,
+            "text": "some"
+          },
+          {
+            "start_ms": 35360,
+            "end_ms": 35600,
+            "text": "apps"
+          },
+          {
+            "start_ms": 35600,
+            "end_ms": 35840,
+            "text": "and"
+          },
+          {
+            "start_ms": 35840,
+            "end_ms": 36160,
+            "text": "dads"
+          },
+          {
+            "start_ms": 36160,
+            "end_ms": 36400,
+            "text": "with"
+          },
+          {
+            "start_ms": 36400,
+            "end_ms": 37040,
+            "text": "ED."
+          },
+          {
+            "start_ms": 37040,
+            "end_ms": 37280,
+            "text": "Don't"
+          },
+          {
+            "start_ms": 37280,
+            "end_ms": 37680,
+            "text": "worry,"
+          },
+          {
+            "start_ms": 37680,
+            "end_ms": 37840,
+            "text": "it's"
+          },
+          {
+            "start_ms": 37840,
+            "end_ms": 38000,
+            "text": "just"
+          },
+          {
+            "start_ms": 38000,
+            "end_ms": 38800,
+            "text": "psychological"
+          },
+          {
+            "start_ms": 38800,
+            "end_ms": 39120,
+            "text": "because"
+          },
+          {
+            "start_ms": 39120,
+            "end_ms": 39280,
+            "text": "the"
+          },
+          {
+            "start_ms": 39280,
+            "end_ms": 39760,
+            "text": "TV,"
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "start_ms": 40135,
+        "end_ms": 54295,
+        "text": "try to pull the plug and just be free. These bad habits got me acting like a porn addict. If there ain't two pussies rubbing, I'm a scroll past it. All of that is just engineered to be cinematic and distract the masses in attempts to kill the magic.",
+        "words": [
+          {
+            "start_ms": 40135,
+            "end_ms": 40455,
+            "text": "try"
+          },
+          {
+            "start_ms": 40455,
+            "end_ms": 40615,
+            "text": "to"
+          },
+          {
+            "start_ms": 40615,
+            "end_ms": 40775,
+            "text": "pull"
+          },
+          {
+            "start_ms": 40775,
+            "end_ms": 40935,
+            "text": "the"
+          },
+          {
+            "start_ms": 40935,
+            "end_ms": 41255,
+            "text": "plug"
+          },
+          {
+            "start_ms": 41255,
+            "end_ms": 41415,
+            "text": "and"
+          },
+          {
+            "start_ms": 41415,
+            "end_ms": 41655,
+            "text": "just"
+          },
+          {
+            "start_ms": 41655,
+            "end_ms": 41895,
+            "text": "be"
+          },
+          {
+            "start_ms": 41895,
+            "end_ms": 42455,
+            "text": "free."
+          },
+          {
+            "start_ms": 42615,
+            "end_ms": 43015,
+            "text": "These"
+          },
+          {
+            "start_ms": 43015,
+            "end_ms": 43335,
+            "text": "bad"
+          },
+          {
+            "start_ms": 43335,
+            "end_ms": 43655,
+            "text": "habits"
+          },
+          {
+            "start_ms": 43655,
+            "end_ms": 43895,
+            "text": "got"
+          },
+          {
+            "start_ms": 43895,
+            "end_ms": 44135,
+            "text": "me"
+          },
+          {
+            "start_ms": 44135,
+            "end_ms": 44455,
+            "text": "acting"
+          },
+          {
+            "start_ms": 44455,
+            "end_ms": 44695,
+            "text": "like"
+          },
+          {
+            "start_ms": 44695,
+            "end_ms": 44855,
+            "text": "a"
+          },
+          {
+            "start_ms": 44855,
+            "end_ms": 45255,
+            "text": "porn"
+          },
+          {
+            "start_ms": 45255,
+            "end_ms": 45655,
+            "text": "addict."
+          },
+          {
+            "start_ms": 45655,
+            "end_ms": 45975,
+            "text": "If"
+          },
+          {
+            "start_ms": 45975,
+            "end_ms": 46215,
+            "text": "there"
+          },
+          {
+            "start_ms": 46215,
+            "end_ms": 46455,
+            "text": "ain't"
+          },
+          {
+            "start_ms": 46455,
+            "end_ms": 46695,
+            "text": "two"
+          },
+          {
+            "start_ms": 46695,
+            "end_ms": 47095,
+            "text": "pussies"
+          },
+          {
+            "start_ms": 47095,
+            "end_ms": 47495,
+            "text": "rubbing,"
+          },
+          {
+            "start_ms": 47495,
+            "end_ms": 47815,
+            "text": "I'm"
+          },
+          {
+            "start_ms": 47815,
+            "end_ms": 47975,
+            "text": "a"
+          },
+          {
+            "start_ms": 47975,
+            "end_ms": 48215,
+            "text": "scroll"
+          },
+          {
+            "start_ms": 48215,
+            "end_ms": 48535,
+            "text": "past"
+          },
+          {
+            "start_ms": 48535,
+            "end_ms": 49015,
+            "text": "it."
+          },
+          {
+            "start_ms": 49015,
+            "end_ms": 49255,
+            "text": "All"
+          },
+          {
+            "start_ms": 49255,
+            "end_ms": 49335,
+            "text": "of"
+          },
+          {
+            "start_ms": 49335,
+            "end_ms": 49575,
+            "text": "that"
+          },
+          {
+            "start_ms": 49575,
+            "end_ms": 49735,
+            "text": "is"
+          },
+          {
+            "start_ms": 49735,
+            "end_ms": 49975,
+            "text": "just"
+          },
+          {
+            "start_ms": 49975,
+            "end_ms": 50535,
+            "text": "engineered"
+          },
+          {
+            "start_ms": 50535,
+            "end_ms": 50695,
+            "text": "to"
+          },
+          {
+            "start_ms": 50695,
+            "end_ms": 50935,
+            "text": "be"
+          },
+          {
+            "start_ms": 50935,
+            "end_ms": 51575,
+            "text": "cinematic"
+          },
+          {
+            "start_ms": 51575,
+            "end_ms": 51815,
+            "text": "and"
+          },
+          {
+            "start_ms": 51815,
+            "end_ms": 52215,
+            "text": "distract"
+          },
+          {
+            "start_ms": 52215,
+            "end_ms": 52455,
+            "text": "the"
+          },
+          {
+            "start_ms": 52455,
+            "end_ms": 52775,
+            "text": "masses"
+          },
+          {
+            "start_ms": 52775,
+            "end_ms": 53015,
+            "text": "in"
+          },
+          {
+            "start_ms": 53015,
+            "end_ms": 53415,
+            "text": "attempts"
+          },
+          {
+            "start_ms": 53415,
+            "end_ms": 53575,
+            "text": "to"
+          },
+          {
+            "start_ms": 53575,
+            "end_ms": 53815,
+            "text": "kill"
+          },
+          {
+            "start_ms": 53815,
+            "end_ms": 54055,
+            "text": "the"
+          },
+          {
+            "start_ms": 54055,
+            "end_ms": 54295,
+            "text": "magic."
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "start_ms": 54990,
+        "end_ms": 60590,
+        "text": "I stopped getting dopa feed from my screen when I realized how much of a feed that I was.",
+        "words": [
+          {
+            "start_ms": 54990,
+            "end_ms": 55230,
+            "text": "I"
+          },
+          {
+            "start_ms": 55230,
+            "end_ms": 55550,
+            "text": "stopped"
+          },
+          {
+            "start_ms": 55550,
+            "end_ms": 55790,
+            "text": "getting"
+          },
+          {
+            "start_ms": 55790,
+            "end_ms": 56190,
+            "text": "dopa"
+          },
+          {
+            "start_ms": 56190,
+            "end_ms": 56510,
+            "text": "feed"
+          },
+          {
+            "start_ms": 56510,
+            "end_ms": 56830,
+            "text": "from"
+          },
+          {
+            "start_ms": 56830,
+            "end_ms": 57070,
+            "text": "my"
+          },
+          {
+            "start_ms": 57070,
+            "end_ms": 57390,
+            "text": "screen"
+          },
+          {
+            "start_ms": 57390,
+            "end_ms": 57710,
+            "text": "when"
+          },
+          {
+            "start_ms": 57710,
+            "end_ms": 57790,
+            "text": "I"
+          },
+          {
+            "start_ms": 57790,
+            "end_ms": 58270,
+            "text": "realized"
+          },
+          {
+            "start_ms": 58270,
+            "end_ms": 58510,
+            "text": "how"
+          },
+          {
+            "start_ms": 58510,
+            "end_ms": 58830,
+            "text": "much"
+          },
+          {
+            "start_ms": 58830,
+            "end_ms": 59070,
+            "text": "of"
+          },
+          {
+            "start_ms": 59070,
+            "end_ms": 59310,
+            "text": "a"
+          },
+          {
+            "start_ms": 59310,
+            "end_ms": 59630,
+            "text": "feed"
+          },
+          {
+            "start_ms": 59630,
+            "end_ms": 59870,
+            "text": "that"
+          },
+          {
+            "start_ms": 59870,
+            "end_ms": 60030,
+            "text": "I"
+          },
+          {
+            "start_ms": 60030,
+            "end_ms": 60590,
+            "text": "was."
+          }
+        ]
+      },
+      {
+        "index": 4,
+        "start_ms": 61150,
+        "end_ms": 63150,
+        "text": "Porn epidemic tragedy,",
+        "words": [
+          {
+            "start_ms": 61150,
+            "end_ms": 61550,
+            "text": "Porn"
+          },
+          {
+            "start_ms": 61550,
+            "end_ms": 62270,
+            "text": "epidemic"
+          },
+          {
+            "start_ms": 62270,
+            "end_ms": 63150,
+            "text": "tragedy,"
+          }
+        ]
+      },
+      {
+        "index": 5,
+        "start_ms": 63150,
+        "end_ms": 64590,
+        "text": "marketing strategies,",
+        "words": [
+          {
+            "start_ms": 63150,
+            "end_ms": 63550,
+            "text": "marketing"
+          },
+          {
+            "start_ms": 63550,
+            "end_ms": 64590,
+            "text": "strategies,"
+          }
+        ]
+      },
+      {
+        "index": 6,
+        "start_ms": 64590,
+        "end_ms": 76055,
+        "text": "got my vision of the future looking bleak. My brain is shrinking rapidly. Had to get off Snapchat, delete that bitch, tend to boost my soul a bit. I used to beat my fucking dick relentlessly,",
+        "words": [
+          {
+            "start_ms": 64590,
+            "end_ms": 64830,
+            "text": "got"
+          },
+          {
+            "start_ms": 64830,
+            "end_ms": 64990,
+            "text": "my"
+          },
+          {
+            "start_ms": 64990,
+            "end_ms": 65310,
+            "text": "vision"
+          },
+          {
+            "start_ms": 65310,
+            "end_ms": 65550,
+            "text": "of"
+          },
+          {
+            "start_ms": 65550,
+            "end_ms": 65710,
+            "text": "the"
+          },
+          {
+            "start_ms": 65710,
+            "end_ms": 66030,
+            "text": "future"
+          },
+          {
+            "start_ms": 66030,
+            "end_ms": 66510,
+            "text": "looking"
+          },
+          {
+            "start_ms": 66510,
+            "end_ms": 67070,
+            "text": "bleak."
+          },
+          {
+            "start_ms": 67070,
+            "end_ms": 67310,
+            "text": "My"
+          },
+          {
+            "start_ms": 67310,
+            "end_ms": 67470,
+            "text": "brain"
+          },
+          {
+            "start_ms": 67470,
+            "end_ms": 67710,
+            "text": "is"
+          },
+          {
+            "start_ms": 67710,
+            "end_ms": 68030,
+            "text": "shrinking"
+          },
+          {
+            "start_ms": 68030,
+            "end_ms": 68590,
+            "text": "rapidly."
+          },
+          {
+            "start_ms": 68775,
+            "end_ms": 69015,
+            "text": "Had"
+          },
+          {
+            "start_ms": 69015,
+            "end_ms": 69175,
+            "text": "to"
+          },
+          {
+            "start_ms": 69175,
+            "end_ms": 69335,
+            "text": "get"
+          },
+          {
+            "start_ms": 69335,
+            "end_ms": 69575,
+            "text": "off"
+          },
+          {
+            "start_ms": 69575,
+            "end_ms": 70295,
+            "text": "Snapchat,"
+          },
+          {
+            "start_ms": 70295,
+            "end_ms": 70535,
+            "text": "delete"
+          },
+          {
+            "start_ms": 70535,
+            "end_ms": 70775,
+            "text": "that"
+          },
+          {
+            "start_ms": 70775,
+            "end_ms": 71095,
+            "text": "bitch,"
+          },
+          {
+            "start_ms": 71095,
+            "end_ms": 71255,
+            "text": "tend"
+          },
+          {
+            "start_ms": 71255,
+            "end_ms": 71415,
+            "text": "to"
+          },
+          {
+            "start_ms": 71415,
+            "end_ms": 71655,
+            "text": "boost"
+          },
+          {
+            "start_ms": 71655,
+            "end_ms": 71895,
+            "text": "my"
+          },
+          {
+            "start_ms": 71895,
+            "end_ms": 72135,
+            "text": "soul"
+          },
+          {
+            "start_ms": 72135,
+            "end_ms": 72295,
+            "text": "a"
+          },
+          {
+            "start_ms": 72295,
+            "end_ms": 72775,
+            "text": "bit."
+          },
+          {
+            "start_ms": 72775,
+            "end_ms": 73175,
+            "text": "I"
+          },
+          {
+            "start_ms": 73255,
+            "end_ms": 73495,
+            "text": "used"
+          },
+          {
+            "start_ms": 73495,
+            "end_ms": 73575,
+            "text": "to"
+          },
+          {
+            "start_ms": 73575,
+            "end_ms": 73895,
+            "text": "beat"
+          },
+          {
+            "start_ms": 73895,
+            "end_ms": 74055,
+            "text": "my"
+          },
+          {
+            "start_ms": 74055,
+            "end_ms": 74455,
+            "text": "fucking"
+          },
+          {
+            "start_ms": 74455,
+            "end_ms": 75095,
+            "text": "dick"
+          },
+          {
+            "start_ms": 75095,
+            "end_ms": 76055,
+            "text": "relentlessly,"
+          }
+        ]
+      },
+      {
+        "index": 7,
+        "start_ms": 76055,
+        "end_ms": 77895,
+        "text": "endlessly till it bleeds.",
+        "words": [
+          {
+            "start_ms": 76055,
+            "end_ms": 76615,
+            "text": "endlessly"
+          },
+          {
+            "start_ms": 76615,
+            "end_ms": 77015,
+            "text": "till"
+          },
+          {
+            "start_ms": 77015,
+            "end_ms": 77255,
+            "text": "it"
+          },
+          {
+            "start_ms": 77255,
+            "end_ms": 77895,
+            "text": "bleeds."
+          }
+        ]
+      },
+      {
+        "index": 8,
+        "start_ms": 78535,
+        "end_ms": 79655,
+        "text": "I've",
+        "words": [
+          {
+            "start_ms": 78535,
+            "end_ms": 79655,
+            "text": "I've"
+          }
+        ]
+      },
+      {
+        "index": 9,
+        "start_ms": 79655,
+        "end_ms": 85380,
+        "text": "been doing it since '96. Fat girl tits on the internet just trying to get my big summer.",
+        "words": [
+          {
+            "start_ms": 79655,
+            "end_ms": 79815,
+            "text": "been"
+          },
+          {
+            "start_ms": 79815,
+            "end_ms": 80055,
+            "text": "doing"
+          },
+          {
+            "start_ms": 80055,
+            "end_ms": 80215,
+            "text": "it"
+          },
+          {
+            "start_ms": 80215,
+            "end_ms": 80615,
+            "text": "since"
+          },
+          {
+            "start_ms": 80615,
+            "end_ms": 81335,
+            "text": "'96."
+          },
+          {
+            "start_ms": 81335,
+            "end_ms": 81655,
+            "text": "Fat"
+          },
+          {
+            "start_ms": 81655,
+            "end_ms": 82535,
+            "text": "girl"
+          },
+          {
+            "start_ms": 82020,
+            "end_ms": 82420,
+            "text": "tits"
+          },
+          {
+            "start_ms": 82420,
+            "end_ms": 82740,
+            "text": "on"
+          },
+          {
+            "start_ms": 82740,
+            "end_ms": 82900,
+            "text": "the"
+          },
+          {
+            "start_ms": 82900,
+            "end_ms": 83300,
+            "text": "internet"
+          },
+          {
+            "start_ms": 83300,
+            "end_ms": 83620,
+            "text": "just"
+          },
+          {
+            "start_ms": 83620,
+            "end_ms": 83860,
+            "text": "trying"
+          },
+          {
+            "start_ms": 83860,
+            "end_ms": 84020,
+            "text": "to"
+          },
+          {
+            "start_ms": 84020,
+            "end_ms": 84180,
+            "text": "get"
+          },
+          {
+            "start_ms": 84180,
+            "end_ms": 84420,
+            "text": "my"
+          },
+          {
+            "start_ms": 84420,
+            "end_ms": 84660,
+            "text": "big"
+          },
+          {
+            "start_ms": 84660,
+            "end_ms": 85380,
+            "text": "summer."
+          }
+        ]
+      },
+      {
+        "index": 10,
+        "start_ms": 85460,
+        "end_ms": 96820,
+        "text": "Porn addict, I'm back at it again. I gotta stop, but I can't get my brain to quit. Because poor habits can take away the magic, so don't go diving rabbit holes because it ends tragic.",
+        "words": [
+          {
+            "start_ms": 85460,
+            "end_ms": 85860,
+            "text": "Porn"
+          },
+          {
+            "start_ms": 85860,
+            "end_ms": 86420,
+            "text": "addict,"
+          },
+          {
+            "start_ms": 86420,
+            "end_ms": 86660,
+            "text": "I'm"
+          },
+          {
+            "start_ms": 86660,
+            "end_ms": 86980,
+            "text": "back"
+          },
+          {
+            "start_ms": 86980,
+            "end_ms": 87220,
+            "text": "at"
+          },
+          {
+            "start_ms": 87220,
+            "end_ms": 87380,
+            "text": "it"
+          },
+          {
+            "start_ms": 87380,
+            "end_ms": 88020,
+            "text": "again."
+          },
+          {
+            "start_ms": 88020,
+            "end_ms": 88180,
+            "text": "I"
+          },
+          {
+            "start_ms": 88180,
+            "end_ms": 88420,
+            "text": "gotta"
+          },
+          {
+            "start_ms": 88420,
+            "end_ms": 89060,
+            "text": "stop,"
+          },
+          {
+            "start_ms": 89060,
+            "end_ms": 89140,
+            "text": "but"
+          },
+          {
+            "start_ms": 89140,
+            "end_ms": 89380,
+            "text": "I"
+          },
+          {
+            "start_ms": 89380,
+            "end_ms": 89620,
+            "text": "can't"
+          },
+          {
+            "start_ms": 89620,
+            "end_ms": 89860,
+            "text": "get"
+          },
+          {
+            "start_ms": 89860,
+            "end_ms": 90100,
+            "text": "my"
+          },
+          {
+            "start_ms": 90100,
+            "end_ms": 90420,
+            "text": "brain"
+          },
+          {
+            "start_ms": 90420,
+            "end_ms": 90660,
+            "text": "to"
+          },
+          {
+            "start_ms": 90660,
+            "end_ms": 91220,
+            "text": "quit."
+          },
+          {
+            "start_ms": 91380,
+            "end_ms": 91540,
+            "text": "Because"
+          },
+          {
+            "start_ms": 91540,
+            "end_ms": 91940,
+            "text": "poor"
+          },
+          {
+            "start_ms": 91940,
+            "end_ms": 92420,
+            "text": "habits"
+          },
+          {
+            "start_ms": 92420,
+            "end_ms": 92660,
+            "text": "can"
+          },
+          {
+            "start_ms": 92660,
+            "end_ms": 92900,
+            "text": "take"
+          },
+          {
+            "start_ms": 92900,
+            "end_ms": 93220,
+            "text": "away"
+          },
+          {
+            "start_ms": 93220,
+            "end_ms": 93460,
+            "text": "the"
+          },
+          {
+            "start_ms": 93460,
+            "end_ms": 94020,
+            "text": "magic,"
+          },
+          {
+            "start_ms": 94020,
+            "end_ms": 94180,
+            "text": "so"
+          },
+          {
+            "start_ms": 94180,
+            "end_ms": 94420,
+            "text": "don't"
+          },
+          {
+            "start_ms": 94420,
+            "end_ms": 94580,
+            "text": "go"
+          },
+          {
+            "start_ms": 94580,
+            "end_ms": 94900,
+            "text": "diving"
+          },
+          {
+            "start_ms": 94900,
+            "end_ms": 95380,
+            "text": "rabbit"
+          },
+          {
+            "start_ms": 95380,
+            "end_ms": 95700,
+            "text": "holes"
+          },
+          {
+            "start_ms": 95700,
+            "end_ms": 95940,
+            "text": "because"
+          },
+          {
+            "start_ms": 95940,
+            "end_ms": 96100,
+            "text": "it"
+          },
+          {
+            "start_ms": 96100,
+            "end_ms": 96420,
+            "text": "ends"
+          },
+          {
+            "start_ms": 96420,
+            "end_ms": 96820,
+            "text": "tragic."
+          }
+        ]
+      },
+      {
+        "index": 11,
+        "start_ms": 97555,
+        "end_ms": 109475,
+        "text": "Porn habit, don't pretend that you don't have it. They pack it up real nice so anybody could access it. The haters laughing while I'm booning in, I'm laughing. I gave up all the trapping to focus my mind on looks maxing.",
+        "words": [
+          {
+            "start_ms": 97555,
+            "end_ms": 97955,
+            "text": "Porn"
+          },
+          {
+            "start_ms": 97955,
+            "end_ms": 98435,
+            "text": "habit,"
+          },
+          {
+            "start_ms": 98435,
+            "end_ms": 98595,
+            "text": "don't"
+          },
+          {
+            "start_ms": 98595,
+            "end_ms": 98995,
+            "text": "pretend"
+          },
+          {
+            "start_ms": 98995,
+            "end_ms": 99155,
+            "text": "that"
+          },
+          {
+            "start_ms": 99155,
+            "end_ms": 99315,
+            "text": "you"
+          },
+          {
+            "start_ms": 99315,
+            "end_ms": 99475,
+            "text": "don't"
+          },
+          {
+            "start_ms": 99475,
+            "end_ms": 99715,
+            "text": "have"
+          },
+          {
+            "start_ms": 99715,
+            "end_ms": 100115,
+            "text": "it."
+          },
+          {
+            "start_ms": 100115,
+            "end_ms": 100275,
+            "text": "They"
+          },
+          {
+            "start_ms": 100275,
+            "end_ms": 100515,
+            "text": "pack"
+          },
+          {
+            "start_ms": 100515,
+            "end_ms": 100675,
+            "text": "it"
+          },
+          {
+            "start_ms": 100675,
+            "end_ms": 100835,
+            "text": "up"
+          },
+          {
+            "start_ms": 100835,
+            "end_ms": 101075,
+            "text": "real"
+          },
+          {
+            "start_ms": 101075,
+            "end_ms": 101315,
+            "text": "nice"
+          },
+          {
+            "start_ms": 101315,
+            "end_ms": 101635,
+            "text": "so"
+          },
+          {
+            "start_ms": 101635,
+            "end_ms": 102195,
+            "text": "anybody"
+          },
+          {
+            "start_ms": 102195,
+            "end_ms": 102515,
+            "text": "could"
+          },
+          {
+            "start_ms": 102515,
+            "end_ms": 103075,
+            "text": "access"
+          },
+          {
+            "start_ms": 103075,
+            "end_ms": 103475,
+            "text": "it."
+          },
+          {
+            "start_ms": 103475,
+            "end_ms": 103715,
+            "text": "The"
+          },
+          {
+            "start_ms": 103715,
+            "end_ms": 104035,
+            "text": "haters"
+          },
+          {
+            "start_ms": 104035,
+            "end_ms": 104435,
+            "text": "laughing"
+          },
+          {
+            "start_ms": 104435,
+            "end_ms": 104675,
+            "text": "while"
+          },
+          {
+            "start_ms": 104675,
+            "end_ms": 104915,
+            "text": "I'm"
+          },
+          {
+            "start_ms": 104915,
+            "end_ms": 105235,
+            "text": "booning"
+          },
+          {
+            "start_ms": 105235,
+            "end_ms": 105475,
+            "text": "in,"
+          },
+          {
+            "start_ms": 105475,
+            "end_ms": 105715,
+            "text": "I'm"
+          },
+          {
+            "start_ms": 105715,
+            "end_ms": 106195,
+            "text": "laughing."
+          },
+          {
+            "start_ms": 106195,
+            "end_ms": 106355,
+            "text": "I"
+          },
+          {
+            "start_ms": 106355,
+            "end_ms": 106595,
+            "text": "gave"
+          },
+          {
+            "start_ms": 106595,
+            "end_ms": 106755,
+            "text": "up"
+          },
+          {
+            "start_ms": 106755,
+            "end_ms": 106915,
+            "text": "all"
+          },
+          {
+            "start_ms": 106915,
+            "end_ms": 107075,
+            "text": "the"
+          },
+          {
+            "start_ms": 107075,
+            "end_ms": 107475,
+            "text": "trapping"
+          },
+          {
+            "start_ms": 107475,
+            "end_ms": 107715,
+            "text": "to"
+          },
+          {
+            "start_ms": 107715,
+            "end_ms": 107955,
+            "text": "focus"
+          },
+          {
+            "start_ms": 107955,
+            "end_ms": 108195,
+            "text": "my"
+          },
+          {
+            "start_ms": 108195,
+            "end_ms": 108435,
+            "text": "mind"
+          },
+          {
+            "start_ms": 108435,
+            "end_ms": 108675,
+            "text": "on"
+          },
+          {
+            "start_ms": 108675,
+            "end_ms": 108915,
+            "text": "looks"
+          },
+          {
+            "start_ms": 108915,
+            "end_ms": 109475,
+            "text": "maxing."
+          }
+        ]
+      }
+    ],
+    "audio_source": "vocals"
+  },
+  "expected": [
+    {
+      "line_index": 6,
+      "rule_id": "profanity",
+      "words": [
+        "bitch"
+      ]
+    },
+    {
+      "line_index": 7,
+      "rule_id": "violence",
+      "words": [
+        "bleeds"
+      ]
+    },
+    {
+      "line_index": 11,
+      "rule_id": "term:insults-and-put-downs",
+      "words": [
+        "haters"
+      ]
+    }
+  ],
+  "labeled_by": "human",
+  "labeled_at": "2026-11-11T14:46:40.418505+00:00",
+  "prefilled_from": null,
+  "notes": "this is correct"
+}

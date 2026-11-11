@@ -1,0 +1,1521 @@
+{
+  "source_key": "aud:Ma6qb3x",
+  "title": "Deadly Combo [DISKADE AND OHNOITSDOUG BOOTLEG] ",
+  "artist": "DISKADE",
+  "kind": "music",
+  "rules": [
+    {
+      "label": "Profanity",
+      "kind": "category",
+      "value": "profanity"
+    },
+    {
+      "label": "Slurs",
+      "kind": "category",
+      "value": "slurs"
+    },
+    {
+      "label": "Sexual content",
+      "kind": "category",
+      "value": "sexual"
+    },
+    {
+      "label": "Drugs",
+      "kind": "category",
+      "value": "drugs"
+    },
+    {
+      "label": "Graphic violence",
+      "kind": "category",
+      "value": "violence"
+    },
+    {
+      "label": "Blasphemy",
+      "kind": "category",
+      "value": "blasphemy"
+    }
+  ],
+  "transcript": {
+    "source_key": "aud:Ma6qb3x",
+    "kind": "music",
+    "duration_ms": 304670,
+    "segments": [
+      {
+        "index": 0,
+        "start_ms": 16315,
+        "end_ms": 19675,
+        "text": "Hold up. Who's that there in the front row? Big white thing like Marillyn Monroe.",
+        "words": [
+          {
+            "start_ms": 16315,
+            "end_ms": 16555,
+            "text": "Hold"
+          },
+          {
+            "start_ms": 16555,
+            "end_ms": 16795,
+            "text": "up."
+          },
+          {
+            "start_ms": 16795,
+            "end_ms": 17035,
+            "text": "Who's"
+          },
+          {
+            "start_ms": 17035,
+            "end_ms": 17195,
+            "text": "that"
+          },
+          {
+            "start_ms": 17195,
+            "end_ms": 17355,
+            "text": "there"
+          },
+          {
+            "start_ms": 17355,
+            "end_ms": 17515,
+            "text": "in"
+          },
+          {
+            "start_ms": 17515,
+            "end_ms": 17595,
+            "text": "the"
+          },
+          {
+            "start_ms": 17595,
+            "end_ms": 17835,
+            "text": "front"
+          },
+          {
+            "start_ms": 17835,
+            "end_ms": 18155,
+            "text": "row?"
+          },
+          {
+            "start_ms": 18155,
+            "end_ms": 18235,
+            "text": "Big"
+          },
+          {
+            "start_ms": 18235,
+            "end_ms": 18475,
+            "text": "white"
+          },
+          {
+            "start_ms": 18475,
+            "end_ms": 18715,
+            "text": "thing"
+          },
+          {
+            "start_ms": 18715,
+            "end_ms": 18875,
+            "text": "like"
+          },
+          {
+            "start_ms": 18875,
+            "end_ms": 19275,
+            "text": "Marillyn"
+          },
+          {
+            "start_ms": 19275,
+            "end_ms": 19675,
+            "text": "Monroe."
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "start_ms": 137075,
+        "end_ms": 142675,
+        "text": "When I walked in a party, they were playing that playboy party dressed in black or sniffing up Charlie. I",
+        "words": [
+          {
+            "start_ms": 137075,
+            "end_ms": 137475,
+            "text": "When"
+          },
+          {
+            "start_ms": 137475,
+            "end_ms": 137555,
+            "text": "I"
+          },
+          {
+            "start_ms": 137555,
+            "end_ms": 137795,
+            "text": "walked"
+          },
+          {
+            "start_ms": 137795,
+            "end_ms": 137955,
+            "text": "in"
+          },
+          {
+            "start_ms": 137955,
+            "end_ms": 138115,
+            "text": "a"
+          },
+          {
+            "start_ms": 138115,
+            "end_ms": 138515,
+            "text": "party,"
+          },
+          {
+            "start_ms": 138515,
+            "end_ms": 138675,
+            "text": "they"
+          },
+          {
+            "start_ms": 138675,
+            "end_ms": 138835,
+            "text": "were"
+          },
+          {
+            "start_ms": 138835,
+            "end_ms": 139075,
+            "text": "playing"
+          },
+          {
+            "start_ms": 139075,
+            "end_ms": 139315,
+            "text": "that"
+          },
+          {
+            "start_ms": 139315,
+            "end_ms": 139715,
+            "text": "playboy"
+          },
+          {
+            "start_ms": 139715,
+            "end_ms": 140035,
+            "text": "party"
+          },
+          {
+            "start_ms": 140035,
+            "end_ms": 140435,
+            "text": "dressed"
+          },
+          {
+            "start_ms": 140435,
+            "end_ms": 140515,
+            "text": "in"
+          },
+          {
+            "start_ms": 140515,
+            "end_ms": 140755,
+            "text": "black"
+          },
+          {
+            "start_ms": 140755,
+            "end_ms": 140915,
+            "text": "or"
+          },
+          {
+            "start_ms": 140915,
+            "end_ms": 141315,
+            "text": "sniffing"
+          },
+          {
+            "start_ms": 141315,
+            "end_ms": 141475,
+            "text": "up"
+          },
+          {
+            "start_ms": 141475,
+            "end_ms": 142035,
+            "text": "Charlie."
+          },
+          {
+            "start_ms": 142035,
+            "end_ms": 142675,
+            "text": "I"
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "start_ms": 172450,
+        "end_ms": 181250,
+        "text": "When you're whiting teeth, cat fool you with a violent speech, stretch, or even a giant leap. Girls, you get, you can buy a One sec. Who's",
+        "words": [
+          {
+            "start_ms": 172450,
+            "end_ms": 172690,
+            "text": "When"
+          },
+          {
+            "start_ms": 172690,
+            "end_ms": 172850,
+            "text": "you're"
+          },
+          {
+            "start_ms": 172850,
+            "end_ms": 173090,
+            "text": "whiting"
+          },
+          {
+            "start_ms": 173090,
+            "end_ms": 173650,
+            "text": "teeth,"
+          },
+          {
+            "start_ms": 173650,
+            "end_ms": 173810,
+            "text": "cat"
+          },
+          {
+            "start_ms": 173810,
+            "end_ms": 174050,
+            "text": "fool"
+          },
+          {
+            "start_ms": 174050,
+            "end_ms": 174210,
+            "text": "you"
+          },
+          {
+            "start_ms": 174210,
+            "end_ms": 174370,
+            "text": "with"
+          },
+          {
+            "start_ms": 174370,
+            "end_ms": 174530,
+            "text": "a"
+          },
+          {
+            "start_ms": 174530,
+            "end_ms": 174770,
+            "text": "violent"
+          },
+          {
+            "start_ms": 174770,
+            "end_ms": 175250,
+            "text": "speech,"
+          },
+          {
+            "start_ms": 175250,
+            "end_ms": 175730,
+            "text": "stretch,"
+          },
+          {
+            "start_ms": 175730,
+            "end_ms": 175810,
+            "text": "or"
+          },
+          {
+            "start_ms": 175810,
+            "end_ms": 176130,
+            "text": "even"
+          },
+          {
+            "start_ms": 176130,
+            "end_ms": 176210,
+            "text": "a"
+          },
+          {
+            "start_ms": 176210,
+            "end_ms": 176530,
+            "text": "giant"
+          },
+          {
+            "start_ms": 176530,
+            "end_ms": 176850,
+            "text": "leap."
+          },
+          {
+            "start_ms": 176850,
+            "end_ms": 177330,
+            "text": "Girls,"
+          },
+          {
+            "start_ms": 177330,
+            "end_ms": 177410,
+            "text": "you"
+          },
+          {
+            "start_ms": 177410,
+            "end_ms": 177730,
+            "text": "get,"
+          },
+          {
+            "start_ms": 177730,
+            "end_ms": 177810,
+            "text": "you"
+          },
+          {
+            "start_ms": 177810,
+            "end_ms": 177890,
+            "text": "can"
+          },
+          {
+            "start_ms": 177890,
+            "end_ms": 178050,
+            "text": "buy"
+          },
+          {
+            "start_ms": 178050,
+            "end_ms": 178290,
+            "text": "a"
+          },
+          {
+            "start_ms": 178770,
+            "end_ms": 179090,
+            "text": "One"
+          },
+          {
+            "start_ms": 179090,
+            "end_ms": 179730,
+            "text": "sec."
+          },
+          {
+            "start_ms": 179810,
+            "end_ms": 181250,
+            "text": "Who's"
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "start_ms": 181250,
+        "end_ms": 215080,
+        "text": "the one that they don't accept? Who's the one that's respected in the name by everyone you respect? Wait. That's it, Lord. Me, I'm blessing, most blessed in the old key. Calling fellow one, calling Salford. In fact, anywhere in the country, I'm I'm I'm I'm blessed. It's soft. Look sharp when I'm undressed. Whenever we step inside, all the girls get shy, you know, the man then gets stressed this course. I'm an unstoppable force. Me and the gang stay dodging the law because they wanna get man on top of all cause. I'm not trying to hear that knock on the door. Fucking shit better mind your lingo. You don't wanna get sliced like Kimbo. I don't care if you're built like big show. Still get hit with the black throat sinkhole. Think that you're better than me? I don't think so.",
+        "words": [
+          {
+            "start_ms": 181250,
+            "end_ms": 181330,
+            "text": "the"
+          },
+          {
+            "start_ms": 181330,
+            "end_ms": 181490,
+            "text": "one"
+          },
+          {
+            "start_ms": 181490,
+            "end_ms": 181650,
+            "text": "that"
+          },
+          {
+            "start_ms": 181650,
+            "end_ms": 181810,
+            "text": "they"
+          },
+          {
+            "start_ms": 181810,
+            "end_ms": 182050,
+            "text": "don't"
+          },
+          {
+            "start_ms": 182050,
+            "end_ms": 182690,
+            "text": "accept?"
+          },
+          {
+            "start_ms": 182690,
+            "end_ms": 182930,
+            "text": "Who's"
+          },
+          {
+            "start_ms": 182930,
+            "end_ms": 183090,
+            "text": "the"
+          },
+          {
+            "start_ms": 183090,
+            "end_ms": 183250,
+            "text": "one"
+          },
+          {
+            "start_ms": 183250,
+            "end_ms": 183490,
+            "text": "that's"
+          },
+          {
+            "start_ms": 183490,
+            "end_ms": 183970,
+            "text": "respected"
+          },
+          {
+            "start_ms": 183970,
+            "end_ms": 184210,
+            "text": "in"
+          },
+          {
+            "start_ms": 184210,
+            "end_ms": 184370,
+            "text": "the"
+          },
+          {
+            "start_ms": 184370,
+            "end_ms": 184530,
+            "text": "name"
+          },
+          {
+            "start_ms": 184530,
+            "end_ms": 184770,
+            "text": "by"
+          },
+          {
+            "start_ms": 184770,
+            "end_ms": 185810,
+            "text": "everyone"
+          },
+          {
+            "start_ms": 185205,
+            "end_ms": 185445,
+            "text": "you"
+          },
+          {
+            "start_ms": 185445,
+            "end_ms": 186085,
+            "text": "respect?"
+          },
+          {
+            "start_ms": 186165,
+            "end_ms": 186565,
+            "text": "Wait."
+          },
+          {
+            "start_ms": 186565,
+            "end_ms": 186885,
+            "text": "That's"
+          },
+          {
+            "start_ms": 186885,
+            "end_ms": 187045,
+            "text": "it,"
+          },
+          {
+            "start_ms": 187045,
+            "end_ms": 187285,
+            "text": "Lord."
+          },
+          {
+            "start_ms": 187285,
+            "end_ms": 187605,
+            "text": "Me,"
+          },
+          {
+            "start_ms": 187605,
+            "end_ms": 187845,
+            "text": "I'm"
+          },
+          {
+            "start_ms": 187845,
+            "end_ms": 188245,
+            "text": "blessing,"
+          },
+          {
+            "start_ms": 188245,
+            "end_ms": 188405,
+            "text": "most"
+          },
+          {
+            "start_ms": 188405,
+            "end_ms": 188645,
+            "text": "blessed"
+          },
+          {
+            "start_ms": 188645,
+            "end_ms": 188805,
+            "text": "in"
+          },
+          {
+            "start_ms": 188805,
+            "end_ms": 188885,
+            "text": "the"
+          },
+          {
+            "start_ms": 188885,
+            "end_ms": 189045,
+            "text": "old"
+          },
+          {
+            "start_ms": 189045,
+            "end_ms": 189525,
+            "text": "key."
+          },
+          {
+            "start_ms": 189525,
+            "end_ms": 189845,
+            "text": "Calling"
+          },
+          {
+            "start_ms": 189845,
+            "end_ms": 190165,
+            "text": "fellow"
+          },
+          {
+            "start_ms": 190165,
+            "end_ms": 190485,
+            "text": "one,"
+          },
+          {
+            "start_ms": 190485,
+            "end_ms": 190645,
+            "text": "calling"
+          },
+          {
+            "start_ms": 190645,
+            "end_ms": 191285,
+            "text": "Salford."
+          },
+          {
+            "start_ms": 191285,
+            "end_ms": 191365,
+            "text": "In"
+          },
+          {
+            "start_ms": 191365,
+            "end_ms": 191605,
+            "text": "fact,"
+          },
+          {
+            "start_ms": 191605,
+            "end_ms": 192085,
+            "text": "anywhere"
+          },
+          {
+            "start_ms": 192085,
+            "end_ms": 192245,
+            "text": "in"
+          },
+          {
+            "start_ms": 192245,
+            "end_ms": 192325,
+            "text": "the"
+          },
+          {
+            "start_ms": 192325,
+            "end_ms": 192805,
+            "text": "country,"
+          },
+          {
+            "start_ms": 192805,
+            "end_ms": 193125,
+            "text": "I'm"
+          },
+          {
+            "start_ms": 193125,
+            "end_ms": 193445,
+            "text": "I'm"
+          },
+          {
+            "start_ms": 193445,
+            "end_ms": 193845,
+            "text": "I'm"
+          },
+          {
+            "start_ms": 193845,
+            "end_ms": 194165,
+            "text": "I'm"
+          },
+          {
+            "start_ms": 194165,
+            "end_ms": 194645,
+            "text": "blessed."
+          },
+          {
+            "start_ms": 194645,
+            "end_ms": 194965,
+            "text": "It's"
+          },
+          {
+            "start_ms": 194965,
+            "end_ms": 195125,
+            "text": "soft."
+          },
+          {
+            "start_ms": 195125,
+            "end_ms": 195285,
+            "text": "Look"
+          },
+          {
+            "start_ms": 195285,
+            "end_ms": 195445,
+            "text": "sharp"
+          },
+          {
+            "start_ms": 195445,
+            "end_ms": 195685,
+            "text": "when"
+          },
+          {
+            "start_ms": 195685,
+            "end_ms": 195845,
+            "text": "I'm"
+          },
+          {
+            "start_ms": 195845,
+            "end_ms": 196245,
+            "text": "undressed."
+          },
+          {
+            "start_ms": 196245,
+            "end_ms": 196645,
+            "text": "Whenever"
+          },
+          {
+            "start_ms": 196645,
+            "end_ms": 196805,
+            "text": "we"
+          },
+          {
+            "start_ms": 196805,
+            "end_ms": 196965,
+            "text": "step"
+          },
+          {
+            "start_ms": 196965,
+            "end_ms": 197365,
+            "text": "inside,"
+          },
+          {
+            "start_ms": 197365,
+            "end_ms": 197525,
+            "text": "all"
+          },
+          {
+            "start_ms": 197525,
+            "end_ms": 197605,
+            "text": "the"
+          },
+          {
+            "start_ms": 197605,
+            "end_ms": 197845,
+            "text": "girls"
+          },
+          {
+            "start_ms": 197845,
+            "end_ms": 198005,
+            "text": "get"
+          },
+          {
+            "start_ms": 198005,
+            "end_ms": 198325,
+            "text": "shy,"
+          },
+          {
+            "start_ms": 198325,
+            "end_ms": 198405,
+            "text": "you"
+          },
+          {
+            "start_ms": 198405,
+            "end_ms": 198645,
+            "text": "know,"
+          },
+          {
+            "start_ms": 198645,
+            "end_ms": 198725,
+            "text": "the"
+          },
+          {
+            "start_ms": 198725,
+            "end_ms": 198885,
+            "text": "man"
+          },
+          {
+            "start_ms": 198885,
+            "end_ms": 199045,
+            "text": "then"
+          },
+          {
+            "start_ms": 199045,
+            "end_ms": 199285,
+            "text": "gets"
+          },
+          {
+            "start_ms": 199285,
+            "end_ms": 199525,
+            "text": "stressed"
+          },
+          {
+            "start_ms": 199525,
+            "end_ms": 199765,
+            "text": "this"
+          },
+          {
+            "start_ms": 199765,
+            "end_ms": 200005,
+            "text": "course."
+          },
+          {
+            "start_ms": 200040,
+            "end_ms": 200360,
+            "text": "I'm"
+          },
+          {
+            "start_ms": 200360,
+            "end_ms": 200520,
+            "text": "an"
+          },
+          {
+            "start_ms": 200520,
+            "end_ms": 201080,
+            "text": "unstoppable"
+          },
+          {
+            "start_ms": 201080,
+            "end_ms": 201480,
+            "text": "force."
+          },
+          {
+            "start_ms": 201480,
+            "end_ms": 201640,
+            "text": "Me"
+          },
+          {
+            "start_ms": 201640,
+            "end_ms": 201800,
+            "text": "and"
+          },
+          {
+            "start_ms": 201800,
+            "end_ms": 201880,
+            "text": "the"
+          },
+          {
+            "start_ms": 201880,
+            "end_ms": 202120,
+            "text": "gang"
+          },
+          {
+            "start_ms": 202120,
+            "end_ms": 202280,
+            "text": "stay"
+          },
+          {
+            "start_ms": 202280,
+            "end_ms": 202600,
+            "text": "dodging"
+          },
+          {
+            "start_ms": 202600,
+            "end_ms": 202760,
+            "text": "the"
+          },
+          {
+            "start_ms": 202760,
+            "end_ms": 202920,
+            "text": "law"
+          },
+          {
+            "start_ms": 202920,
+            "end_ms": 203080,
+            "text": "because"
+          },
+          {
+            "start_ms": 203080,
+            "end_ms": 203240,
+            "text": "they"
+          },
+          {
+            "start_ms": 203240,
+            "end_ms": 203400,
+            "text": "wanna"
+          },
+          {
+            "start_ms": 203400,
+            "end_ms": 203560,
+            "text": "get"
+          },
+          {
+            "start_ms": 203560,
+            "end_ms": 203800,
+            "text": "man"
+          },
+          {
+            "start_ms": 203800,
+            "end_ms": 204040,
+            "text": "on"
+          },
+          {
+            "start_ms": 204040,
+            "end_ms": 204200,
+            "text": "top"
+          },
+          {
+            "start_ms": 204200,
+            "end_ms": 204360,
+            "text": "of"
+          },
+          {
+            "start_ms": 204360,
+            "end_ms": 204440,
+            "text": "all"
+          },
+          {
+            "start_ms": 204440,
+            "end_ms": 204840,
+            "text": "cause."
+          },
+          {
+            "start_ms": 204840,
+            "end_ms": 205000,
+            "text": "I'm"
+          },
+          {
+            "start_ms": 205000,
+            "end_ms": 205080,
+            "text": "not"
+          },
+          {
+            "start_ms": 205080,
+            "end_ms": 205240,
+            "text": "trying"
+          },
+          {
+            "start_ms": 205240,
+            "end_ms": 205320,
+            "text": "to"
+          },
+          {
+            "start_ms": 205320,
+            "end_ms": 205560,
+            "text": "hear"
+          },
+          {
+            "start_ms": 205560,
+            "end_ms": 205720,
+            "text": "that"
+          },
+          {
+            "start_ms": 205720,
+            "end_ms": 205960,
+            "text": "knock"
+          },
+          {
+            "start_ms": 205960,
+            "end_ms": 206040,
+            "text": "on"
+          },
+          {
+            "start_ms": 206040,
+            "end_ms": 206200,
+            "text": "the"
+          },
+          {
+            "start_ms": 206200,
+            "end_ms": 206680,
+            "text": "door."
+          },
+          {
+            "start_ms": 206680,
+            "end_ms": 207000,
+            "text": "Fucking"
+          },
+          {
+            "start_ms": 207000,
+            "end_ms": 207240,
+            "text": "shit"
+          },
+          {
+            "start_ms": 207240,
+            "end_ms": 207480,
+            "text": "better"
+          },
+          {
+            "start_ms": 207480,
+            "end_ms": 207720,
+            "text": "mind"
+          },
+          {
+            "start_ms": 207720,
+            "end_ms": 207880,
+            "text": "your"
+          },
+          {
+            "start_ms": 207880,
+            "end_ms": 208520,
+            "text": "lingo."
+          },
+          {
+            "start_ms": 208520,
+            "end_ms": 208680,
+            "text": "You"
+          },
+          {
+            "start_ms": 208680,
+            "end_ms": 208760,
+            "text": "don't"
+          },
+          {
+            "start_ms": 208760,
+            "end_ms": 209000,
+            "text": "wanna"
+          },
+          {
+            "start_ms": 209000,
+            "end_ms": 209080,
+            "text": "get"
+          },
+          {
+            "start_ms": 209080,
+            "end_ms": 209400,
+            "text": "sliced"
+          },
+          {
+            "start_ms": 209400,
+            "end_ms": 209640,
+            "text": "like"
+          },
+          {
+            "start_ms": 209640,
+            "end_ms": 210200,
+            "text": "Kimbo."
+          },
+          {
+            "start_ms": 210200,
+            "end_ms": 210280,
+            "text": "I"
+          },
+          {
+            "start_ms": 210280,
+            "end_ms": 210440,
+            "text": "don't"
+          },
+          {
+            "start_ms": 210440,
+            "end_ms": 210600,
+            "text": "care"
+          },
+          {
+            "start_ms": 210600,
+            "end_ms": 210680,
+            "text": "if"
+          },
+          {
+            "start_ms": 210680,
+            "end_ms": 210920,
+            "text": "you're"
+          },
+          {
+            "start_ms": 210920,
+            "end_ms": 211160,
+            "text": "built"
+          },
+          {
+            "start_ms": 211160,
+            "end_ms": 211320,
+            "text": "like"
+          },
+          {
+            "start_ms": 211320,
+            "end_ms": 211480,
+            "text": "big"
+          },
+          {
+            "start_ms": 211480,
+            "end_ms": 211800,
+            "text": "show."
+          },
+          {
+            "start_ms": 211800,
+            "end_ms": 211960,
+            "text": "Still"
+          },
+          {
+            "start_ms": 211960,
+            "end_ms": 212200,
+            "text": "get"
+          },
+          {
+            "start_ms": 212200,
+            "end_ms": 212360,
+            "text": "hit"
+          },
+          {
+            "start_ms": 212360,
+            "end_ms": 212520,
+            "text": "with"
+          },
+          {
+            "start_ms": 212520,
+            "end_ms": 212600,
+            "text": "the"
+          },
+          {
+            "start_ms": 212600,
+            "end_ms": 212840,
+            "text": "black"
+          },
+          {
+            "start_ms": 212840,
+            "end_ms": 213000,
+            "text": "throat"
+          },
+          {
+            "start_ms": 213000,
+            "end_ms": 213480,
+            "text": "sinkhole."
+          },
+          {
+            "start_ms": 213480,
+            "end_ms": 213640,
+            "text": "Think"
+          },
+          {
+            "start_ms": 213640,
+            "end_ms": 213800,
+            "text": "that"
+          },
+          {
+            "start_ms": 213800,
+            "end_ms": 213960,
+            "text": "you're"
+          },
+          {
+            "start_ms": 213960,
+            "end_ms": 214120,
+            "text": "better"
+          },
+          {
+            "start_ms": 214120,
+            "end_ms": 214280,
+            "text": "than"
+          },
+          {
+            "start_ms": 214280,
+            "end_ms": 214520,
+            "text": "me?"
+          },
+          {
+            "start_ms": 214520,
+            "end_ms": 214600,
+            "text": "I"
+          },
+          {
+            "start_ms": 214600,
+            "end_ms": 214760,
+            "text": "don't"
+          },
+          {
+            "start_ms": 214760,
+            "end_ms": 214920,
+            "text": "think"
+          },
+          {
+            "start_ms": 214920,
+            "end_ms": 215080,
+            "text": "so."
+          }
+        ]
+      },
+      {
+        "index": 4,
+        "start_ms": 241725,
+        "end_ms": 261490,
+        "text": "Looking all long and long. It's never a conquer. Condescend. Girl, you need to call your friends. I wanna go through all your friends, all your pals, all lost listeners. Pretend to laugh and smile at pictures. Is that you, your dog? The Christmas scheming ways to get on their wish list? This is our a one class in session. No rest. I leave the best impression. Quick succession. On to the next next next next one.",
+        "words": [
+          {
+            "start_ms": 241725,
+            "end_ms": 241965,
+            "text": "Looking"
+          },
+          {
+            "start_ms": 241965,
+            "end_ms": 242205,
+            "text": "all"
+          },
+          {
+            "start_ms": 242205,
+            "end_ms": 242365,
+            "text": "long"
+          },
+          {
+            "start_ms": 242365,
+            "end_ms": 242605,
+            "text": "and"
+          },
+          {
+            "start_ms": 242605,
+            "end_ms": 242925,
+            "text": "long."
+          },
+          {
+            "start_ms": 242925,
+            "end_ms": 243085,
+            "text": "It's"
+          },
+          {
+            "start_ms": 243085,
+            "end_ms": 243245,
+            "text": "never"
+          },
+          {
+            "start_ms": 243245,
+            "end_ms": 243405,
+            "text": "a"
+          },
+          {
+            "start_ms": 243405,
+            "end_ms": 243965,
+            "text": "conquer."
+          },
+          {
+            "start_ms": 243965,
+            "end_ms": 244765,
+            "text": "Condescend."
+          },
+          {
+            "start_ms": 244765,
+            "end_ms": 245165,
+            "text": "Girl,"
+          },
+          {
+            "start_ms": 245165,
+            "end_ms": 245325,
+            "text": "you"
+          },
+          {
+            "start_ms": 245325,
+            "end_ms": 245485,
+            "text": "need"
+          },
+          {
+            "start_ms": 245485,
+            "end_ms": 245645,
+            "text": "to"
+          },
+          {
+            "start_ms": 245645,
+            "end_ms": 245805,
+            "text": "call"
+          },
+          {
+            "start_ms": 245805,
+            "end_ms": 246045,
+            "text": "your"
+          },
+          {
+            "start_ms": 246045,
+            "end_ms": 246525,
+            "text": "friends."
+          },
+          {
+            "start_ms": 246525,
+            "end_ms": 246605,
+            "text": "I"
+          },
+          {
+            "start_ms": 246605,
+            "end_ms": 246845,
+            "text": "wanna"
+          },
+          {
+            "start_ms": 246845,
+            "end_ms": 247085,
+            "text": "go"
+          },
+          {
+            "start_ms": 247085,
+            "end_ms": 247325,
+            "text": "through"
+          },
+          {
+            "start_ms": 247325,
+            "end_ms": 247565,
+            "text": "all"
+          },
+          {
+            "start_ms": 247565,
+            "end_ms": 247805,
+            "text": "your"
+          },
+          {
+            "start_ms": 247805,
+            "end_ms": 248285,
+            "text": "friends,"
+          },
+          {
+            "start_ms": 248285,
+            "end_ms": 248365,
+            "text": "all"
+          },
+          {
+            "start_ms": 248365,
+            "end_ms": 248605,
+            "text": "your"
+          },
+          {
+            "start_ms": 248605,
+            "end_ms": 249085,
+            "text": "pals,"
+          },
+          {
+            "start_ms": 249085,
+            "end_ms": 249245,
+            "text": "all"
+          },
+          {
+            "start_ms": 249245,
+            "end_ms": 249485,
+            "text": "lost"
+          },
+          {
+            "start_ms": 249485,
+            "end_ms": 249885,
+            "text": "listeners."
+          },
+          {
+            "start_ms": 249885,
+            "end_ms": 250205,
+            "text": "Pretend"
+          },
+          {
+            "start_ms": 250205,
+            "end_ms": 250365,
+            "text": "to"
+          },
+          {
+            "start_ms": 250365,
+            "end_ms": 250525,
+            "text": "laugh"
+          },
+          {
+            "start_ms": 250525,
+            "end_ms": 250685,
+            "text": "and"
+          },
+          {
+            "start_ms": 250685,
+            "end_ms": 251005,
+            "text": "smile"
+          },
+          {
+            "start_ms": 251005,
+            "end_ms": 251165,
+            "text": "at"
+          },
+          {
+            "start_ms": 251165,
+            "end_ms": 251645,
+            "text": "pictures."
+          },
+          {
+            "start_ms": 251645,
+            "end_ms": 251805,
+            "text": "Is"
+          },
+          {
+            "start_ms": 251805,
+            "end_ms": 251965,
+            "text": "that"
+          },
+          {
+            "start_ms": 251965,
+            "end_ms": 252285,
+            "text": "you,"
+          },
+          {
+            "start_ms": 252285,
+            "end_ms": 252365,
+            "text": "your"
+          },
+          {
+            "start_ms": 252365,
+            "end_ms": 252685,
+            "text": "dog?"
+          },
+          {
+            "start_ms": 252685,
+            "end_ms": 252845,
+            "text": "The"
+          },
+          {
+            "start_ms": 252845,
+            "end_ms": 253245,
+            "text": "Christmas"
+          },
+          {
+            "start_ms": 253245,
+            "end_ms": 253725,
+            "text": "scheming"
+          },
+          {
+            "start_ms": 253725,
+            "end_ms": 254605,
+            "text": "ways"
+          },
+          {
+            "start_ms": 253890,
+            "end_ms": 254130,
+            "text": "to"
+          },
+          {
+            "start_ms": 254130,
+            "end_ms": 254210,
+            "text": "get"
+          },
+          {
+            "start_ms": 254210,
+            "end_ms": 254450,
+            "text": "on"
+          },
+          {
+            "start_ms": 254450,
+            "end_ms": 254610,
+            "text": "their"
+          },
+          {
+            "start_ms": 254610,
+            "end_ms": 254850,
+            "text": "wish"
+          },
+          {
+            "start_ms": 254850,
+            "end_ms": 255090,
+            "text": "list?"
+          },
+          {
+            "start_ms": 255090,
+            "end_ms": 255170,
+            "text": "This"
+          },
+          {
+            "start_ms": 255170,
+            "end_ms": 255330,
+            "text": "is"
+          },
+          {
+            "start_ms": 255330,
+            "end_ms": 255410,
+            "text": "our"
+          },
+          {
+            "start_ms": 255410,
+            "end_ms": 255650,
+            "text": "a"
+          },
+          {
+            "start_ms": 255650,
+            "end_ms": 255890,
+            "text": "one"
+          },
+          {
+            "start_ms": 255890,
+            "end_ms": 256130,
+            "text": "class"
+          },
+          {
+            "start_ms": 256130,
+            "end_ms": 256290,
+            "text": "in"
+          },
+          {
+            "start_ms": 256290,
+            "end_ms": 256770,
+            "text": "session."
+          },
+          {
+            "start_ms": 256770,
+            "end_ms": 256930,
+            "text": "No"
+          },
+          {
+            "start_ms": 256930,
+            "end_ms": 257250,
+            "text": "rest."
+          },
+          {
+            "start_ms": 257250,
+            "end_ms": 257330,
+            "text": "I"
+          },
+          {
+            "start_ms": 257330,
+            "end_ms": 257490,
+            "text": "leave"
+          },
+          {
+            "start_ms": 257490,
+            "end_ms": 257650,
+            "text": "the"
+          },
+          {
+            "start_ms": 257650,
+            "end_ms": 257810,
+            "text": "best"
+          },
+          {
+            "start_ms": 257810,
+            "end_ms": 258450,
+            "text": "impression."
+          },
+          {
+            "start_ms": 258450,
+            "end_ms": 258690,
+            "text": "Quick"
+          },
+          {
+            "start_ms": 258690,
+            "end_ms": 259330,
+            "text": "succession."
+          },
+          {
+            "start_ms": 259330,
+            "end_ms": 259490,
+            "text": "On"
+          },
+          {
+            "start_ms": 259490,
+            "end_ms": 259650,
+            "text": "to"
+          },
+          {
+            "start_ms": 259650,
+            "end_ms": 259730,
+            "text": "the"
+          },
+          {
+            "start_ms": 259730,
+            "end_ms": 259970,
+            "text": "next"
+          },
+          {
+            "start_ms": 259970,
+            "end_ms": 260450,
+            "text": "next"
+          },
+          {
+            "start_ms": 260450,
+            "end_ms": 260770,
+            "text": "next"
+          },
+          {
+            "start_ms": 260770,
+            "end_ms": 261250,
+            "text": "next"
+          },
+          {
+            "start_ms": 261250,
+            "end_ms": 261490,
+            "text": "one."
+          }
+        ]
+      }
+    ],
+    "audio_source": "vocals"
+  },
+  "expected": [
+    {
+      "line_index": 1,
+      "rule_id": "drugs",
+      "words": [
+        "Charlie"
+      ]
+    },
+    {
+      "line_index": 3,
+      "rule_id": "profanity",
+      "words": [
+        "Fucking"
+      ]
+    }
+  ],
+  "labeled_by": "human",
+  "labeled_at": "2026-11-11T14:28:21.788987+00:00",
+  "prefilled_from": null,
+  "notes": "we should mute this Me and the gang stay dodging the law because they wanna get man on top of all cause"
+}

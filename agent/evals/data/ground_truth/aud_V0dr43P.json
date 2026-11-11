@@ -1,0 +1,549 @@
+{
+  "source_key": "aud:V0dr43P",
+  "title": "Pitboss - Xean Tanala",
+  "artist": "Xean Tanala ",
+  "kind": "music",
+  "rules": [
+    {
+      "label": "Profanity",
+      "kind": "category",
+      "value": "profanity"
+    },
+    {
+      "label": "Slurs",
+      "kind": "category",
+      "value": "slurs"
+    },
+    {
+      "label": "Sexual content",
+      "kind": "category",
+      "value": "sexual"
+    },
+    {
+      "label": "Drugs",
+      "kind": "category",
+      "value": "drugs"
+    },
+    {
+      "label": "Graphic violence",
+      "kind": "category",
+      "value": "violence"
+    },
+    {
+      "label": "Blasphemy",
+      "kind": "category",
+      "value": "blasphemy"
+    },
+    {
+      "label": "partying and alcohol",
+      "kind": "topic",
+      "value": "partying and alcohol"
+    }
+  ],
+  "transcript": {
+    "source_key": "aud:V0dr43P",
+    "kind": "music",
+    "duration_ms": 126076,
+    "segments": [
+      {
+        "index": 0,
+        "start_ms": 320,
+        "end_ms": 6400,
+        "text": "The leaves of a clover are said to each contain one vein. In the first three, dwell integrity,",
+        "words": [
+          {
+            "start_ms": 320,
+            "end_ms": 560,
+            "text": "The"
+          },
+          {
+            "start_ms": 560,
+            "end_ms": 880,
+            "text": "leaves"
+          },
+          {
+            "start_ms": 880,
+            "end_ms": 1040,
+            "text": "of"
+          },
+          {
+            "start_ms": 1040,
+            "end_ms": 1200,
+            "text": "a"
+          },
+          {
+            "start_ms": 1200,
+            "end_ms": 1680,
+            "text": "clover"
+          },
+          {
+            "start_ms": 1680,
+            "end_ms": 1920,
+            "text": "are"
+          },
+          {
+            "start_ms": 1920,
+            "end_ms": 2160,
+            "text": "said"
+          },
+          {
+            "start_ms": 2160,
+            "end_ms": 2320,
+            "text": "to"
+          },
+          {
+            "start_ms": 2320,
+            "end_ms": 2560,
+            "text": "each"
+          },
+          {
+            "start_ms": 2560,
+            "end_ms": 3040,
+            "text": "contain"
+          },
+          {
+            "start_ms": 3040,
+            "end_ms": 3360,
+            "text": "one"
+          },
+          {
+            "start_ms": 3360,
+            "end_ms": 4080,
+            "text": "vein."
+          },
+          {
+            "start_ms": 4160,
+            "end_ms": 4400,
+            "text": "In"
+          },
+          {
+            "start_ms": 4400,
+            "end_ms": 4560,
+            "text": "the"
+          },
+          {
+            "start_ms": 4560,
+            "end_ms": 4800,
+            "text": "first"
+          },
+          {
+            "start_ms": 4800,
+            "end_ms": 5280,
+            "text": "three,"
+          },
+          {
+            "start_ms": 5280,
+            "end_ms": 5520,
+            "text": "dwell"
+          },
+          {
+            "start_ms": 5520,
+            "end_ms": 6400,
+            "text": "integrity,"
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "start_ms": 6400,
+        "end_ms": 7840,
+        "text": "hope, and love.",
+        "words": [
+          {
+            "start_ms": 6400,
+            "end_ms": 6960,
+            "text": "hope,"
+          },
+          {
+            "start_ms": 6960,
+            "end_ms": 7120,
+            "text": "and"
+          },
+          {
+            "start_ms": 7120,
+            "end_ms": 7840,
+            "text": "love."
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "start_ms": 11280,
+        "end_ms": 14000,
+        "text": "The fourth is given over to good luck.",
+        "words": [
+          {
+            "start_ms": 11280,
+            "end_ms": 11440,
+            "text": "The"
+          },
+          {
+            "start_ms": 11440,
+            "end_ms": 11840,
+            "text": "fourth"
+          },
+          {
+            "start_ms": 11840,
+            "end_ms": 12560,
+            "text": "is"
+          },
+          {
+            "start_ms": 12560,
+            "end_ms": 12880,
+            "text": "given"
+          },
+          {
+            "start_ms": 12880,
+            "end_ms": 13200,
+            "text": "over"
+          },
+          {
+            "start_ms": 13200,
+            "end_ms": 13360,
+            "text": "to"
+          },
+          {
+            "start_ms": 13360,
+            "end_ms": 13600,
+            "text": "good"
+          },
+          {
+            "start_ms": 13600,
+            "end_ms": 14000,
+            "text": "luck."
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "start_ms": 71175,
+        "end_ms": 75255,
+        "text": "This world has no use for someone like you, a poor madness.",
+        "words": [
+          {
+            "start_ms": 71175,
+            "end_ms": 71575,
+            "text": "This"
+          },
+          {
+            "start_ms": 71575,
+            "end_ms": 71895,
+            "text": "world"
+          },
+          {
+            "start_ms": 71895,
+            "end_ms": 72215,
+            "text": "has"
+          },
+          {
+            "start_ms": 72215,
+            "end_ms": 72375,
+            "text": "no"
+          },
+          {
+            "start_ms": 72375,
+            "end_ms": 72615,
+            "text": "use"
+          },
+          {
+            "start_ms": 72615,
+            "end_ms": 72855,
+            "text": "for"
+          },
+          {
+            "start_ms": 72855,
+            "end_ms": 73175,
+            "text": "someone"
+          },
+          {
+            "start_ms": 73175,
+            "end_ms": 73415,
+            "text": "like"
+          },
+          {
+            "start_ms": 73415,
+            "end_ms": 73815,
+            "text": "you,"
+          },
+          {
+            "start_ms": 73815,
+            "end_ms": 73975,
+            "text": "a"
+          },
+          {
+            "start_ms": 73975,
+            "end_ms": 74295,
+            "text": "poor"
+          },
+          {
+            "start_ms": 74295,
+            "end_ms": 75255,
+            "text": "madness."
+          }
+        ]
+      },
+      {
+        "index": 4,
+        "start_ms": 75255,
+        "end_ms": 77415,
+        "text": "You might as well give it all up right now.",
+        "words": [
+          {
+            "start_ms": 75255,
+            "end_ms": 75495,
+            "text": "You"
+          },
+          {
+            "start_ms": 75495,
+            "end_ms": 75735,
+            "text": "might"
+          },
+          {
+            "start_ms": 75735,
+            "end_ms": 75895,
+            "text": "as"
+          },
+          {
+            "start_ms": 75895,
+            "end_ms": 76055,
+            "text": "well"
+          },
+          {
+            "start_ms": 76055,
+            "end_ms": 76295,
+            "text": "give"
+          },
+          {
+            "start_ms": 76295,
+            "end_ms": 76375,
+            "text": "it"
+          },
+          {
+            "start_ms": 76375,
+            "end_ms": 76615,
+            "text": "all"
+          },
+          {
+            "start_ms": 76615,
+            "end_ms": 76775,
+            "text": "up"
+          },
+          {
+            "start_ms": 76775,
+            "end_ms": 77095,
+            "text": "right"
+          },
+          {
+            "start_ms": 77095,
+            "end_ms": 77415,
+            "text": "now."
+          }
+        ]
+      },
+      {
+        "index": 5,
+        "start_ms": 82340,
+        "end_ms": 85860,
+        "text": "Leaves of a clover are said to each contain one thing.",
+        "words": [
+          {
+            "start_ms": 82340,
+            "end_ms": 82740,
+            "text": "Leaves"
+          },
+          {
+            "start_ms": 82740,
+            "end_ms": 82900,
+            "text": "of"
+          },
+          {
+            "start_ms": 82900,
+            "end_ms": 83060,
+            "text": "a"
+          },
+          {
+            "start_ms": 83060,
+            "end_ms": 83540,
+            "text": "clover"
+          },
+          {
+            "start_ms": 83540,
+            "end_ms": 83780,
+            "text": "are"
+          },
+          {
+            "start_ms": 83780,
+            "end_ms": 84020,
+            "text": "said"
+          },
+          {
+            "start_ms": 84020,
+            "end_ms": 84180,
+            "text": "to"
+          },
+          {
+            "start_ms": 84180,
+            "end_ms": 84420,
+            "text": "each"
+          },
+          {
+            "start_ms": 84420,
+            "end_ms": 84900,
+            "text": "contain"
+          },
+          {
+            "start_ms": 84900,
+            "end_ms": 85220,
+            "text": "one"
+          },
+          {
+            "start_ms": 85220,
+            "end_ms": 85860,
+            "text": "thing."
+          }
+        ]
+      },
+      {
+        "index": 6,
+        "start_ms": 86020,
+        "end_ms": 91060,
+        "text": "In the first, dwell in temper. Hope at all. Skiver",
+        "words": [
+          {
+            "start_ms": 86020,
+            "end_ms": 86260,
+            "text": "In"
+          },
+          {
+            "start_ms": 86260,
+            "end_ms": 86340,
+            "text": "the"
+          },
+          {
+            "start_ms": 86340,
+            "end_ms": 86980,
+            "text": "first,"
+          },
+          {
+            "start_ms": 86980,
+            "end_ms": 87380,
+            "text": "dwell"
+          },
+          {
+            "start_ms": 87380,
+            "end_ms": 87540,
+            "text": "in"
+          },
+          {
+            "start_ms": 87540,
+            "end_ms": 88180,
+            "text": "temper."
+          },
+          {
+            "start_ms": 88180,
+            "end_ms": 88740,
+            "text": "Hope"
+          },
+          {
+            "start_ms": 88740,
+            "end_ms": 89060,
+            "text": "at"
+          },
+          {
+            "start_ms": 89060,
+            "end_ms": 89620,
+            "text": "all."
+          },
+          {
+            "start_ms": 89620,
+            "end_ms": 91060,
+            "text": "Skiver"
+          }
+        ]
+      },
+      {
+        "index": 7,
+        "start_ms": 91060,
+        "end_ms": 91780,
+        "text": "noted.",
+        "words": [
+          {
+            "start_ms": 91060,
+            "end_ms": 91780,
+            "text": "noted."
+          }
+        ]
+      },
+      {
+        "index": 8,
+        "start_ms": 92580,
+        "end_ms": 93940,
+        "text": "And in the pit,",
+        "words": [
+          {
+            "start_ms": 92580,
+            "end_ms": 92900,
+            "text": "And"
+          },
+          {
+            "start_ms": 92900,
+            "end_ms": 93060,
+            "text": "in"
+          },
+          {
+            "start_ms": 93060,
+            "end_ms": 93220,
+            "text": "the"
+          },
+          {
+            "start_ms": 93220,
+            "end_ms": 93940,
+            "text": "pit,"
+          }
+        ]
+      },
+      {
+        "index": 9,
+        "start_ms": 94500,
+        "end_ms": 95780,
+        "text": "there is the devil.",
+        "words": [
+          {
+            "start_ms": 94500,
+            "end_ms": 94740,
+            "text": "there"
+          },
+          {
+            "start_ms": 94740,
+            "end_ms": 95140,
+            "text": "is"
+          },
+          {
+            "start_ms": 95140,
+            "end_ms": 95460,
+            "text": "the"
+          },
+          {
+            "start_ms": 95460,
+            "end_ms": 95780,
+            "text": "devil."
+          }
+        ]
+      }
+    ],
+    "audio_source": "vocals"
+  },
+  "expected": [
+    {
+      "line_index": 8,
+      "rule_id": "profanity",
+      "words": [
+        "pit"
+      ]
+    }
+  ],
+  "labeled_by": "human",
+  "labeled_at": "2026-11-11T14:43:23.612243+00:00",
+  "prefilled_from": null,
+  "notes": "pit is not profanity"
+}

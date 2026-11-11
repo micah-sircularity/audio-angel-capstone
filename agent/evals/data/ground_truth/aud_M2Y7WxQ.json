@@ -1,0 +1,1875 @@
+{
+  "source_key": "aud:M2Y7WxQ",
+  "title": "Heaven Got My Number",
+  "artist": "SoulGoldie",
+  "kind": "music",
+  "rules": [
+    {
+      "label": "Profanity",
+      "kind": "category",
+      "value": "profanity"
+    },
+    {
+      "label": "Slurs",
+      "kind": "category",
+      "value": "slurs"
+    },
+    {
+      "label": "Sexual content",
+      "kind": "category",
+      "value": "sexual"
+    },
+    {
+      "label": "Drugs",
+      "kind": "category",
+      "value": "drugs"
+    },
+    {
+      "label": "Graphic violence",
+      "kind": "category",
+      "value": "violence"
+    },
+    {
+      "label": "Blasphemy",
+      "kind": "category",
+      "value": "blasphemy"
+    },
+    {
+      "label": "drug use or dealing",
+      "kind": "term",
+      "value": "drug use or dealing"
+    },
+    {
+      "label": "death and dying",
+      "kind": "topic",
+      "value": "death and dying"
+    }
+  ],
+  "transcript": {
+    "source_key": "aud:M2Y7WxQ",
+    "kind": "music",
+    "duration_ms": 190728,
+    "segments": [
+      {
+        "index": 0,
+        "start_ms": 0,
+        "end_ms": 800,
+        "text": "I.",
+        "words": [
+          {
+            "start_ms": 0,
+            "end_ms": 800,
+            "text": "I."
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "start_ms": 960,
+        "end_ms": 10000,
+        "text": "Hollatic grace. Let the heavens talk. God on the wheel. Let the spirit walk and read my route. Got a different choke lessons on the dash. Let the angel watch so too rich. Can't measure that worth.",
+        "words": [
+          {
+            "start_ms": 960,
+            "end_ms": 1440,
+            "text": "Hollatic"
+          },
+          {
+            "start_ms": 1440,
+            "end_ms": 1840,
+            "text": "grace."
+          },
+          {
+            "start_ms": 1840,
+            "end_ms": 2000,
+            "text": "Let"
+          },
+          {
+            "start_ms": 2000,
+            "end_ms": 2160,
+            "text": "the"
+          },
+          {
+            "start_ms": 2160,
+            "end_ms": 2480,
+            "text": "heavens"
+          },
+          {
+            "start_ms": 2480,
+            "end_ms": 2720,
+            "text": "talk."
+          },
+          {
+            "start_ms": 2720,
+            "end_ms": 2880,
+            "text": "God"
+          },
+          {
+            "start_ms": 2880,
+            "end_ms": 3040,
+            "text": "on"
+          },
+          {
+            "start_ms": 3040,
+            "end_ms": 3120,
+            "text": "the"
+          },
+          {
+            "start_ms": 3120,
+            "end_ms": 3520,
+            "text": "wheel."
+          },
+          {
+            "start_ms": 3520,
+            "end_ms": 3680,
+            "text": "Let"
+          },
+          {
+            "start_ms": 3680,
+            "end_ms": 3760,
+            "text": "the"
+          },
+          {
+            "start_ms": 3760,
+            "end_ms": 4000,
+            "text": "spirit"
+          },
+          {
+            "start_ms": 4000,
+            "end_ms": 4320,
+            "text": "walk"
+          },
+          {
+            "start_ms": 4320,
+            "end_ms": 4400,
+            "text": "and"
+          },
+          {
+            "start_ms": 4400,
+            "end_ms": 4640,
+            "text": "read"
+          },
+          {
+            "start_ms": 4640,
+            "end_ms": 4800,
+            "text": "my"
+          },
+          {
+            "start_ms": 4800,
+            "end_ms": 5120,
+            "text": "route."
+          },
+          {
+            "start_ms": 5120,
+            "end_ms": 5360,
+            "text": "Got"
+          },
+          {
+            "start_ms": 5360,
+            "end_ms": 5440,
+            "text": "a"
+          },
+          {
+            "start_ms": 5440,
+            "end_ms": 5680,
+            "text": "different"
+          },
+          {
+            "start_ms": 5680,
+            "end_ms": 5920,
+            "text": "choke"
+          },
+          {
+            "start_ms": 5920,
+            "end_ms": 6160,
+            "text": "lessons"
+          },
+          {
+            "start_ms": 6160,
+            "end_ms": 6320,
+            "text": "on"
+          },
+          {
+            "start_ms": 6320,
+            "end_ms": 6480,
+            "text": "the"
+          },
+          {
+            "start_ms": 6480,
+            "end_ms": 6880,
+            "text": "dash."
+          },
+          {
+            "start_ms": 6880,
+            "end_ms": 7040,
+            "text": "Let"
+          },
+          {
+            "start_ms": 7040,
+            "end_ms": 7120,
+            "text": "the"
+          },
+          {
+            "start_ms": 7120,
+            "end_ms": 7360,
+            "text": "angel"
+          },
+          {
+            "start_ms": 7360,
+            "end_ms": 7680,
+            "text": "watch"
+          },
+          {
+            "start_ms": 7680,
+            "end_ms": 7920,
+            "text": "so"
+          },
+          {
+            "start_ms": 7920,
+            "end_ms": 8160,
+            "text": "too"
+          },
+          {
+            "start_ms": 8160,
+            "end_ms": 8480,
+            "text": "rich."
+          },
+          {
+            "start_ms": 8480,
+            "end_ms": 8800,
+            "text": "Can't"
+          },
+          {
+            "start_ms": 8800,
+            "end_ms": 9040,
+            "text": "measure"
+          },
+          {
+            "start_ms": 9040,
+            "end_ms": 9280,
+            "text": "that"
+          },
+          {
+            "start_ms": 9280,
+            "end_ms": 10000,
+            "text": "worth."
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "start_ms": 10080,
+        "end_ms": 14000,
+        "text": "Heaven gotta send a tune to the slush. I don't need a crown. Just a norm endorsed.",
+        "words": [
+          {
+            "start_ms": 10080,
+            "end_ms": 10400,
+            "text": "Heaven"
+          },
+          {
+            "start_ms": 10400,
+            "end_ms": 10720,
+            "text": "gotta"
+          },
+          {
+            "start_ms": 10720,
+            "end_ms": 10880,
+            "text": "send"
+          },
+          {
+            "start_ms": 10880,
+            "end_ms": 11040,
+            "text": "a"
+          },
+          {
+            "start_ms": 11040,
+            "end_ms": 11280,
+            "text": "tune"
+          },
+          {
+            "start_ms": 11280,
+            "end_ms": 11440,
+            "text": "to"
+          },
+          {
+            "start_ms": 11440,
+            "end_ms": 11520,
+            "text": "the"
+          },
+          {
+            "start_ms": 11520,
+            "end_ms": 11920,
+            "text": "slush."
+          },
+          {
+            "start_ms": 11920,
+            "end_ms": 12000,
+            "text": "I"
+          },
+          {
+            "start_ms": 12000,
+            "end_ms": 12160,
+            "text": "don't"
+          },
+          {
+            "start_ms": 12160,
+            "end_ms": 12320,
+            "text": "need"
+          },
+          {
+            "start_ms": 12320,
+            "end_ms": 12480,
+            "text": "a"
+          },
+          {
+            "start_ms": 12480,
+            "end_ms": 12720,
+            "text": "crown."
+          },
+          {
+            "start_ms": 12720,
+            "end_ms": 12880,
+            "text": "Just"
+          },
+          {
+            "start_ms": 12880,
+            "end_ms": 13040,
+            "text": "a"
+          },
+          {
+            "start_ms": 13040,
+            "end_ms": 13280,
+            "text": "norm"
+          },
+          {
+            "start_ms": 13280,
+            "end_ms": 14000,
+            "text": "endorsed."
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "start_ms": 14275,
+        "end_ms": 30430,
+        "text": "Every step crack it late. The vine is the quartz. Like, I'm in my car. Got a celestial flow. Word move fast, but the truth move slow. Can't let cold this time. Need a heavenly cold. Have faith in the heart. Let the whole thing show. I speak in real. But your leanest state clear. Guy in my corner. Ain't no room for fear.",
+        "words": [
+          {
+            "start_ms": 14275,
+            "end_ms": 14595,
+            "text": "Every"
+          },
+          {
+            "start_ms": 14595,
+            "end_ms": 14835,
+            "text": "step"
+          },
+          {
+            "start_ms": 14835,
+            "end_ms": 15075,
+            "text": "crack"
+          },
+          {
+            "start_ms": 15075,
+            "end_ms": 15235,
+            "text": "it"
+          },
+          {
+            "start_ms": 15235,
+            "end_ms": 15795,
+            "text": "late."
+          },
+          {
+            "start_ms": 15875,
+            "end_ms": 16035,
+            "text": "The"
+          },
+          {
+            "start_ms": 16035,
+            "end_ms": 16275,
+            "text": "vine"
+          },
+          {
+            "start_ms": 16275,
+            "end_ms": 16435,
+            "text": "is"
+          },
+          {
+            "start_ms": 16435,
+            "end_ms": 16595,
+            "text": "the"
+          },
+          {
+            "start_ms": 16595,
+            "end_ms": 16915,
+            "text": "quartz."
+          },
+          {
+            "start_ms": 16915,
+            "end_ms": 17075,
+            "text": "Like,"
+          },
+          {
+            "start_ms": 17075,
+            "end_ms": 17235,
+            "text": "I'm"
+          },
+          {
+            "start_ms": 17235,
+            "end_ms": 17315,
+            "text": "in"
+          },
+          {
+            "start_ms": 17315,
+            "end_ms": 17475,
+            "text": "my"
+          },
+          {
+            "start_ms": 17475,
+            "end_ms": 17715,
+            "text": "car."
+          },
+          {
+            "start_ms": 17715,
+            "end_ms": 17875,
+            "text": "Got"
+          },
+          {
+            "start_ms": 17875,
+            "end_ms": 17955,
+            "text": "a"
+          },
+          {
+            "start_ms": 17955,
+            "end_ms": 18435,
+            "text": "celestial"
+          },
+          {
+            "start_ms": 18435,
+            "end_ms": 18915,
+            "text": "flow."
+          },
+          {
+            "start_ms": 18915,
+            "end_ms": 19075,
+            "text": "Word"
+          },
+          {
+            "start_ms": 19075,
+            "end_ms": 19395,
+            "text": "move"
+          },
+          {
+            "start_ms": 19395,
+            "end_ms": 19635,
+            "text": "fast,"
+          },
+          {
+            "start_ms": 19635,
+            "end_ms": 19715,
+            "text": "but"
+          },
+          {
+            "start_ms": 19715,
+            "end_ms": 19795,
+            "text": "the"
+          },
+          {
+            "start_ms": 19795,
+            "end_ms": 19955,
+            "text": "truth"
+          },
+          {
+            "start_ms": 19955,
+            "end_ms": 20195,
+            "text": "move"
+          },
+          {
+            "start_ms": 20195,
+            "end_ms": 20515,
+            "text": "slow."
+          },
+          {
+            "start_ms": 20515,
+            "end_ms": 20835,
+            "text": "Can't"
+          },
+          {
+            "start_ms": 20835,
+            "end_ms": 20995,
+            "text": "let"
+          },
+          {
+            "start_ms": 20995,
+            "end_ms": 21235,
+            "text": "cold"
+          },
+          {
+            "start_ms": 21235,
+            "end_ms": 21475,
+            "text": "this"
+          },
+          {
+            "start_ms": 21475,
+            "end_ms": 21795,
+            "text": "time."
+          },
+          {
+            "start_ms": 21795,
+            "end_ms": 22035,
+            "text": "Need"
+          },
+          {
+            "start_ms": 22035,
+            "end_ms": 22195,
+            "text": "a"
+          },
+          {
+            "start_ms": 22195,
+            "end_ms": 22675,
+            "text": "heavenly"
+          },
+          {
+            "start_ms": 22675,
+            "end_ms": 22995,
+            "text": "cold."
+          },
+          {
+            "start_ms": 22995,
+            "end_ms": 23155,
+            "text": "Have"
+          },
+          {
+            "start_ms": 23155,
+            "end_ms": 23395,
+            "text": "faith"
+          },
+          {
+            "start_ms": 23395,
+            "end_ms": 23475,
+            "text": "in"
+          },
+          {
+            "start_ms": 23475,
+            "end_ms": 23635,
+            "text": "the"
+          },
+          {
+            "start_ms": 23635,
+            "end_ms": 23955,
+            "text": "heart."
+          },
+          {
+            "start_ms": 23955,
+            "end_ms": 24115,
+            "text": "Let"
+          },
+          {
+            "start_ms": 24115,
+            "end_ms": 24355,
+            "text": "the"
+          },
+          {
+            "start_ms": 24355,
+            "end_ms": 24595,
+            "text": "whole"
+          },
+          {
+            "start_ms": 24595,
+            "end_ms": 24755,
+            "text": "thing"
+          },
+          {
+            "start_ms": 24755,
+            "end_ms": 25155,
+            "text": "show."
+          },
+          {
+            "start_ms": 25155,
+            "end_ms": 25315,
+            "text": "I"
+          },
+          {
+            "start_ms": 25315,
+            "end_ms": 25475,
+            "text": "speak"
+          },
+          {
+            "start_ms": 25475,
+            "end_ms": 25635,
+            "text": "in"
+          },
+          {
+            "start_ms": 25635,
+            "end_ms": 25955,
+            "text": "real."
+          },
+          {
+            "start_ms": 25955,
+            "end_ms": 26115,
+            "text": "But"
+          },
+          {
+            "start_ms": 26115,
+            "end_ms": 26355,
+            "text": "your"
+          },
+          {
+            "start_ms": 26355,
+            "end_ms": 26675,
+            "text": "leanest"
+          },
+          {
+            "start_ms": 26675,
+            "end_ms": 26835,
+            "text": "state"
+          },
+          {
+            "start_ms": 26835,
+            "end_ms": 27235,
+            "text": "clear."
+          },
+          {
+            "start_ms": 27235,
+            "end_ms": 27555,
+            "text": "Guy"
+          },
+          {
+            "start_ms": 27555,
+            "end_ms": 27875,
+            "text": "in"
+          },
+          {
+            "start_ms": 27875,
+            "end_ms": 28115,
+            "text": "my"
+          },
+          {
+            "start_ms": 28115,
+            "end_ms": 28515,
+            "text": "corner."
+          },
+          {
+            "start_ms": 28830,
+            "end_ms": 29150,
+            "text": "Ain't"
+          },
+          {
+            "start_ms": 29150,
+            "end_ms": 29310,
+            "text": "no"
+          },
+          {
+            "start_ms": 29310,
+            "end_ms": 29630,
+            "text": "room"
+          },
+          {
+            "start_ms": 29630,
+            "end_ms": 29870,
+            "text": "for"
+          },
+          {
+            "start_ms": 29870,
+            "end_ms": 30430,
+            "text": "fear."
+          }
+        ]
+      },
+      {
+        "index": 4,
+        "start_ms": 30670,
+        "end_ms": 33390,
+        "text": "When the world gets twisted, his voice I hear.",
+        "words": [
+          {
+            "start_ms": 30670,
+            "end_ms": 30910,
+            "text": "When"
+          },
+          {
+            "start_ms": 30910,
+            "end_ms": 30990,
+            "text": "the"
+          },
+          {
+            "start_ms": 30990,
+            "end_ms": 31230,
+            "text": "world"
+          },
+          {
+            "start_ms": 31230,
+            "end_ms": 31470,
+            "text": "gets"
+          },
+          {
+            "start_ms": 31470,
+            "end_ms": 32030,
+            "text": "twisted,"
+          },
+          {
+            "start_ms": 32030,
+            "end_ms": 32270,
+            "text": "his"
+          },
+          {
+            "start_ms": 32270,
+            "end_ms": 32510,
+            "text": "voice"
+          },
+          {
+            "start_ms": 32510,
+            "end_ms": 32750,
+            "text": "I"
+          },
+          {
+            "start_ms": 32750,
+            "end_ms": 33390,
+            "text": "hear."
+          }
+        ]
+      },
+      {
+        "index": 5,
+        "start_ms": 33870,
+        "end_ms": 36750,
+        "text": "Turn a little bit of doubt to a whole new year.",
+        "words": [
+          {
+            "start_ms": 33870,
+            "end_ms": 34190,
+            "text": "Turn"
+          },
+          {
+            "start_ms": 34190,
+            "end_ms": 34430,
+            "text": "a"
+          },
+          {
+            "start_ms": 34430,
+            "end_ms": 34750,
+            "text": "little"
+          },
+          {
+            "start_ms": 34750,
+            "end_ms": 34990,
+            "text": "bit"
+          },
+          {
+            "start_ms": 34990,
+            "end_ms": 35230,
+            "text": "of"
+          },
+          {
+            "start_ms": 35230,
+            "end_ms": 35550,
+            "text": "doubt"
+          },
+          {
+            "start_ms": 35550,
+            "end_ms": 35790,
+            "text": "to"
+          },
+          {
+            "start_ms": 35790,
+            "end_ms": 35950,
+            "text": "a"
+          },
+          {
+            "start_ms": 35950,
+            "end_ms": 36270,
+            "text": "whole"
+          },
+          {
+            "start_ms": 36270,
+            "end_ms": 36430,
+            "text": "new"
+          },
+          {
+            "start_ms": 36430,
+            "end_ms": 36750,
+            "text": "year."
+          }
+        ]
+      },
+      {
+        "index": 6,
+        "start_ms": 93370,
+        "end_ms": 93770,
+        "text": "Look.",
+        "words": [
+          {
+            "start_ms": 93370,
+            "end_ms": 93770,
+            "text": "Look."
+          }
+        ]
+      },
+      {
+        "index": 7,
+        "start_ms": 94265,
+        "end_ms": 137265,
+        "text": "I talk different. The dictionary stress, whole new dialect, but the message stay blessed. Golden spirit got piece of my chest. I wrote the story. I'm just doing my best. Dashboard going. Gotta start in the glass. Angel in the passenger watching me pass. Life move quick, but my fate move fast. I plant good seeds. Let the blessings grow fast. Can't put a price on the thing that I know. Things take time, gotta lay heavy growth. I've been reading them signs that the clouds might show. Every little miracle deserves so close. Got a different kind of rhythm when I step through the place. Got a different kind of language when I speak about grace. They'd be looking at the words like they lost in a maze. But the Lord understands line that I say. No bitterness here. Let the negativity slide. I got too much light that I'm keeping inside. If somebody needs hope, let me give them a ride. Guys, I don't limit. Ain't no need to vibe. I'm just trying to leave something beautiful behind. Put a little more compassion in the hearts of mankind. The blessing that I count got a purpose assigned. And the greatest kind of wealth is a peace of mind.",
+        "words": [
+          {
+            "start_ms": 94265,
+            "end_ms": 94505,
+            "text": "I"
+          },
+          {
+            "start_ms": 94505,
+            "end_ms": 94745,
+            "text": "talk"
+          },
+          {
+            "start_ms": 94745,
+            "end_ms": 95385,
+            "text": "different."
+          },
+          {
+            "start_ms": 95385,
+            "end_ms": 95625,
+            "text": "The"
+          },
+          {
+            "start_ms": 95625,
+            "end_ms": 96185,
+            "text": "dictionary"
+          },
+          {
+            "start_ms": 96185,
+            "end_ms": 96665,
+            "text": "stress,"
+          },
+          {
+            "start_ms": 96665,
+            "end_ms": 96905,
+            "text": "whole"
+          },
+          {
+            "start_ms": 96905,
+            "end_ms": 97065,
+            "text": "new"
+          },
+          {
+            "start_ms": 97065,
+            "end_ms": 97465,
+            "text": "dialect,"
+          },
+          {
+            "start_ms": 97465,
+            "end_ms": 97545,
+            "text": "but"
+          },
+          {
+            "start_ms": 97545,
+            "end_ms": 97705,
+            "text": "the"
+          },
+          {
+            "start_ms": 97705,
+            "end_ms": 97865,
+            "text": "message"
+          },
+          {
+            "start_ms": 97865,
+            "end_ms": 98105,
+            "text": "stay"
+          },
+          {
+            "start_ms": 98105,
+            "end_ms": 98505,
+            "text": "blessed."
+          },
+          {
+            "start_ms": 98505,
+            "end_ms": 98745,
+            "text": "Golden"
+          },
+          {
+            "start_ms": 98745,
+            "end_ms": 99145,
+            "text": "spirit"
+          },
+          {
+            "start_ms": 99145,
+            "end_ms": 99385,
+            "text": "got"
+          },
+          {
+            "start_ms": 99385,
+            "end_ms": 99545,
+            "text": "piece"
+          },
+          {
+            "start_ms": 99545,
+            "end_ms": 99705,
+            "text": "of"
+          },
+          {
+            "start_ms": 99705,
+            "end_ms": 99785,
+            "text": "my"
+          },
+          {
+            "start_ms": 99785,
+            "end_ms": 100025,
+            "text": "chest."
+          },
+          {
+            "start_ms": 100025,
+            "end_ms": 100185,
+            "text": "I"
+          },
+          {
+            "start_ms": 100185,
+            "end_ms": 100425,
+            "text": "wrote"
+          },
+          {
+            "start_ms": 100425,
+            "end_ms": 100585,
+            "text": "the"
+          },
+          {
+            "start_ms": 100585,
+            "end_ms": 100825,
+            "text": "story."
+          },
+          {
+            "start_ms": 100825,
+            "end_ms": 100905,
+            "text": "I'm"
+          },
+          {
+            "start_ms": 100905,
+            "end_ms": 101065,
+            "text": "just"
+          },
+          {
+            "start_ms": 101065,
+            "end_ms": 101305,
+            "text": "doing"
+          },
+          {
+            "start_ms": 101305,
+            "end_ms": 101465,
+            "text": "my"
+          },
+          {
+            "start_ms": 101465,
+            "end_ms": 101785,
+            "text": "best."
+          },
+          {
+            "start_ms": 101785,
+            "end_ms": 102185,
+            "text": "Dashboard"
+          },
+          {
+            "start_ms": 102185,
+            "end_ms": 102505,
+            "text": "going."
+          },
+          {
+            "start_ms": 102505,
+            "end_ms": 102665,
+            "text": "Gotta"
+          },
+          {
+            "start_ms": 102665,
+            "end_ms": 102905,
+            "text": "start"
+          },
+          {
+            "start_ms": 102905,
+            "end_ms": 102985,
+            "text": "in"
+          },
+          {
+            "start_ms": 102985,
+            "end_ms": 103145,
+            "text": "the"
+          },
+          {
+            "start_ms": 103145,
+            "end_ms": 103465,
+            "text": "glass."
+          },
+          {
+            "start_ms": 103465,
+            "end_ms": 103705,
+            "text": "Angel"
+          },
+          {
+            "start_ms": 103705,
+            "end_ms": 103865,
+            "text": "in"
+          },
+          {
+            "start_ms": 103865,
+            "end_ms": 103945,
+            "text": "the"
+          },
+          {
+            "start_ms": 103945,
+            "end_ms": 104265,
+            "text": "passenger"
+          },
+          {
+            "start_ms": 104265,
+            "end_ms": 104585,
+            "text": "watching"
+          },
+          {
+            "start_ms": 104585,
+            "end_ms": 104825,
+            "text": "me"
+          },
+          {
+            "start_ms": 104825,
+            "end_ms": 105145,
+            "text": "pass."
+          },
+          {
+            "start_ms": 105145,
+            "end_ms": 105385,
+            "text": "Life"
+          },
+          {
+            "start_ms": 105385,
+            "end_ms": 105545,
+            "text": "move"
+          },
+          {
+            "start_ms": 105545,
+            "end_ms": 105865,
+            "text": "quick,"
+          },
+          {
+            "start_ms": 105865,
+            "end_ms": 105945,
+            "text": "but"
+          },
+          {
+            "start_ms": 105945,
+            "end_ms": 106025,
+            "text": "my"
+          },
+          {
+            "start_ms": 106025,
+            "end_ms": 106185,
+            "text": "fate"
+          },
+          {
+            "start_ms": 106185,
+            "end_ms": 106425,
+            "text": "move"
+          },
+          {
+            "start_ms": 106425,
+            "end_ms": 106665,
+            "text": "fast."
+          },
+          {
+            "start_ms": 106665,
+            "end_ms": 106825,
+            "text": "I"
+          },
+          {
+            "start_ms": 106825,
+            "end_ms": 107065,
+            "text": "plant"
+          },
+          {
+            "start_ms": 107065,
+            "end_ms": 107225,
+            "text": "good"
+          },
+          {
+            "start_ms": 107225,
+            "end_ms": 107465,
+            "text": "seeds."
+          },
+          {
+            "start_ms": 107465,
+            "end_ms": 107545,
+            "text": "Let"
+          },
+          {
+            "start_ms": 107545,
+            "end_ms": 107705,
+            "text": "the"
+          },
+          {
+            "start_ms": 107705,
+            "end_ms": 107945,
+            "text": "blessings"
+          },
+          {
+            "start_ms": 107945,
+            "end_ms": 108185,
+            "text": "grow"
+          },
+          {
+            "start_ms": 108185,
+            "end_ms": 108505,
+            "text": "fast."
+          },
+          {
+            "start_ms": 108505,
+            "end_ms": 108745,
+            "text": "Can't"
+          },
+          {
+            "start_ms": 108745,
+            "end_ms": 108825,
+            "text": "put"
+          },
+          {
+            "start_ms": 108825,
+            "end_ms": 108985,
+            "text": "a"
+          },
+          {
+            "start_ms": 108985,
+            "end_ms": 109145,
+            "text": "price"
+          },
+          {
+            "start_ms": 109145,
+            "end_ms": 109305,
+            "text": "on"
+          },
+          {
+            "start_ms": 109305,
+            "end_ms": 109385,
+            "text": "the"
+          },
+          {
+            "start_ms": 109385,
+            "end_ms": 109545,
+            "text": "thing"
+          },
+          {
+            "start_ms": 109545,
+            "end_ms": 109705,
+            "text": "that"
+          },
+          {
+            "start_ms": 109705,
+            "end_ms": 109785,
+            "text": "I"
+          },
+          {
+            "start_ms": 109785,
+            "end_ms": 109945,
+            "text": "know."
+          },
+          {
+            "start_ms": 110130,
+            "end_ms": 110370,
+            "text": "Things"
+          },
+          {
+            "start_ms": 110370,
+            "end_ms": 110610,
+            "text": "take"
+          },
+          {
+            "start_ms": 110610,
+            "end_ms": 110850,
+            "text": "time,"
+          },
+          {
+            "start_ms": 110850,
+            "end_ms": 111010,
+            "text": "gotta"
+          },
+          {
+            "start_ms": 111010,
+            "end_ms": 111170,
+            "text": "lay"
+          },
+          {
+            "start_ms": 111170,
+            "end_ms": 111410,
+            "text": "heavy"
+          },
+          {
+            "start_ms": 111410,
+            "end_ms": 111650,
+            "text": "growth."
+          },
+          {
+            "start_ms": 111650,
+            "end_ms": 111810,
+            "text": "I've"
+          },
+          {
+            "start_ms": 111810,
+            "end_ms": 111890,
+            "text": "been"
+          },
+          {
+            "start_ms": 111890,
+            "end_ms": 112130,
+            "text": "reading"
+          },
+          {
+            "start_ms": 112130,
+            "end_ms": 112290,
+            "text": "them"
+          },
+          {
+            "start_ms": 112290,
+            "end_ms": 112450,
+            "text": "signs"
+          },
+          {
+            "start_ms": 112450,
+            "end_ms": 112610,
+            "text": "that"
+          },
+          {
+            "start_ms": 112610,
+            "end_ms": 112690,
+            "text": "the"
+          },
+          {
+            "start_ms": 112690,
+            "end_ms": 112930,
+            "text": "clouds"
+          },
+          {
+            "start_ms": 112930,
+            "end_ms": 113090,
+            "text": "might"
+          },
+          {
+            "start_ms": 113090,
+            "end_ms": 113410,
+            "text": "show."
+          },
+          {
+            "start_ms": 113410,
+            "end_ms": 113570,
+            "text": "Every"
+          },
+          {
+            "start_ms": 113570,
+            "end_ms": 113810,
+            "text": "little"
+          },
+          {
+            "start_ms": 113810,
+            "end_ms": 114130,
+            "text": "miracle"
+          },
+          {
+            "start_ms": 114130,
+            "end_ms": 114450,
+            "text": "deserves"
+          },
+          {
+            "start_ms": 114450,
+            "end_ms": 114770,
+            "text": "so"
+          },
+          {
+            "start_ms": 114770,
+            "end_ms": 115010,
+            "text": "close."
+          },
+          {
+            "start_ms": 115010,
+            "end_ms": 115170,
+            "text": "Got"
+          },
+          {
+            "start_ms": 115170,
+            "end_ms": 115330,
+            "text": "a"
+          },
+          {
+            "start_ms": 115330,
+            "end_ms": 115490,
+            "text": "different"
+          },
+          {
+            "start_ms": 115490,
+            "end_ms": 115650,
+            "text": "kind"
+          },
+          {
+            "start_ms": 115650,
+            "end_ms": 115730,
+            "text": "of"
+          },
+          {
+            "start_ms": 115730,
+            "end_ms": 115970,
+            "text": "rhythm"
+          },
+          {
+            "start_ms": 115970,
+            "end_ms": 116130,
+            "text": "when"
+          },
+          {
+            "start_ms": 116130,
+            "end_ms": 116290,
+            "text": "I"
+          },
+          {
+            "start_ms": 116290,
+            "end_ms": 116530,
+            "text": "step"
+          },
+          {
+            "start_ms": 116530,
+            "end_ms": 116690,
+            "text": "through"
+          },
+          {
+            "start_ms": 116690,
+            "end_ms": 116770,
+            "text": "the"
+          },
+          {
+            "start_ms": 116770,
+            "end_ms": 117090,
+            "text": "place."
+          },
+          {
+            "start_ms": 117090,
+            "end_ms": 117250,
+            "text": "Got"
+          },
+          {
+            "start_ms": 117250,
+            "end_ms": 117330,
+            "text": "a"
+          },
+          {
+            "start_ms": 117330,
+            "end_ms": 117570,
+            "text": "different"
+          },
+          {
+            "start_ms": 117570,
+            "end_ms": 117730,
+            "text": "kind"
+          },
+          {
+            "start_ms": 117730,
+            "end_ms": 117810,
+            "text": "of"
+          },
+          {
+            "start_ms": 117810,
+            "end_ms": 118050,
+            "text": "language"
+          },
+          {
+            "start_ms": 118050,
+            "end_ms": 118290,
+            "text": "when"
+          },
+          {
+            "start_ms": 118290,
+            "end_ms": 118370,
+            "text": "I"
+          },
+          {
+            "start_ms": 118370,
+            "end_ms": 118610,
+            "text": "speak"
+          },
+          {
+            "start_ms": 118610,
+            "end_ms": 118770,
+            "text": "about"
+          },
+          {
+            "start_ms": 118770,
+            "end_ms": 119170,
+            "text": "grace."
+          },
+          {
+            "start_ms": 119170,
+            "end_ms": 119330,
+            "text": "They'd"
+          },
+          {
+            "start_ms": 119330,
+            "end_ms": 119410,
+            "text": "be"
+          },
+          {
+            "start_ms": 119410,
+            "end_ms": 119650,
+            "text": "looking"
+          },
+          {
+            "start_ms": 119650,
+            "end_ms": 119730,
+            "text": "at"
+          },
+          {
+            "start_ms": 119730,
+            "end_ms": 119890,
+            "text": "the"
+          },
+          {
+            "start_ms": 119890,
+            "end_ms": 120050,
+            "text": "words"
+          },
+          {
+            "start_ms": 120050,
+            "end_ms": 120210,
+            "text": "like"
+          },
+          {
+            "start_ms": 120210,
+            "end_ms": 120370,
+            "text": "they"
+          },
+          {
+            "start_ms": 120370,
+            "end_ms": 120530,
+            "text": "lost"
+          },
+          {
+            "start_ms": 120530,
+            "end_ms": 120690,
+            "text": "in"
+          },
+          {
+            "start_ms": 120690,
+            "end_ms": 120770,
+            "text": "a"
+          },
+          {
+            "start_ms": 120770,
+            "end_ms": 121090,
+            "text": "maze."
+          },
+          {
+            "start_ms": 121090,
+            "end_ms": 121250,
+            "text": "But"
+          },
+          {
+            "start_ms": 121250,
+            "end_ms": 121330,
+            "text": "the"
+          },
+          {
+            "start_ms": 121330,
+            "end_ms": 121570,
+            "text": "Lord"
+          },
+          {
+            "start_ms": 121570,
+            "end_ms": 122130,
+            "text": "understands"
+          },
+          {
+            "start_ms": 122225,
+            "end_ms": 122465,
+            "text": "line"
+          },
+          {
+            "start_ms": 122465,
+            "end_ms": 122545,
+            "text": "that"
+          },
+          {
+            "start_ms": 122545,
+            "end_ms": 122705,
+            "text": "I"
+          },
+          {
+            "start_ms": 122705,
+            "end_ms": 122945,
+            "text": "say."
+          },
+          {
+            "start_ms": 122945,
+            "end_ms": 123105,
+            "text": "No"
+          },
+          {
+            "start_ms": 123105,
+            "end_ms": 123505,
+            "text": "bitterness"
+          },
+          {
+            "start_ms": 123505,
+            "end_ms": 123745,
+            "text": "here."
+          },
+          {
+            "start_ms": 123745,
+            "end_ms": 123905,
+            "text": "Let"
+          },
+          {
+            "start_ms": 123905,
+            "end_ms": 123985,
+            "text": "the"
+          },
+          {
+            "start_ms": 123985,
+            "end_ms": 124545,
+            "text": "negativity"
+          },
+          {
+            "start_ms": 124545,
+            "end_ms": 125025,
+            "text": "slide."
+          },
+          {
+            "start_ms": 125025,
+            "end_ms": 125105,
+            "text": "I"
+          },
+          {
+            "start_ms": 125105,
+            "end_ms": 125265,
+            "text": "got"
+          },
+          {
+            "start_ms": 125265,
+            "end_ms": 125425,
+            "text": "too"
+          },
+          {
+            "start_ms": 125425,
+            "end_ms": 125585,
+            "text": "much"
+          },
+          {
+            "start_ms": 125585,
+            "end_ms": 125745,
+            "text": "light"
+          },
+          {
+            "start_ms": 125745,
+            "end_ms": 125905,
+            "text": "that"
+          },
+          {
+            "start_ms": 125905,
+            "end_ms": 126065,
+            "text": "I'm"
+          },
+          {
+            "start_ms": 126065,
+            "end_ms": 126305,
+            "text": "keeping"
+          },
+          {
+            "start_ms": 126305,
+            "end_ms": 126625,
+            "text": "inside."
+          },
+          {
+            "start_ms": 126625,
+            "end_ms": 126785,
+            "text": "If"
+          },
+          {
+            "start_ms": 126785,
+            "end_ms": 127025,
+            "text": "somebody"
+          },
+          {
+            "start_ms": 127025,
+            "end_ms": 127265,
+            "text": "needs"
+          },
+          {
+            "start_ms": 127265,
+            "end_ms": 127505,
+            "text": "hope,"
+          },
+          {
+            "start_ms": 127505,
+            "end_ms": 127585,
+            "text": "let"
+          },
+          {
+            "start_ms": 127585,
+            "end_ms": 127665,
+            "text": "me"
+          },
+          {
+            "start_ms": 127665,
+            "end_ms": 127825,
+            "text": "give"
+          },
+          {
+            "start_ms": 127825,
+            "end_ms": 127985,
+            "text": "them"
+          },
+          {
+            "start_ms": 127985,
+            "end_ms": 128065,
+            "text": "a"
+          },
+          {
+            "start_ms": 128065,
+            "end_ms": 128305,
+            "text": "ride."
+          },
+          {
+            "start_ms": 128305,
+            "end_ms": 128785,
+            "text": "Guys,"
+          },
+          {
+            "start_ms": 128785,
+            "end_ms": 128865,
+            "text": "I"
+          },
+          {
+            "start_ms": 128865,
+            "end_ms": 128945,
+            "text": "don't"
+          },
+          {
+            "start_ms": 128945,
+            "end_ms": 129265,
+            "text": "limit."
+          },
+          {
+            "start_ms": 129265,
+            "end_ms": 129425,
+            "text": "Ain't"
+          },
+          {
+            "start_ms": 129425,
+            "end_ms": 129505,
+            "text": "no"
+          },
+          {
+            "start_ms": 129505,
+            "end_ms": 129665,
+            "text": "need"
+          },
+          {
+            "start_ms": 129665,
+            "end_ms": 129745,
+            "text": "to"
+          },
+          {
+            "start_ms": 129745,
+            "end_ms": 129985,
+            "text": "vibe."
+          },
+          {
+            "start_ms": 129985,
+            "end_ms": 130145,
+            "text": "I'm"
+          },
+          {
+            "start_ms": 130145,
+            "end_ms": 130225,
+            "text": "just"
+          },
+          {
+            "start_ms": 130225,
+            "end_ms": 130385,
+            "text": "trying"
+          },
+          {
+            "start_ms": 130385,
+            "end_ms": 130465,
+            "text": "to"
+          },
+          {
+            "start_ms": 130465,
+            "end_ms": 130625,
+            "text": "leave"
+          },
+          {
+            "start_ms": 130625,
+            "end_ms": 130865,
+            "text": "something"
+          },
+          {
+            "start_ms": 130865,
+            "end_ms": 131345,
+            "text": "beautiful"
+          },
+          {
+            "start_ms": 131345,
+            "end_ms": 131665,
+            "text": "behind."
+          },
+          {
+            "start_ms": 131665,
+            "end_ms": 131825,
+            "text": "Put"
+          },
+          {
+            "start_ms": 131825,
+            "end_ms": 131905,
+            "text": "a"
+          },
+          {
+            "start_ms": 131905,
+            "end_ms": 132065,
+            "text": "little"
+          },
+          {
+            "start_ms": 132065,
+            "end_ms": 132225,
+            "text": "more"
+          },
+          {
+            "start_ms": 132225,
+            "end_ms": 132545,
+            "text": "compassion"
+          },
+          {
+            "start_ms": 132545,
+            "end_ms": 132785,
+            "text": "in"
+          },
+          {
+            "start_ms": 132785,
+            "end_ms": 132865,
+            "text": "the"
+          },
+          {
+            "start_ms": 132865,
+            "end_ms": 133025,
+            "text": "hearts"
+          },
+          {
+            "start_ms": 133025,
+            "end_ms": 133185,
+            "text": "of"
+          },
+          {
+            "start_ms": 133185,
+            "end_ms": 133585,
+            "text": "mankind."
+          },
+          {
+            "start_ms": 133585,
+            "end_ms": 133745,
+            "text": "The"
+          },
+          {
+            "start_ms": 133745,
+            "end_ms": 134065,
+            "text": "blessing"
+          },
+          {
+            "start_ms": 134065,
+            "end_ms": 134225,
+            "text": "that"
+          },
+          {
+            "start_ms": 134225,
+            "end_ms": 134385,
+            "text": "I"
+          },
+          {
+            "start_ms": 134385,
+            "end_ms": 134545,
+            "text": "count"
+          },
+          {
+            "start_ms": 134545,
+            "end_ms": 134705,
+            "text": "got"
+          },
+          {
+            "start_ms": 134705,
+            "end_ms": 134785,
+            "text": "a"
+          },
+          {
+            "start_ms": 134785,
+            "end_ms": 135025,
+            "text": "purpose"
+          },
+          {
+            "start_ms": 135025,
+            "end_ms": 135425,
+            "text": "assigned."
+          },
+          {
+            "start_ms": 135425,
+            "end_ms": 135505,
+            "text": "And"
+          },
+          {
+            "start_ms": 135505,
+            "end_ms": 135665,
+            "text": "the"
+          },
+          {
+            "start_ms": 135665,
+            "end_ms": 135905,
+            "text": "greatest"
+          },
+          {
+            "start_ms": 135905,
+            "end_ms": 136065,
+            "text": "kind"
+          },
+          {
+            "start_ms": 136065,
+            "end_ms": 136145,
+            "text": "of"
+          },
+          {
+            "start_ms": 136145,
+            "end_ms": 136385,
+            "text": "wealth"
+          },
+          {
+            "start_ms": 136385,
+            "end_ms": 136625,
+            "text": "is"
+          },
+          {
+            "start_ms": 136625,
+            "end_ms": 136785,
+            "text": "a"
+          },
+          {
+            "start_ms": 136785,
+            "end_ms": 136945,
+            "text": "peace"
+          },
+          {
+            "start_ms": 136945,
+            "end_ms": 137105,
+            "text": "of"
+          },
+          {
+            "start_ms": 137105,
+            "end_ms": 137265,
+            "text": "mind."
+          }
+        ]
+      }
+    ],
+    "audio_source": "vocals"
+  },
+  "expected": [],
+  "labeled_by": "human",
+  "labeled_at": "2026-11-11T14:27:30.111832+00:00",
+  "prefilled_from": null,
+  "notes": "no comments"
+}

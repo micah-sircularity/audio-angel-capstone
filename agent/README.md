@@ -158,8 +158,12 @@ same doc shape (`term + variants + definition`, keyword field
 | method | hit@1 | hit@3 | hit@5 | MRR@10 |
 |---|---|---|---|---|
 | text | 0.740 | 0.920 | 0.940 | 0.827 |
-| vector | TBD: run `make eval-retrieval` with FIREWORKS_API_KEY | | | |
-| hybrid | TBD | | | |
+| vector | 0.820 | 0.960 | 0.980 | 0.887 |
+| **hybrid** | **0.880** | **0.960** | **0.980** | **0.924** |
+
+Hybrid is the default retriever. Its biggest gains over text alone are
+censored spellings (0.33 → 0.33/0.67 hit@1/5 — still the hardest type)
+and misspellings (0.40 → 1.00 hit@1).
 
 ## The agent
 
@@ -264,7 +268,12 @@ falls back to the full-mix path.
 
 | config | micro F1 | macro F1 | word recall | judge | latency | cost |
 |---|---|---|---|---|---|---|
-| TBD: run `make eval` after labeling | | | | | | |
+| v3-chunk25-hybrid-tools-pre-conf0.5 (default, 15 human labels) | 0.585 | 0.527 | 0.977 | 53% | 45s | $0.13 |
+
+First eval on 15 hand-labeled drafts: recall 0.77, precision 0.47 —
+the agent finds most of what should be muted but over-flags (the
+human-review step exists for exactly this). The tuning grid
+(`make eval-tune`) picks the final defaults from this dataset.
 
 ## Monitoring
 

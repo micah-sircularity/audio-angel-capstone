@@ -253,7 +253,8 @@ def write_reports(
     for case, m in zip(report.cases, per_case, strict=False):
         judge_cell = (
             "/".join(
-                f"{k}={'✓' if v else '✗'}" for k, v in (case.assertions or {}).items()
+                f"{k}={'✓' if getattr(v, 'value', v) else '✗'}"
+                for k, v in (case.assertions or {}).items()
             )
             or "—"
         )

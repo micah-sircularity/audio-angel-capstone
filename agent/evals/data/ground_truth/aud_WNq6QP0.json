@@ -1,0 +1,675 @@
+{
+  "source_key": "aud:WNq6QP0",
+  "title": "Egotistical Non Binary Neuter",
+  "artist": "Scan-N-Kutt",
+  "kind": "music",
+  "rules": [
+    {
+      "label": "Profanity",
+      "kind": "category",
+      "value": "profanity"
+    },
+    {
+      "label": "Slurs",
+      "kind": "category",
+      "value": "slurs"
+    },
+    {
+      "label": "Sexual content",
+      "kind": "category",
+      "value": "sexual"
+    },
+    {
+      "label": "Drugs",
+      "kind": "category",
+      "value": "drugs"
+    },
+    {
+      "label": "Graphic violence",
+      "kind": "category",
+      "value": "violence"
+    },
+    {
+      "label": "Blasphemy",
+      "kind": "category",
+      "value": "blasphemy"
+    }
+  ],
+  "transcript": {
+    "source_key": "aud:WNq6QP0",
+    "kind": "music",
+    "duration_ms": 220148,
+    "segments": [
+      {
+        "index": 0,
+        "start_ms": 0,
+        "end_ms": 2080,
+        "text": "Know how to use reverse psychology.",
+        "words": [
+          {
+            "start_ms": 0,
+            "end_ms": 240,
+            "text": "Know"
+          },
+          {
+            "start_ms": 240,
+            "end_ms": 320,
+            "text": "how"
+          },
+          {
+            "start_ms": 320,
+            "end_ms": 480,
+            "text": "to"
+          },
+          {
+            "start_ms": 480,
+            "end_ms": 640,
+            "text": "use"
+          },
+          {
+            "start_ms": 640,
+            "end_ms": 1200,
+            "text": "reverse"
+          },
+          {
+            "start_ms": 1200,
+            "end_ms": 2080,
+            "text": "psychology."
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "start_ms": 2080,
+        "end_ms": 10240,
+        "text": "It's a very insult and, you know, and, what is it? And, and condescending comment they make, and you embrace it and actually make it a colloquialism",
+        "words": [
+          {
+            "start_ms": 2080,
+            "end_ms": 2160,
+            "text": "It's"
+          },
+          {
+            "start_ms": 2160,
+            "end_ms": 2240,
+            "text": "a"
+          },
+          {
+            "start_ms": 2240,
+            "end_ms": 2480,
+            "text": "very"
+          },
+          {
+            "start_ms": 2480,
+            "end_ms": 2880,
+            "text": "insult"
+          },
+          {
+            "start_ms": 2880,
+            "end_ms": 3280,
+            "text": "and,"
+          },
+          {
+            "start_ms": 3280,
+            "end_ms": 3360,
+            "text": "you"
+          },
+          {
+            "start_ms": 3360,
+            "end_ms": 3600,
+            "text": "know,"
+          },
+          {
+            "start_ms": 3600,
+            "end_ms": 3840,
+            "text": "and,"
+          },
+          {
+            "start_ms": 3920,
+            "end_ms": 4160,
+            "text": "what"
+          },
+          {
+            "start_ms": 4160,
+            "end_ms": 4320,
+            "text": "is"
+          },
+          {
+            "start_ms": 4320,
+            "end_ms": 4560,
+            "text": "it?"
+          },
+          {
+            "start_ms": 4560,
+            "end_ms": 4800,
+            "text": "And,"
+          },
+          {
+            "start_ms": 4960,
+            "end_ms": 5200,
+            "text": "and"
+          },
+          {
+            "start_ms": 5200,
+            "end_ms": 5840,
+            "text": "condescending"
+          },
+          {
+            "start_ms": 5840,
+            "end_ms": 6160,
+            "text": "comment"
+          },
+          {
+            "start_ms": 6160,
+            "end_ms": 6400,
+            "text": "they"
+          },
+          {
+            "start_ms": 6400,
+            "end_ms": 6880,
+            "text": "make,"
+          },
+          {
+            "start_ms": 6880,
+            "end_ms": 7040,
+            "text": "and"
+          },
+          {
+            "start_ms": 7040,
+            "end_ms": 7280,
+            "text": "you"
+          },
+          {
+            "start_ms": 7280,
+            "end_ms": 7680,
+            "text": "embrace"
+          },
+          {
+            "start_ms": 7680,
+            "end_ms": 7840,
+            "text": "it"
+          },
+          {
+            "start_ms": 7840,
+            "end_ms": 8000,
+            "text": "and"
+          },
+          {
+            "start_ms": 8000,
+            "end_ms": 8400,
+            "text": "actually"
+          },
+          {
+            "start_ms": 8400,
+            "end_ms": 8720,
+            "text": "make"
+          },
+          {
+            "start_ms": 8720,
+            "end_ms": 9120,
+            "text": "it"
+          },
+          {
+            "start_ms": 9120,
+            "end_ms": 9440,
+            "text": "a"
+          },
+          {
+            "start_ms": 9440,
+            "end_ms": 10240,
+            "text": "colloquialism"
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "start_ms": 10240,
+        "end_ms": 11760,
+        "text": "of of appreciation.",
+        "words": [
+          {
+            "start_ms": 10240,
+            "end_ms": 10480,
+            "text": "of"
+          },
+          {
+            "start_ms": 10480,
+            "end_ms": 10720,
+            "text": "of"
+          },
+          {
+            "start_ms": 10720,
+            "end_ms": 11760,
+            "text": "appreciation."
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "start_ms": 11840,
+        "end_ms": 15120,
+        "text": "You're kinda pissing them off because now you actually kinda,",
+        "words": [
+          {
+            "start_ms": 11840,
+            "end_ms": 12240,
+            "text": "You're"
+          },
+          {
+            "start_ms": 12240,
+            "end_ms": 12400,
+            "text": "kinda"
+          },
+          {
+            "start_ms": 12400,
+            "end_ms": 12880,
+            "text": "pissing"
+          },
+          {
+            "start_ms": 12880,
+            "end_ms": 13040,
+            "text": "them"
+          },
+          {
+            "start_ms": 13040,
+            "end_ms": 13280,
+            "text": "off"
+          },
+          {
+            "start_ms": 13280,
+            "end_ms": 13600,
+            "text": "because"
+          },
+          {
+            "start_ms": 13600,
+            "end_ms": 13920,
+            "text": "now"
+          },
+          {
+            "start_ms": 13920,
+            "end_ms": 14240,
+            "text": "you"
+          },
+          {
+            "start_ms": 14240,
+            "end_ms": 14720,
+            "text": "actually"
+          },
+          {
+            "start_ms": 14720,
+            "end_ms": 15120,
+            "text": "kinda,"
+          }
+        ]
+      },
+      {
+        "index": 4,
+        "start_ms": 15715,
+        "end_ms": 20595,
+        "text": "you basically, you spayed or neutered the insult that they try to, you know what mean, like use.",
+        "words": [
+          {
+            "start_ms": 15715,
+            "end_ms": 16035,
+            "text": "you"
+          },
+          {
+            "start_ms": 16035,
+            "end_ms": 16595,
+            "text": "basically,"
+          },
+          {
+            "start_ms": 16595,
+            "end_ms": 16755,
+            "text": "you"
+          },
+          {
+            "start_ms": 16755,
+            "end_ms": 17155,
+            "text": "spayed"
+          },
+          {
+            "start_ms": 17155,
+            "end_ms": 17315,
+            "text": "or"
+          },
+          {
+            "start_ms": 17315,
+            "end_ms": 17715,
+            "text": "neutered"
+          },
+          {
+            "start_ms": 17715,
+            "end_ms": 18035,
+            "text": "the"
+          },
+          {
+            "start_ms": 18035,
+            "end_ms": 18355,
+            "text": "insult"
+          },
+          {
+            "start_ms": 18355,
+            "end_ms": 18595,
+            "text": "that"
+          },
+          {
+            "start_ms": 18595,
+            "end_ms": 18675,
+            "text": "they"
+          },
+          {
+            "start_ms": 18675,
+            "end_ms": 18915,
+            "text": "try"
+          },
+          {
+            "start_ms": 18915,
+            "end_ms": 19155,
+            "text": "to,"
+          },
+          {
+            "start_ms": 19155,
+            "end_ms": 19315,
+            "text": "you"
+          },
+          {
+            "start_ms": 19315,
+            "end_ms": 19395,
+            "text": "know"
+          },
+          {
+            "start_ms": 19395,
+            "end_ms": 19475,
+            "text": "what"
+          },
+          {
+            "start_ms": 19475,
+            "end_ms": 19715,
+            "text": "mean,"
+          },
+          {
+            "start_ms": 19715,
+            "end_ms": 19875,
+            "text": "like"
+          },
+          {
+            "start_ms": 19875,
+            "end_ms": 20595,
+            "text": "use."
+          }
+        ]
+      },
+      {
+        "index": 5,
+        "start_ms": 20995,
+        "end_ms": 31555,
+        "text": "And now you made it your own and now they feel stupid for them actually giving you a whole wave to make. You know what mean? And and that's when they get pissed off and they want us to do dumb shit.",
+        "words": [
+          {
+            "start_ms": 20995,
+            "end_ms": 21155,
+            "text": "And"
+          },
+          {
+            "start_ms": 21155,
+            "end_ms": 21395,
+            "text": "now"
+          },
+          {
+            "start_ms": 21395,
+            "end_ms": 21555,
+            "text": "you"
+          },
+          {
+            "start_ms": 21555,
+            "end_ms": 21875,
+            "text": "made"
+          },
+          {
+            "start_ms": 21875,
+            "end_ms": 21955,
+            "text": "it"
+          },
+          {
+            "start_ms": 21955,
+            "end_ms": 22195,
+            "text": "your"
+          },
+          {
+            "start_ms": 22195,
+            "end_ms": 22675,
+            "text": "own"
+          },
+          {
+            "start_ms": 22675,
+            "end_ms": 23075,
+            "text": "and"
+          },
+          {
+            "start_ms": 23075,
+            "end_ms": 23475,
+            "text": "now"
+          },
+          {
+            "start_ms": 23475,
+            "end_ms": 23635,
+            "text": "they"
+          },
+          {
+            "start_ms": 23635,
+            "end_ms": 23955,
+            "text": "feel"
+          },
+          {
+            "start_ms": 23955,
+            "end_ms": 24435,
+            "text": "stupid"
+          },
+          {
+            "start_ms": 24435,
+            "end_ms": 24755,
+            "text": "for"
+          },
+          {
+            "start_ms": 24755,
+            "end_ms": 24995,
+            "text": "them"
+          },
+          {
+            "start_ms": 24995,
+            "end_ms": 25475,
+            "text": "actually"
+          },
+          {
+            "start_ms": 25475,
+            "end_ms": 25795,
+            "text": "giving"
+          },
+          {
+            "start_ms": 25795,
+            "end_ms": 25955,
+            "text": "you"
+          },
+          {
+            "start_ms": 25955,
+            "end_ms": 26115,
+            "text": "a"
+          },
+          {
+            "start_ms": 26115,
+            "end_ms": 26435,
+            "text": "whole"
+          },
+          {
+            "start_ms": 26435,
+            "end_ms": 26915,
+            "text": "wave"
+          },
+          {
+            "start_ms": 26915,
+            "end_ms": 27235,
+            "text": "to"
+          },
+          {
+            "start_ms": 27235,
+            "end_ms": 27795,
+            "text": "make."
+          },
+          {
+            "start_ms": 27875,
+            "end_ms": 28115,
+            "text": "You"
+          },
+          {
+            "start_ms": 28115,
+            "end_ms": 28275,
+            "text": "know"
+          },
+          {
+            "start_ms": 28275,
+            "end_ms": 28435,
+            "text": "what"
+          },
+          {
+            "start_ms": 28435,
+            "end_ms": 28595,
+            "text": "mean?"
+          },
+          {
+            "start_ms": 28595,
+            "end_ms": 28755,
+            "text": "And"
+          },
+          {
+            "start_ms": 28755,
+            "end_ms": 29075,
+            "text": "and"
+          },
+          {
+            "start_ms": 29075,
+            "end_ms": 29315,
+            "text": "that's"
+          },
+          {
+            "start_ms": 29315,
+            "end_ms": 29475,
+            "text": "when"
+          },
+          {
+            "start_ms": 29475,
+            "end_ms": 29635,
+            "text": "they"
+          },
+          {
+            "start_ms": 29635,
+            "end_ms": 29795,
+            "text": "get"
+          },
+          {
+            "start_ms": 29795,
+            "end_ms": 30035,
+            "text": "pissed"
+          },
+          {
+            "start_ms": 30035,
+            "end_ms": 30275,
+            "text": "off"
+          },
+          {
+            "start_ms": 30275,
+            "end_ms": 30435,
+            "text": "and"
+          },
+          {
+            "start_ms": 30435,
+            "end_ms": 30595,
+            "text": "they"
+          },
+          {
+            "start_ms": 30595,
+            "end_ms": 30755,
+            "text": "want"
+          },
+          {
+            "start_ms": 30755,
+            "end_ms": 30915,
+            "text": "us"
+          },
+          {
+            "start_ms": 30915,
+            "end_ms": 30995,
+            "text": "to"
+          },
+          {
+            "start_ms": 30995,
+            "end_ms": 31075,
+            "text": "do"
+          },
+          {
+            "start_ms": 31075,
+            "end_ms": 31315,
+            "text": "dumb"
+          },
+          {
+            "start_ms": 31315,
+            "end_ms": 31555,
+            "text": "shit."
+          }
+        ]
+      },
+      {
+        "index": 6,
+        "start_ms": 34190,
+        "end_ms": 36510,
+        "text": "Sounds like binary neutery.",
+        "words": [
+          {
+            "start_ms": 34190,
+            "end_ms": 34590,
+            "text": "Sounds"
+          },
+          {
+            "start_ms": 34590,
+            "end_ms": 35070,
+            "text": "like"
+          },
+          {
+            "start_ms": 35070,
+            "end_ms": 35710,
+            "text": "binary"
+          },
+          {
+            "start_ms": 35710,
+            "end_ms": 36510,
+            "text": "neutery."
+          }
+        ]
+      },
+      {
+        "index": 7,
+        "start_ms": 36750,
+        "end_ms": 37790,
+        "text": "Yes. Binary",
+        "words": [
+          {
+            "start_ms": 36750,
+            "end_ms": 37230,
+            "text": "Yes."
+          },
+          {
+            "start_ms": 37230,
+            "end_ms": 37790,
+            "text": "Binary"
+          }
+        ]
+      }
+    ],
+    "audio_source": "vocals"
+  },
+  "expected": [],
+  "labeled_by": "human",
+  "labeled_at": "2026-11-11T14:45:39.115370+00:00",
+  "prefilled_from": null,
+  "notes": "it's find maybe pissing cn be muted based on user preference"
+}
