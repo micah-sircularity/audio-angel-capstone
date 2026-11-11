@@ -17,8 +17,8 @@ from pathlib import Path
 import httpx
 import logfire
 
+from audio_angel.helpers.paths import cache_dir, safe_key
 from audio_angel.models import Segment, Transcript, Word
-from audio_angel.paths import cache_dir, safe_key
 
 LISTEN_URL = (
     "https://api.deepgram.com/v1/listen?model=nova-3&smart_format=true&utterances=true"

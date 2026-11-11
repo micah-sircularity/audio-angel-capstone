@@ -10,8 +10,8 @@ from pathlib import Path
 
 import httpx
 
+from audio_angel.helpers.paths import cache_dir, safe_key
 from audio_angel.models import Track
-from audio_angel.paths import cache_dir, safe_key
 from audio_angel.sources.audius import stream_url
 from audio_angel.sources.safe import fetch_bytes
 

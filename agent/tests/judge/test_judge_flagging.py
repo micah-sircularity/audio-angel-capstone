@@ -26,7 +26,7 @@ from pydantic_evals.evaluators.context import EvaluatorContext
 
 from audio_angel.agent.flagger import flag_transcript
 from audio_angel.config import GLM_FLASH, AgentConfig
-from audio_angel.ground_truth import ExpectedFlag
+from audio_angel.helpers.ground_truth import ExpectedFlag
 from audio_angel.models import (
     Segment,
     Transcript,

@@ -17,7 +17,7 @@ import asyncio
 import json
 from dataclasses import asdict, replace
 
-from audio_angel.ground_truth import ExpectedFlag
+from audio_angel.helpers.ground_truth import ExpectedFlag
 from audio_angel.models import LineFlag
 from evals.experiments import (
     BASELINE,

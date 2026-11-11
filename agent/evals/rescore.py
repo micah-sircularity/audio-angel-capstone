@@ -17,7 +17,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 import json
 
-from audio_angel.ground_truth import load_all
+from audio_angel.helpers.ground_truth import load_all
 from audio_angel.models import LineFlag
 from evals.experiments import STAGE3_THRESHOLDS
 from evals.metrics import case_metrics, summarize

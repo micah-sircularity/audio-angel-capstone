@@ -18,7 +18,8 @@ from components import (
 from audio_angel import pipeline
 from audio_angel.agent.prompts import CATEGORY_DEFINITIONS, PROMPT_VERSIONS
 from audio_angel.config import AgentConfig
-from audio_angel.feedback import FeedbackRecord, append_feedback
+from audio_angel.helpers.feedback import FeedbackRecord, append_feedback
+from audio_angel.helpers.paths import cache_dir, safe_key
 from audio_angel.models import (
     LineFlag,
     MuteRule,
@@ -27,9 +28,8 @@ from audio_angel.models import (
     term_rule,
     topic_rule,
 )
-from audio_angel.paths import cache_dir, safe_key
-from audio_angel.plan import flags_to_intervals
-from audio_angel.separation import separation_enabled, stems_dir
+from audio_angel.pipeline.plan import flags_to_intervals
+from audio_angel.pipeline.separation import separation_enabled, stems_dir
 
 st.set_page_config(page_title="Audio Angel — Listen", page_icon="🎧", layout="wide")
 env_warnings()

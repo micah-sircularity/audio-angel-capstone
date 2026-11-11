@@ -3,7 +3,7 @@ import shutil
 import pytest
 
 from audio_angel.models import MuteInterval
-from audio_angel.render import _volume_filter, render_muted
+from audio_angel.pipeline.renderer import _volume_filter, render_muted
 
 
 def test_volume_filter_string():

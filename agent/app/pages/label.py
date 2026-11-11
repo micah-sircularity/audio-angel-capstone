@@ -20,7 +20,7 @@ from audio_angel import pipeline
 from audio_angel.agent.flagger import _entry_in_line
 from audio_angel.agent.prompts import CATEGORY_DEFINITIONS
 from audio_angel.config import AgentConfig
-from audio_angel.ground_truth import (
+from audio_angel.helpers.ground_truth import (
     ExpectedFlag,
     GroundTruth,
     list_ground_truth,
@@ -28,7 +28,7 @@ from audio_angel.ground_truth import (
     save_ground_truth,
 )
 from audio_angel.models import Track, category_rule, term_rule, topic_rule
-from audio_angel.separation import separation_enabled
+from audio_angel.pipeline.separation import separation_enabled
 
 st.set_page_config(page_title="Audio Angel — Label", page_icon="🏷️", layout="wide")
 env_warnings()

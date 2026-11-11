@@ -11,15 +11,15 @@ import httpx
 import logfire
 
 from audio_angel.agent.flagger import FlagRunResult, flag_transcript
-from audio_angel.audio import download_audio
 from audio_angel.config import AgentConfig
+from audio_angel.helpers.paths import cache_dir, safe_key
+from audio_angel.helpers.telemetry import RunRecord, log_run
 from audio_angel.models import MuteInterval, MuteRule, Track, Transcript
-from audio_angel.paths import cache_dir, safe_key
-from audio_angel.plan import flags_to_intervals
-from audio_angel.render import render_muted
-from audio_angel.separation import SeparationError, separate_stems, stems_dir
-from audio_angel.telemetry import RunRecord, log_run
-from audio_angel.transcribe import transcribe_audio
+from audio_angel.pipeline.audio import download_audio
+from audio_angel.pipeline.plan import flags_to_intervals
+from audio_angel.pipeline.renderer import render_muted
+from audio_angel.pipeline.separation import SeparationError, separate_stems, stems_dir
+from audio_angel.pipeline.transcribe import transcribe_audio
 
 
 async def prepare(
@@ -164,7 +164,7 @@ def render(track: Track, intervals: list[MuteInterval]):
     if vocals.exists() and instrumental.exists() and meta.exists():
         import json
 
-        from audio_angel.separation import Stems
+        from audio_angel.pipeline.separation import Stems
 
         data = json.loads(meta.read_text())
         stems = Stems(

@@ -6,7 +6,8 @@ import os
 import re
 from pathlib import Path
 
-_PACKAGE_ROOT = Path(__file__).resolve().parent
+# helpers/ is one level below the package root.
+_PACKAGE_ROOT = Path(__file__).resolve().parent.parent
 
 
 def data_dir() -> Path:

@@ -1,7 +1,7 @@
 import httpx
 import pytest
 
-from audio_angel.transcribe import (
+from audio_angel.pipeline.transcribe import (
     DeepgramError,
     Word,
     group_words_into_segments,

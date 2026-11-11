@@ -1,5 +1,5 @@
 from audio_angel.models import LineFlag, Transcript
-from audio_angel.plan import (
+from audio_angel.pipeline.plan import (
     LINE_PAD_MS,
     WORD_PAD_MS_MUSIC,
     WORD_PAD_MS_SPEECH,

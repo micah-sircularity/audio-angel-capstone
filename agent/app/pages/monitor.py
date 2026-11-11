@@ -10,7 +10,7 @@ from collections import Counter
 import pandas as pd
 import streamlit as st
 
-from audio_angel.feedback import load_feedback, load_runs
+from audio_angel.helpers.feedback import load_feedback, load_runs
 
 st.set_page_config(page_title="Audio Angel — Monitor", page_icon="📈", layout="wide")
 

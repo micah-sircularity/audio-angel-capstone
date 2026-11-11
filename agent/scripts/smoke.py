@@ -21,9 +21,9 @@ load_dotenv(Path(__file__).resolve().parent.parent / ".env")
 from audio_angel import pipeline
 from audio_angel.agent.prompts import CATEGORY_DEFINITIONS
 from audio_angel.config import AgentConfig
+from audio_angel.helpers.telemetry import setup_logfire
 from audio_angel.models import category_rule, topic_rule
 from audio_angel.sources import audius, podcasts
-from audio_angel.telemetry import setup_logfire
 
 
 def _ffprobe_duration(path: Path) -> float:

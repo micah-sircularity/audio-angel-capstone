@@ -85,16 +85,18 @@ agent/
   src/audio_angel/
     config.py              AgentConfig dataclass (tuned defaults)
     models.py              Word/Segment/Transcript/MuteRule/LineFlag/…
-    paths.py               data dir, cache dirs, safe filenames
-    audio.py               download to cache, ffmpeg podcast trim
-    transcribe.py          Deepgram REST client + segmenting port
-    separation.py          Modal Spleeter client + stems cache
-    ground_truth.py        GT schema + load/save/list helpers
-    feedback.py            feedback.jsonl + runs.jsonl read/write
-    telemetry.py           logfire setup + runs.jsonl run records
-    pipeline.py            prepare/analyze/render orchestration
-    plan.py                flags -> merged mute intervals
-    render.py              ffmpeg renderer (stem mute + remix, or mix gate)
+    pipeline/
+      orchestrator.py        prepare/analyze/render orchestration
+      audio.py               download to cache, ffmpeg podcast trim
+      transcribe.py          Deepgram REST client + segmenting port
+      separation.py          Modal Spleeter client + stems cache
+      plan.py                flags -> merged mute intervals
+      renderer.py            ffmpeg renderer (stem mute + remix, or mix gate)
+    helpers/
+      paths.py               data dir, cache dirs, safe filenames
+      telemetry.py           logfire setup + runs.jsonl run records
+      feedback.py            feedback.jsonl + runs.jsonl read/write
+      ground_truth.py        GT schema + load/save/list helpers
     agent/prompts.py       versioned instructions + category definitions
     agent/flagger.py       the agent: tools, validator, flag_transcript
     kb/lexicon.py          lexicon schema + loader
@@ -241,7 +243,7 @@ empty `words` → whole segment ±120 ms. A flag that can't be located
 Intervals clamp to `[0, duration]` and merge across ≤150 ms gaps,
 unioning rule ids.
 
-`render.py` writes `data/cache/renders/<source>-<hash>.mp3`. With stems
+`pipeline/renderer.py` writes `data/cache/renders/<source>-<hash>.mp3`. With stems
 it mutes only the vocal stem (`volume=enable='between(t,…):volume=0'`),
 remixes with the instrumental (`amix=inputs=2:normalize=0`), and applies
 the separation gain — and the *original* player renders the same

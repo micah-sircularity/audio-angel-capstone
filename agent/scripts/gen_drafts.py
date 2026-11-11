@@ -26,16 +26,16 @@ from dotenv import load_dotenv
 from audio_angel import pipeline
 from audio_angel.agent.prompts import CATEGORY_DEFINITIONS
 from audio_angel.config import AgentConfig
-from audio_angel.ground_truth import (
+from audio_angel.helpers.ground_truth import (
     ExpectedFlag,
     GroundTruth,
     gt_dir,
     gt_path,
     save_ground_truth,
 )
+from audio_angel.helpers.telemetry import setup_logfire
 from audio_angel.models import category_rule, term_rule, topic_rule
 from audio_angel.sources import audius
-from audio_angel.telemetry import setup_logfire
 
 CATEGORIES = list(CATEGORY_DEFINITIONS)
 

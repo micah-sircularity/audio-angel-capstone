@@ -14,7 +14,7 @@ from typing import Protocol
 import numpy as np
 from minsearch import Index
 
-from audio_angel.paths import cache_dir
+from audio_angel.helpers.paths import cache_dir
 
 # Serverless on Fireworks; verified against
 # https://docs.fireworks.ai/guides/querying-embeddings-models

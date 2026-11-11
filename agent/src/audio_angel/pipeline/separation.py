@@ -13,8 +13,8 @@ from pathlib import Path
 
 import logfire
 
+from audio_angel.helpers.paths import cache_dir, safe_key
 from audio_angel.models import Track
-from audio_angel.paths import cache_dir, safe_key
 
 APP_NAME = "audio-angel-agent-separate"
 FUNCTION_NAME = "separate"

@@ -6,9 +6,10 @@ import pytest
 
 from audio_angel import pipeline
 from audio_angel.models import LineFlag, MuteInterval, Segment, Track, Transcript, Word
-from audio_angel.plan import flags_to_intervals
-from audio_angel.render import render_muted
-from audio_angel.separation import (
+from audio_angel.pipeline import orchestrator
+from audio_angel.pipeline.plan import flags_to_intervals
+from audio_angel.pipeline.renderer import render_muted
+from audio_angel.pipeline.separation import (
     SeparationError,
     Stems,
     separate_stems,
@@ -86,8 +87,8 @@ async def test_podcast_skips_with_default_mode(tmp_path):
 
 async def test_prepare_uses_vocals_and_vocals_cache(monkeypatch, tmp_path):
     """prepare() transcribes the vocal stem into <key>.vocals.json."""
-    from audio_angel import audio as audio_mod
-    from audio_angel import transcribe as tr_mod
+    from audio_angel.pipeline import audio as audio_mod
+    from audio_angel.pipeline import transcribe as tr_mod
 
     audio = tmp_path / "aud_sep.mp3"
     audio.write_bytes(b"mix")
@@ -111,9 +112,9 @@ async def test_prepare_uses_vocals_and_vocals_cache(monkeypatch, tmp_path):
         )
 
     monkeypatch.setattr(audio_mod, "download_audio", fake_download)
-    monkeypatch.setattr(pipeline, "download_audio", fake_download)
+    monkeypatch.setattr(orchestrator, "download_audio", fake_download)
     monkeypatch.setattr(tr_mod, "transcribe_audio", fake_transcribe)
-    monkeypatch.setattr(pipeline, "transcribe_audio", fake_transcribe)
+    monkeypatch.setattr(orchestrator, "transcribe_audio", fake_transcribe)
     monkeypatch.setenv("MODAL_TOKEN_ID", "id")
     monkeypatch.setenv("MODAL_TOKEN_SECRET", "sec")
 
@@ -148,8 +149,8 @@ async def test_prepare_falls_back_on_separation_error(monkeypatch, tmp_path):
             audio_source=kw.get("audio_source", "mix"),
         )
 
-    monkeypatch.setattr(pipeline, "download_audio", fake_download)
-    monkeypatch.setattr(pipeline, "transcribe_audio", fake_transcribe)
+    monkeypatch.setattr(orchestrator, "download_audio", fake_download)
+    monkeypatch.setattr(orchestrator, "transcribe_audio", fake_transcribe)
     monkeypatch.setenv("MODAL_TOKEN_ID", "id")
     monkeypatch.setenv("MODAL_TOKEN_SECRET", "sec")
     track = MUSIC.model_copy(update={"source_key": "aud:sep2"})
@@ -189,8 +190,8 @@ def test_render_stems_filter(tmp_path, monkeypatch):
 
         return R()
 
-    monkeypatch.setattr("audio_angel.render.subprocess.run", fake_run)
-    monkeypatch.setattr("audio_angel.render.ffmpeg_path", lambda: "ffmpeg")
+    monkeypatch.setattr("audio_angel.pipeline.renderer.subprocess.run", fake_run)
+    monkeypatch.setattr("audio_angel.pipeline.renderer.ffmpeg_path", lambda: "ffmpeg")
     stems = Stems(
         tmp_path / "v.flac",
         tmp_path / "i.flac",
@@ -228,8 +229,8 @@ def test_render_empty_intervals_with_stems_still_mixes(tmp_path, monkeypatch):
 
         return R()
 
-    monkeypatch.setattr("audio_angel.render.subprocess.run", fake_run)
-    monkeypatch.setattr("audio_angel.render.ffmpeg_path", lambda: "ffmpeg")
+    monkeypatch.setattr("audio_angel.pipeline.renderer.subprocess.run", fake_run)
+    monkeypatch.setattr("audio_angel.pipeline.renderer.ffmpeg_path", lambda: "ffmpeg")
     stems = Stems(
         tmp_path / "v.flac",
         tmp_path / "i.flac",

@@ -13,8 +13,8 @@ from typing import Literal
 
 from pydantic import BaseModel, Field
 
+from audio_angel.helpers.paths import safe_key
 from audio_angel.models import MuteRule, Transcript
-from audio_angel.paths import safe_key
 
 
 class ExpectedFlag(BaseModel):
@@ -41,7 +41,7 @@ class GroundTruth(BaseModel):
 
 def _default_gt_root() -> Path:
     # <agent>/evals/data — sibling of data/, resolved from the package.
-    return Path(__file__).resolve().parents[2] / "evals" / "data"
+    return Path(__file__).resolve().parents[3] / "evals" / "data"
 
 
 def gt_dir(labeled_by: str = "human") -> Path:

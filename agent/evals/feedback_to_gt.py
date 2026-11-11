@@ -18,14 +18,14 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 import argparse
 
-from audio_angel.feedback import load_feedback, load_runs
-from audio_angel.ground_truth import (
+from audio_angel.helpers.feedback import load_feedback, load_runs
+from audio_angel.helpers.ground_truth import (
     ExpectedFlag,
     GroundTruth,
     save_ground_truth,
 )
 from audio_angel.models import MuteRule, category_rule
-from audio_angel.transcribe import load_cached_transcript
+from audio_angel.pipeline.transcribe import load_cached_transcript
 
 
 def rules_from_run(run: dict) -> list[MuteRule]:

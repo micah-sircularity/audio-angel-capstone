@@ -9,7 +9,7 @@ from datetime import UTC, datetime
 
 import logfire
 
-from audio_angel.paths import logs_dir
+from audio_angel.helpers.paths import logs_dir
 
 _configured = False
 

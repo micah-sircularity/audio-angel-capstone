@@ -16,7 +16,7 @@ from dotenv import load_dotenv
 # library modules stay env-agnostic for tests.
 load_dotenv(Path(__file__).resolve().parent.parent / ".env")
 
-from audio_angel.telemetry import setup_logfire
+from audio_angel.helpers.telemetry import setup_logfire
 
 setup_logfire()
 

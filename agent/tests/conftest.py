@@ -9,8 +9,8 @@ import pytest
 # Tests never hit a real model API.
 pydantic_ai.models.ALLOW_MODEL_REQUESTS = False
 
+from audio_angel.helpers.telemetry import setup_logfire
 from audio_angel.models import Segment, Transcript, Word
-from audio_angel.telemetry import setup_logfire
 
 setup_logfire()
 

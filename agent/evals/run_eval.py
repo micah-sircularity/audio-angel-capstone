@@ -29,7 +29,7 @@ from pydantic_evals.evaluators import Evaluator, EvaluatorContext, LLMJudge
 
 from audio_angel.agent.flagger import flag_transcript
 from audio_angel.config import GLM_FLASH, AgentConfig
-from audio_angel.ground_truth import (
+from audio_angel.helpers.ground_truth import (
     ExpectedFlag,
     load_all,
 )

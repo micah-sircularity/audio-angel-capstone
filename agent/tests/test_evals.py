@@ -5,21 +5,21 @@ import json
 
 import pytest
 
-from audio_angel.feedback import (
+from audio_angel.helpers.feedback import (
     FeedbackRecord,
     append_feedback,
     load_feedback,
 )
-from audio_angel.ground_truth import (
+from audio_angel.helpers.ground_truth import (
     ExpectedFlag,
     GroundTruth,
     list_ground_truth,
     load_ground_truth,
     save_ground_truth,
 )
+from audio_angel.helpers.paths import cache_dir, safe_key
+from audio_angel.helpers.telemetry import RunRecord, log_run
 from audio_angel.models import LineFlag, Transcript, category_rule
-from audio_angel.paths import cache_dir, safe_key
-from audio_angel.telemetry import RunRecord, log_run
 from evals.feedback_to_gt import feedback_ground_truth
 from evals.manual_eval import summarize_sheet, write_sheet
 from evals.metrics import case_metrics, summarize
@@ -108,7 +108,7 @@ def _gt(source_key="aud:gt1"):
 
 
 def test_ground_truth_roundtrip(tmp_path, monkeypatch):
-    import audio_angel.ground_truth as gtmod
+    import audio_angel.helpers.ground_truth as gtmod
 
     monkeypatch.setattr(gtmod, "_default_gt_root", lambda: tmp_path)
     path = save_ground_truth(_gt())
@@ -122,7 +122,7 @@ def test_ground_truth_roundtrip(tmp_path, monkeypatch):
 def test_drafts_are_isolated_from_eval_datasets(tmp_path, monkeypatch):
     """Agent-generated drafts live in their own dir: build_dataset and
     the human/feedback label lists must never see them."""
-    import audio_angel.ground_truth as gtmod
+    import audio_angel.helpers.ground_truth as gtmod
 
     monkeypatch.setattr(gtmod, "_default_gt_root", lambda: tmp_path)
     draft = _gt().model_copy(update={"labeled_by": "draft"})
@@ -217,7 +217,7 @@ def test_feedback_to_gt_builds_file(tmp_path, monkeypatch):
             ),
         ]
     )
-    import audio_angel.ground_truth as gtmod
+    import audio_angel.helpers.ground_truth as gtmod
 
     monkeypatch.setattr(gtmod, "_default_gt_root", lambda: tmp_path / "gt")
     written, skipped = feedback_ground_truth()
@@ -351,7 +351,7 @@ async def test_evaluate_config_counts_failures_as_all_fn(
     from pydantic_evals import Case, Dataset
 
     from audio_angel.config import AgentConfig
-    from audio_angel.ground_truth import ExpectedFlag
+    from audio_angel.helpers.ground_truth import ExpectedFlag
     from audio_angel.models import LineFlag
     from evals.run_eval import FlagInputs, evaluate_config
 
@@ -489,7 +489,7 @@ def test_feedback_to_gt_uses_latest_run_only(tmp_path, monkeypatch):
             ),
         ]
     )
-    import audio_angel.ground_truth as gtmod
+    import audio_angel.helpers.ground_truth as gtmod
 
     monkeypatch.setattr(gtmod, "_default_gt_root", lambda: tmp_path / "gt")
     written, skipped = feedback_ground_truth()
@@ -546,7 +546,7 @@ def test_feedback_to_gt_down_beats_up_same_run(tmp_path, monkeypatch):
             ),
         ]
     )
-    import audio_angel.ground_truth as gtmod
+    import audio_angel.helpers.ground_truth as gtmod
 
     monkeypatch.setattr(gtmod, "_default_gt_root", lambda: tmp_path / "gt")
     written, _ = feedback_ground_truth()

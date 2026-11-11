@@ -11,7 +11,7 @@ from typing import Literal
 from pydantic import BaseModel, Field
 
 from audio_angel.agent.prompts import CATEGORY_DEFINITIONS
-from audio_angel.paths import lexicon_path
+from audio_angel.helpers.paths import lexicon_path
 
 Category = Literal["profanity", "slurs", "sexual", "drugs", "violence", "blasphemy"]
 CATEGORIES: tuple[str, ...] = tuple(CATEGORY_DEFINITIONS.keys())

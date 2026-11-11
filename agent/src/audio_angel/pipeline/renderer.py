@@ -10,12 +10,12 @@ import subprocess
 from pathlib import Path
 from typing import TYPE_CHECKING
 
-from audio_angel.audio import ffmpeg_path
+from audio_angel.helpers.paths import cache_dir, safe_key
 from audio_angel.models import MuteInterval
-from audio_angel.paths import cache_dir, safe_key
+from audio_angel.pipeline.audio import ffmpeg_path
 
 if TYPE_CHECKING:
-    from audio_angel.separation import Stems
+    from audio_angel.pipeline.separation import Stems
 
 
 class RenderError(Exception):

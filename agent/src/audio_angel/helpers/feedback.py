@@ -11,7 +11,7 @@ from typing import Literal
 
 from pydantic import BaseModel
 
-from audio_angel.paths import logs_dir
+from audio_angel.helpers.paths import logs_dir
 
 Verdict = Literal["up", "down", "missed"]
 

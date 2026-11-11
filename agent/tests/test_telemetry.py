@@ -1,7 +1,7 @@
 import json
 
-from audio_angel.paths import logs_dir
-from audio_angel.telemetry import RunRecord, log_run
+from audio_angel.helpers.paths import logs_dir
+from audio_angel.helpers.telemetry import RunRecord, log_run
 
 
 def test_log_run_appends_valid_jsonl():
