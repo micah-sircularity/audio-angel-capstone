@@ -13,3 +13,15 @@ coverage/
 # Local audio/GPU experiment outputs
 tools/spleeter/output/
 tools/spleeter/__pycache__/
+# Local-only Spleeter test MP3s for /spleeter-test.html (~19MB, not committed)
+apps/app/public/spleeter-test/
+
+# agent/ capstone (python)
+agent/.env
+agent/data/cache/
+agent/data/logs/
+agent/.venv/
+agent/.logfire/
+__pycache__/
+agent/.pytest_cache/
+agent/.ruff_cache/

@@ -98,3 +98,12 @@ No Spotify audio capture, recording, decoding, transcription, analysis or AI ing
 ## Attribution
 
 Theme and component patterns adapted from [T3 Code mobile](https://github.com/pingdotgg/t3code/tree/main/apps/mobile). See [THIRD_PARTY_NOTICES.md](./THIRD_PARTY_NOTICES.md) for the MIT notice. Audio Angel uses its own name and icon.
+
+## Capstone agent
+
+`agent/` holds the standalone Python capstone: a Streamlit app where a
+Pydantic AI agent (Fireworks GLM 5.3 Flash) flags words to mute in
+Audius songs or podcast episodes, then renders a muted MP3 to compare —
+with a lexicon knowledge base, Logfire observability, evals, and a
+feedback loop. See `agent/README.md`; quick start: `cd agent && uv sync
+&& make app`.
