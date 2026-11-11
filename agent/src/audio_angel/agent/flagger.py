@@ -99,11 +99,12 @@ def _prematch_lines(entries: list, chunk: list) -> list[tuple[int, str, str, str
     For each segment, match every entry's term and variants against both
     the segment text and the joined word tokens, returning (line_index,
     matched_surface_form, category, definition) evidence for the prompt.
-    Capped so dense lines can't flood the prompt.
+    Capped per line so early dense lines cannot hide later evidence.
     """
     hits: list[tuple[int, str, str, str]] = []
     seen: set[tuple[int, str]] = set()
     for segment in chunk:
+        line_hits = 0
         words_text = " ".join(w.text for w in segment.words)
         for entry in entries:
             for surface in (entry.term, *entry.variants):
@@ -121,9 +122,10 @@ def _prematch_lines(entries: list, chunk: list) -> list[tuple[int, str, str, str
                             entry.definition,
                         )
                     )
+                    line_hits += 1
                     break
-            if len(hits) >= _MAX_PREMATCH_HITS:
-                return hits
+            if line_hits >= _MAX_PREMATCH_HITS:
+                break
     return hits
 
 

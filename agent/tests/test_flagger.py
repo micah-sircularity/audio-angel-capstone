@@ -331,3 +331,28 @@ def test_prematch_lines_finds_terms_and_variants():
     # "hella" is a variant of hell; "dayum" a variant of damn.
     assert ("hella", "profanity") in by_line[2]
     assert ("dayum", "profanity") in by_line[2]
+
+
+def test_dense_early_line_does_not_hide_later_lexicon_evidence():
+    from audio_angel.agent.flagger import _prematch_lines
+    from tests.conftest import make_segment
+
+    entries = [
+        SimpleNamespace(
+            id=f"e{i}",
+            term=f"term{i}",
+            variants=[],
+            category="profanity",
+            definition="test term",
+        )
+        for i in range(20)
+    ]
+    hits = _prematch_lines(
+        entries,
+        [
+            make_segment(0, " ".join(e.term for e in entries), 0),
+            make_segment(1, "term19", 5000),
+        ],
+    )
+    assert len([h for h in hits if h[0] == 0]) == 15
+    assert any(h[0] == 1 and h[1] == "term19" for h in hits)

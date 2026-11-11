@@ -49,8 +49,6 @@ The app's Listen screen has a **Try the vocal muting listening test** button. Th
 
 The fixtures live in `apps/app/public/spleeter-test/` and are copied into the Expo web export. The app server serves MP3 MIME types and single byte ranges for playback/seeking, including HEAD requests and 416 responses for invalid ranges. These audio files are not added to the PWA offline shell cache.
 
-Current tailnet preview: https://your-machine.your-tailnet.ts.net:8450/spleeter-test.html (Tailscale access required).
-
 ## Automatic word muting: Cryptokid track
 
 Open `/rap-words.html` from the separation test page. This single-track experiment uses the saved 78.81-second Spleeter outputs; it does not rerun the GPU model.

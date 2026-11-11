@@ -17,12 +17,13 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 import argparse
 import asyncio
 import json
-from dataclasses import asdict, dataclass
+from dataclasses import asdict, dataclass, replace
 from datetime import UTC, datetime
 from pathlib import Path
 from typing import Any
 
 import logfire
+from pydantic_core import to_jsonable_python
 from pydantic_evals import Case, Dataset, set_eval_attribute
 from pydantic_evals.evaluators import Evaluator, EvaluatorContext, LLMJudge
 
@@ -61,6 +62,23 @@ class WordRecall(Evaluator):
         return {} if m.word_recall is None else {"word_recall": m.word_recall}
 
 
+class TranscriptJudge(LLMJudge):
+    """Give the judge classification evidence without irrelevant word timing."""
+
+    async def evaluate(self, ctx: EvaluatorContext):
+        inputs = ctx.inputs
+        compact = {
+            "kind": inputs.transcript.kind,
+            "lines": [
+                {"index": s.index, "text": s.text} for s in inputs.transcript.segments
+            ],
+            "rules": [
+                {"id": rule.id, "definition": rule.definition} for rule in inputs.rules
+            ],
+        }
+        return await super().evaluate(replace(ctx, inputs=compact))
+
+
 def _flag_dicts(flags: list[LineFlag]) -> list[dict]:
     return [
         {
@@ -93,7 +111,7 @@ def build_evaluators(judge: bool) -> list[Evaluator]:
     evaluators: list[Evaluator] = [PairMetrics(), WordRecall()]
     if judge:
         evaluators += [
-            LLMJudge(
+            TranscriptJudge(
                 rubric=JUDGE_RUBRIC,
                 model=GLM_FLASH,
                 include_input=True,
@@ -104,7 +122,7 @@ def build_evaluators(judge: bool) -> list[Evaluator]:
                 },
                 score=False,
             ),
-            LLMJudge(
+            TranscriptJudge(
                 rubric=JUDGE_SCORE_RUBRIC,
                 model=GLM_FLASH,
                 include_input=True,
@@ -144,7 +162,15 @@ async def evaluate_config(
     metrics, per-case raw outputs for threshold re-scoring)."""
 
     async def task(inputs: FlagInputs) -> list[LineFlag]:
-        result = await flag_transcript(inputs.transcript, inputs.rules, config)
+        try:
+            result = await flag_transcript(inputs.transcript, inputs.rules, config)
+        except Exception as exc:
+            print(
+                f"{config.name}: failed {inputs.transcript.source_key}: "
+                f"{type(exc).__name__}: {exc}",
+                flush=True,
+            )
+            raise
         set_eval_attribute("latency_ms", result.latency_ms)
         set_eval_attribute("input_tokens", result.input_tokens)
         set_eval_attribute("output_tokens", result.output_tokens)
@@ -153,7 +179,9 @@ async def evaluate_config(
         return result.flags
 
     dataset.evaluators = build_evaluators(judge)
-    report = await dataset.evaluate(task, name=config.name)
+    # Each transcript already runs up to four chunks concurrently. Running
+    # every case at once multiplies that fan-out and exhausts provider limits.
+    report = await dataset.evaluate(task, name=config.name, max_concurrency=1)
 
     per_case: list[CaseMetrics] = []
     raw_per_case: list[dict] = []
@@ -196,6 +224,14 @@ async def evaluate_config(
             for e in expected
         ]
         per_case.append(case_metrics([], expected))
+        raw_per_case.append(
+            {
+                "source_key": failure.name,
+                "expected": [e.model_dump() for e in expected],
+                "raw_flags": [],
+                "error": getattr(failure, "error_message", str(failure)),
+            }
+        )
     summary = summarize(
         per_case,
         latencies_ms=latencies,
@@ -238,7 +274,8 @@ def write_reports(
             f"micro P/R/F1 {summary.micro_precision:.3f}/{summary.micro_recall:.3f}"
             f"/{summary.micro_f1:.3f} · macro F1 {summary.macro_f1:.3f} · "
             f"word recall {summary.mean_word_recall if summary.mean_word_recall is not None else '—'} · "
-            f"judge pass {f'{summary.judge_pass_rate:.0%}' if summary.judge_pass_rate is not None else '—'}"
+            f"judge pass {f'{summary.judge_pass_rate:.0%}' if summary.judge_pass_rate is not None else '—'} · "
+            f"failed cases {summary.failed_cases} · judge errors {summary.judge_errors}"
         ),
         "",
         (
@@ -273,9 +310,9 @@ def write_reports(
     try:
         payload = report.model_dump(mode="json")
     except AttributeError:
-        payload = {"cases": [repr(c) for c in report.cases]}
+        payload = asdict(report)
     payload = {"config": asdict(config), "summary": asdict(summary), "report": payload}
-    raw_path.write_text(json.dumps(payload, indent=2, default=str))
+    raw_path.write_text(json.dumps(to_jsonable_python(payload, fallback=str), indent=2))
     return raw_path
 
 

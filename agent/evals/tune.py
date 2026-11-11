@@ -14,7 +14,8 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 import argparse
 import asyncio
-from dataclasses import replace
+import json
+from dataclasses import asdict, replace
 
 from audio_angel.ground_truth import ExpectedFlag
 from audio_angel.models import LineFlag
@@ -46,15 +47,27 @@ def _summary_row(config_name: str, summary) -> str:
         f"{summary.macro_f1:.3f} | {wr} | {jr} | "
         f"{summary.mean_latency_ms:.0f} | "
         f"{summary.input_tokens}+{summary.output_tokens} | "
-        f"${summary.est_cost_usd:.4f} |"
+        f"${summary.est_cost_usd:.4f} | {summary.failed_cases} |"
     )
 
 
 HEADER = (
     "| config | micro P | micro R | micro F1 | macro F1 | word recall | "
-    "judge pass | latency ms | tokens in+out | cost |\n"
-    "|---|---|---|---|---|---|---|---|---|---|"
+    "judge pass | latency ms | tokens in+out | cost | failed |\n"
+    "|---|---|---|---|---|---|---|---|---|---|---|"
 )
+
+
+def _checkpoint(lines, config, summary, raw) -> None:
+    REPORTS.mkdir(exist_ok=True)
+    (REPORTS / f"tuning-{config.name}.json").write_text(
+        json.dumps(
+            {"config": asdict(config), "summary": asdict(summary), "cases": raw},
+            indent=2,
+        )
+        + "\n"
+    )
+    (REPORTS / "tuning.md").write_text("\n".join(lines) + "\n")
 
 
 async def tune(limit: int | None, judge: bool) -> str:
@@ -76,6 +89,7 @@ async def tune(limit: int | None, judge: bool) -> str:
         )
         results[config.name] = (config, summary, raw)
         lines.append(_summary_row(config.name, summary))
+        _checkpoint(lines, config, summary, raw)
         print(f"stage1 {config.name}: micro F1 {summary.micro_f1:.3f}")
 
     winner_name = min(
@@ -109,6 +123,7 @@ async def tune(limit: int | None, judge: bool) -> str:
             )
         stage2_results[config.name] = (config, summary, raw)
         lines.append(_summary_row(config.name, summary))
+        _checkpoint(lines, config, summary, raw)
         print(f"stage2 {config.name}: micro F1 {summary.micro_f1:.3f}")
 
     stage2_winner_name = min(

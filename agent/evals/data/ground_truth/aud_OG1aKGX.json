@@ -816,15 +816,7 @@
     ],
     "audio_source": "vocals"
   },
-  "expected": [
-    {
-      "line_index": 2,
-      "rule_id": "slurs",
-      "words": [
-        "God is very smelly"
-      ]
-    }
-  ],
+  "expected": [],
   "labeled_by": "human",
   "labeled_at": "2026-11-11T14:29:31.227389+00:00",
   "prefilled_from": null,

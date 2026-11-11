@@ -1092,6 +1092,15 @@
         "baddies",
         "spank"
       ]
+    },
+    {
+      "line_index": 7,
+      "rule_id": "sexual",
+      "words": [
+        "Sex",
+        "excess",
+        "flesh"
+      ]
     }
   ],
   "labeled_by": "human",

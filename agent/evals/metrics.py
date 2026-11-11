@@ -128,9 +128,7 @@ def summarize(
         macro_f1=sum(c.f1 for c in per_case) / len(per_case) if per_case else 0.0,
         mean_word_recall=(sum(word_scores) / len(word_scores) if word_scores else None),
         judge_pass_rate=(
-            sum(judge_results) / len(judge_results)
-            if judge_results is not None
-            else None
+            sum(judge_results) / len(judge_results) if judge_results else None
         ),
         judge_errors=judge_errors,
         failed_cases=failed_cases,

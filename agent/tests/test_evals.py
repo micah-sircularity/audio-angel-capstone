@@ -83,6 +83,12 @@ def test_summarize_aggregates():
     assert s.est_cost_usd == pytest.approx(0.65)
 
 
+def test_summarize_when_all_judges_fail():
+    summary = summarize([], judge_results=[], judge_errors=15)
+    assert summary.judge_pass_rate is None
+    assert summary.judge_errors == 15
+
+
 def _gt(source_key="aud:gt1"):
     transcript = Transcript(
         source_key=source_key,
@@ -337,7 +343,9 @@ def test_judge_outcome_none_on_failure_or_missing():
     assert judge_outcome(case2) is None
 
 
-async def test_evaluate_config_counts_failures_as_all_fn(music_transcript):
+async def test_evaluate_config_counts_failures_as_all_fn(
+    music_transcript, tmp_path, monkeypatch
+):
     """A task that raises on one case: failure scored as predictions=[]
     (all FN) and counted in summary.failed_cases."""
     from pydantic_evals import Case, Dataset
@@ -401,6 +409,19 @@ async def test_evaluate_config_counts_failures_as_all_fn(music_transcript):
     assert summary.cases == 2
     # good case TP=1, failed case FN=1
     assert summary.micro_recall == 0.5
+    failed_raw = next(row for row in _raw if row["source_key"] == "aud:boom")
+    assert failed_raw["raw_flags"] == []
+    assert failed_raw["expected"][0]["line_index"] == 2
+    assert "model exploded" in failed_raw["error"]
+    monkeypatch.setattr(re_mod, "REPORTS", tmp_path)
+    path = re_mod.write_reports(
+        AgentConfig(tools_enabled=False), summary, _report, _per_case
+    )
+    saved = json.loads(path.read_text())["report"]
+    assert saved["cases"][0]["name"] == "aud:ok"
+    assert saved["cases"][0]["output"][0]["words"] == ["damn"]
+    assert saved["cases"][0]["inputs"]["transcript"]["source_key"]
+    assert saved["failures"][0]["name"] == "aud:boom"
 
 
 def test_feedback_to_gt_uses_latest_run_only(tmp_path, monkeypatch):
@@ -605,6 +626,9 @@ async def test_tune_stages_and_threshold_pick(tmp_path, monkeypatch):
     assert "hybrid" in winner_name
     assert winner_name.endswith("conf0.5"), winner_name
     assert (tmp_path / "tuning.md").exists()
+    checkpoint = json.loads((tmp_path / f"tuning-{calls[0]}.json").read_text())
+    assert checkpoint["summary"]["failed_cases"] == 0
+    assert checkpoint["cases"][0]["source_key"] == "aud:x"
 
 
 def test_manual_eval_case_level_agreement(tmp_path, monkeypatch):
@@ -677,3 +701,38 @@ def test_manual_eval_case_level_agreement(tmp_path, monkeypatch):
     out = summarize_sheet().read_text()
     # case a agrees (pass==pass), case b agrees too (fail==fail) -> 100%
     assert "100.0%" in out
+
+
+async def test_judge_receives_rules_and_lines_without_audio_metadata(
+    music_transcript, monkeypatch
+):
+    from dataclasses import fields
+
+    from pydantic_evals.evaluators import EvaluatorContext, LLMJudge
+
+    from evals.run_eval import FlagInputs, TranscriptJudge
+
+    captured = []
+
+    async def capture(self, ctx):
+        captured.append(ctx)
+        return {"judge_pass": True}
+
+    monkeypatch.setattr(LLMJudge, "evaluate", capture)
+    # The context has many telemetry fields unrelated to this evaluator.
+    kwargs = {field.name: None for field in fields(EvaluatorContext) if field.init}
+    kwargs.update(
+        inputs=FlagInputs(music_transcript, [category_rule("profanity")]),
+        output=[],
+        expected_output=[],
+    )
+    ctx = EvaluatorContext(**kwargs)
+    await TranscriptJudge(rubric="test").evaluate(ctx)
+    compact = captured[0].inputs
+    assert compact["lines"] == [
+        {"index": s.index, "text": s.text} for s in music_transcript.segments
+    ]
+    assert compact["rules"][0]["id"] == "profanity"
+    assert compact["rules"][0]["definition"] == category_rule("profanity").definition
+    assert "words" not in compact["lines"][0]
+    assert ctx.inputs.transcript is music_transcript

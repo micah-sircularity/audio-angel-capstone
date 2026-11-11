@@ -1549,9 +1549,17 @@
     ],
     "audio_source": "vocals"
   },
-  "expected": [],
+  "expected": [
+    {
+      "line_index": 8,
+      "rule_id": "profanity",
+      "words": [
+        "asshole"
+      ]
+    }
+  ],
   "labeled_by": "human",
   "labeled_at": "2026-11-11T14:32:45.906634+00:00",
   "prefilled_from": null,
-  "notes": "no notes nothing to mute"
+  "notes": "no notes nothing to mute; corrected per user review: asshole is profanity under the selected rule"
 }

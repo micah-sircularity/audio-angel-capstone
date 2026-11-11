@@ -533,15 +533,7 @@
     ],
     "audio_source": "vocals"
   },
-  "expected": [
-    {
-      "line_index": 8,
-      "rule_id": "profanity",
-      "words": [
-        "pit"
-      ]
-    }
-  ],
+  "expected": [],
   "labeled_by": "human",
   "labeled_at": "2026-11-11T14:43:23.612243+00:00",
   "prefilled_from": null,

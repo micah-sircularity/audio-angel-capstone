@@ -71,7 +71,9 @@ with st.expander("Advanced — agent configuration"):
     defaults = AgentConfig()
     model = st.text_input("Model", value=defaults.model)
     prompt_version = st.selectbox(
-        "Prompt version", PROMPT_VERSIONS, index=PROMPT_VERSIONS.index("v2")
+        "Prompt version",
+        PROMPT_VERSIONS,
+        index=PROMPT_VERSIONS.index(defaults.prompt_version),
     )
     chunk_size = int(
         st.number_input("Chunk size (lines per call)", 5, 100, defaults.chunk_size)

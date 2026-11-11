@@ -14,15 +14,15 @@ GLM_FLASH = "fireworks:accounts/fireworks/models/glm-5p3-flash"
 @dataclass(frozen=True)
 class AgentConfig:
     model: str = GLM_FLASH
-    # v3 replaced v2 after a live miss ("ass"/"hell" in long sung lines);
-    # confirm with `make eval-tune` once ground truth exists.
-    prompt_version: str = "v3"
+    # v4 beat v3 on the 15 human-labeled tracks (micro F1 0.708 vs 0.608,
+    # reports/feedback-rescored.md).
+    prompt_version: str = "v4"
     # Transcript lines per agent call ("chunking").
     chunk_size: int = 25
     # Retriever behind search_lexicon / search_transcript.
     search_method: str = "hybrid"
     # Flags below this confidence are dropped before planning.
-    min_confidence: float = 0.5
+    min_confidence: float = 0.7
     # False disables all tools: the plain-LLM baseline.
     tools_enabled: bool = True
     # Pre-match each chunk against the lexicon deterministically and
