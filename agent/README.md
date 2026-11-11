@@ -167,8 +167,9 @@ same doc shape (`term + variants + definition`, keyword field
   words[], confidence, reason}]}`; `output_retries=2` budget for the
   validator.
 - **Instructions**: versioned in `agent/prompts.py` (`v1` terse, `v2`
-  adds workflow guidance); versions are an eval parameter — never edited
-  in place.
+  adds workflow guidance, `v3` word-by-word checking + mild terms +
+  kept judgment calls — current default); versions are an eval
+  parameter — never edited in place.
 - **Lexicon prematch** (`config.lexicon_prematch`, default on): each
   chunk's lines are deterministically scanned for every lexicon term
   and variant before the model runs, and the hits are appended to the
