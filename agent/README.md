@@ -78,6 +78,8 @@ agent/
     sources/podcasts.py    iTunes show search + RSS/Atom episodes
     data/lexicon.jsonl     ~129-entry slang/profanity lexicon
   modal_app/separate.py    Modal worker: Spleeter 2stems on one T4
+  scripts/gen_drafts.py    batch-generate draft labels for review
+  scripts/smoke.py         pipeline smoke test
   evals/
     judge.py               LLM-judge rubrics
     metrics.py             pair P/R/F1, word recall, dataset summary
@@ -88,7 +90,7 @@ agent/
     feedback_to_gt.py      feedback.jsonl -> ground_truth_feedback/
     manual_eval.py         human spot-check sheet + summary
     data/retrieval_queries.jsonl   50 retrieval probes
-    data/ground_truth*/    human + feedback label files
+    data/ground_truth*/    human + feedback label files (+ draft/)
   tests/                   offline unit tests (httpx.MockTransport,
                            FunctionModel, fake embedder)
   tests/judge/             live judge tests (marker: judge)
@@ -242,6 +244,12 @@ falls back to the full-mix path.
 - **Ground truth**: the Label page writes `evals/data/ground_truth/*.json`
   (transcript snapshot + expected flags, so evals never call Deepgram).
   Feedback-derived files go to `ground_truth_feedback/`.
+- **Drafts**: `uv run python scripts/gen_drafts.py --n 20` pre-runs
+  tracks end-to-end (separation → transcript → agent with a random
+  rule set) and saves them as `labeled_by="draft"` under
+  `ground_truth_draft/` — review material only, invisible to the
+  evals. Open each `[draft]` in the Label page's file picker, correct
+  the flags, and save to promote it to human ground truth.
 - **Metrics** (`evals/metrics.py`): pair (line, rule) P/R/F1, word-token
   recall on matched pairs, micro/macro aggregates, judge pass rate,
   latency, tokens, est. cost ($0.15/M in + $0.50/M out).

@@ -20,6 +20,8 @@ apps/app/public/spleeter-test/
 agent/.env
 agent/data/cache/
 agent/data/logs/
+# Agent-generated label drafts (review material, not truth)
+agent/evals/data/ground_truth_draft/
 agent/.venv/
 agent/.logfire/
 __pycache__/

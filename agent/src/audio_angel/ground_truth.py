@@ -31,7 +31,9 @@ class GroundTruth(BaseModel):
     rules: list[MuteRule]
     transcript: Transcript
     expected: list[ExpectedFlag] = Field(default_factory=list)
-    labeled_by: Literal["human", "feedback"] = "human"
+    # "draft" = agent-generated pre-label pending human review; drafts
+    # live in ground_truth_draft/ so evals never read them as truth.
+    labeled_by: Literal["human", "feedback", "draft"] = "human"
     labeled_at: str = ""
     prefilled_from: str | None = None
     notes: str = ""
@@ -44,6 +46,8 @@ def _default_gt_root() -> Path:
 
 def gt_dir(labeled_by: str = "human") -> Path:
     root = _default_gt_root()
+    if labeled_by == "draft":
+        return root / "ground_truth_draft"
     return (
         root / "ground_truth"
         if labeled_by == "human"

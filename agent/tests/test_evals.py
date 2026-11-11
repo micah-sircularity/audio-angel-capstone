@@ -113,6 +113,21 @@ def test_ground_truth_roundtrip(tmp_path, monkeypatch):
     assert list_ground_truth() == [path]
 
 
+def test_drafts_are_isolated_from_eval_datasets(tmp_path, monkeypatch):
+    """Agent-generated drafts live in their own dir: build_dataset and
+    the human/feedback label lists must never see them."""
+    import audio_angel.ground_truth as gtmod
+
+    monkeypatch.setattr(gtmod, "_default_gt_root", lambda: tmp_path)
+    draft = _gt().model_copy(update={"labeled_by": "draft"})
+    path = save_ground_truth(draft)
+    assert "ground_truth_draft" in str(path)
+    assert list_ground_truth() == []  # human dataset untouched
+    assert list_ground_truth("feedback") == []
+    assert list_ground_truth("draft") == [path]
+    assert load_ground_truth(path).labeled_by == "draft"
+
+
 def test_feedback_append_and_load():
     append_feedback(
         [

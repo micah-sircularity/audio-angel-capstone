@@ -38,13 +38,23 @@ st.caption("Hand-label what should be muted; these files drive the evals.")
 
 # ---------- open existing or pick a track ----------
 existing = list_ground_truth()
+drafts = list_ground_truth("draft")
 with st.expander(
-    f"Open an existing label file ({len(existing)} labeled)", expanded=not existing
+    f"Open an existing label file ({len(existing)} labeled, {len(drafts)} drafts)",
+    expanded=not existing,
 ):
-    options = ["<new labeling session>"] + [p.stem for p in existing]
+    options = (
+        ["<new labeling session>"]
+        + [p.stem for p in existing]
+        + [f"[draft] {p.stem}" for p in drafts]
+    )
     choice = st.selectbox("Label files", options)
     if choice != "<new labeling session>" and st.button("Open file"):
-        gt = load_ground_truth(existing[options.index(choice) - 1])
+        index = options.index(choice) - 1
+        path = (
+            existing[index] if index < len(existing) else drafts[index - len(existing)]
+        )
+        gt = load_ground_truth(path)
         st.session_state.label_gt = gt
         st.session_state.selected_track = Track(
             source_key=gt.source_key,
@@ -54,6 +64,13 @@ with st.expander(
         )
         st.session_state.label_transcript = gt.transcript
         st.session_state.pop("label_rows", None)
+        # Repopulate free-form rule boxes so custom rules survive re-save.
+        st.session_state.lterms = "\n".join(
+            r.value for r in gt.rules if r.kind == "term"
+        )
+        st.session_state.ltopics = "\n".join(
+            r.value for r in gt.rules if r.kind == "topic"
+        )
 
 st.subheader("1. Choose audio")
 track = source_picker()
