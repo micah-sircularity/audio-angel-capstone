@@ -29,6 +29,7 @@ from audio_angel.config import AgentConfig
 from audio_angel.ground_truth import (
     ExpectedFlag,
     GroundTruth,
+    gt_dir,
     gt_path,
     save_ground_truth,
 )
@@ -53,21 +54,6 @@ TOPIC_POOL = [
     "death and dying",
 ]
 
-# Queries chosen to surface vocal tracks, not beat tapes.
-SEARCHES = [
-    ("", "Hip-Hop/Rap"),
-    ("freestyle", "Hip-Hop/Rap"),
-    ("love", "Hip-Hop/Rap"),
-    ("street", "Hip-Hop/Rap"),
-    ("real", "Hip-Hop/Rap"),
-    ("pain", "Hip-Hop/Rap"),
-    ("story", "Hip-Hop/Rap"),
-    ("", "R&B/Soul"),
-    ("heart", "R&B/Soul"),
-    ("", "Pop"),
-    ("song", "Pop"),
-]
-
 SKIP_TITLE = (
     "instrumental",
     "type beat",
@@ -80,6 +66,8 @@ SKIP_TITLE = (
 MIN_SEGMENTS = 4
 MIN_WORDS = 40
 MAX_DURATION_MS = 8 * 60_000
+# How far down the trending chart to look when backfilling instrumentals.
+TRENDING_POOL = 60
 
 
 def random_rules(rng: random.Random):
@@ -94,28 +82,30 @@ def random_rules(rng: random.Random):
     return rules
 
 
-async def gather_candidates(client: httpx.AsyncClient, rng: random.Random):
-    seen: dict[str, object] = {}
-    for query, genre in SEARCHES:
-        try:
-            for track in await audius.search_tracks(query, client=client, genre=genre):
-                title = track.title.lower()
-                if any(bad in title for bad in SKIP_TITLE):
-                    continue
-                if (track.duration_ms or 0) > MAX_DURATION_MS:
-                    continue
-                seen.setdefault(track.source_key, track)
-        except Exception as exc:  # noqa: BLE001
-            print(f"  search {query!r}/{genre} failed: {exc}")
-    candidates = list(seen.values())
-    rng.shuffle(candidates)
-    return candidates
+async def gather_candidates(client: httpx.AsyncClient, genre: str | None):
+    """The Audius trending chart in popularity order (optionally
+    genre-filtered). Instrumental-looking titles and overlong tracks
+    are skipped; the transcript check removes any that slip through."""
+    tracks = await audius.search_tracks(
+        "", client=client, genre=genre, limit=TRENDING_POOL
+    )
+    return [
+        t
+        for t in tracks
+        if not any(bad in t.title.lower() for bad in SKIP_TITLE)
+        and (t.duration_ms or 0) <= MAX_DURATION_MS
+    ]
 
 
 async def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--n", type=int, default=20)
     parser.add_argument("--seed", type=int, default=7)
+    parser.add_argument(
+        "--genre",
+        default=None,
+        help='Audius genre filter for the trending pool (e.g. "Hip-Hop/Rap")',
+    )
     args = parser.parse_args()
 
     load_dotenv()
@@ -123,12 +113,13 @@ async def main() -> None:
     rng = random.Random(args.seed)
 
     async with httpx.AsyncClient() as client:
-        candidates = await gather_candidates(client, rng)
+        candidates = await gather_candidates(client, args.genre)
     print(f"{len(candidates)} candidates after filtering")
 
     made = 0
+    existing = len(list(gt_dir("draft").glob("*.json")))
     for track in candidates:
-        if made >= args.n:
+        if existing + made >= args.n:
             break
         key = track.source_key
         if gt_path(key, "draft").exists() or gt_path(key, "human").exists():

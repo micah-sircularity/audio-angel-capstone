@@ -70,7 +70,11 @@ async def _get_json(client: httpx.AsyncClient, url: str) -> object:
 
 
 async def search_tracks(
-    query: str, *, client: httpx.AsyncClient, genre: str | None = None
+    query: str,
+    *,
+    client: httpx.AsyncClient,
+    genre: str | None = None,
+    limit: int = 10,
 ) -> list[Track]:
     """Search Audius tracks; an empty query returns the trending list.
 
@@ -80,9 +84,9 @@ async def search_tracks(
     q = query.strip()
     genre_param = f"&genre={quote(genre)}" if genre else ""
     url = (
-        f"{API}/tracks/search?query={quote(q)}&limit=10&app_name={APP_NAME}{genre_param}"
+        f"{API}/tracks/search?query={quote(q)}&limit={limit}&app_name={APP_NAME}{genre_param}"
         if q
-        else f"{API}/tracks/trending?limit=10&app_name={APP_NAME}{genre_param}"
+        else f"{API}/tracks/trending?limit={limit}&app_name={APP_NAME}{genre_param}"
     )
     body = _record(await _get_json(client, url)) or {}
     data = body.get("data")
