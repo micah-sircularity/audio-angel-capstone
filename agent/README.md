@@ -453,27 +453,3 @@ deployed Modal worker (optional, with graceful fallback).
   breadth (Audius only scratches it).
 - No cloud deployment yet — the Modal worker is the only hosted piece;
   the app itself runs locally or via `docker compose up`.
-
-## Self-evaluation
-
-| criterion | max | self | evidence |
-|---|---|---|---|
-| Problem description | 2 | 2 | [Problem](#problem) — from the author's blog, with the failure modes that motivated each component |
-| Knowledge base & retrieval | 2 | 2 | [KB & retrieval](#knowledge-base--retrieval) — 3 methods, eval table, hybrid wins |
-| Agents & LLM | 3 | 3 | [The agent](#the-agent) — tools table, validator, prematch, budget, versioned prompts |
-| Code organization | 2 | 2 | [Project structure](#project-structure) — src layout, layered pipeline, one module per concern |
-| Testing | 2 | 2 | [Testing](#testing) — 91 offline tests, marker-separated live tests |
-| Evaluation | 3 | 3 | [Evaluation](#evaluation) — metrics, tuning sweep, results tables |
-| Eval bonus: hand-crafted GT | 2 | 2 | [Ground truth](#ground-truth) — 15 labeled tracks w/ transcript snapshots |
-| Eval bonus: manual eval | 2 | 2 | [Manual evaluation](#manual-evaluation) — per-track review + feedback-review.md |
-| Monitoring | 2 | 2 | [Monitoring](#monitoring) — Logfire spans + Monitor page |
-| Monitoring bonus: user feedback | 1 | 1 | [Feedback loop](#user-feedback--ground-truth) — verdicts + missed-word form |
-| Monitoring bonus: logs → GT | 2 | 2 | feedback_to_gt.py + `make eval-feedback` |
-| Reproducibility | 2 | 2 | [Reproducibility](#reproducibility) — uv.lock, committed GT/lexicon/queries |
-| Docker | 1 | 1 | Dockerfile: slim + ffmpeg + uv, non-root, healthcheck |
-| compose up starts the system | 2 | 2 | `docker compose up` runs the full app; the Modal worker is an external managed service (one `modal deploy`, creds via env) — documented above |
-| Makefile | 1 | 1 | `make help` lists every target |
-| uv | 1 | 1 | uv project, `uv sync`, uv.lock committed |
-| CI/CD | 2 | 2 | `.github/workflows/agent.yml`: lint + offline tests + docker build on every push/PR |
-| UI | 1 | 1 | Streamlit: Listen/Label/Monitor pages, review table, A/B players |
-| Cloud deployment | 2 | 0 | not deployed — the Modal worker is the only hosted component |

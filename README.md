@@ -21,7 +21,7 @@ cd agent && uv sync && make app   # http://localhost:8501
 ```
 
 Everything a reviewer needs (problem, architecture, retrieval and agent
-evaluation, monitoring, reproducibility and self-evaluation) is in
+evaluation, monitoring and reproducibility) is in
 [`agent/README.md`](agent/README.md).
 
 ## Original prototype (Expo + Convex)
