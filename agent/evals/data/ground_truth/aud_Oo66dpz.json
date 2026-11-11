@@ -1,0 +1,4794 @@
+{
+  "source_key": "aud:Oo66dpz",
+  "title": "See_Me__No_Contact",
+  "artist": "LILTT",
+  "kind": "music",
+  "rules": [
+    {
+      "label": "Profanity",
+      "kind": "category",
+      "value": "profanity"
+    },
+    {
+      "label": "Slurs",
+      "kind": "category",
+      "value": "slurs"
+    },
+    {
+      "label": "Sexual content",
+      "kind": "category",
+      "value": "sexual"
+    },
+    {
+      "label": "Drugs",
+      "kind": "category",
+      "value": "drugs"
+    },
+    {
+      "label": "Graphic violence",
+      "kind": "category",
+      "value": "violence"
+    },
+    {
+      "label": "Blasphemy",
+      "kind": "category",
+      "value": "blasphemy"
+    }
+  ],
+  "transcript": {
+    "source_key": "aud:Oo66dpz",
+    "kind": "music",
+    "duration_ms": 443740,
+    "segments": [
+      {
+        "index": 0,
+        "start_ms": 1280,
+        "end_ms": 3760,
+        "text": "In the day night.",
+        "words": [
+          {
+            "start_ms": 1280,
+            "end_ms": 2000,
+            "text": "In"
+          },
+          {
+            "start_ms": 2000,
+            "end_ms": 2320,
+            "text": "the"
+          },
+          {
+            "start_ms": 2320,
+            "end_ms": 2880,
+            "text": "day"
+          },
+          {
+            "start_ms": 2880,
+            "end_ms": 3760,
+            "text": "night."
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "start_ms": 5440,
+        "end_ms": 7360,
+        "text": "In the day night.",
+        "words": [
+          {
+            "start_ms": 5440,
+            "end_ms": 5760,
+            "text": "In"
+          },
+          {
+            "start_ms": 5760,
+            "end_ms": 5920,
+            "text": "the"
+          },
+          {
+            "start_ms": 5920,
+            "end_ms": 6480,
+            "text": "day"
+          },
+          {
+            "start_ms": 6480,
+            "end_ms": 7360,
+            "text": "night."
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "start_ms": 9280,
+        "end_ms": 10160,
+        "text": "In",
+        "words": [
+          {
+            "start_ms": 9280,
+            "end_ms": 10160,
+            "text": "In"
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "start_ms": 16080,
+        "end_ms": 17520,
+        "text": "the day night.",
+        "words": [
+          {
+            "start_ms": 16080,
+            "end_ms": 16400,
+            "text": "the"
+          },
+          {
+            "start_ms": 16400,
+            "end_ms": 16960,
+            "text": "day"
+          },
+          {
+            "start_ms": 17040,
+            "end_ms": 17520,
+            "text": "night."
+          }
+        ]
+      },
+      {
+        "index": 4,
+        "start_ms": 35770,
+        "end_ms": 37290,
+        "text": "Yeah, girl. I",
+        "words": [
+          {
+            "start_ms": 35770,
+            "end_ms": 36250,
+            "text": "Yeah,"
+          },
+          {
+            "start_ms": 36250,
+            "end_ms": 36730,
+            "text": "girl."
+          },
+          {
+            "start_ms": 36730,
+            "end_ms": 37290,
+            "text": "I"
+          }
+        ]
+      },
+      {
+        "index": 5,
+        "start_ms": 37770,
+        "end_ms": 40010,
+        "text": "saw you again and felt like yesterday,",
+        "words": [
+          {
+            "start_ms": 37770,
+            "end_ms": 38010,
+            "text": "saw"
+          },
+          {
+            "start_ms": 38010,
+            "end_ms": 38170,
+            "text": "you"
+          },
+          {
+            "start_ms": 38170,
+            "end_ms": 38570,
+            "text": "again"
+          },
+          {
+            "start_ms": 38570,
+            "end_ms": 38810,
+            "text": "and"
+          },
+          {
+            "start_ms": 38810,
+            "end_ms": 39050,
+            "text": "felt"
+          },
+          {
+            "start_ms": 39050,
+            "end_ms": 39210,
+            "text": "like"
+          },
+          {
+            "start_ms": 39210,
+            "end_ms": 40010,
+            "text": "yesterday,"
+          }
+        ]
+      },
+      {
+        "index": 6,
+        "start_ms": 40410,
+        "end_ms": 46435,
+        "text": "but it's two years gone that had more to say. I played it cool, but that pain came fast.",
+        "words": [
+          {
+            "start_ms": 40410,
+            "end_ms": 40650,
+            "text": "but"
+          },
+          {
+            "start_ms": 40650,
+            "end_ms": 40890,
+            "text": "it's"
+          },
+          {
+            "start_ms": 40890,
+            "end_ms": 41130,
+            "text": "two"
+          },
+          {
+            "start_ms": 41130,
+            "end_ms": 41450,
+            "text": "years"
+          },
+          {
+            "start_ms": 41450,
+            "end_ms": 41770,
+            "text": "gone"
+          },
+          {
+            "start_ms": 41770,
+            "end_ms": 42010,
+            "text": "that"
+          },
+          {
+            "start_ms": 42010,
+            "end_ms": 42250,
+            "text": "had"
+          },
+          {
+            "start_ms": 42250,
+            "end_ms": 42490,
+            "text": "more"
+          },
+          {
+            "start_ms": 42490,
+            "end_ms": 42650,
+            "text": "to"
+          },
+          {
+            "start_ms": 42650,
+            "end_ms": 43210,
+            "text": "say."
+          },
+          {
+            "start_ms": 43210,
+            "end_ms": 43850,
+            "text": "I"
+          },
+          {
+            "start_ms": 43875,
+            "end_ms": 44115,
+            "text": "played"
+          },
+          {
+            "start_ms": 44115,
+            "end_ms": 44355,
+            "text": "it"
+          },
+          {
+            "start_ms": 44355,
+            "end_ms": 44755,
+            "text": "cool,"
+          },
+          {
+            "start_ms": 44755,
+            "end_ms": 44915,
+            "text": "but"
+          },
+          {
+            "start_ms": 44915,
+            "end_ms": 45075,
+            "text": "that"
+          },
+          {
+            "start_ms": 45075,
+            "end_ms": 45395,
+            "text": "pain"
+          },
+          {
+            "start_ms": 45395,
+            "end_ms": 45715,
+            "text": "came"
+          },
+          {
+            "start_ms": 45715,
+            "end_ms": 46435,
+            "text": "fast."
+          }
+        ]
+      },
+      {
+        "index": 7,
+        "start_ms": 46755,
+        "end_ms": 49635,
+        "text": "You kiss me goodnight like the past that don't last.",
+        "words": [
+          {
+            "start_ms": 46755,
+            "end_ms": 47075,
+            "text": "You"
+          },
+          {
+            "start_ms": 47075,
+            "end_ms": 47315,
+            "text": "kiss"
+          },
+          {
+            "start_ms": 47315,
+            "end_ms": 47555,
+            "text": "me"
+          },
+          {
+            "start_ms": 47555,
+            "end_ms": 47955,
+            "text": "goodnight"
+          },
+          {
+            "start_ms": 47955,
+            "end_ms": 48195,
+            "text": "like"
+          },
+          {
+            "start_ms": 48195,
+            "end_ms": 48355,
+            "text": "the"
+          },
+          {
+            "start_ms": 48355,
+            "end_ms": 48675,
+            "text": "past"
+          },
+          {
+            "start_ms": 48675,
+            "end_ms": 48915,
+            "text": "that"
+          },
+          {
+            "start_ms": 48915,
+            "end_ms": 49155,
+            "text": "don't"
+          },
+          {
+            "start_ms": 49155,
+            "end_ms": 49635,
+            "text": "last."
+          }
+        ]
+      },
+      {
+        "index": 8,
+        "start_ms": 60510,
+        "end_ms": 66110,
+        "text": "Yeah. I didn't see you after all this time. I didn't really know what to do anymore.",
+        "words": [
+          {
+            "start_ms": 60510,
+            "end_ms": 61070,
+            "text": "Yeah."
+          },
+          {
+            "start_ms": 61070,
+            "end_ms": 61630,
+            "text": "I"
+          },
+          {
+            "start_ms": 61630,
+            "end_ms": 61950,
+            "text": "didn't"
+          },
+          {
+            "start_ms": 61950,
+            "end_ms": 62190,
+            "text": "see"
+          },
+          {
+            "start_ms": 62190,
+            "end_ms": 62350,
+            "text": "you"
+          },
+          {
+            "start_ms": 62350,
+            "end_ms": 62590,
+            "text": "after"
+          },
+          {
+            "start_ms": 62590,
+            "end_ms": 62830,
+            "text": "all"
+          },
+          {
+            "start_ms": 62830,
+            "end_ms": 63150,
+            "text": "this"
+          },
+          {
+            "start_ms": 63150,
+            "end_ms": 63710,
+            "text": "time."
+          },
+          {
+            "start_ms": 63710,
+            "end_ms": 64030,
+            "text": "I"
+          },
+          {
+            "start_ms": 64030,
+            "end_ms": 64350,
+            "text": "didn't"
+          },
+          {
+            "start_ms": 64350,
+            "end_ms": 64590,
+            "text": "really"
+          },
+          {
+            "start_ms": 64590,
+            "end_ms": 64750,
+            "text": "know"
+          },
+          {
+            "start_ms": 64750,
+            "end_ms": 64910,
+            "text": "what"
+          },
+          {
+            "start_ms": 64910,
+            "end_ms": 65070,
+            "text": "to"
+          },
+          {
+            "start_ms": 65070,
+            "end_ms": 65310,
+            "text": "do"
+          },
+          {
+            "start_ms": 65310,
+            "end_ms": 66110,
+            "text": "anymore."
+          }
+        ]
+      },
+      {
+        "index": 9,
+        "start_ms": 66670,
+        "end_ms": 68910,
+        "text": "You're still the same, just a different vibe.",
+        "words": [
+          {
+            "start_ms": 66670,
+            "end_ms": 66910,
+            "text": "You're"
+          },
+          {
+            "start_ms": 66910,
+            "end_ms": 67070,
+            "text": "still"
+          },
+          {
+            "start_ms": 67070,
+            "end_ms": 67230,
+            "text": "the"
+          },
+          {
+            "start_ms": 67230,
+            "end_ms": 67550,
+            "text": "same,"
+          },
+          {
+            "start_ms": 67550,
+            "end_ms": 67710,
+            "text": "just"
+          },
+          {
+            "start_ms": 67710,
+            "end_ms": 67870,
+            "text": "a"
+          },
+          {
+            "start_ms": 67870,
+            "end_ms": 68190,
+            "text": "different"
+          },
+          {
+            "start_ms": 68190,
+            "end_ms": 68910,
+            "text": "vibe."
+          }
+        ]
+      },
+      {
+        "index": 10,
+        "start_ms": 68990,
+        "end_ms": 73470,
+        "text": "I bought her dinner, gave her the night. She gave me memories I didn't wanna write.",
+        "words": [
+          {
+            "start_ms": 68990,
+            "end_ms": 69390,
+            "text": "I"
+          },
+          {
+            "start_ms": 69470,
+            "end_ms": 69710,
+            "text": "bought"
+          },
+          {
+            "start_ms": 69710,
+            "end_ms": 69870,
+            "text": "her"
+          },
+          {
+            "start_ms": 69870,
+            "end_ms": 70270,
+            "text": "dinner,"
+          },
+          {
+            "start_ms": 70270,
+            "end_ms": 70430,
+            "text": "gave"
+          },
+          {
+            "start_ms": 70430,
+            "end_ms": 70590,
+            "text": "her"
+          },
+          {
+            "start_ms": 70590,
+            "end_ms": 70830,
+            "text": "the"
+          },
+          {
+            "start_ms": 70830,
+            "end_ms": 71310,
+            "text": "night."
+          },
+          {
+            "start_ms": 71310,
+            "end_ms": 71630,
+            "text": "She"
+          },
+          {
+            "start_ms": 71630,
+            "end_ms": 71790,
+            "text": "gave"
+          },
+          {
+            "start_ms": 71790,
+            "end_ms": 71950,
+            "text": "me"
+          },
+          {
+            "start_ms": 71950,
+            "end_ms": 72350,
+            "text": "memories"
+          },
+          {
+            "start_ms": 72350,
+            "end_ms": 72590,
+            "text": "I"
+          },
+          {
+            "start_ms": 72590,
+            "end_ms": 72830,
+            "text": "didn't"
+          },
+          {
+            "start_ms": 72830,
+            "end_ms": 73070,
+            "text": "wanna"
+          },
+          {
+            "start_ms": 73070,
+            "end_ms": 73470,
+            "text": "write."
+          }
+        ]
+      },
+      {
+        "index": 11,
+        "start_ms": 74315,
+        "end_ms": 79435,
+        "text": "I took her out, let her flex my heart hard just for her to go to me and tear it apart.",
+        "words": [
+          {
+            "start_ms": 74315,
+            "end_ms": 74555,
+            "text": "I"
+          },
+          {
+            "start_ms": 74555,
+            "end_ms": 74795,
+            "text": "took"
+          },
+          {
+            "start_ms": 74795,
+            "end_ms": 74955,
+            "text": "her"
+          },
+          {
+            "start_ms": 74955,
+            "end_ms": 75275,
+            "text": "out,"
+          },
+          {
+            "start_ms": 75275,
+            "end_ms": 75435,
+            "text": "let"
+          },
+          {
+            "start_ms": 75435,
+            "end_ms": 75595,
+            "text": "her"
+          },
+          {
+            "start_ms": 75595,
+            "end_ms": 75835,
+            "text": "flex"
+          },
+          {
+            "start_ms": 75835,
+            "end_ms": 76075,
+            "text": "my"
+          },
+          {
+            "start_ms": 76075,
+            "end_ms": 76395,
+            "text": "heart"
+          },
+          {
+            "start_ms": 76395,
+            "end_ms": 76715,
+            "text": "hard"
+          },
+          {
+            "start_ms": 76715,
+            "end_ms": 77195,
+            "text": "just"
+          },
+          {
+            "start_ms": 77195,
+            "end_ms": 77355,
+            "text": "for"
+          },
+          {
+            "start_ms": 77355,
+            "end_ms": 77515,
+            "text": "her"
+          },
+          {
+            "start_ms": 77515,
+            "end_ms": 77675,
+            "text": "to"
+          },
+          {
+            "start_ms": 77675,
+            "end_ms": 77915,
+            "text": "go"
+          },
+          {
+            "start_ms": 77915,
+            "end_ms": 78075,
+            "text": "to"
+          },
+          {
+            "start_ms": 78075,
+            "end_ms": 78235,
+            "text": "me"
+          },
+          {
+            "start_ms": 78235,
+            "end_ms": 78395,
+            "text": "and"
+          },
+          {
+            "start_ms": 78395,
+            "end_ms": 78635,
+            "text": "tear"
+          },
+          {
+            "start_ms": 78635,
+            "end_ms": 78795,
+            "text": "it"
+          },
+          {
+            "start_ms": 78795,
+            "end_ms": 79435,
+            "text": "apart."
+          }
+        ]
+      },
+      {
+        "index": 12,
+        "start_ms": 79595,
+        "end_ms": 85355,
+        "text": "But she kissed me like a mess on deep, but I left feeling broke when I fell asleep. And",
+        "words": [
+          {
+            "start_ms": 79595,
+            "end_ms": 79835,
+            "text": "But"
+          },
+          {
+            "start_ms": 79835,
+            "end_ms": 79995,
+            "text": "she"
+          },
+          {
+            "start_ms": 79995,
+            "end_ms": 80315,
+            "text": "kissed"
+          },
+          {
+            "start_ms": 80315,
+            "end_ms": 80555,
+            "text": "me"
+          },
+          {
+            "start_ms": 80555,
+            "end_ms": 80715,
+            "text": "like"
+          },
+          {
+            "start_ms": 80715,
+            "end_ms": 80955,
+            "text": "a"
+          },
+          {
+            "start_ms": 80955,
+            "end_ms": 81275,
+            "text": "mess"
+          },
+          {
+            "start_ms": 81275,
+            "end_ms": 81515,
+            "text": "on"
+          },
+          {
+            "start_ms": 81515,
+            "end_ms": 82155,
+            "text": "deep,"
+          },
+          {
+            "start_ms": 82155,
+            "end_ms": 82395,
+            "text": "but"
+          },
+          {
+            "start_ms": 82395,
+            "end_ms": 82555,
+            "text": "I"
+          },
+          {
+            "start_ms": 82555,
+            "end_ms": 82715,
+            "text": "left"
+          },
+          {
+            "start_ms": 82715,
+            "end_ms": 83035,
+            "text": "feeling"
+          },
+          {
+            "start_ms": 83035,
+            "end_ms": 83355,
+            "text": "broke"
+          },
+          {
+            "start_ms": 83355,
+            "end_ms": 83515,
+            "text": "when"
+          },
+          {
+            "start_ms": 83515,
+            "end_ms": 83675,
+            "text": "I"
+          },
+          {
+            "start_ms": 83675,
+            "end_ms": 83995,
+            "text": "fell"
+          },
+          {
+            "start_ms": 83995,
+            "end_ms": 84635,
+            "text": "asleep."
+          },
+          {
+            "start_ms": 84715,
+            "end_ms": 85355,
+            "text": "And"
+          }
+        ]
+      },
+      {
+        "index": 13,
+        "start_ms": 85915,
+        "end_ms": 92580,
+        "text": "now it's clear. That was my mistake. If you didn't fire, that never get plain. But I moved on. I'm not in that place.",
+        "words": [
+          {
+            "start_ms": 85915,
+            "end_ms": 86155,
+            "text": "now"
+          },
+          {
+            "start_ms": 86155,
+            "end_ms": 86395,
+            "text": "it's"
+          },
+          {
+            "start_ms": 86395,
+            "end_ms": 86875,
+            "text": "clear."
+          },
+          {
+            "start_ms": 86955,
+            "end_ms": 87115,
+            "text": "That"
+          },
+          {
+            "start_ms": 87115,
+            "end_ms": 87355,
+            "text": "was"
+          },
+          {
+            "start_ms": 87355,
+            "end_ms": 87675,
+            "text": "my"
+          },
+          {
+            "start_ms": 87675,
+            "end_ms": 88155,
+            "text": "mistake."
+          },
+          {
+            "start_ms": 88420,
+            "end_ms": 88580,
+            "text": "If"
+          },
+          {
+            "start_ms": 88580,
+            "end_ms": 88740,
+            "text": "you"
+          },
+          {
+            "start_ms": 88740,
+            "end_ms": 88900,
+            "text": "didn't"
+          },
+          {
+            "start_ms": 88900,
+            "end_ms": 89300,
+            "text": "fire,"
+          },
+          {
+            "start_ms": 89300,
+            "end_ms": 89460,
+            "text": "that"
+          },
+          {
+            "start_ms": 89460,
+            "end_ms": 89700,
+            "text": "never"
+          },
+          {
+            "start_ms": 89700,
+            "end_ms": 89940,
+            "text": "get"
+          },
+          {
+            "start_ms": 89940,
+            "end_ms": 90420,
+            "text": "plain."
+          },
+          {
+            "start_ms": 90420,
+            "end_ms": 90580,
+            "text": "But"
+          },
+          {
+            "start_ms": 90580,
+            "end_ms": 90740,
+            "text": "I"
+          },
+          {
+            "start_ms": 90740,
+            "end_ms": 90980,
+            "text": "moved"
+          },
+          {
+            "start_ms": 90980,
+            "end_ms": 91300,
+            "text": "on."
+          },
+          {
+            "start_ms": 91300,
+            "end_ms": 91540,
+            "text": "I'm"
+          },
+          {
+            "start_ms": 91540,
+            "end_ms": 91700,
+            "text": "not"
+          },
+          {
+            "start_ms": 91700,
+            "end_ms": 91860,
+            "text": "in"
+          },
+          {
+            "start_ms": 91860,
+            "end_ms": 92020,
+            "text": "that"
+          },
+          {
+            "start_ms": 92020,
+            "end_ms": 92580,
+            "text": "place."
+          }
+        ]
+      },
+      {
+        "index": 14,
+        "start_ms": 93300,
+        "end_ms": 100100,
+        "text": "Navelle got me feeling like life's no race. She's",
+        "words": [
+          {
+            "start_ms": 93300,
+            "end_ms": 93860,
+            "text": "Navelle"
+          },
+          {
+            "start_ms": 93860,
+            "end_ms": 94100,
+            "text": "got"
+          },
+          {
+            "start_ms": 94100,
+            "end_ms": 94260,
+            "text": "me"
+          },
+          {
+            "start_ms": 94260,
+            "end_ms": 94580,
+            "text": "feeling"
+          },
+          {
+            "start_ms": 94580,
+            "end_ms": 94740,
+            "text": "like"
+          },
+          {
+            "start_ms": 94740,
+            "end_ms": 95220,
+            "text": "life's"
+          },
+          {
+            "start_ms": 95220,
+            "end_ms": 95460,
+            "text": "no"
+          },
+          {
+            "start_ms": 95460,
+            "end_ms": 96100,
+            "text": "race."
+          },
+          {
+            "start_ms": 96100,
+            "end_ms": 100100,
+            "text": "She's"
+          }
+        ]
+      },
+      {
+        "index": 15,
+        "start_ms": 100100,
+        "end_ms": 109915,
+        "text": "17. She shoulda got her own song. Puerto Rican beauty in a class of her own. Tell me what's real. Never hides apart apart. We got me trying to give her my goddard heart.",
+        "words": [
+          {
+            "start_ms": 100100,
+            "end_ms": 100820,
+            "text": "17."
+          },
+          {
+            "start_ms": 100820,
+            "end_ms": 100980,
+            "text": "She"
+          },
+          {
+            "start_ms": 100980,
+            "end_ms": 101300,
+            "text": "shoulda"
+          },
+          {
+            "start_ms": 101300,
+            "end_ms": 101460,
+            "text": "got"
+          },
+          {
+            "start_ms": 101460,
+            "end_ms": 101620,
+            "text": "her"
+          },
+          {
+            "start_ms": 101620,
+            "end_ms": 101860,
+            "text": "own"
+          },
+          {
+            "start_ms": 101860,
+            "end_ms": 102180,
+            "text": "song."
+          },
+          {
+            "start_ms": 102475,
+            "end_ms": 102875,
+            "text": "Puerto"
+          },
+          {
+            "start_ms": 102875,
+            "end_ms": 103115,
+            "text": "Rican"
+          },
+          {
+            "start_ms": 103115,
+            "end_ms": 103515,
+            "text": "beauty"
+          },
+          {
+            "start_ms": 103515,
+            "end_ms": 103675,
+            "text": "in"
+          },
+          {
+            "start_ms": 103675,
+            "end_ms": 103835,
+            "text": "a"
+          },
+          {
+            "start_ms": 103835,
+            "end_ms": 104075,
+            "text": "class"
+          },
+          {
+            "start_ms": 104075,
+            "end_ms": 104235,
+            "text": "of"
+          },
+          {
+            "start_ms": 104235,
+            "end_ms": 104475,
+            "text": "her"
+          },
+          {
+            "start_ms": 104475,
+            "end_ms": 104875,
+            "text": "own."
+          },
+          {
+            "start_ms": 104875,
+            "end_ms": 105195,
+            "text": "Tell"
+          },
+          {
+            "start_ms": 105195,
+            "end_ms": 105355,
+            "text": "me"
+          },
+          {
+            "start_ms": 105355,
+            "end_ms": 105675,
+            "text": "what's"
+          },
+          {
+            "start_ms": 105675,
+            "end_ms": 106235,
+            "text": "real."
+          },
+          {
+            "start_ms": 106235,
+            "end_ms": 106635,
+            "text": "Never"
+          },
+          {
+            "start_ms": 106795,
+            "end_ms": 107115,
+            "text": "hides"
+          },
+          {
+            "start_ms": 107115,
+            "end_ms": 107515,
+            "text": "apart"
+          },
+          {
+            "start_ms": 107515,
+            "end_ms": 107915,
+            "text": "apart."
+          },
+          {
+            "start_ms": 107915,
+            "end_ms": 108075,
+            "text": "We"
+          },
+          {
+            "start_ms": 108075,
+            "end_ms": 108235,
+            "text": "got"
+          },
+          {
+            "start_ms": 108235,
+            "end_ms": 108395,
+            "text": "me"
+          },
+          {
+            "start_ms": 108395,
+            "end_ms": 108555,
+            "text": "trying"
+          },
+          {
+            "start_ms": 108555,
+            "end_ms": 108715,
+            "text": "to"
+          },
+          {
+            "start_ms": 108715,
+            "end_ms": 108875,
+            "text": "give"
+          },
+          {
+            "start_ms": 108875,
+            "end_ms": 109035,
+            "text": "her"
+          },
+          {
+            "start_ms": 109035,
+            "end_ms": 109275,
+            "text": "my"
+          },
+          {
+            "start_ms": 109275,
+            "end_ms": 109675,
+            "text": "goddard"
+          },
+          {
+            "start_ms": 109675,
+            "end_ms": 109915,
+            "text": "heart."
+          }
+        ]
+      },
+      {
+        "index": 16,
+        "start_ms": 115610,
+        "end_ms": 116410,
+        "text": "Yeah.",
+        "words": [
+          {
+            "start_ms": 115610,
+            "end_ms": 116410,
+            "text": "Yeah."
+          }
+        ]
+      },
+      {
+        "index": 17,
+        "start_ms": 116810,
+        "end_ms": 121850,
+        "text": "She's a hour away, but I still feel close. FaceTime calls, and she's doing the most.",
+        "words": [
+          {
+            "start_ms": 116810,
+            "end_ms": 117210,
+            "text": "She's"
+          },
+          {
+            "start_ms": 117210,
+            "end_ms": 117370,
+            "text": "a"
+          },
+          {
+            "start_ms": 117370,
+            "end_ms": 117610,
+            "text": "hour"
+          },
+          {
+            "start_ms": 117610,
+            "end_ms": 118090,
+            "text": "away,"
+          },
+          {
+            "start_ms": 118090,
+            "end_ms": 118170,
+            "text": "but"
+          },
+          {
+            "start_ms": 118170,
+            "end_ms": 118330,
+            "text": "I"
+          },
+          {
+            "start_ms": 118330,
+            "end_ms": 118570,
+            "text": "still"
+          },
+          {
+            "start_ms": 118570,
+            "end_ms": 118890,
+            "text": "feel"
+          },
+          {
+            "start_ms": 118890,
+            "end_ms": 119450,
+            "text": "close."
+          },
+          {
+            "start_ms": 119450,
+            "end_ms": 119850,
+            "text": "FaceTime"
+          },
+          {
+            "start_ms": 119850,
+            "end_ms": 120330,
+            "text": "calls,"
+          },
+          {
+            "start_ms": 120330,
+            "end_ms": 120410,
+            "text": "and"
+          },
+          {
+            "start_ms": 120410,
+            "end_ms": 120730,
+            "text": "she's"
+          },
+          {
+            "start_ms": 120730,
+            "end_ms": 120970,
+            "text": "doing"
+          },
+          {
+            "start_ms": 120970,
+            "end_ms": 121210,
+            "text": "the"
+          },
+          {
+            "start_ms": 121210,
+            "end_ms": 121850,
+            "text": "most."
+          }
+        ]
+      },
+      {
+        "index": 18,
+        "start_ms": 122250,
+        "end_ms": 126490,
+        "text": "Laughing at me, twisting her hair. She don't act like these typical girls.",
+        "words": [
+          {
+            "start_ms": 122250,
+            "end_ms": 122730,
+            "text": "Laughing"
+          },
+          {
+            "start_ms": 122730,
+            "end_ms": 122890,
+            "text": "at"
+          },
+          {
+            "start_ms": 122890,
+            "end_ms": 123290,
+            "text": "me,"
+          },
+          {
+            "start_ms": 123290,
+            "end_ms": 123690,
+            "text": "twisting"
+          },
+          {
+            "start_ms": 123690,
+            "end_ms": 123850,
+            "text": "her"
+          },
+          {
+            "start_ms": 123850,
+            "end_ms": 124250,
+            "text": "hair."
+          },
+          {
+            "start_ms": 124250,
+            "end_ms": 124410,
+            "text": "She"
+          },
+          {
+            "start_ms": 124410,
+            "end_ms": 124650,
+            "text": "don't"
+          },
+          {
+            "start_ms": 124650,
+            "end_ms": 124890,
+            "text": "act"
+          },
+          {
+            "start_ms": 124890,
+            "end_ms": 125050,
+            "text": "like"
+          },
+          {
+            "start_ms": 125050,
+            "end_ms": 125290,
+            "text": "these"
+          },
+          {
+            "start_ms": 125290,
+            "end_ms": 125770,
+            "text": "typical"
+          },
+          {
+            "start_ms": 125770,
+            "end_ms": 126490,
+            "text": "girls."
+          }
+        ]
+      },
+      {
+        "index": 19,
+        "start_ms": 126810,
+        "end_ms": 128890,
+        "text": "I told her I'm working. I still got goals.",
+        "words": [
+          {
+            "start_ms": 126810,
+            "end_ms": 126970,
+            "text": "I"
+          },
+          {
+            "start_ms": 126970,
+            "end_ms": 127210,
+            "text": "told"
+          },
+          {
+            "start_ms": 127210,
+            "end_ms": 127370,
+            "text": "her"
+          },
+          {
+            "start_ms": 127370,
+            "end_ms": 127530,
+            "text": "I'm"
+          },
+          {
+            "start_ms": 127530,
+            "end_ms": 127930,
+            "text": "working."
+          },
+          {
+            "start_ms": 127930,
+            "end_ms": 128010,
+            "text": "I"
+          },
+          {
+            "start_ms": 128010,
+            "end_ms": 128250,
+            "text": "still"
+          },
+          {
+            "start_ms": 128250,
+            "end_ms": 128490,
+            "text": "got"
+          },
+          {
+            "start_ms": 128490,
+            "end_ms": 128890,
+            "text": "goals."
+          }
+        ]
+      },
+      {
+        "index": 20,
+        "start_ms": 129615,
+        "end_ms": 134735,
+        "text": "Told her I'm scared, but I'm still lunished. She said she don't mind. She just want the truth.",
+        "words": [
+          {
+            "start_ms": 129615,
+            "end_ms": 129935,
+            "text": "Told"
+          },
+          {
+            "start_ms": 129935,
+            "end_ms": 130095,
+            "text": "her"
+          },
+          {
+            "start_ms": 130095,
+            "end_ms": 130255,
+            "text": "I'm"
+          },
+          {
+            "start_ms": 130255,
+            "end_ms": 130575,
+            "text": "scared,"
+          },
+          {
+            "start_ms": 130575,
+            "end_ms": 130655,
+            "text": "but"
+          },
+          {
+            "start_ms": 130655,
+            "end_ms": 130895,
+            "text": "I'm"
+          },
+          {
+            "start_ms": 130895,
+            "end_ms": 131055,
+            "text": "still"
+          },
+          {
+            "start_ms": 131055,
+            "end_ms": 131775,
+            "text": "lunished."
+          },
+          {
+            "start_ms": 131775,
+            "end_ms": 132015,
+            "text": "She"
+          },
+          {
+            "start_ms": 132015,
+            "end_ms": 132175,
+            "text": "said"
+          },
+          {
+            "start_ms": 132175,
+            "end_ms": 132415,
+            "text": "she"
+          },
+          {
+            "start_ms": 132415,
+            "end_ms": 132655,
+            "text": "don't"
+          },
+          {
+            "start_ms": 132655,
+            "end_ms": 133215,
+            "text": "mind."
+          },
+          {
+            "start_ms": 133295,
+            "end_ms": 133535,
+            "text": "She"
+          },
+          {
+            "start_ms": 133535,
+            "end_ms": 133695,
+            "text": "just"
+          },
+          {
+            "start_ms": 133695,
+            "end_ms": 133935,
+            "text": "want"
+          },
+          {
+            "start_ms": 133935,
+            "end_ms": 134095,
+            "text": "the"
+          },
+          {
+            "start_ms": 134095,
+            "end_ms": 134735,
+            "text": "truth."
+          }
+        ]
+      },
+      {
+        "index": 21,
+        "start_ms": 135135,
+        "end_ms": 137295,
+        "text": "I believe her. I",
+        "words": [
+          {
+            "start_ms": 135135,
+            "end_ms": 135295,
+            "text": "I"
+          },
+          {
+            "start_ms": 135295,
+            "end_ms": 135695,
+            "text": "believe"
+          },
+          {
+            "start_ms": 135695,
+            "end_ms": 136335,
+            "text": "her."
+          },
+          {
+            "start_ms": 136415,
+            "end_ms": 137295,
+            "text": "I"
+          }
+        ]
+      },
+      {
+        "index": 22,
+        "start_ms": 140335,
+        "end_ms": 144320,
+        "text": "just wanna see you, but I can't lose me in the process.",
+        "words": [
+          {
+            "start_ms": 140335,
+            "end_ms": 140575,
+            "text": "just"
+          },
+          {
+            "start_ms": 140575,
+            "end_ms": 140895,
+            "text": "wanna"
+          },
+          {
+            "start_ms": 140895,
+            "end_ms": 141215,
+            "text": "see"
+          },
+          {
+            "start_ms": 141215,
+            "end_ms": 141695,
+            "text": "you,"
+          },
+          {
+            "start_ms": 141695,
+            "end_ms": 142095,
+            "text": "but"
+          },
+          {
+            "start_ms": 142335,
+            "end_ms": 142495,
+            "text": "I"
+          },
+          {
+            "start_ms": 142495,
+            "end_ms": 142735,
+            "text": "can't"
+          },
+          {
+            "start_ms": 142735,
+            "end_ms": 142975,
+            "text": "lose"
+          },
+          {
+            "start_ms": 142975,
+            "end_ms": 143215,
+            "text": "me"
+          },
+          {
+            "start_ms": 143215,
+            "end_ms": 143375,
+            "text": "in"
+          },
+          {
+            "start_ms": 143375,
+            "end_ms": 144015,
+            "text": "the"
+          },
+          {
+            "start_ms": 143520,
+            "end_ms": 144320,
+            "text": "process."
+          }
+        ]
+      },
+      {
+        "index": 23,
+        "start_ms": 144640,
+        "end_ms": 148640,
+        "text": "Love ain't free when you lost it. Took Els trying to make things flawless,",
+        "words": [
+          {
+            "start_ms": 144640,
+            "end_ms": 144960,
+            "text": "Love"
+          },
+          {
+            "start_ms": 144960,
+            "end_ms": 145200,
+            "text": "ain't"
+          },
+          {
+            "start_ms": 145200,
+            "end_ms": 145360,
+            "text": "free"
+          },
+          {
+            "start_ms": 145360,
+            "end_ms": 145600,
+            "text": "when"
+          },
+          {
+            "start_ms": 145600,
+            "end_ms": 145760,
+            "text": "you"
+          },
+          {
+            "start_ms": 145760,
+            "end_ms": 146160,
+            "text": "lost"
+          },
+          {
+            "start_ms": 146160,
+            "end_ms": 146480,
+            "text": "it."
+          },
+          {
+            "start_ms": 146480,
+            "end_ms": 146720,
+            "text": "Took"
+          },
+          {
+            "start_ms": 146720,
+            "end_ms": 147120,
+            "text": "Els"
+          },
+          {
+            "start_ms": 147120,
+            "end_ms": 147280,
+            "text": "trying"
+          },
+          {
+            "start_ms": 147280,
+            "end_ms": 147440,
+            "text": "to"
+          },
+          {
+            "start_ms": 147440,
+            "end_ms": 147680,
+            "text": "make"
+          },
+          {
+            "start_ms": 147680,
+            "end_ms": 147920,
+            "text": "things"
+          },
+          {
+            "start_ms": 147920,
+            "end_ms": 148640,
+            "text": "flawless,"
+          }
+        ]
+      },
+      {
+        "index": 24,
+        "start_ms": 148720,
+        "end_ms": 150320,
+        "text": "but you talk like you mean it.",
+        "words": [
+          {
+            "start_ms": 148720,
+            "end_ms": 148960,
+            "text": "but"
+          },
+          {
+            "start_ms": 148960,
+            "end_ms": 149120,
+            "text": "you"
+          },
+          {
+            "start_ms": 149120,
+            "end_ms": 149360,
+            "text": "talk"
+          },
+          {
+            "start_ms": 149360,
+            "end_ms": 149520,
+            "text": "like"
+          },
+          {
+            "start_ms": 149520,
+            "end_ms": 149600,
+            "text": "you"
+          },
+          {
+            "start_ms": 149600,
+            "end_ms": 149920,
+            "text": "mean"
+          },
+          {
+            "start_ms": 149920,
+            "end_ms": 150320,
+            "text": "it."
+          }
+        ]
+      },
+      {
+        "index": 25,
+        "start_ms": 150800,
+        "end_ms": 155040,
+        "text": "I need enough fake love. You show us see it. I it. I'm working on Grande Naplite,",
+        "words": [
+          {
+            "start_ms": 150800,
+            "end_ms": 150880,
+            "text": "I"
+          },
+          {
+            "start_ms": 150880,
+            "end_ms": 150960,
+            "text": "need"
+          },
+          {
+            "start_ms": 150960,
+            "end_ms": 151280,
+            "text": "enough"
+          },
+          {
+            "start_ms": 151280,
+            "end_ms": 151520,
+            "text": "fake"
+          },
+          {
+            "start_ms": 151520,
+            "end_ms": 151760,
+            "text": "love."
+          },
+          {
+            "start_ms": 151760,
+            "end_ms": 151840,
+            "text": "You"
+          },
+          {
+            "start_ms": 151840,
+            "end_ms": 152000,
+            "text": "show"
+          },
+          {
+            "start_ms": 152000,
+            "end_ms": 152240,
+            "text": "us"
+          },
+          {
+            "start_ms": 152240,
+            "end_ms": 152480,
+            "text": "see"
+          },
+          {
+            "start_ms": 152480,
+            "end_ms": 152880,
+            "text": "it."
+          },
+          {
+            "start_ms": 152880,
+            "end_ms": 152960,
+            "text": "I"
+          },
+          {
+            "start_ms": 152960,
+            "end_ms": 153200,
+            "text": "it."
+          },
+          {
+            "start_ms": 153200,
+            "end_ms": 153520,
+            "text": "I'm"
+          },
+          {
+            "start_ms": 153520,
+            "end_ms": 153760,
+            "text": "working"
+          },
+          {
+            "start_ms": 153760,
+            "end_ms": 153920,
+            "text": "on"
+          },
+          {
+            "start_ms": 153920,
+            "end_ms": 154240,
+            "text": "Grande"
+          },
+          {
+            "start_ms": 154240,
+            "end_ms": 155040,
+            "text": "Naplite,"
+          }
+        ]
+      },
+      {
+        "index": 26,
+        "start_ms": 155200,
+        "end_ms": 156880,
+        "text": "but I still dress sexy just to meet it.",
+        "words": [
+          {
+            "start_ms": 155200,
+            "end_ms": 155440,
+            "text": "but"
+          },
+          {
+            "start_ms": 155440,
+            "end_ms": 155520,
+            "text": "I"
+          },
+          {
+            "start_ms": 155520,
+            "end_ms": 155680,
+            "text": "still"
+          },
+          {
+            "start_ms": 155680,
+            "end_ms": 155920,
+            "text": "dress"
+          },
+          {
+            "start_ms": 155920,
+            "end_ms": 156160,
+            "text": "sexy"
+          },
+          {
+            "start_ms": 156160,
+            "end_ms": 156400,
+            "text": "just"
+          },
+          {
+            "start_ms": 156400,
+            "end_ms": 156560,
+            "text": "to"
+          },
+          {
+            "start_ms": 156560,
+            "end_ms": 156720,
+            "text": "meet"
+          },
+          {
+            "start_ms": 156720,
+            "end_ms": 156880,
+            "text": "it."
+          }
+        ]
+      },
+      {
+        "index": 27,
+        "start_ms": 158155,
+        "end_ms": 158795,
+        "text": "Yeah.",
+        "words": [
+          {
+            "start_ms": 158155,
+            "end_ms": 158795,
+            "text": "Yeah."
+          }
+        ]
+      },
+      {
+        "index": 28,
+        "start_ms": 158955,
+        "end_ms": 163195,
+        "text": "She not like the Neve as I knew before. She open, she let, she never ignore.",
+        "words": [
+          {
+            "start_ms": 158955,
+            "end_ms": 159115,
+            "text": "She"
+          },
+          {
+            "start_ms": 159115,
+            "end_ms": 159355,
+            "text": "not"
+          },
+          {
+            "start_ms": 159355,
+            "end_ms": 159515,
+            "text": "like"
+          },
+          {
+            "start_ms": 159515,
+            "end_ms": 159675,
+            "text": "the"
+          },
+          {
+            "start_ms": 159675,
+            "end_ms": 159995,
+            "text": "Neve"
+          },
+          {
+            "start_ms": 159995,
+            "end_ms": 160235,
+            "text": "as"
+          },
+          {
+            "start_ms": 160235,
+            "end_ms": 160395,
+            "text": "I"
+          },
+          {
+            "start_ms": 160395,
+            "end_ms": 160555,
+            "text": "knew"
+          },
+          {
+            "start_ms": 160555,
+            "end_ms": 161115,
+            "text": "before."
+          },
+          {
+            "start_ms": 161115,
+            "end_ms": 161355,
+            "text": "She"
+          },
+          {
+            "start_ms": 161355,
+            "end_ms": 161755,
+            "text": "open,"
+          },
+          {
+            "start_ms": 161755,
+            "end_ms": 161835,
+            "text": "she"
+          },
+          {
+            "start_ms": 161835,
+            "end_ms": 162075,
+            "text": "let,"
+          },
+          {
+            "start_ms": 162075,
+            "end_ms": 162235,
+            "text": "she"
+          },
+          {
+            "start_ms": 162235,
+            "end_ms": 162475,
+            "text": "never"
+          },
+          {
+            "start_ms": 162475,
+            "end_ms": 163195,
+            "text": "ignore."
+          }
+        ]
+      },
+      {
+        "index": 29,
+        "start_ms": 163435,
+        "end_ms": 167835,
+        "text": "Told me what she won, she mean that. Said don't waste my time, and I feel that.",
+        "words": [
+          {
+            "start_ms": 163435,
+            "end_ms": 163675,
+            "text": "Told"
+          },
+          {
+            "start_ms": 163675,
+            "end_ms": 163755,
+            "text": "me"
+          },
+          {
+            "start_ms": 163755,
+            "end_ms": 163995,
+            "text": "what"
+          },
+          {
+            "start_ms": 163995,
+            "end_ms": 164155,
+            "text": "she"
+          },
+          {
+            "start_ms": 164155,
+            "end_ms": 164555,
+            "text": "won,"
+          },
+          {
+            "start_ms": 164555,
+            "end_ms": 164635,
+            "text": "she"
+          },
+          {
+            "start_ms": 164635,
+            "end_ms": 164955,
+            "text": "mean"
+          },
+          {
+            "start_ms": 164955,
+            "end_ms": 165515,
+            "text": "that."
+          },
+          {
+            "start_ms": 165515,
+            "end_ms": 165835,
+            "text": "Said"
+          },
+          {
+            "start_ms": 165835,
+            "end_ms": 166075,
+            "text": "don't"
+          },
+          {
+            "start_ms": 166075,
+            "end_ms": 166235,
+            "text": "waste"
+          },
+          {
+            "start_ms": 166235,
+            "end_ms": 166395,
+            "text": "my"
+          },
+          {
+            "start_ms": 166395,
+            "end_ms": 166635,
+            "text": "time,"
+          },
+          {
+            "start_ms": 166635,
+            "end_ms": 166795,
+            "text": "and"
+          },
+          {
+            "start_ms": 166795,
+            "end_ms": 166955,
+            "text": "I"
+          },
+          {
+            "start_ms": 166955,
+            "end_ms": 167195,
+            "text": "feel"
+          },
+          {
+            "start_ms": 167195,
+            "end_ms": 167835,
+            "text": "that."
+          }
+        ]
+      },
+      {
+        "index": 30,
+        "start_ms": 169995,
+        "end_ms": 172315,
+        "text": "Yeah. She ain't face. She ain't temporary.",
+        "words": [
+          {
+            "start_ms": 169995,
+            "end_ms": 170395,
+            "text": "Yeah."
+          },
+          {
+            "start_ms": 170395,
+            "end_ms": 170635,
+            "text": "She"
+          },
+          {
+            "start_ms": 170635,
+            "end_ms": 170795,
+            "text": "ain't"
+          },
+          {
+            "start_ms": 170795,
+            "end_ms": 171115,
+            "text": "face."
+          },
+          {
+            "start_ms": 171115,
+            "end_ms": 171275,
+            "text": "She"
+          },
+          {
+            "start_ms": 171275,
+            "end_ms": 171435,
+            "text": "ain't"
+          },
+          {
+            "start_ms": 171435,
+            "end_ms": 172315,
+            "text": "temporary."
+          }
+        ]
+      },
+      {
+        "index": 31,
+        "start_ms": 172315,
+        "end_ms": 176560,
+        "text": "I've been trying to talk. She ain't vanish like the others. But",
+        "words": [
+          {
+            "start_ms": 172315,
+            "end_ms": 172555,
+            "text": "I've"
+          },
+          {
+            "start_ms": 172555,
+            "end_ms": 172635,
+            "text": "been"
+          },
+          {
+            "start_ms": 172635,
+            "end_ms": 172875,
+            "text": "trying"
+          },
+          {
+            "start_ms": 172875,
+            "end_ms": 172955,
+            "text": "to"
+          },
+          {
+            "start_ms": 172955,
+            "end_ms": 173275,
+            "text": "talk."
+          },
+          {
+            "start_ms": 173280,
+            "end_ms": 173520,
+            "text": "She"
+          },
+          {
+            "start_ms": 173520,
+            "end_ms": 173760,
+            "text": "ain't"
+          },
+          {
+            "start_ms": 173760,
+            "end_ms": 174080,
+            "text": "vanish"
+          },
+          {
+            "start_ms": 174080,
+            "end_ms": 174320,
+            "text": "like"
+          },
+          {
+            "start_ms": 174320,
+            "end_ms": 174480,
+            "text": "the"
+          },
+          {
+            "start_ms": 174480,
+            "end_ms": 175040,
+            "text": "others."
+          },
+          {
+            "start_ms": 175040,
+            "end_ms": 176560,
+            "text": "But"
+          }
+        ]
+      },
+      {
+        "index": 32,
+        "start_ms": 176960,
+        "end_ms": 190495,
+        "text": "I'm different too. I've been focused. I had to level up. I kept my ground in motion. I told her I wanna see her, but can't lose time like I did in the past. I got goals I've been trying to stay, still trying to give her all that I have. I",
+        "words": [
+          {
+            "start_ms": 176960,
+            "end_ms": 177200,
+            "text": "I'm"
+          },
+          {
+            "start_ms": 177200,
+            "end_ms": 177440,
+            "text": "different"
+          },
+          {
+            "start_ms": 177440,
+            "end_ms": 178000,
+            "text": "too."
+          },
+          {
+            "start_ms": 178160,
+            "end_ms": 178400,
+            "text": "I've"
+          },
+          {
+            "start_ms": 178400,
+            "end_ms": 178560,
+            "text": "been"
+          },
+          {
+            "start_ms": 178560,
+            "end_ms": 179040,
+            "text": "focused."
+          },
+          {
+            "start_ms": 179040,
+            "end_ms": 179200,
+            "text": "I"
+          },
+          {
+            "start_ms": 179200,
+            "end_ms": 179440,
+            "text": "had"
+          },
+          {
+            "start_ms": 179440,
+            "end_ms": 179520,
+            "text": "to"
+          },
+          {
+            "start_ms": 179520,
+            "end_ms": 179760,
+            "text": "level"
+          },
+          {
+            "start_ms": 179760,
+            "end_ms": 180080,
+            "text": "up."
+          },
+          {
+            "start_ms": 180080,
+            "end_ms": 180160,
+            "text": "I"
+          },
+          {
+            "start_ms": 180160,
+            "end_ms": 180320,
+            "text": "kept"
+          },
+          {
+            "start_ms": 180320,
+            "end_ms": 180560,
+            "text": "my"
+          },
+          {
+            "start_ms": 180560,
+            "end_ms": 180800,
+            "text": "ground"
+          },
+          {
+            "start_ms": 180800,
+            "end_ms": 180960,
+            "text": "in"
+          },
+          {
+            "start_ms": 180960,
+            "end_ms": 181360,
+            "text": "motion."
+          },
+          {
+            "start_ms": 181360,
+            "end_ms": 181520,
+            "text": "I"
+          },
+          {
+            "start_ms": 181520,
+            "end_ms": 181760,
+            "text": "told"
+          },
+          {
+            "start_ms": 181760,
+            "end_ms": 181920,
+            "text": "her"
+          },
+          {
+            "start_ms": 181920,
+            "end_ms": 182000,
+            "text": "I"
+          },
+          {
+            "start_ms": 182000,
+            "end_ms": 182240,
+            "text": "wanna"
+          },
+          {
+            "start_ms": 182240,
+            "end_ms": 182480,
+            "text": "see"
+          },
+          {
+            "start_ms": 182480,
+            "end_ms": 182960,
+            "text": "her,"
+          },
+          {
+            "start_ms": 182960,
+            "end_ms": 183120,
+            "text": "but"
+          },
+          {
+            "start_ms": 183120,
+            "end_ms": 183360,
+            "text": "can't"
+          },
+          {
+            "start_ms": 183360,
+            "end_ms": 183520,
+            "text": "lose"
+          },
+          {
+            "start_ms": 183520,
+            "end_ms": 183840,
+            "text": "time"
+          },
+          {
+            "start_ms": 183840,
+            "end_ms": 184080,
+            "text": "like"
+          },
+          {
+            "start_ms": 184080,
+            "end_ms": 184160,
+            "text": "I"
+          },
+          {
+            "start_ms": 184160,
+            "end_ms": 184400,
+            "text": "did"
+          },
+          {
+            "start_ms": 184400,
+            "end_ms": 184560,
+            "text": "in"
+          },
+          {
+            "start_ms": 184560,
+            "end_ms": 184720,
+            "text": "the"
+          },
+          {
+            "start_ms": 184720,
+            "end_ms": 184880,
+            "text": "past."
+          },
+          {
+            "start_ms": 185295,
+            "end_ms": 185535,
+            "text": "I"
+          },
+          {
+            "start_ms": 185535,
+            "end_ms": 185695,
+            "text": "got"
+          },
+          {
+            "start_ms": 185695,
+            "end_ms": 185935,
+            "text": "goals"
+          },
+          {
+            "start_ms": 185935,
+            "end_ms": 186175,
+            "text": "I've"
+          },
+          {
+            "start_ms": 186175,
+            "end_ms": 186335,
+            "text": "been"
+          },
+          {
+            "start_ms": 186335,
+            "end_ms": 186495,
+            "text": "trying"
+          },
+          {
+            "start_ms": 186495,
+            "end_ms": 186575,
+            "text": "to"
+          },
+          {
+            "start_ms": 186575,
+            "end_ms": 187135,
+            "text": "stay,"
+          },
+          {
+            "start_ms": 187135,
+            "end_ms": 187455,
+            "text": "still"
+          },
+          {
+            "start_ms": 187455,
+            "end_ms": 187695,
+            "text": "trying"
+          },
+          {
+            "start_ms": 187695,
+            "end_ms": 187775,
+            "text": "to"
+          },
+          {
+            "start_ms": 187775,
+            "end_ms": 187935,
+            "text": "give"
+          },
+          {
+            "start_ms": 187935,
+            "end_ms": 188095,
+            "text": "her"
+          },
+          {
+            "start_ms": 188095,
+            "end_ms": 188335,
+            "text": "all"
+          },
+          {
+            "start_ms": 188335,
+            "end_ms": 188495,
+            "text": "that"
+          },
+          {
+            "start_ms": 188495,
+            "end_ms": 188655,
+            "text": "I"
+          },
+          {
+            "start_ms": 188655,
+            "end_ms": 189215,
+            "text": "have."
+          },
+          {
+            "start_ms": 189215,
+            "end_ms": 190495,
+            "text": "I"
+          }
+        ]
+      },
+      {
+        "index": 33,
+        "start_ms": 190655,
+        "end_ms": 198335,
+        "text": "know you wanna see me bad, but I told her I wanna see her bad. I can't lose time like I did in the past. I got goals I've been trying to stay stay.",
+        "words": [
+          {
+            "start_ms": 190655,
+            "end_ms": 190895,
+            "text": "know"
+          },
+          {
+            "start_ms": 190895,
+            "end_ms": 191055,
+            "text": "you"
+          },
+          {
+            "start_ms": 191055,
+            "end_ms": 191295,
+            "text": "wanna"
+          },
+          {
+            "start_ms": 191295,
+            "end_ms": 191535,
+            "text": "see"
+          },
+          {
+            "start_ms": 191535,
+            "end_ms": 191695,
+            "text": "me"
+          },
+          {
+            "start_ms": 191695,
+            "end_ms": 191935,
+            "text": "bad,"
+          },
+          {
+            "start_ms": 191935,
+            "end_ms": 192255,
+            "text": "but"
+          },
+          {
+            "start_ms": 192255,
+            "end_ms": 192495,
+            "text": "I"
+          },
+          {
+            "start_ms": 192495,
+            "end_ms": 192655,
+            "text": "told"
+          },
+          {
+            "start_ms": 192655,
+            "end_ms": 192815,
+            "text": "her"
+          },
+          {
+            "start_ms": 192815,
+            "end_ms": 192975,
+            "text": "I"
+          },
+          {
+            "start_ms": 192975,
+            "end_ms": 193215,
+            "text": "wanna"
+          },
+          {
+            "start_ms": 193215,
+            "end_ms": 193375,
+            "text": "see"
+          },
+          {
+            "start_ms": 193375,
+            "end_ms": 193535,
+            "text": "her"
+          },
+          {
+            "start_ms": 193535,
+            "end_ms": 194015,
+            "text": "bad."
+          },
+          {
+            "start_ms": 194015,
+            "end_ms": 194415,
+            "text": "I"
+          },
+          {
+            "start_ms": 194495,
+            "end_ms": 194735,
+            "text": "can't"
+          },
+          {
+            "start_ms": 194735,
+            "end_ms": 194975,
+            "text": "lose"
+          },
+          {
+            "start_ms": 194975,
+            "end_ms": 195215,
+            "text": "time"
+          },
+          {
+            "start_ms": 195215,
+            "end_ms": 195375,
+            "text": "like"
+          },
+          {
+            "start_ms": 195375,
+            "end_ms": 195535,
+            "text": "I"
+          },
+          {
+            "start_ms": 195535,
+            "end_ms": 195695,
+            "text": "did"
+          },
+          {
+            "start_ms": 195695,
+            "end_ms": 195935,
+            "text": "in"
+          },
+          {
+            "start_ms": 195935,
+            "end_ms": 196015,
+            "text": "the"
+          },
+          {
+            "start_ms": 196015,
+            "end_ms": 196335,
+            "text": "past."
+          },
+          {
+            "start_ms": 196335,
+            "end_ms": 196495,
+            "text": "I"
+          },
+          {
+            "start_ms": 196495,
+            "end_ms": 196655,
+            "text": "got"
+          },
+          {
+            "start_ms": 196655,
+            "end_ms": 196895,
+            "text": "goals"
+          },
+          {
+            "start_ms": 196895,
+            "end_ms": 197135,
+            "text": "I've"
+          },
+          {
+            "start_ms": 197135,
+            "end_ms": 197215,
+            "text": "been"
+          },
+          {
+            "start_ms": 197215,
+            "end_ms": 197455,
+            "text": "trying"
+          },
+          {
+            "start_ms": 197455,
+            "end_ms": 197615,
+            "text": "to"
+          },
+          {
+            "start_ms": 197615,
+            "end_ms": 197935,
+            "text": "stay"
+          },
+          {
+            "start_ms": 197935,
+            "end_ms": 198335,
+            "text": "stay."
+          }
+        ]
+      },
+      {
+        "index": 34,
+        "start_ms": 238940,
+        "end_ms": 261540,
+        "text": "I've been moving like my time got limits, trying to stay quiet while you hold down the spirits. Told you my pain and you ain't backed out. I told you my dreams and you said no doubt. Text me twice on my mission mode, flipping our words into money. That's a different coach. She don't ask for more than I got. She fought for some, but her soul is tough. Let me call her anytime she gonna take it. Call. Ain't no club, sister. She ain't for the show, but she's supposed to be here. Glow.",
+        "words": [
+          {
+            "start_ms": 238940,
+            "end_ms": 239420,
+            "text": "I've"
+          },
+          {
+            "start_ms": 239420,
+            "end_ms": 239580,
+            "text": "been"
+          },
+          {
+            "start_ms": 239580,
+            "end_ms": 239820,
+            "text": "moving"
+          },
+          {
+            "start_ms": 239820,
+            "end_ms": 239980,
+            "text": "like"
+          },
+          {
+            "start_ms": 239980,
+            "end_ms": 240220,
+            "text": "my"
+          },
+          {
+            "start_ms": 240220,
+            "end_ms": 240380,
+            "text": "time"
+          },
+          {
+            "start_ms": 240380,
+            "end_ms": 240620,
+            "text": "got"
+          },
+          {
+            "start_ms": 240620,
+            "end_ms": 241180,
+            "text": "limits,"
+          },
+          {
+            "start_ms": 241180,
+            "end_ms": 241260,
+            "text": "trying"
+          },
+          {
+            "start_ms": 241260,
+            "end_ms": 241340,
+            "text": "to"
+          },
+          {
+            "start_ms": 241340,
+            "end_ms": 241500,
+            "text": "stay"
+          },
+          {
+            "start_ms": 241500,
+            "end_ms": 241980,
+            "text": "quiet"
+          },
+          {
+            "start_ms": 241980,
+            "end_ms": 242060,
+            "text": "while"
+          },
+          {
+            "start_ms": 242060,
+            "end_ms": 242220,
+            "text": "you"
+          },
+          {
+            "start_ms": 242220,
+            "end_ms": 242460,
+            "text": "hold"
+          },
+          {
+            "start_ms": 242460,
+            "end_ms": 242620,
+            "text": "down"
+          },
+          {
+            "start_ms": 242620,
+            "end_ms": 242780,
+            "text": "the"
+          },
+          {
+            "start_ms": 242780,
+            "end_ms": 243340,
+            "text": "spirits."
+          },
+          {
+            "start_ms": 243340,
+            "end_ms": 243580,
+            "text": "Told"
+          },
+          {
+            "start_ms": 243580,
+            "end_ms": 243660,
+            "text": "you"
+          },
+          {
+            "start_ms": 243660,
+            "end_ms": 244380,
+            "text": "my"
+          },
+          {
+            "start_ms": 243935,
+            "end_ms": 244175,
+            "text": "pain"
+          },
+          {
+            "start_ms": 244175,
+            "end_ms": 244335,
+            "text": "and"
+          },
+          {
+            "start_ms": 244335,
+            "end_ms": 244495,
+            "text": "you"
+          },
+          {
+            "start_ms": 244495,
+            "end_ms": 244655,
+            "text": "ain't"
+          },
+          {
+            "start_ms": 244655,
+            "end_ms": 244975,
+            "text": "backed"
+          },
+          {
+            "start_ms": 244975,
+            "end_ms": 245295,
+            "text": "out."
+          },
+          {
+            "start_ms": 245295,
+            "end_ms": 245455,
+            "text": "I"
+          },
+          {
+            "start_ms": 245455,
+            "end_ms": 245615,
+            "text": "told"
+          },
+          {
+            "start_ms": 245615,
+            "end_ms": 245775,
+            "text": "you"
+          },
+          {
+            "start_ms": 245775,
+            "end_ms": 245935,
+            "text": "my"
+          },
+          {
+            "start_ms": 245935,
+            "end_ms": 246175,
+            "text": "dreams"
+          },
+          {
+            "start_ms": 246175,
+            "end_ms": 246335,
+            "text": "and"
+          },
+          {
+            "start_ms": 246335,
+            "end_ms": 246415,
+            "text": "you"
+          },
+          {
+            "start_ms": 246415,
+            "end_ms": 246575,
+            "text": "said"
+          },
+          {
+            "start_ms": 246575,
+            "end_ms": 246815,
+            "text": "no"
+          },
+          {
+            "start_ms": 246815,
+            "end_ms": 247135,
+            "text": "doubt."
+          },
+          {
+            "start_ms": 247215,
+            "end_ms": 247455,
+            "text": "Text"
+          },
+          {
+            "start_ms": 247455,
+            "end_ms": 247615,
+            "text": "me"
+          },
+          {
+            "start_ms": 247615,
+            "end_ms": 247855,
+            "text": "twice"
+          },
+          {
+            "start_ms": 247855,
+            "end_ms": 248015,
+            "text": "on"
+          },
+          {
+            "start_ms": 248015,
+            "end_ms": 248175,
+            "text": "my"
+          },
+          {
+            "start_ms": 248175,
+            "end_ms": 248415,
+            "text": "mission"
+          },
+          {
+            "start_ms": 248415,
+            "end_ms": 248735,
+            "text": "mode,"
+          },
+          {
+            "start_ms": 248735,
+            "end_ms": 248975,
+            "text": "flipping"
+          },
+          {
+            "start_ms": 248975,
+            "end_ms": 249215,
+            "text": "our"
+          },
+          {
+            "start_ms": 249215,
+            "end_ms": 249375,
+            "text": "words"
+          },
+          {
+            "start_ms": 249375,
+            "end_ms": 249615,
+            "text": "into"
+          },
+          {
+            "start_ms": 249615,
+            "end_ms": 250015,
+            "text": "money."
+          },
+          {
+            "start_ms": 250015,
+            "end_ms": 250175,
+            "text": "That's"
+          },
+          {
+            "start_ms": 250175,
+            "end_ms": 250255,
+            "text": "a"
+          },
+          {
+            "start_ms": 250255,
+            "end_ms": 250495,
+            "text": "different"
+          },
+          {
+            "start_ms": 250495,
+            "end_ms": 250815,
+            "text": "coach."
+          },
+          {
+            "start_ms": 250815,
+            "end_ms": 250975,
+            "text": "She"
+          },
+          {
+            "start_ms": 250975,
+            "end_ms": 251135,
+            "text": "don't"
+          },
+          {
+            "start_ms": 251135,
+            "end_ms": 251375,
+            "text": "ask"
+          },
+          {
+            "start_ms": 251375,
+            "end_ms": 251535,
+            "text": "for"
+          },
+          {
+            "start_ms": 251535,
+            "end_ms": 251695,
+            "text": "more"
+          },
+          {
+            "start_ms": 251695,
+            "end_ms": 251855,
+            "text": "than"
+          },
+          {
+            "start_ms": 251855,
+            "end_ms": 252015,
+            "text": "I"
+          },
+          {
+            "start_ms": 252015,
+            "end_ms": 252495,
+            "text": "got."
+          },
+          {
+            "start_ms": 252575,
+            "end_ms": 252735,
+            "text": "She"
+          },
+          {
+            "start_ms": 252735,
+            "end_ms": 252975,
+            "text": "fought"
+          },
+          {
+            "start_ms": 252975,
+            "end_ms": 253135,
+            "text": "for"
+          },
+          {
+            "start_ms": 253135,
+            "end_ms": 253455,
+            "text": "some,"
+          },
+          {
+            "start_ms": 253455,
+            "end_ms": 253535,
+            "text": "but"
+          },
+          {
+            "start_ms": 253535,
+            "end_ms": 253695,
+            "text": "her"
+          },
+          {
+            "start_ms": 253695,
+            "end_ms": 253935,
+            "text": "soul"
+          },
+          {
+            "start_ms": 253935,
+            "end_ms": 254095,
+            "text": "is"
+          },
+          {
+            "start_ms": 254095,
+            "end_ms": 254575,
+            "text": "tough."
+          },
+          {
+            "start_ms": 254575,
+            "end_ms": 254735,
+            "text": "Let"
+          },
+          {
+            "start_ms": 254735,
+            "end_ms": 254815,
+            "text": "me"
+          },
+          {
+            "start_ms": 254815,
+            "end_ms": 254975,
+            "text": "call"
+          },
+          {
+            "start_ms": 254975,
+            "end_ms": 255135,
+            "text": "her"
+          },
+          {
+            "start_ms": 255135,
+            "end_ms": 255455,
+            "text": "anytime"
+          },
+          {
+            "start_ms": 255455,
+            "end_ms": 255695,
+            "text": "she"
+          },
+          {
+            "start_ms": 255695,
+            "end_ms": 255935,
+            "text": "gonna"
+          },
+          {
+            "start_ms": 255935,
+            "end_ms": 256175,
+            "text": "take"
+          },
+          {
+            "start_ms": 256175,
+            "end_ms": 256415,
+            "text": "it."
+          },
+          {
+            "start_ms": 256415,
+            "end_ms": 256895,
+            "text": "Call."
+          },
+          {
+            "start_ms": 256895,
+            "end_ms": 257215,
+            "text": "Ain't"
+          },
+          {
+            "start_ms": 257215,
+            "end_ms": 257375,
+            "text": "no"
+          },
+          {
+            "start_ms": 257375,
+            "end_ms": 257775,
+            "text": "club,"
+          },
+          {
+            "start_ms": 257775,
+            "end_ms": 257935,
+            "text": "sister."
+          },
+          {
+            "start_ms": 257935,
+            "end_ms": 258095,
+            "text": "She"
+          },
+          {
+            "start_ms": 258095,
+            "end_ms": 258255,
+            "text": "ain't"
+          },
+          {
+            "start_ms": 258255,
+            "end_ms": 258495,
+            "text": "for"
+          },
+          {
+            "start_ms": 258495,
+            "end_ms": 258575,
+            "text": "the"
+          },
+          {
+            "start_ms": 258575,
+            "end_ms": 258735,
+            "text": "show,"
+          },
+          {
+            "start_ms": 259220,
+            "end_ms": 259460,
+            "text": "but"
+          },
+          {
+            "start_ms": 259460,
+            "end_ms": 259700,
+            "text": "she's"
+          },
+          {
+            "start_ms": 259700,
+            "end_ms": 260100,
+            "text": "supposed"
+          },
+          {
+            "start_ms": 260100,
+            "end_ms": 260260,
+            "text": "to"
+          },
+          {
+            "start_ms": 260260,
+            "end_ms": 260420,
+            "text": "be"
+          },
+          {
+            "start_ms": 260420,
+            "end_ms": 260820,
+            "text": "here."
+          },
+          {
+            "start_ms": 260820,
+            "end_ms": 261540,
+            "text": "Glow."
+          }
+        ]
+      },
+      {
+        "index": 35,
+        "start_ms": 261860,
+        "end_ms": 267300,
+        "text": "Yeah. I know you're gone. You don't face me now. They have got me focused. I don't play around.",
+        "words": [
+          {
+            "start_ms": 261860,
+            "end_ms": 262420,
+            "text": "Yeah."
+          },
+          {
+            "start_ms": 262420,
+            "end_ms": 262580,
+            "text": "I"
+          },
+          {
+            "start_ms": 262580,
+            "end_ms": 262740,
+            "text": "know"
+          },
+          {
+            "start_ms": 262740,
+            "end_ms": 262980,
+            "text": "you're"
+          },
+          {
+            "start_ms": 262980,
+            "end_ms": 263460,
+            "text": "gone."
+          },
+          {
+            "start_ms": 263460,
+            "end_ms": 264100,
+            "text": "You"
+          },
+          {
+            "start_ms": 264100,
+            "end_ms": 264260,
+            "text": "don't"
+          },
+          {
+            "start_ms": 264260,
+            "end_ms": 264500,
+            "text": "face"
+          },
+          {
+            "start_ms": 264500,
+            "end_ms": 264660,
+            "text": "me"
+          },
+          {
+            "start_ms": 264660,
+            "end_ms": 264900,
+            "text": "now."
+          },
+          {
+            "start_ms": 264900,
+            "end_ms": 265220,
+            "text": "They"
+          },
+          {
+            "start_ms": 265220,
+            "end_ms": 265380,
+            "text": "have"
+          },
+          {
+            "start_ms": 265380,
+            "end_ms": 265540,
+            "text": "got"
+          },
+          {
+            "start_ms": 265540,
+            "end_ms": 265700,
+            "text": "me"
+          },
+          {
+            "start_ms": 265700,
+            "end_ms": 266100,
+            "text": "focused."
+          },
+          {
+            "start_ms": 266100,
+            "end_ms": 266260,
+            "text": "I"
+          },
+          {
+            "start_ms": 266260,
+            "end_ms": 266420,
+            "text": "don't"
+          },
+          {
+            "start_ms": 266420,
+            "end_ms": 266660,
+            "text": "play"
+          },
+          {
+            "start_ms": 266660,
+            "end_ms": 267300,
+            "text": "around."
+          }
+        ]
+      },
+      {
+        "index": 36,
+        "start_ms": 267540,
+        "end_ms": 270420,
+        "text": "You hold me down like I hold the town.",
+        "words": [
+          {
+            "start_ms": 267540,
+            "end_ms": 267780,
+            "text": "You"
+          },
+          {
+            "start_ms": 267780,
+            "end_ms": 268020,
+            "text": "hold"
+          },
+          {
+            "start_ms": 268020,
+            "end_ms": 268180,
+            "text": "me"
+          },
+          {
+            "start_ms": 268180,
+            "end_ms": 268740,
+            "text": "down"
+          },
+          {
+            "start_ms": 268740,
+            "end_ms": 269140,
+            "text": "like"
+          },
+          {
+            "start_ms": 269140,
+            "end_ms": 269300,
+            "text": "I"
+          },
+          {
+            "start_ms": 269300,
+            "end_ms": 269540,
+            "text": "hold"
+          },
+          {
+            "start_ms": 269540,
+            "end_ms": 269700,
+            "text": "the"
+          },
+          {
+            "start_ms": 269700,
+            "end_ms": 270420,
+            "text": "town."
+          }
+        ]
+      },
+      {
+        "index": 37,
+        "start_ms": 270740,
+        "end_ms": 272180,
+        "text": "I'm never really told you found.",
+        "words": [
+          {
+            "start_ms": 270740,
+            "end_ms": 271140,
+            "text": "I'm"
+          },
+          {
+            "start_ms": 271140,
+            "end_ms": 271300,
+            "text": "never"
+          },
+          {
+            "start_ms": 271300,
+            "end_ms": 271460,
+            "text": "really"
+          },
+          {
+            "start_ms": 271460,
+            "end_ms": 271700,
+            "text": "told"
+          },
+          {
+            "start_ms": 271700,
+            "end_ms": 271860,
+            "text": "you"
+          },
+          {
+            "start_ms": 271860,
+            "end_ms": 272180,
+            "text": "found."
+          }
+        ]
+      },
+      {
+        "index": 38,
+        "start_ms": 277585,
+        "end_ms": 283025,
+        "text": "Girl, I told you I just wanna see you, but I gotta see you too. You're",
+        "words": [
+          {
+            "start_ms": 277585,
+            "end_ms": 277985,
+            "text": "Girl,"
+          },
+          {
+            "start_ms": 277985,
+            "end_ms": 278225,
+            "text": "I"
+          },
+          {
+            "start_ms": 278225,
+            "end_ms": 278545,
+            "text": "told"
+          },
+          {
+            "start_ms": 278545,
+            "end_ms": 278705,
+            "text": "you"
+          },
+          {
+            "start_ms": 278705,
+            "end_ms": 278865,
+            "text": "I"
+          },
+          {
+            "start_ms": 278865,
+            "end_ms": 279105,
+            "text": "just"
+          },
+          {
+            "start_ms": 279105,
+            "end_ms": 279345,
+            "text": "wanna"
+          },
+          {
+            "start_ms": 279345,
+            "end_ms": 279585,
+            "text": "see"
+          },
+          {
+            "start_ms": 279585,
+            "end_ms": 280145,
+            "text": "you,"
+          },
+          {
+            "start_ms": 280385,
+            "end_ms": 280625,
+            "text": "but"
+          },
+          {
+            "start_ms": 280625,
+            "end_ms": 280785,
+            "text": "I"
+          },
+          {
+            "start_ms": 280785,
+            "end_ms": 281025,
+            "text": "gotta"
+          },
+          {
+            "start_ms": 281025,
+            "end_ms": 281265,
+            "text": "see"
+          },
+          {
+            "start_ms": 281265,
+            "end_ms": 281505,
+            "text": "you"
+          },
+          {
+            "start_ms": 281505,
+            "end_ms": 282145,
+            "text": "too."
+          },
+          {
+            "start_ms": 282225,
+            "end_ms": 283025,
+            "text": "You're"
+          }
+        ]
+      },
+      {
+        "index": 39,
+        "start_ms": 283025,
+        "end_ms": 284865,
+        "text": "still trying to build what's true, and",
+        "words": [
+          {
+            "start_ms": 283025,
+            "end_ms": 283105,
+            "text": "still"
+          },
+          {
+            "start_ms": 283105,
+            "end_ms": 283345,
+            "text": "trying"
+          },
+          {
+            "start_ms": 283345,
+            "end_ms": 283425,
+            "text": "to"
+          },
+          {
+            "start_ms": 283425,
+            "end_ms": 283745,
+            "text": "build"
+          },
+          {
+            "start_ms": 283745,
+            "end_ms": 284145,
+            "text": "what's"
+          },
+          {
+            "start_ms": 284145,
+            "end_ms": 284385,
+            "text": "true,"
+          },
+          {
+            "start_ms": 284385,
+            "end_ms": 284865,
+            "text": "and"
+          }
+        ]
+      },
+      {
+        "index": 40,
+        "start_ms": 285265,
+        "end_ms": 286225,
+        "text": "you know that.",
+        "words": [
+          {
+            "start_ms": 285265,
+            "end_ms": 285505,
+            "text": "you"
+          },
+          {
+            "start_ms": 285505,
+            "end_ms": 285665,
+            "text": "know"
+          },
+          {
+            "start_ms": 285665,
+            "end_ms": 286225,
+            "text": "that."
+          }
+        ]
+      },
+      {
+        "index": 41,
+        "start_ms": 287425,
+        "end_ms": 288065,
+        "text": "It's true.",
+        "words": [
+          {
+            "start_ms": 287425,
+            "end_ms": 287745,
+            "text": "It's"
+          },
+          {
+            "start_ms": 287745,
+            "end_ms": 288065,
+            "text": "true."
+          }
+        ]
+      },
+      {
+        "index": 42,
+        "start_ms": 302645,
+        "end_ms": 305845,
+        "text": "Yeah. Still slowly losing who I used to be.",
+        "words": [
+          {
+            "start_ms": 302645,
+            "end_ms": 303285,
+            "text": "Yeah."
+          },
+          {
+            "start_ms": 303285,
+            "end_ms": 303525,
+            "text": "Still"
+          },
+          {
+            "start_ms": 303525,
+            "end_ms": 304005,
+            "text": "slowly"
+          },
+          {
+            "start_ms": 304005,
+            "end_ms": 304325,
+            "text": "losing"
+          },
+          {
+            "start_ms": 304325,
+            "end_ms": 304645,
+            "text": "who"
+          },
+          {
+            "start_ms": 304645,
+            "end_ms": 304805,
+            "text": "I"
+          },
+          {
+            "start_ms": 304805,
+            "end_ms": 305045,
+            "text": "used"
+          },
+          {
+            "start_ms": 305045,
+            "end_ms": 305285,
+            "text": "to"
+          },
+          {
+            "start_ms": 305285,
+            "end_ms": 305845,
+            "text": "be."
+          }
+        ]
+      },
+      {
+        "index": 43,
+        "start_ms": 306485,
+        "end_ms": 309365,
+        "text": "But if you're with me, you'll see the new me. Yeah.",
+        "words": [
+          {
+            "start_ms": 306485,
+            "end_ms": 306725,
+            "text": "But"
+          },
+          {
+            "start_ms": 306725,
+            "end_ms": 306885,
+            "text": "if"
+          },
+          {
+            "start_ms": 306885,
+            "end_ms": 307205,
+            "text": "you're"
+          },
+          {
+            "start_ms": 307205,
+            "end_ms": 307285,
+            "text": "with"
+          },
+          {
+            "start_ms": 307285,
+            "end_ms": 307605,
+            "text": "me,"
+          },
+          {
+            "start_ms": 307605,
+            "end_ms": 307845,
+            "text": "you'll"
+          },
+          {
+            "start_ms": 307845,
+            "end_ms": 308005,
+            "text": "see"
+          },
+          {
+            "start_ms": 308005,
+            "end_ms": 308165,
+            "text": "the"
+          },
+          {
+            "start_ms": 308165,
+            "end_ms": 308405,
+            "text": "new"
+          },
+          {
+            "start_ms": 308405,
+            "end_ms": 309045,
+            "text": "me."
+          },
+          {
+            "start_ms": 309205,
+            "end_ms": 309365,
+            "text": "Yeah."
+          }
+        ]
+      },
+      {
+        "index": 44,
+        "start_ms": 315550,
+        "end_ms": 318190,
+        "text": "I didn't send no text, no call, no snapback.",
+        "words": [
+          {
+            "start_ms": 315550,
+            "end_ms": 315790,
+            "text": "I"
+          },
+          {
+            "start_ms": 315790,
+            "end_ms": 316030,
+            "text": "didn't"
+          },
+          {
+            "start_ms": 316030,
+            "end_ms": 316190,
+            "text": "send"
+          },
+          {
+            "start_ms": 316190,
+            "end_ms": 316430,
+            "text": "no"
+          },
+          {
+            "start_ms": 316430,
+            "end_ms": 316830,
+            "text": "text,"
+          },
+          {
+            "start_ms": 316830,
+            "end_ms": 316910,
+            "text": "no"
+          },
+          {
+            "start_ms": 316910,
+            "end_ms": 317230,
+            "text": "call,"
+          },
+          {
+            "start_ms": 317230,
+            "end_ms": 317390,
+            "text": "no"
+          },
+          {
+            "start_ms": 317390,
+            "end_ms": 318190,
+            "text": "snapback."
+          }
+        ]
+      },
+      {
+        "index": 45,
+        "start_ms": 318510,
+        "end_ms": 320990,
+        "text": "I told myself let her call me",
+        "words": [
+          {
+            "start_ms": 318510,
+            "end_ms": 318670,
+            "text": "I"
+          },
+          {
+            "start_ms": 318670,
+            "end_ms": 318910,
+            "text": "told"
+          },
+          {
+            "start_ms": 318910,
+            "end_ms": 319230,
+            "text": "myself"
+          },
+          {
+            "start_ms": 319230,
+            "end_ms": 319550,
+            "text": "let"
+          },
+          {
+            "start_ms": 319550,
+            "end_ms": 319790,
+            "text": "her"
+          },
+          {
+            "start_ms": 319790,
+            "end_ms": 320110,
+            "text": "call"
+          },
+          {
+            "start_ms": 320110,
+            "end_ms": 320990,
+            "text": "me"
+          }
+        ]
+      },
+      {
+        "index": 46,
+        "start_ms": 321310,
+        "end_ms": 323230,
+        "text": "back. She",
+        "words": [
+          {
+            "start_ms": 321310,
+            "end_ms": 321790,
+            "text": "back."
+          },
+          {
+            "start_ms": 321790,
+            "end_ms": 323230,
+            "text": "She"
+          }
+        ]
+      },
+      {
+        "index": 47,
+        "start_ms": 323390,
+        "end_ms": 330125,
+        "text": "was alone, but I passed that. Now I'm not back from the pain. No hashtag. She kissed me. I ain't feel nothing inside.",
+        "words": [
+          {
+            "start_ms": 323390,
+            "end_ms": 323710,
+            "text": "was"
+          },
+          {
+            "start_ms": 323710,
+            "end_ms": 324190,
+            "text": "alone,"
+          },
+          {
+            "start_ms": 324190,
+            "end_ms": 324350,
+            "text": "but"
+          },
+          {
+            "start_ms": 324350,
+            "end_ms": 324510,
+            "text": "I"
+          },
+          {
+            "start_ms": 324510,
+            "end_ms": 324750,
+            "text": "passed"
+          },
+          {
+            "start_ms": 324750,
+            "end_ms": 325150,
+            "text": "that."
+          },
+          {
+            "start_ms": 325150,
+            "end_ms": 325390,
+            "text": "Now"
+          },
+          {
+            "start_ms": 325390,
+            "end_ms": 325630,
+            "text": "I'm"
+          },
+          {
+            "start_ms": 325630,
+            "end_ms": 325790,
+            "text": "not"
+          },
+          {
+            "start_ms": 325790,
+            "end_ms": 325950,
+            "text": "back"
+          },
+          {
+            "start_ms": 325950,
+            "end_ms": 326190,
+            "text": "from"
+          },
+          {
+            "start_ms": 326190,
+            "end_ms": 326270,
+            "text": "the"
+          },
+          {
+            "start_ms": 326270,
+            "end_ms": 326510,
+            "text": "pain."
+          },
+          {
+            "start_ms": 326510,
+            "end_ms": 326750,
+            "text": "No"
+          },
+          {
+            "start_ms": 326750,
+            "end_ms": 327230,
+            "text": "hashtag."
+          },
+          {
+            "start_ms": 327405,
+            "end_ms": 327965,
+            "text": "She"
+          },
+          {
+            "start_ms": 327965,
+            "end_ms": 328285,
+            "text": "kissed"
+          },
+          {
+            "start_ms": 328285,
+            "end_ms": 328445,
+            "text": "me."
+          },
+          {
+            "start_ms": 328445,
+            "end_ms": 328605,
+            "text": "I"
+          },
+          {
+            "start_ms": 328605,
+            "end_ms": 328765,
+            "text": "ain't"
+          },
+          {
+            "start_ms": 328765,
+            "end_ms": 328925,
+            "text": "feel"
+          },
+          {
+            "start_ms": 328925,
+            "end_ms": 329325,
+            "text": "nothing"
+          },
+          {
+            "start_ms": 329325,
+            "end_ms": 330125,
+            "text": "inside."
+          }
+        ]
+      },
+      {
+        "index": 48,
+        "start_ms": 330205,
+        "end_ms": 335645,
+        "text": "Guess that's what happened when your heart already died. I told Nevea I was different. I meant that.",
+        "words": [
+          {
+            "start_ms": 330205,
+            "end_ms": 330605,
+            "text": "Guess"
+          },
+          {
+            "start_ms": 330605,
+            "end_ms": 330845,
+            "text": "that's"
+          },
+          {
+            "start_ms": 330845,
+            "end_ms": 330925,
+            "text": "what"
+          },
+          {
+            "start_ms": 330925,
+            "end_ms": 331165,
+            "text": "happened"
+          },
+          {
+            "start_ms": 331165,
+            "end_ms": 331405,
+            "text": "when"
+          },
+          {
+            "start_ms": 331405,
+            "end_ms": 331565,
+            "text": "your"
+          },
+          {
+            "start_ms": 331565,
+            "end_ms": 331725,
+            "text": "heart"
+          },
+          {
+            "start_ms": 331725,
+            "end_ms": 332125,
+            "text": "already"
+          },
+          {
+            "start_ms": 332125,
+            "end_ms": 332685,
+            "text": "died."
+          },
+          {
+            "start_ms": 332685,
+            "end_ms": 333005,
+            "text": "I"
+          },
+          {
+            "start_ms": 333005,
+            "end_ms": 333245,
+            "text": "told"
+          },
+          {
+            "start_ms": 333245,
+            "end_ms": 333725,
+            "text": "Nevea"
+          },
+          {
+            "start_ms": 333725,
+            "end_ms": 333965,
+            "text": "I"
+          },
+          {
+            "start_ms": 333965,
+            "end_ms": 334125,
+            "text": "was"
+          },
+          {
+            "start_ms": 334125,
+            "end_ms": 334685,
+            "text": "different."
+          },
+          {
+            "start_ms": 334685,
+            "end_ms": 334925,
+            "text": "I"
+          },
+          {
+            "start_ms": 334925,
+            "end_ms": 335165,
+            "text": "meant"
+          },
+          {
+            "start_ms": 335165,
+            "end_ms": 335645,
+            "text": "that."
+          }
+        ]
+      },
+      {
+        "index": 49,
+        "start_ms": 336125,
+        "end_ms": 338205,
+        "text": "Ain't Alexa. She don't have to spin back.",
+        "words": [
+          {
+            "start_ms": 336125,
+            "end_ms": 336285,
+            "text": "Ain't"
+          },
+          {
+            "start_ms": 336285,
+            "end_ms": 336845,
+            "text": "Alexa."
+          },
+          {
+            "start_ms": 336845,
+            "end_ms": 337005,
+            "text": "She"
+          },
+          {
+            "start_ms": 337005,
+            "end_ms": 337165,
+            "text": "don't"
+          },
+          {
+            "start_ms": 337165,
+            "end_ms": 337245,
+            "text": "have"
+          },
+          {
+            "start_ms": 337245,
+            "end_ms": 337405,
+            "text": "to"
+          },
+          {
+            "start_ms": 337405,
+            "end_ms": 337645,
+            "text": "spin"
+          },
+          {
+            "start_ms": 337645,
+            "end_ms": 338205,
+            "text": "back."
+          }
+        ]
+      },
+      {
+        "index": 50,
+        "start_ms": 339325,
+        "end_ms": 340205,
+        "text": "Unadded that.",
+        "words": [
+          {
+            "start_ms": 339325,
+            "end_ms": 339965,
+            "text": "Unadded"
+          },
+          {
+            "start_ms": 339965,
+            "end_ms": 340205,
+            "text": "that."
+          }
+        ]
+      },
+      {
+        "index": 51,
+        "start_ms": 383705,
+        "end_ms": 396745,
+        "text": "She said I'll call one of them in the truth. If you even said damn me too, she ain't care if I drove or flew. She said keep going. I'll see when you move. She's five foot song, but she carry big space. She speak on feel like it ain't no way.",
+        "words": [
+          {
+            "start_ms": 383705,
+            "end_ms": 384025,
+            "text": "She"
+          },
+          {
+            "start_ms": 384025,
+            "end_ms": 384345,
+            "text": "said"
+          },
+          {
+            "start_ms": 384345,
+            "end_ms": 384585,
+            "text": "I'll"
+          },
+          {
+            "start_ms": 384585,
+            "end_ms": 384745,
+            "text": "call"
+          },
+          {
+            "start_ms": 384745,
+            "end_ms": 384985,
+            "text": "one"
+          },
+          {
+            "start_ms": 384985,
+            "end_ms": 385145,
+            "text": "of"
+          },
+          {
+            "start_ms": 385145,
+            "end_ms": 385305,
+            "text": "them"
+          },
+          {
+            "start_ms": 385305,
+            "end_ms": 385385,
+            "text": "in"
+          },
+          {
+            "start_ms": 385385,
+            "end_ms": 385545,
+            "text": "the"
+          },
+          {
+            "start_ms": 385545,
+            "end_ms": 385945,
+            "text": "truth."
+          },
+          {
+            "start_ms": 385945,
+            "end_ms": 386025,
+            "text": "If"
+          },
+          {
+            "start_ms": 386025,
+            "end_ms": 386185,
+            "text": "you"
+          },
+          {
+            "start_ms": 386185,
+            "end_ms": 386345,
+            "text": "even"
+          },
+          {
+            "start_ms": 386345,
+            "end_ms": 386505,
+            "text": "said"
+          },
+          {
+            "start_ms": 386505,
+            "end_ms": 386825,
+            "text": "damn"
+          },
+          {
+            "start_ms": 386825,
+            "end_ms": 387065,
+            "text": "me"
+          },
+          {
+            "start_ms": 387065,
+            "end_ms": 387545,
+            "text": "too,"
+          },
+          {
+            "start_ms": 387545,
+            "end_ms": 387785,
+            "text": "she"
+          },
+          {
+            "start_ms": 387785,
+            "end_ms": 388025,
+            "text": "ain't"
+          },
+          {
+            "start_ms": 388025,
+            "end_ms": 388265,
+            "text": "care"
+          },
+          {
+            "start_ms": 388265,
+            "end_ms": 388425,
+            "text": "if"
+          },
+          {
+            "start_ms": 388425,
+            "end_ms": 388585,
+            "text": "I"
+          },
+          {
+            "start_ms": 388585,
+            "end_ms": 388825,
+            "text": "drove"
+          },
+          {
+            "start_ms": 388825,
+            "end_ms": 389065,
+            "text": "or"
+          },
+          {
+            "start_ms": 389065,
+            "end_ms": 389465,
+            "text": "flew."
+          },
+          {
+            "start_ms": 389465,
+            "end_ms": 389545,
+            "text": "She"
+          },
+          {
+            "start_ms": 389545,
+            "end_ms": 389705,
+            "text": "said"
+          },
+          {
+            "start_ms": 389705,
+            "end_ms": 389945,
+            "text": "keep"
+          },
+          {
+            "start_ms": 389945,
+            "end_ms": 390345,
+            "text": "going."
+          },
+          {
+            "start_ms": 390345,
+            "end_ms": 390505,
+            "text": "I'll"
+          },
+          {
+            "start_ms": 390505,
+            "end_ms": 390585,
+            "text": "see"
+          },
+          {
+            "start_ms": 390585,
+            "end_ms": 390825,
+            "text": "when"
+          },
+          {
+            "start_ms": 390825,
+            "end_ms": 390985,
+            "text": "you"
+          },
+          {
+            "start_ms": 390985,
+            "end_ms": 391625,
+            "text": "move."
+          },
+          {
+            "start_ms": 391625,
+            "end_ms": 392425,
+            "text": "She's"
+          },
+          {
+            "start_ms": 392425,
+            "end_ms": 392665,
+            "text": "five"
+          },
+          {
+            "start_ms": 392665,
+            "end_ms": 392985,
+            "text": "foot"
+          },
+          {
+            "start_ms": 392985,
+            "end_ms": 393385,
+            "text": "song,"
+          },
+          {
+            "start_ms": 393385,
+            "end_ms": 393465,
+            "text": "but"
+          },
+          {
+            "start_ms": 393465,
+            "end_ms": 393625,
+            "text": "she"
+          },
+          {
+            "start_ms": 393625,
+            "end_ms": 393945,
+            "text": "carry"
+          },
+          {
+            "start_ms": 393945,
+            "end_ms": 394185,
+            "text": "big"
+          },
+          {
+            "start_ms": 394185,
+            "end_ms": 394825,
+            "text": "space."
+          },
+          {
+            "start_ms": 394825,
+            "end_ms": 395145,
+            "text": "She"
+          },
+          {
+            "start_ms": 395145,
+            "end_ms": 395385,
+            "text": "speak"
+          },
+          {
+            "start_ms": 395385,
+            "end_ms": 395545,
+            "text": "on"
+          },
+          {
+            "start_ms": 395545,
+            "end_ms": 395705,
+            "text": "feel"
+          },
+          {
+            "start_ms": 395705,
+            "end_ms": 395865,
+            "text": "like"
+          },
+          {
+            "start_ms": 395865,
+            "end_ms": 396025,
+            "text": "it"
+          },
+          {
+            "start_ms": 396025,
+            "end_ms": 396185,
+            "text": "ain't"
+          },
+          {
+            "start_ms": 396185,
+            "end_ms": 396425,
+            "text": "no"
+          },
+          {
+            "start_ms": 396425,
+            "end_ms": 396745,
+            "text": "way."
+          }
+        ]
+      },
+      {
+        "index": 52,
+        "start_ms": 397290,
+        "end_ms": 402250,
+        "text": "Told me don't run. If it's a feeling, it's real. But don't slow down if you're chasing them.",
+        "words": [
+          {
+            "start_ms": 397290,
+            "end_ms": 397530,
+            "text": "Told"
+          },
+          {
+            "start_ms": 397530,
+            "end_ms": 397690,
+            "text": "me"
+          },
+          {
+            "start_ms": 397690,
+            "end_ms": 398010,
+            "text": "don't"
+          },
+          {
+            "start_ms": 398010,
+            "end_ms": 398570,
+            "text": "run."
+          },
+          {
+            "start_ms": 398570,
+            "end_ms": 398890,
+            "text": "If"
+          },
+          {
+            "start_ms": 398890,
+            "end_ms": 399130,
+            "text": "it's"
+          },
+          {
+            "start_ms": 399130,
+            "end_ms": 399210,
+            "text": "a"
+          },
+          {
+            "start_ms": 399210,
+            "end_ms": 399610,
+            "text": "feeling,"
+          },
+          {
+            "start_ms": 399610,
+            "end_ms": 399770,
+            "text": "it's"
+          },
+          {
+            "start_ms": 399770,
+            "end_ms": 400250,
+            "text": "real."
+          },
+          {
+            "start_ms": 400250,
+            "end_ms": 400490,
+            "text": "But"
+          },
+          {
+            "start_ms": 400490,
+            "end_ms": 400730,
+            "text": "don't"
+          },
+          {
+            "start_ms": 400730,
+            "end_ms": 400890,
+            "text": "slow"
+          },
+          {
+            "start_ms": 400890,
+            "end_ms": 401050,
+            "text": "down"
+          },
+          {
+            "start_ms": 401050,
+            "end_ms": 401290,
+            "text": "if"
+          },
+          {
+            "start_ms": 401290,
+            "end_ms": 401530,
+            "text": "you're"
+          },
+          {
+            "start_ms": 401530,
+            "end_ms": 401690,
+            "text": "chasing"
+          },
+          {
+            "start_ms": 401690,
+            "end_ms": 402250,
+            "text": "them."
+          }
+        ]
+      },
+      {
+        "index": 53,
+        "start_ms": 403450,
+        "end_ms": 404090,
+        "text": "Thrill.",
+        "words": [
+          {
+            "start_ms": 403450,
+            "end_ms": 404090,
+            "text": "Thrill."
+          }
+        ]
+      },
+      {
+        "index": 54,
+        "start_ms": 405770,
+        "end_ms": 408970,
+        "text": "Yeah. I'll go for both. The love and the struggle. Yeah.",
+        "words": [
+          {
+            "start_ms": 405770,
+            "end_ms": 406250,
+            "text": "Yeah."
+          },
+          {
+            "start_ms": 406250,
+            "end_ms": 406490,
+            "text": "I'll"
+          },
+          {
+            "start_ms": 406490,
+            "end_ms": 406650,
+            "text": "go"
+          },
+          {
+            "start_ms": 406650,
+            "end_ms": 406890,
+            "text": "for"
+          },
+          {
+            "start_ms": 406890,
+            "end_ms": 407370,
+            "text": "both."
+          },
+          {
+            "start_ms": 407370,
+            "end_ms": 407610,
+            "text": "The"
+          },
+          {
+            "start_ms": 407610,
+            "end_ms": 407850,
+            "text": "love"
+          },
+          {
+            "start_ms": 407850,
+            "end_ms": 408010,
+            "text": "and"
+          },
+          {
+            "start_ms": 408010,
+            "end_ms": 408170,
+            "text": "the"
+          },
+          {
+            "start_ms": 408170,
+            "end_ms": 408810,
+            "text": "struggle."
+          },
+          {
+            "start_ms": 408810,
+            "end_ms": 408970,
+            "text": "Yeah."
+          }
+        ]
+      },
+      {
+        "index": 55,
+        "start_ms": 411615,
+        "end_ms": 413935,
+        "text": "I left from my ex. Don't flex what you got.",
+        "words": [
+          {
+            "start_ms": 411615,
+            "end_ms": 411855,
+            "text": "I"
+          },
+          {
+            "start_ms": 411855,
+            "end_ms": 412095,
+            "text": "left"
+          },
+          {
+            "start_ms": 412095,
+            "end_ms": 412255,
+            "text": "from"
+          },
+          {
+            "start_ms": 412255,
+            "end_ms": 412415,
+            "text": "my"
+          },
+          {
+            "start_ms": 412415,
+            "end_ms": 412655,
+            "text": "ex."
+          },
+          {
+            "start_ms": 412655,
+            "end_ms": 412815,
+            "text": "Don't"
+          },
+          {
+            "start_ms": 412815,
+            "end_ms": 413135,
+            "text": "flex"
+          },
+          {
+            "start_ms": 413135,
+            "end_ms": 413295,
+            "text": "what"
+          },
+          {
+            "start_ms": 413295,
+            "end_ms": 413375,
+            "text": "you"
+          },
+          {
+            "start_ms": 413375,
+            "end_ms": 413935,
+            "text": "got."
+          }
+        ]
+      },
+      {
+        "index": 56,
+        "start_ms": 415375,
+        "end_ms": 417615,
+        "text": "She vanished the second the thrill was gone.",
+        "words": [
+          {
+            "start_ms": 415375,
+            "end_ms": 415615,
+            "text": "She"
+          },
+          {
+            "start_ms": 415615,
+            "end_ms": 415935,
+            "text": "vanished"
+          },
+          {
+            "start_ms": 415935,
+            "end_ms": 416175,
+            "text": "the"
+          },
+          {
+            "start_ms": 416175,
+            "end_ms": 416335,
+            "text": "second"
+          },
+          {
+            "start_ms": 416335,
+            "end_ms": 416495,
+            "text": "the"
+          },
+          {
+            "start_ms": 416495,
+            "end_ms": 416735,
+            "text": "thrill"
+          },
+          {
+            "start_ms": 416735,
+            "end_ms": 416975,
+            "text": "was"
+          },
+          {
+            "start_ms": 416975,
+            "end_ms": 417615,
+            "text": "gone."
+          }
+        ]
+      },
+      {
+        "index": 57,
+        "start_ms": 417935,
+        "end_ms": 420415,
+        "text": "She left me talking to the shadows singing, son.",
+        "words": [
+          {
+            "start_ms": 417935,
+            "end_ms": 418095,
+            "text": "She"
+          },
+          {
+            "start_ms": 418095,
+            "end_ms": 418335,
+            "text": "left"
+          },
+          {
+            "start_ms": 418335,
+            "end_ms": 418495,
+            "text": "me"
+          },
+          {
+            "start_ms": 418495,
+            "end_ms": 418735,
+            "text": "talking"
+          },
+          {
+            "start_ms": 418735,
+            "end_ms": 418815,
+            "text": "to"
+          },
+          {
+            "start_ms": 418815,
+            "end_ms": 418975,
+            "text": "the"
+          },
+          {
+            "start_ms": 418975,
+            "end_ms": 419295,
+            "text": "shadows"
+          },
+          {
+            "start_ms": 419295,
+            "end_ms": 419855,
+            "text": "singing,"
+          },
+          {
+            "start_ms": 419855,
+            "end_ms": 420415,
+            "text": "son."
+          }
+        ]
+      },
+      {
+        "index": 58,
+        "start_ms": 421055,
+        "end_ms": 421855,
+        "text": "Yeah.",
+        "words": [
+          {
+            "start_ms": 421055,
+            "end_ms": 421855,
+            "text": "Yeah."
+          }
+        ]
+      },
+      {
+        "index": 59,
+        "start_ms": 422095,
+        "end_ms": 423215,
+        "text": "No contact.",
+        "words": [
+          {
+            "start_ms": 422095,
+            "end_ms": 422415,
+            "text": "No"
+          },
+          {
+            "start_ms": 422415,
+            "end_ms": 423215,
+            "text": "contact."
+          }
+        ]
+      },
+      {
+        "index": 60,
+        "start_ms": 423375,
+        "end_ms": 430580,
+        "text": "No comeback. If you gone once, you could stay like that. I ain't block you. You just off the map in the bed. Got my focus. I don't need the trap.",
+        "words": [
+          {
+            "start_ms": 423375,
+            "end_ms": 423615,
+            "text": "No"
+          },
+          {
+            "start_ms": 423615,
+            "end_ms": 424255,
+            "text": "comeback."
+          },
+          {
+            "start_ms": 424255,
+            "end_ms": 424495,
+            "text": "If"
+          },
+          {
+            "start_ms": 424495,
+            "end_ms": 424575,
+            "text": "you"
+          },
+          {
+            "start_ms": 424575,
+            "end_ms": 424815,
+            "text": "gone"
+          },
+          {
+            "start_ms": 424815,
+            "end_ms": 425135,
+            "text": "once,"
+          },
+          {
+            "start_ms": 425135,
+            "end_ms": 425215,
+            "text": "you"
+          },
+          {
+            "start_ms": 425215,
+            "end_ms": 425375,
+            "text": "could"
+          },
+          {
+            "start_ms": 425375,
+            "end_ms": 425535,
+            "text": "stay"
+          },
+          {
+            "start_ms": 425535,
+            "end_ms": 425775,
+            "text": "like"
+          },
+          {
+            "start_ms": 425775,
+            "end_ms": 425935,
+            "text": "that."
+          },
+          {
+            "start_ms": 426180,
+            "end_ms": 426420,
+            "text": "I"
+          },
+          {
+            "start_ms": 426420,
+            "end_ms": 426580,
+            "text": "ain't"
+          },
+          {
+            "start_ms": 426580,
+            "end_ms": 426900,
+            "text": "block"
+          },
+          {
+            "start_ms": 426900,
+            "end_ms": 427140,
+            "text": "you."
+          },
+          {
+            "start_ms": 427140,
+            "end_ms": 427300,
+            "text": "You"
+          },
+          {
+            "start_ms": 427300,
+            "end_ms": 427460,
+            "text": "just"
+          },
+          {
+            "start_ms": 427460,
+            "end_ms": 427700,
+            "text": "off"
+          },
+          {
+            "start_ms": 427700,
+            "end_ms": 427860,
+            "text": "the"
+          },
+          {
+            "start_ms": 427860,
+            "end_ms": 428180,
+            "text": "map"
+          },
+          {
+            "start_ms": 428180,
+            "end_ms": 428420,
+            "text": "in"
+          },
+          {
+            "start_ms": 428420,
+            "end_ms": 428580,
+            "text": "the"
+          },
+          {
+            "start_ms": 428580,
+            "end_ms": 428820,
+            "text": "bed."
+          },
+          {
+            "start_ms": 428820,
+            "end_ms": 429060,
+            "text": "Got"
+          },
+          {
+            "start_ms": 429060,
+            "end_ms": 429220,
+            "text": "my"
+          },
+          {
+            "start_ms": 429220,
+            "end_ms": 429540,
+            "text": "focus."
+          },
+          {
+            "start_ms": 429540,
+            "end_ms": 429620,
+            "text": "I"
+          },
+          {
+            "start_ms": 429620,
+            "end_ms": 429780,
+            "text": "don't"
+          },
+          {
+            "start_ms": 429780,
+            "end_ms": 429940,
+            "text": "need"
+          },
+          {
+            "start_ms": 429940,
+            "end_ms": 430180,
+            "text": "the"
+          },
+          {
+            "start_ms": 430180,
+            "end_ms": 430580,
+            "text": "trap."
+          }
+        ]
+      }
+    ],
+    "audio_source": "vocals"
+  },
+  "expected": [
+    {
+      "line_index": 51,
+      "rule_id": "profanity",
+      "words": [
+        "damn"
+      ]
+    },
+    {
+      "line_index": 60,
+      "rule_id": "drugs",
+      "words": [
+        "trap"
+      ]
+    }
+  ],
+  "labeled_by": "human",
+  "labeled_at": "2026-11-11T14:30:42.021747+00:00",
+  "prefilled_from": null,
+  "notes": "you can be stricter on the sexual innenuedos like sexy etc."
+}

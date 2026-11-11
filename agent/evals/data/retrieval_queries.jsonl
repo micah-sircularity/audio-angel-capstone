@@ -1,0 +1,50 @@
+{"id": "rq-001", "query": "f**k this I'm out", "relevant": ["lex-0001"], "type": "censored"}
+{"id": "rq-002", "query": "phuck what they say", "relevant": ["lex-0001"], "type": "misspelling"}
+{"id": "rq-003", "query": "that's some bullshit man", "relevant": ["lex-0002"], "type": "compound"}
+{"id": "rq-004", "query": "sh!t got real", "relevant": ["lex-0002"], "type": "censored"}
+{"id": "rq-005", "query": "biatch get out my way", "relevant": ["lex-0003"], "type": "misspelling"}
+{"id": "rq-006", "query": "what the fuck was that", "relevant": ["lex-0022", "lex-0001"], "type": "phrase"}
+{"id": "rq-007", "query": "mothafucka thought he could", "relevant": ["lex-0015"], "type": "misspelling"}
+{"id": "rq-008", "query": "sumbitch stole my truck", "relevant": ["lex-0020"], "type": "misspelling"}
+{"id": "rq-009", "query": "it's so freakin cold", "relevant": ["lex-0021"], "type": "euphemism"}
+{"id": "rq-010", "query": "she got that yayo on the table", "relevant": ["lex-0054"], "type": "slang"}
+{"id": "rq-011", "query": "white girl up my nose", "relevant": ["lex-0054", "lex-0077"], "type": "slang"}
+{"id": "rq-012", "query": "popped a molly I'm sweating", "relevant": ["lex-0057"], "type": "slang"}
+{"id": "rq-013", "query": "two xans and a double cup", "relevant": ["lex-0058", "lex-0060"], "type": "slang"}
+{"id": "rq-014", "query": "sipping on that purple drank", "relevant": ["lex-0060"], "type": "slang"}
+{"id": "rq-015", "query": "pour up the wock", "relevant": ["lex-0060"], "type": "slang"}
+{"id": "rq-016", "query": "I been popping percs all night", "relevant": ["lex-0059"], "type": "slang"}
+{"id": "rq-017", "query": "rolling up a blunt with my homie", "relevant": ["lex-0074", "lex-0049"], "type": "slang"}
+{"id": "rq-018", "query": "smoking on that og kush", "relevant": ["lex-0067", "lex-0049"], "type": "slang"}
+{"id": "rq-019", "query": "my plug pulled up with the pack", "relevant": ["lex-0078"], "type": "slang"}
+{"id": "rq-020", "query": "posted in the trap house", "relevant": ["lex-0079"], "type": "slang"}
+{"id": "rq-021", "query": "cooking up crystal in the back", "relevant": ["lex-0063"], "type": "slang"}
+{"id": "rq-022", "query": "dropped acid at the festival", "relevant": ["lex-0065"], "type": "slang"}
+{"id": "rq-023", "query": "we got so high last night", "relevant": ["lex-0070"], "type": "ambiguous"}
+{"id": "rq-024", "query": "cutting it with fetty now", "relevant": ["lex-0064"], "type": "slang"}
+{"id": "rq-025", "query": "the oxy got him hooked", "relevant": ["lex-0080"], "type": "slang"}
+{"id": "rq-026", "query": "gave her head in the car", "relevant": ["lex-0030"], "type": "ambiguous"}
+{"id": "rq-027", "query": "tryna smash after the party", "relevant": ["lex-0040"], "type": "slang"}
+{"id": "rq-028", "query": "clap them cheeks", "relevant": ["lex-0041"], "type": "phrase"}
+{"id": "rq-029", "query": "she a thot for real", "relevant": ["lex-0036"], "type": "slang"}
+{"id": "rq-030", "query": "these hoes ain't loyal", "relevant": ["lex-0035"], "type": "slang"}
+{"id": "rq-031", "query": "watching corn on my phone", "relevant": ["lex-0028"], "type": "evasion"}
+{"id": "rq-032", "query": "about to bust a nut", "relevant": ["lex-0032"], "type": "slang"}
+{"id": "rq-033", "query": "my n***a got my back", "relevant": ["lex-0081"], "type": "censored"}
+{"id": "rq-034", "query": "f@ggot talking all that noise", "relevant": ["lex-0082", "lex-0101"], "type": "evasion"}
+{"id": "rq-035", "query": "don't be such a retard", "relevant": ["lex-0099"], "type": "direct"}
+{"id": "rq-036", "query": "towel head in the airport", "relevant": ["lex-0091"], "type": "phrase"}
+{"id": "rq-037", "query": "I'ma murk him on sight", "relevant": ["lex-0102"], "type": "slang"}
+{"id": "rq-038", "query": "caught a body with the glock", "relevant": ["lex-0105", "lex-0102"], "type": "slang"}
+{"id": "rq-039", "query": "pull up and bust a cap", "relevant": ["lex-0104"], "type": "slang"}
+{"id": "rq-040", "query": "got shanked in the yard", "relevant": ["lex-0107"], "type": "slang"}
+{"id": "rq-041", "query": "sometimes I wanna off myself", "relevant": ["lex-0116"], "type": "phrase"}
+{"id": "rq-042", "query": "god damn it's hot out", "relevant": ["lex-0120"], "type": "phrase"}
+{"id": "rq-043", "query": "jesus h christ what a mess", "relevant": ["lex-0121"], "type": "phrase"}
+{"id": "rq-044", "query": "for chrissake just stop", "relevant": ["lex-0123"], "type": "misspelling"}
+{"id": "rq-045", "query": "omg did you see that", "relevant": ["lex-0124"], "type": "abbreviation"}
+{"id": "rq-046", "query": "holy crap that was close", "relevant": ["lex-0125"], "type": "phrase"}
+{"id": "rq-047", "query": "slang word for cocaine", "relevant": ["lex-0054"], "type": "semantic"}
+{"id": "rq-048", "query": "prescription pill people abuse to get high", "relevant": ["lex-0059", "lex-0058", "lex-0080"], "type": "semantic"}
+{"id": "rq-049", "query": "insult for a gay man", "relevant": ["lex-0082"], "type": "semantic"}
+{"id": "rq-050", "query": "using the lord's name as a curse", "relevant": ["lex-0128", "lex-0120"], "type": "semantic"}

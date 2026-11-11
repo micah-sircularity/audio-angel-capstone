@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-02T18:25:05.855840+00:00",
+  "generatedAt": "2026-11-02T19:04:58.710644+00:00",
   "title": "Design System: Audio Angel",
   "extensions": {
     "provenance": {
@@ -16,10 +16,20 @@
         "apps/app/src/ui/demo-player.tsx",
         "apps/app/src/ui/filter-sheet.tsx",
         "apps/app/src/ui/use-motion.ts",
-        "apps/app/src/ui/brand-mark.tsx"
+        "apps/app/src/ui/brand-mark.tsx",
+        "apps/app/src/ui/tactile-pressable.tsx",
+        "apps/app/src/app/_layout.tsx"
       ],
       "assetNotes": "Original shield/check PNGs generated with Pillow; demo cover geometry is React Native layout; Library covers come from Spotify; DM Sans from @expo-google-fonts/dm-sans; Tabler runtime SVG icons.",
-      "verification": "Source inspection only; no visual, keyboard, assistive-technology or device verification claimed."
+      "verification": "Source inspection plus Chromium reports/screenshots under .impeccable/review/tactile. No physical-device, native assistive-technology, haptic or audible-playback verification.",
+      "interactionReferences": [
+        "https://github.com/emilkowalski/skills/tree/main/skills/apple-design",
+        "https://github.com/emilkowalski/skills/tree/main/skills/emil-design-eng"
+      ],
+      "evidence": [
+        ".impeccable/review/tactile/interaction-report.json",
+        ".impeccable/review/tactile/gesture-report.json"
+      ]
     },
     "breakpoints": [
       {
@@ -28,66 +38,116 @@
       }
     ],
     "focus": {
-      "value": "2px solid #256b5b",
+      "light": "2px solid #256b5b",
+      "dark": "2px solid #8ccdbb",
       "offset": "3px",
-      "purpose": "Shared web focus-visible outline in both themes"
+      "increasedContrastWidth": "3px",
+      "purpose": "Theme-aware web focus-visible, including portal"
     },
     "interaction": {
-      "buttonPressedOpacity": 0.65,
-      "iconPressedOpacity": 0.6,
-      "disabledOpacity": 0.4
+      "pressedOpacity": 0.78,
+      "disabledOpacity": 0.4,
+      "pointerScale": 0.97,
+      "hoverBrightness": 0.96,
+      "keyboardGeometry": "unchanged",
+      "highlightGeometry": "unchanged",
+      "webAriaMapping": [
+        "disabled",
+        "checked",
+        "selected",
+        "expanded",
+        "busy"
+      ],
+      "haptics": "none"
     },
     "shadows": [],
     "motion": [
       {
+        "name": "web-press",
+        "value": "160ms transform; 120ms opacity",
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1) transform; ease-out opacity",
+        "purpose": "0.97 compression; skip geometry for keyboard, highlight and reduced motion."
+      },
+      {
+        "name": "native-press",
+        "value": "spring stiffness 500, damping 45, mass 1; opacity 100ms in/160ms out",
+        "nativeDriver": true,
+        "purpose": "0.97 compression, omitted for reduced motion."
+      },
+      {
         "name": "player-expansion",
-        "value": "380ms",
-        "easing": "Easing.out(Easing.exp)",
-        "purpose": "Expand/minimize region height 70\u2013234px and artwork scale 0.3\u20131; zero duration with reduced motion."
+        "value": "spring stiffness 300, damping 35, mass 1, overshootClamping true",
+        "nativeDriver": false,
+        "purpose": "Bounded height 70\u2013234px and scale 0.3\u20131; layout exception. Retarget without resets, stop on unmount."
       },
       {
-        "name": "sheet-entry",
-        "value": "300ms",
-        "easing": "Easing.out(Easing.exp)",
-        "purpose": "Translate from 32px to zero; reduced motion uses zero offset and duration."
+        "name": "switch-and-details",
+        "value": "180ms",
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)",
+        "purpose": "20px thumb travel and measured-height disclosure; immediate for keyboard/reduced motion."
       },
       {
-        "name": "sheet-close",
-        "value": "0ms",
-        "purpose": "Immediate modal dismissal; animationType none."
+        "name": "sheet-translation",
+        "value": "spring stiffness 500, damping 45, mass 1, overshootClamping true",
+        "nativeDriver": true,
+        "purpose": "64px entry, measured-height exit, retain presence until complete; flick seeds velocity; same spring for snapback."
+      },
+      {
+        "name": "sheet-scrim",
+        "value": "220ms in/160ms out",
+        "purpose": "Immediate for keyboard/reduced motion."
       }
     ],
     "reducedMotion": {
       "initial": true,
-      "source": "AccessibilityInfo.isReduceMotionEnabled and reduceMotionChanged"
+      "source": "AccessibilityInfo.isReduceMotionEnabled and reduceMotionChanged",
+      "scope": "Shared MotionProvider around Shell",
+      "keyboard": "Capture-phase last web keydown/pointerdown; immediate player, switch, details and sheet transitions",
+      "drag": "Direct tracking, immediate snapback; button alternatives"
     },
     "modal": {
       "backdrop": "#10251f66",
       "maxWidth": "620px",
-      "maxHeight": "88%"
+      "maxHeight": "90%",
+      "topRadius": "28px",
+      "bottomPadding": "max(20px, safe-area bottom)",
+      "handleHeight": "44px",
+      "dragThreshold": "single-touch abs(dy) > 8px and abs(dy) > abs(dx)",
+      "dismiss": "dy > 22% height or dy > 8px and vy > 0.5",
+      "upwardResistance": 0.18,
+      "presence": "Through exit completion",
+      "focus": "Chromium containment/return and dark outline verified; no native AT claim"
+    },
+    "toggle": {
+      "track": "50\u00d730px",
+      "thumb": "24px",
+      "travel": "20px",
+      "target": "54px width, minimum 44px height",
+      "trackColor": "theme muted to primary",
+      "thumbColor": "white"
     }
   },
   "components": [
     {
       "name": "Primary Button",
       "kind": "button",
-      "description": "Source-derived dark-theme static specimen; no runtime behavior verification.",
+      "description": "Source-derived dark-theme static specimen; illustrative CSS, runtime evidence recorded separately in provenance.",
       "html": "<button class=\"ds-primary\">Play demo</button>",
-      "css": ".ds-primary{font-family:\"DM Sans\",sans-serif;font-size:14px;font-weight:700;background:#f5f1e8;color:#152321;border:0;border-radius:9px;min-height:44px;padding:11px 16px}.ds-primary:active{opacity:.65}.ds-primary:disabled{opacity:.4}.ds-primary:focus-visible{outline:2px solid #256b5b;outline-offset:3px}",
+      "css": ".ds-primary{font-family:\"DM Sans\",sans-serif;font-size:14px;font-weight:700;background:#f5f1e8;color:#152321;border:0;border-radius:9px;min-height:44px;padding:11px 16px}.ds-primary:active{opacity:.78}.ds-primary:disabled{opacity:.4}.ds-primary:focus-visible{outline:2px solid #256b5b;outline-offset:3px}",
       "refersTo": "button-primary"
     },
     {
       "name": "Secondary Button",
       "kind": "button",
-      "description": "Source-derived dark-theme static specimen; no runtime behavior verification.",
+      "description": "Source-derived dark-theme static specimen; illustrative CSS, runtime evidence recorded separately in provenance.",
       "html": "<button class=\"ds-secondary\">Cancel</button>",
-      "css": ".ds-secondary{font-family:\"DM Sans\",sans-serif;font-size:14px;font-weight:700;background:#243833;color:#f5f1e8;border:0;border-radius:9px;min-height:44px;padding:11px 16px}.ds-secondary:active{opacity:.65}.ds-secondary:disabled{opacity:.4}.ds-secondary:focus-visible{outline:2px solid #256b5b;outline-offset:3px}",
+      "css": ".ds-secondary{font-family:\"DM Sans\",sans-serif;font-size:14px;font-weight:700;background:#243833;color:#f5f1e8;border:0;border-radius:9px;min-height:44px;padding:11px 16px}.ds-secondary:active{opacity:.78}.ds-secondary:disabled{opacity:.4}.ds-secondary:focus-visible{outline:2px solid #256b5b;outline-offset:3px}",
       "refersTo": "button-secondary"
     },
     {
       "name": "Field",
       "kind": "input",
-      "description": "Source-derived dark-theme static specimen; no runtime behavior verification.",
+      "description": "Source-derived dark-theme static specimen; illustrative CSS, runtime evidence recorded separately in provenance.",
       "html": "<input class=\"ds-field\" aria-label=\"Profile name\" placeholder=\"Profile name\" maxlength=\"120\">",
       "css": ".ds-field{font-family:\"DM Sans\",sans-serif;font-size:14px;background:#243833;color:#f5f1e8;border:1px solid #3e514a;border-radius:9px;min-height:46px;padding:13px}.ds-field::placeholder{color:#b3c1ba}.ds-field:focus-visible{outline:2px solid #256b5b;outline-offset:3px}",
       "refersTo": "field"
@@ -95,15 +155,15 @@
     {
       "name": "Selected Chip",
       "kind": "chip",
-      "description": "Source-derived dark-theme static specimen; no runtime behavior verification.",
+      "description": "Source-derived dark-theme static specimen; illustrative CSS, runtime evidence recorded separately in provenance.",
       "html": "<button class=\"ds-chip\" aria-pressed=\"true\">Family</button>",
-      "css": ".ds-chip{font-family:\"DM Sans\",sans-serif;font-size:14px;font-size:12px;line-height:1.45;background:#243833;color:#8ccdbb;border:1px solid #8ccdbb;border-radius:9px;min-height:44px;padding:10px 13px}.ds-chip:active{opacity:.65}.ds-chip:focus-visible{outline:2px solid #256b5b;outline-offset:3px}",
+      "css": ".ds-chip{font-family:\"DM Sans\",sans-serif;font-size:14px;font-size:12px;line-height:1.45;background:#243833;color:#8ccdbb;border:1px solid #8ccdbb;border-radius:9px;min-height:44px;padding:10px 13px}.ds-chip:active{opacity:.78}.ds-chip:focus-visible{outline:2px solid #256b5b;outline-offset:3px}",
       "refersTo": "chip"
     },
     {
       "name": "Grouped List",
       "kind": "card",
-      "description": "Source-derived dark-theme static specimen; no runtime behavior verification.",
+      "description": "Source-derived dark-theme static specimen; illustrative CSS, runtime evidence recorded separately in provenance.",
       "html": "<div class=\"ds-group\"><div class=\"ds-row\">Listening profile</div><div class=\"ds-row\">Demo settings</div></div>",
       "css": ".ds-group{font-family:\"DM Sans\",sans-serif;font-size:14px;line-height:1.45;background:#243833;color:#f5f1e8;border-radius:12px;padding:0 16px;margin:16px 0}.ds-row{min-height:74px;display:flex;align-items:center;padding:13px 0}.ds-row:first-child{border-bottom:1px solid #3e514a}",
       "refersTo": "group"
@@ -111,9 +171,9 @@
     {
       "name": "Desktop Navigation",
       "kind": "nav",
-      "description": "Source-derived dark-theme static specimen; no runtime behavior verification.",
+      "description": "Source-derived dark-theme static specimen; illustrative CSS, runtime evidence recorded separately in provenance.",
       "html": "<nav class=\"ds-nav\" aria-label=\"Main\"><button aria-current=\"page\">Now Playing</button><button>Library</button></nav>",
-      "css": ".ds-nav{display:grid;gap:5px;background:#152321;padding:20px;width:175px}.ds-nav button{font-family:\"DM Sans\",sans-serif;font-size:14px;min-height:50px;padding:10px 12px;border:0;border-radius:9px;text-align:left;background:transparent;color:#b3c1ba}.ds-nav button[aria-current]{background:#243833;color:#f5f1e8}.ds-nav button:active{opacity:.6}.ds-nav button:focus-visible{outline:2px solid #256b5b;outline-offset:3px}"
+      "css": ".ds-nav{display:grid;gap:5px;background:#152321;padding:20px;width:175px}.ds-nav button{font-family:\"DM Sans\",sans-serif;font-size:14px;min-height:50px;padding:10px 12px;border:0;border-radius:9px;text-align:left;background:transparent;color:#b3c1ba}.ds-nav button[aria-current]{background:#243833;color:#f5f1e8}.ds-nav button:active{opacity:.78}.ds-nav button:focus-visible{outline:2px solid #256b5b;outline-offset:3px}"
     }
   ],
   "narrative": {

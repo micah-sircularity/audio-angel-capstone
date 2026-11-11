@@ -1,0 +1,32 @@
+{
+  "status": "issues",
+  "mode": "still",
+  "stages": [
+    {
+      "key": "stage-1",
+      "label": "ss-fit aa-scene",
+      "coverage": {
+        "status": "complete",
+        "frames": 1,
+        "durationMs": 0,
+        "maxGapMs": 0,
+        "reasons": [],
+        "framingSamples": 1,
+        "layout": {
+          "controls": 0,
+          "paddedContainers": 9,
+          "compositionCrops": 0
+        }
+      },
+      "findings": [
+        "clipped: div.aa-orbit clipped right by 92px, bottom by 150px by div.aa-cover (still)",
+        "clipped: div.aa-orbit clipped right by 129px, bottom by 112px by div.aa-cover (still)",
+        "uneven padding: div.aa-cover has bottom -150px against 22px at the side; a card pads its content the same on every side (the outer radius is the inner radius plus the padding) (still)"
+      ],
+      "manual": []
+    }
+  ],
+  "errors": [],
+  "manualReviewRequired": false,
+  "exitCode": 0
+}

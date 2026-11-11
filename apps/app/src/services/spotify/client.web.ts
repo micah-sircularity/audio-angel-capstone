@@ -4,7 +4,7 @@ const connection: SpotifyConnection = {
   async getPlaybackAccessToken() {
     const result = await authClient.getAccessToken({ providerId: "spotify" });
     if (result.error || !result.data?.accessToken)
-      throw new Error("Reconnect Spotify in Settings to continue.");
+      throw new Error("Reconnect Spotify in Filtering to continue.");
     return result.data.accessToken;
   },
 };
@@ -19,10 +19,10 @@ export async function beginSpotifyLogin(): Promise<void> {
   // Remove obsolete tab tokens from the previous PKCE prototype.
   sessionStorage.removeItem("audio-angel:spotify:session:v1");
   sessionStorage.removeItem("audio-angel:spotify:pkce:v1");
-  const result = await authClient.signIn.social({ provider: "spotify", callbackURL: `${location.origin}/library`, errorCallbackURL: `${location.origin}/settings` });
+  const result = await authClient.signIn.social({ provider: "spotify", callbackURL: `${location.origin}/library`, errorCallbackURL: `${location.origin}/filtering` });
   if (result.error) throw new Error(result.error.message ?? "Spotify sign-in failed. Try again.");
 }
 export async function finishSpotifyCallback(): Promise<void> {
   history.replaceState(null, "", "/auth/callback");
-  throw new Error("This old sign-in callback is no longer used. Connect Spotify again from Settings.");
+  throw new Error("This old sign-in callback is no longer used. Connect Spotify again from Filtering.");
 }

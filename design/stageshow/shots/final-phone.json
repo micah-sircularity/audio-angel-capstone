@@ -1,0 +1,35 @@
+{
+  "status": "inconclusive",
+  "mode": "motion",
+  "stages": [
+    {
+      "key": "stage-1",
+      "label": "ss-fit aa-scene",
+      "coverage": {
+        "status": "inconclusive",
+        "frames": 937,
+        "durationMs": 15962,
+        "medianMs": 16.699999809265137,
+        "maxGapMs": 67.2000002861023,
+        "skippedGaps": 20,
+        "cameraFrames": 0,
+        "reasons": [
+          "20 sampling gap(s) exceeded 27ms; motion during those gaps was not judged"
+        ],
+        "framingSamples": 11,
+        "layout": {
+          "controls": 0,
+          "paddedContainers": 5,
+          "compositionCrops": 0
+        }
+      },
+      "findings": [
+        "jump: ss-toggle__knob x -8.7px in one frame at 12.29s [minimize]"
+      ],
+      "manual": []
+    }
+  ],
+  "errors": [],
+  "manualReviewRequired": true,
+  "exitCode": 2
+}

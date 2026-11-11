@@ -1,0 +1,40 @@
+{
+  "status": "inconclusive",
+  "mode": "motion",
+  "stages": [
+    {
+      "key": "stage-1",
+      "label": "ss-fit aa-scene",
+      "coverage": {
+        "status": "inconclusive",
+        "frames": 885,
+        "durationMs": 17325.400000095367,
+        "medianMs": 16.899999618530273,
+        "maxGapMs": 96.30000019073486,
+        "skippedGaps": 92,
+        "cameraFrames": 0,
+        "reasons": [
+          "92 sampling gap(s) exceeded 27ms; motion during those gaps was not judged"
+        ],
+        "framingSamples": 14,
+        "layout": {
+          "controls": 0,
+          "paddedContainers": 5,
+          "compositionCrops": 0
+        }
+      },
+      "findings": [
+        "clipped: div.aa-orbit clipped right by 92px, bottom by 150px by div.aa-cover (14 frames from 0.0s)",
+        "clipped: div.aa-orbit clipped right by 129px, bottom by 112px by div.aa-cover (14 frames from 0.0s)",
+        "uneven padding: div.aa-cover has bottom -150px against 22px at the side; a card pads its content the same on every side (the outer radius is the inner radius plus the padding) (14 frames from 0.0s)",
+        "half-pixel glyph: a 18px svg.lucide centered in the 152x19 span.ss-states__item sits on a half pixel, so it draws there while span.ss-states__item moves and hops sideways when it settles; size it 18px in an even box (even inside even) (4.8s, 6.0s, 7.2s)",
+        "jump: ss-toggle__knob x -11.2px in one frame at 12.58s [minimize]",
+        "lands on a transform: div.ss-expand__content \"Now playingA little \" comes to rest at the end of a transform, so its text hops a fraction of a pixel as it lands; keep it on a layer for good (will-change: transform), or scale only its surface"
+      ],
+      "manual": []
+    }
+  ],
+  "errors": [],
+  "manualReviewRequired": true,
+  "exitCode": 2
+}

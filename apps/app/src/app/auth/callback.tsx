@@ -10,7 +10,7 @@ export default function SpotifyCallback() {
     let active = true;
     void finishSpotifyCallback()
       .then(() => {
-        if (active) router.replace("/settings");
+        if (active) router.replace("/filtering");
       })
       .catch((error: unknown) => {
         if (active)
@@ -32,13 +32,13 @@ export default function SpotifyCallback() {
       <Notice>
         <Label>
           {error ??
-            "Checking the sign-in response. You will return to Settings, where the Spotify player can be opened."}
+            "Checking the sign-in response. You will return to Filtering, where the Spotify player can be opened."}
         </Label>
       </Notice>
       {error && (
         <View style={{ marginTop: 20 }}>
-          <Button onPress={() => router.replace("/settings")}>
-            Back to Settings
+          <Button onPress={() => router.replace("/filtering")}>
+            Back to Filtering
           </Button>
         </View>
       )}

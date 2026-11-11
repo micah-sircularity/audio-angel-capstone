@@ -1,0 +1,12 @@
+services:
+  app:
+    build: .
+    env_file: .env
+    ports:
+      - "8501:8501"
+    volumes:
+      # Audio/transcript/render cache + JSONL logs persist across restarts.
+      - ./data:/app/data
+      # Ground-truth label files persist too.
+      - ./evals/data:/app/evals/data
+    restart: unless-stopped

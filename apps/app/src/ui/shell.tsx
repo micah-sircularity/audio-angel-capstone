@@ -1,7 +1,7 @@
+import { TactilePressable } from "./tactile-pressable";
 import React from "react";
 import {
   Image,
-  Pressable,
   ScrollView,
   View,
   useWindowDimensions,
@@ -12,10 +12,10 @@ import { useSafeAreaInsets } from "react-native-safe-area-context";
 import { StatusBar } from "expo-status-bar";
 import {
   IconMusic,
+  IconHeadphones,
   IconLibrary,
   IconShieldCheck,
   IconListDetails,
-  IconSettings,
   IconArrowUpRight,
   IconPlayerPause,
   IconPlayerPlay,
@@ -23,15 +23,15 @@ import {
 } from "./icons";
 import { BrandMark } from "./brand-mark";
 import { useTheme } from "./theme";
-import { Label, Row, IconButton, Artwork } from "./components";
+import { Label, Row, IconButton } from "./components";
 import { useSpotifyPlayer } from "../services/spotify/player-provider";
 import { useApp } from "../state/app-state";
 const links = [
   { path: "/", label: "Now Playing", icon: IconMusic },
+  { path: "/listen", label: "Listen", icon: IconHeadphones },
   { path: "/library", label: "Library", icon: IconLibrary },
-  { path: "/profiles", label: "Profiles", icon: IconShieldCheck },
+  { path: "/filtering", label: "Filtering", icon: IconShieldCheck },
   { path: "/activity", label: "Activity", icon: IconListDetails },
-  { path: "/settings", label: "Settings", icon: IconSettings },
 ];
 export function Shell() {
   const t = useTheme();
@@ -43,8 +43,17 @@ export function Shell() {
   const router = useRouter();
   const insets = useSafeAreaInsets();
   const spotifyRoute = path === "/spotify";
-  const libraryRoute = path === "/library" || path === "/search";
-  const current = path === "/search" ? {label:"Search Spotify"} : spotifyRoute
+  const filterStatus = live.filterEnabled
+    ? live.filterFault
+      ? "Filtering stopped"
+      : "Timed filtering enabled"
+    : "Filtering is off";
+  const filterBadge = live.filterEnabled
+    ? live.filterFault
+      ? "STOPPED"
+      : "FILTERING"
+    : "UNFILTERED";
+  const current = path === "/prepare" ? {label:"Prepare audio"} : path === "/search" ? {label:"Search Spotify"} : spotifyRoute
     ? { label: "Spotify playback" }
     : path.startsWith("/auth/")
       ? { label: "Spotify sign-in" }
@@ -53,13 +62,13 @@ export function Shell() {
     links.map(({ path: target, label, icon: Icon }) => {
       const selected = path === target;
       return (
-        <Pressable
+        <TactilePressable feedback="highlight"
           key={target}
           accessibilityRole="tab"
           accessibilityState={{ selected }}
           accessibilityLabel={label}
           onPress={() => router.navigate(target as Href)}
-          style={({ pressed }) => ({
+          style={{
             flex: mobile ? 1 : undefined,
             minHeight: 50,
             paddingHorizontal: mobile ? 2 : 12,
@@ -69,8 +78,7 @@ export function Shell() {
             gap: mobile ? 4 : 10,
             backgroundColor: !mobile && selected ? t.grouped : "transparent",
             borderRadius: 9,
-            opacity: pressed ? 0.6 : 1,
-          })}
+          }}
         >
           <Icon
             size={mobile ? 20 : 19}
@@ -78,7 +86,7 @@ export function Shell() {
             color={selected && mobile ? t.primary : selected ? t.text : t.muted}
           />
           <Label
-            size={mobile ? 10 : 14}
+            size={mobile ? 11 : 14}
             style={{
               color:
                 selected && mobile ? t.primary : selected ? t.text : t.muted,
@@ -86,7 +94,7 @@ export function Shell() {
           >
             {label}
           </Label>
-        </Pressable>
+        </TactilePressable>
       );
     });
   return (
@@ -126,25 +134,12 @@ export function Shell() {
               {nav(false)}
             </View>
             <View style={{ flex: 1 }} />
-            {spotifyRoute || libraryRoute ? (
-              <>
-                <Label muted size={12}>
-                  {libraryRoute ? "Spotify library" : "Spotify playback test"}
-                </Label>
-                <Label muted size={12}>
-                  {live.filterEnabled ? (live.filterFault ? "Filtering stopped" : "Timed filtering enabled") : "Filtering is off"}
-                </Label>
-              </>
-            ) : (
-              <>
-                <Label muted size={12}>
-                  Demo workspace
-                </Label>
-                <Label muted size={12}>
-                  Playback is simulated
-                </Label>
-              </>
-            )}
+            <Label muted size={12}>
+              Protection
+            </Label>
+            <Label muted size={12}>
+              {filterStatus}
+            </Label>
           </View>
         )}
         <View style={{ flex: 1, minWidth: 0 }}>
@@ -162,14 +157,20 @@ export function Shell() {
               muted
               style={{
                 borderWidth: 1,
-                borderColor: spotifyRoute ? t.primary : t.border,
+                borderColor:
+                  live.filterEnabled && !live.filterFault
+                    ? t.primary
+                    : t.border,
                 paddingHorizontal: 7,
                 paddingVertical: 2,
                 borderRadius: 5,
-                color: spotifyRoute ? t.primary : t.muted,
+                color:
+                  live.filterEnabled && !live.filterFault
+                    ? t.primary
+                    : t.muted,
               }}
             >
-              {spotifyRoute ? (live.filterEnabled ? (live.filterFault ? "STOPPED" : "FILTERING") : "UNFILTERED") : libraryRoute ? "SPOTIFY" : "DEMO"}
+              {filterBadge}
             </Label>
           </Row>
           {state.notice ? (
@@ -208,37 +209,14 @@ export function Shell() {
               <Slot />
             </View>
           </ScrollView>
-          {!spotifyRoute && live.snapshot.track ? (
+          {path !== "/" && !spotifyRoute && live.snapshot.track ? (
             <Row style={{ borderTopWidth: 1, borderTopColor: t.border, backgroundColor: t.card, paddingHorizontal: 20, paddingVertical: 8 }}>
               {live.snapshot.track.imageUrl ? <Image source={{uri:live.snapshot.track.imageUrl}} style={{width:32,height:32,borderRadius:4}} /> : null}
-              <View style={{flex:1}}><Label bold size={12}>{live.snapshot.track.name}</Label><Label muted size={11}>{live.snapshot.track.artist} · Spotify · {live.filterEnabled ? (live.filterFault?"Filtering stopped":"Timed filtering enabled"):"Unfiltered"}</Label></View>
+              <View style={{flex:1}}><Label bold size={12}>{live.snapshot.track.name}</Label><Label muted size={11}>{live.snapshot.track.artist} · Spotify · {filterStatus}</Label></View>
               {live.service && live.snapshot.status==="ready" && <IconButton icon={live.snapshot.paused?IconPlayerPlay:IconPlayerPause} label={live.snapshot.paused?"Resume":"Pause"} onPress={() => {const s=live.service;if(!s) return;void (live.snapshot.paused?s.resume.call(s):s.pause.call(s));}} />}
               <IconButton icon={IconArrowUpRight} label="Open Now Playing" onPress={() => router.navigate("/")} />
             </Row>
-          ) : path !== "/" && !spotifyRoute && !libraryRoute && (
-            <Row
-              style={{
-                borderTopWidth: 1,
-                borderTopColor: t.border,
-                backgroundColor: t.card,
-                paddingHorizontal: 20,
-                paddingVertical: 8,
-              }}
-            >
-              <Artwork kind={state.playback.track.artwork} />
-              <View style={{ flex: 1 }}>
-                <Label size={12}>{state.playback.track.title}</Label>
-                <Label size={11} muted>
-                  {state.playback.track.artist} · {state.playback.playing ? "Playing" : "Paused"} · {state.active.rules.some(r => r.enabled) ? "Filters active" : "Filters off"} · Preview
-                </Label>
-              </View>
-              <IconButton
-                icon={IconArrowUpRight}
-                label="Open Now Playing"
-                onPress={() => router.navigate("/")}
-              />
-            </Row>
-          )}
+          ) : null}
           {!desktop && (
             <View
               accessibilityRole="tablist"

@@ -1,10 +1,11 @@
+import { TactilePressable } from "./tactile-pressable";
 import React, { useMemo, useState } from "react";
-import { Linking, Pressable, View } from "react-native";
+import { Linking, View } from "react-native";
 import type { LyricsLookupState } from "../services/use-track-lyrics";
 import type { TranscriptLookupState } from "../services/use-track-transcript";
 import { useTheme } from "./theme";
 import { Button, Label, Notice, Row } from "./components";
-import { time } from "../data/demo";
+import { time } from "../data/defaults";
 
 type TimedSpan = {
   startMs: number;
@@ -135,18 +136,17 @@ function TimedSpanPanel({
                 const span = spans[i];
                 const active = i === current;
                 return (
-                  <Pressable
+                  <TactilePressable feedback="highlight"
                     key={i}
                     accessibilityRole={onSeek ? "button" : undefined}
                     accessibilityLabel={`Seek to ${time(span.startMs)}: ${span.text || "No text"}`}
                     accessibilityState={{ selected: active, disabled: !onSeek }}
                     disabled={!onSeek}
                     onPress={() => onSeek?.(span.startMs)}
-                    style={({ pressed }) => ({
+                    style={{
                       minHeight: 44,
                       paddingVertical: 7,
-                      opacity: pressed ? 0.65 : 1,
-                    })}
+                    }}
                   >
                     <Label
                       size={24}
@@ -156,7 +156,7 @@ function TimedSpanPanel({
                       {span.text.trim() ? span.text : "No text for this cue"}
                     </Label>
                     {active && <Label muted size={11}>{time(span.startMs)} · Current line</Label>}
-                  </Pressable>
+                  </TactilePressable>
                 );
               })}
             </View>
@@ -167,9 +167,9 @@ function TimedSpanPanel({
             )}
           </>
         )}
-        <Pressable accessibilityRole="link" onPress={() => void Linking.openURL(copy.attributionUrl)} style={{ minHeight: 44, justifyContent: "center" }}>
+        <TactilePressable feedback="highlight" accessibilityRole="link" onPress={() => void Linking.openURL(copy.attributionUrl)} style={{ minHeight: 44, justifyContent: "center" }}>
           <Label muted size={12}>{copy.attribution}</Label>
-        </Pressable>
+        </TactilePressable>
       </View>
     </Notice>
   );

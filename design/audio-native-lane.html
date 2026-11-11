@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Audio-native lane: parts to keep, swap, and build</title>
+<style>
+:root{
+  --background:#0f0d14;--foreground:#ececf1;--muted-foreground:#a29eae;--border:#2f2a3a;--ring:#8b7cf6;
+  --primary:#ececf1;--primary-foreground:#0f0d14;--success:#34c37a;--warning:#e6a23c;--info:#5b9cf8;--destructive:#f06262;
+  --radius:10px;--font-sans:Inter,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;--font-mono:ui-monospace,"SF Mono",Menlo,Consolas,monospace;
+}
+*{box-sizing:border-box}
+html{background:var(--background)}
+html,body{margin:0;padding:0}
+body{font-family:var(--font-sans);color:var(--foreground);font-size:13px;line-height:1.45;-webkit-font-smoothing:antialiased;max-width:776px;margin:0 auto;padding:28px 24px 32px}
+h1{font-size:17px;font-weight:650;margin:0 0 22px;letter-spacing:-.01em}
+.wrap{display:flex;flex-direction:column;gap:30px;padding:2px 0 6px}
+.eyebrow{font-size:11px;font-weight:600;letter-spacing:.07em;text-transform:uppercase;color:var(--muted-foreground)}
+.hint{font-size:12px;color:var(--muted-foreground);margin-top:3px;max-width:430px}
+.head-row{display:flex;justify-content:space-between;align-items:flex-end;gap:10px 16px;flex-wrap:wrap;margin-bottom:14px}
+[data-status="keep"]{--s:var(--success)}
+[data-status="swap"]{--s:var(--warning)}
+[data-status="new"]{--s:var(--info)}
+[data-status="none"]{--s:var(--muted-foreground)}
+.steps{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:6px;position:relative}
+.steps::before{content:"";position:absolute;top:13px;left:8.33%;right:8.33%;height:1px;background:var(--border)}
+.step{all:unset;box-sizing:border-box;cursor:pointer;display:flex;flex-direction:column;align-items:center;text-align:center;gap:6px;padding:0 2px 2px;border-radius:6px;position:relative}
+.step:focus-visible{outline:2px solid var(--ring);outline-offset:3px}
+.num{width:26px;height:26px;border-radius:999px;display:grid;place-items:center;font-size:12px;font-weight:600;background:var(--background);border:1px solid var(--border);transition:background .15s,border-color .15s,color .15s}
+.step:hover .num,.step[aria-pressed="true"] .num{background:var(--primary);border-color:var(--primary);color:var(--primary-foreground)}
+.st{font-weight:600;font-size:12.5px}
+.sd{font-size:11.5px;line-height:1.35;color:var(--muted-foreground)}
+.legend{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.legend button{all:unset;box-sizing:border-box;cursor:pointer;display:inline-flex;align-items:center;gap:6px;font-size:11.5px;padding:3px 9px;border-radius:999px;border:1px solid var(--border);transition:border-color .15s}
+.legend button i{width:8px;height:8px;border-radius:2px;background:var(--s)}
+.legend button[data-status="none"] i{background:transparent;border:1px dashed var(--muted-foreground)}
+.legend button:hover,.legend button[aria-pressed="true"]{border-color:var(--s)}
+.legend button:focus-visible{outline:2px solid var(--ring);outline-offset:2px}
+.tally{font-size:11.5px;color:var(--muted-foreground);margin-left:4px}
+.lanes{display:grid;grid-template-columns:72px minmax(0,1fr) minmax(0,1fr);gap:10px 12px}
+.lh{font-size:12.5px;font-weight:600;padding:0 2px}
+.lh span{display:block;font-weight:400;font-size:11.5px;color:var(--muted-foreground)}
+.stage{font-size:10.5px;font-weight:600;letter-spacing:.07em;text-transform:uppercase;color:var(--muted-foreground);padding-top:17px}
+.stage.tall{grid-row:span 2}
+.span{grid-column:2 / 4}
+.card{position:relative;min-width:0;border-radius:var(--radius);padding:16px;border:1px solid color-mix(in srgb,var(--s) 40%,var(--border));background:color-mix(in srgb,var(--s) 8%,transparent);transition:background .15s,border-color .15s}
+.card[data-status="none"]{border-style:dashed;border-color:var(--border);background:transparent}
+.card>*{transition:opacity .15s}
+.ch{display:flex;justify-content:space-between;align-items:baseline;gap:10px}
+.t{font-weight:600;font-size:13px}
+.pill{flex:none;font-size:10px;font-weight:700;letter-spacing:.07em;color:var(--s)}
+.flag{display:inline-block;margin-left:6px;padding:0 6px;border-radius:999px;border:1px solid color-mix(in srgb,var(--destructive) 55%,transparent);color:var(--destructive);font-size:9.5px;font-weight:700;letter-spacing:.06em;vertical-align:1px}
+.r{font-family:var(--font-mono);font-size:11px;line-height:1.5;color:var(--muted-foreground);margin-top:4px;overflow-wrap:anywhere}
+.n{font-size:12px;margin-top:6px;color:color-mix(in srgb,var(--foreground) 80%,transparent)}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+.chip{display:inline-flex;align-items:baseline;gap:6px;font-size:11px;padding:2px 8px;border-radius:999px;border:1px solid color-mix(in srgb,var(--s) 55%,var(--border));transition:opacity .15s}
+.chip b{font-size:9.5px;letter-spacing:.07em;color:var(--s)}
+.chip code{font-family:var(--font-mono);font-size:10.5px;color:var(--muted-foreground)}
+.lane-tag{display:none}
+.card.dim{background:transparent;border-color:var(--border)}
+.card.dim>:not(.chips){opacity:.28}
+.chip.dim{opacity:.28}
+.risks{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.risk{border-left:2px solid var(--destructive);padding:1px 0 1px 12px}
+.rt{display:flex;justify-content:space-between;align-items:baseline;gap:8px;font-weight:600;font-size:12.5px}
+.rt span{font-size:10px;letter-spacing:.07em;text-transform:uppercase;color:var(--muted-foreground);font-weight:600}
+.risk p{margin:4px 0 0;font-size:12px;color:var(--muted-foreground)}
+@media (max-width:560px){
+.steps{grid-template-columns:repeat(3,minmax(0,1fr));row-gap:14px}
+.steps::before{display:none}
+.lanes{grid-template-columns:minmax(0,1fr)}
+.lh{display:none}
+.stage,.stage.tall{grid-row:auto;padding-top:8px}
+.span{grid-column:auto}
+.lane-tag{display:block;font-size:10px;font-weight:600;letter-spacing:.07em;text-transform:uppercase;color:var(--muted-foreground);margin-bottom:6px}
+.risks{grid-template-columns:minmax(0,1fr)}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<h1>Audio-native lane: parts to keep, swap, and build</h1>
+<div class="wrap">
+
+<section>
+ <div class="head-row"><div>
+  <div class="eyebrow">Your flow</div>
+  <div class="hint">Hover or tap a step to light up the parts it uses.</div>
+ </div></div>
+ <div class="steps">
+  <button class="step" aria-pressed="false" data-uses="source proxy ssrf"><span class="num">1</span><span class="st">Pick</span><span class="sd">Audius track or podcast episode</span></button>
+  <button class="step" aria-pressed="false" data-uses="source ssrf asr taddy"><span class="num">2</span><span class="st">Listen ahead</span><span class="sd">Server transcribes the real audio</span></button>
+  <button class="step" aria-pressed="false" data-uses="profiles match review"><span class="num">3</span><span class="st">Review</span><span class="sd">Approve or reject each flag</span></button>
+  <button class="step" aria-pressed="false" data-uses="scheduler player activity"><span class="num">4</span><span class="st">Play</span><span class="sd">Approved mutes and skips run</span></button>
+  <button class="step" aria-pressed="false" data-uses="cache"><span class="num">5</span><span class="st">Remember</span><span class="sd">Saved per track and profile</span></button>
+  <button class="step" aria-pressed="false" data-uses="cache profiles match"><span class="num">6</span><span class="st">Auto-filter</span><span class="sd">Skips review when nothing changed</span></button>
+ </div>
+</section>
+
+<section>
+ <div class="head-row">
+  <div>
+   <div class="eyebrow">Parts</div>
+   <div class="hint">Each row is one job. Green is shared. Amber stays in the Spotify lane; the blue part beside it does that job in the new lane.</div>
+  </div>
+  <div class="legend">
+   <button data-status="keep" aria-pressed="false"><i></i>Keep</button>
+   <button data-status="swap" aria-pressed="false"><i></i>Swap</button>
+   <button data-status="new" aria-pressed="false"><i></i>New</button>
+   <button data-status="none" aria-pressed="false"><i></i>None today</button>
+   <span class="tally">6 keep · 3 swap · 6 new</span>
+  </div>
+ </div>
+ <div class="lanes">
+  <div></div>
+  <div class="lh">Spotify lane<span>Stays as is</span></div>
+  <div class="lh">Audio-native lane<span>Audius + podcast RSS</span></div>
+
+  <div class="stage">Rules</div>
+  <div class="card span" data-status="keep" data-id="profiles">
+   <div class="ch"><span class="t">Profiles &amp; rules</span><span class="pill">KEEP</span></div>
+   <div class="r">AppProvider · profile-repository · Profile / Rule</div>
+   <div class="n">One set of profiles drives both lanes.</div>
+  </div>
+
+  <div class="stage">Source</div>
+  <div class="card" data-status="swap" data-id="source-spotify">
+   <div class="lane-tag">Spotify lane</div>
+   <div class="ch"><span class="t">Spotify Web Playback SDK</span><span class="pill">SWAP</span></div>
+   <div class="r">playback.ts · clean-version.ts</div>
+   <div class="n">Sealed stream. Clean-version swaps in a non-explicit recording.</div>
+  </div>
+  <div class="card" data-status="new" data-id="source">
+   <div class="lane-tag">Audio-native lane</div>
+   <div class="ch"><span class="t">/api/audio-source</span><span class="pill">NEW</span></div>
+   <div class="r">Audius /v1/tracks/{id}/stream · RSS &lt;enclosure&gt;</div>
+   <div class="n">Checked live: an Audius track and an NPR episode both serve audio/mpeg with CORS through every redirect.</div>
+   <div class="chips">
+    <span class="chip" data-status="new" data-id="proxy"><b>NEW</b>Proxy for hosts without CORS <code>/api/audio</code></span>
+    <span class="chip" data-status="keep" data-id="ssrf"><b>KEEP</b>SSRF-guarded fetch <code>taddy.ts</code></span>
+   </div>
+  </div>
+
+  <div class="stage">Words</div>
+  <div class="card" data-status="swap" data-id="words-spotify">
+   <div class="lane-tag">Spotify lane</div>
+   <div class="ch"><span class="t">LRCLIB lines + estimateWords</span><span class="pill">SWAP</span></div>
+   <div class="r">lrclib.ts · use-track-lyrics · WORD_MUTE_PAD_MS = 1500</div>
+   <div class="n">Word positions are guessed, so each mute pads 1.5 s on both sides.</div>
+  </div>
+  <div class="card" data-status="new" data-id="asr">
+   <div class="lane-tag">Audio-native lane</div>
+   <div class="ch"><span class="t">/api/audio-transcript<span class="flag">SPIKE</span></span><span class="pill">NEW</span></div>
+   <div class="r">ASR word timestamps · cached per track</div>
+   <div class="n">Real word timing, so mutes can be tight. Accuracy on sung vocals is unproven.</div>
+   <div class="chips">
+    <span class="chip" data-status="keep" data-id="taddy"><b>KEEP</b>Taddy transcript, podcast fallback</span>
+   </div>
+  </div>
+
+  <div class="stage">Match</div>
+  <div class="card span" data-status="keep" data-id="match">
+   <div class="ch"><span class="t">Matcher → PlannedAction</span><span class="pill">KEEP · ADAPT</span></div>
+   <div class="r">packages/filters · matchesTerm · categories · merge</div>
+   <div class="n">Feed it real word spans instead of estimateWords. LyricSpan already allows timing "word".</div>
+  </div>
+
+  <div class="stage">Review</div>
+  <div class="card" data-status="none" data-id="review-spotify">
+   <div class="lane-tag">Spotify lane</div>
+   <div class="ch"><span class="t">Planned actions are listed</span><span class="pill">TODAY</span></div>
+   <div class="n">No approve or reject step.</div>
+  </div>
+  <div class="card" data-status="new" data-id="review">
+   <div class="lane-tag">Audio-native lane</div>
+   <div class="ch"><span class="t">Review gate</span><span class="pill">NEW</span></div>
+   <div class="r">"Listening…" progress · flags in transcript · approve / reject</div>
+   <div class="n">Works on any PlannedAction, so the Spotify lane can adopt it later.</div>
+  </div>
+
+  <div class="stage tall">Play</div>
+  <div class="card span" data-status="keep" data-id="scheduler">
+   <div class="ch"><span class="t">FilterScheduler safety</span><span class="pill">KEEP · ADAPT</span></div>
+   <div class="r">filter-scheduler.ts · faults · visibility pause · restore · timeouts</div>
+   <div class="n">Generalize PlaybackSnapshot and the Spotify-worded fault messages.</div>
+  </div>
+  <div class="card" data-status="swap" data-id="player-spotify">
+   <div class="lane-tag">Spotify lane</div>
+   <div class="ch"><span class="t">Volume to zero / line seek</span><span class="pill">SWAP</span></div>
+   <div class="r">setMuted (desktop) · seek fallback (iPhone, iPad)</div>
+   <div class="n">Platform volume. iPhone can't mute, so whole lines are skipped.</div>
+  </div>
+  <div class="card" data-status="new" data-id="player">
+   <div class="lane-tag">Audio-native lane</div>
+   <div class="ch"><span class="t">AudioFilePlayer</span><span class="pill">NEW</span></div>
+   <div class="r">&lt;audio crossorigin&gt; → MediaElementSource → GainNode</div>
+   <div class="n">Short gain ramps, no clicks. Should work on iPhone in the foreground; verify on a device.</div>
+  </div>
+
+  <div class="stage">Remember</div>
+  <div class="card" data-status="none" data-id="remember-spotify">
+   <div class="lane-tag">Spotify lane</div>
+   <div class="ch"><span class="t">Plans aren't saved</span><span class="pill">TODAY</span></div>
+   <div class="n">Rebuilt from live lyrics on each play.</div>
+  </div>
+  <div class="card" data-status="new" data-id="cache">
+   <div class="lane-tag">Audio-native lane</div>
+   <div class="ch"><span class="t">Plan cache + auto-filter</span><span class="pill">NEW</span></div>
+   <div class="r">audio-angel:plans:v1 · key = track + profile rules</div>
+   <div class="n">Device-local first, like profiles. Auto-filter skips review when nothing changed. Convex later.</div>
+  </div>
+
+  <div class="stage">Report</div>
+  <div class="card span" data-status="keep" data-id="activity">
+   <div class="ch"><span class="t">Activity log</span><span class="pill">KEEP</span></div>
+   <div class="r">FilterEvent · player-provider.tsx · activity.tsx</div>
+   <div class="n">Live events reach Activity through player-provider.tsx. The new lane needs the same wiring.</div>
+  </div>
+ </div>
+</section>
+
+<section>
+ <div class="head-row"><div><div class="eyebrow">Spike before building</div></div></div>
+ <div class="risks">
+  <div class="risk"><div class="rt">Sung vocals<span>Audius</span></div><p>ASR accuracy and word timing on music are unproven. Vocal separation may be needed first.</p></div>
+  <div class="risk"><div class="rt">Dynamic ads<span>Podcasts</span></div><p>Ad-stitched files can differ per request. Play the same bytes you transcribe, or resync.</p></div>
+  <div class="risk"><div class="rt">Locked screen<span>Both</span></div><p>Background playback stays unverified, as it is today.</p></div>
+ </div>
+</section>
+
+</div>
+<script>
+(()=>{
+ const parts=[...document.querySelectorAll('[data-id]')];
+ const triggers=[...document.querySelectorAll('.step,.legend button')];
+ let pinned=null;
+ const show=el=>{
+  if(!el){parts.forEach(p=>p.classList.remove('dim'));return;}
+  const ids=el.dataset.uses?el.dataset.uses.split(' '):null;
+  const status=el.dataset.status;
+  parts.forEach(p=>p.classList.toggle('dim',ids?!ids.includes(p.dataset.id):p.dataset.status!==status));
+ };
+ triggers.forEach(b=>{
+  b.addEventListener('mouseenter',()=>{if(!pinned)show(b);});
+  b.addEventListener('mouseleave',()=>{if(!pinned)show(null);});
+  b.addEventListener('focus',()=>{if(!pinned)show(b);});
+  b.addEventListener('blur',()=>{if(!pinned)show(null);});
+  b.addEventListener('click',()=>{
+   pinned=pinned===b?null:b;
+   triggers.forEach(t=>t.setAttribute('aria-pressed',String(t===pinned)));
+   show(pinned);
+  });
+ });
+})();
+</script>
+</body>
+</html>

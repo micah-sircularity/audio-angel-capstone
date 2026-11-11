@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vocal muting test · Audio Angel</title>
+<style>
+:root{color-scheme:light dark;font-family:system-ui,sans-serif;color:#222;background:#f6f3ec}body{margin:0;padding:24px 18px}main{max-width:600px;margin:0 auto}a{color:#256b5b}h1{font-size:28px;letter-spacing:-.7px;margin:26px 0 8px}p{line-height:1.55}.muted{color:#666}.card{border:1px solid #d8d5ce;border-radius:18px;padding:20px;margin:24px 0;background:#fff}label{display:block;font-weight:600;margin-bottom:10px}select,button{font:inherit;padding:12px;border-radius:10px;border:1px solid #ccc}select{width:100%;background:transparent;color:inherit}audio{display:block;width:100%;margin:20px 0}button{background:#256b5b;color:white;border:0;cursor:pointer;min-height:44px}#message{min-height:24px}small{line-height:1.5;display:block}@media(prefers-color-scheme:dark){:root{background:#151715;color:#f3f3ed}a{color:#9dcdb9}.muted{color:#b2b4b0}.card{background:#222622;border-color:#434b43}select{border-color:#687068}option{background:#222622}}
+</style>
+</head>
+<body><main>
+<a href="/listen">← Back to Listen</a>
+<h1>Vocal muting test.</h1>
+<p><a href="/rap-words.html">Try automatic word muting on the Cryptokid rap track →</a></p>
+<label for="track">Choose a test track</label>
+<select id="track"><option value="rap" selected>Rap · Smiz The Cryptokid</option><option value="acoustic">Acoustic · SneakyFox</option></select>
+<p><strong id="title">I Be On My Shit</strong><br><span id="artist">Smiz The Cryptokid · about 1:19</span> · <a id="source" href="https://audius.co/PraiseGod/i-be-on-my-shit" target="_blank" rel="noopener noreferrer">Listen on Audius</a></p>
+<p>The edited version switches to this recording’s instrumental at <strong id="interval">0:20–0:22</strong>, then returns to the original. The beat and playback position continue.</p>
+<div class="card">
+<label for="version">Choose what to hear</label>
+<select id="version"><option value="original">Original song</option><option value="edited" selected>Song with the short vocal edit</option><option value="instrumental">Full instrumental</option><option value="vocals">Isolated vocals</option></select>
+<audio id="player" controls preload="metadata" src="/spleeter-test/rap/edited.mp3">Your browser does not support audio playback.</audio>
+<button id="near-edit" type="button">Play from 0:15 to hear the edit</button>
+<p id="message" role="status" aria-live="polite"></p><p id="playback-status" class="muted"></p>
+<small class="muted">You can switch versions while listening. Playback keeps its position. Only one version plays at a time.</small>
+</div>
+<p class="muted">This is a prepared listening test. The interval was chosen manually; it is not automatic word detection. Each complete test recording was separated with Spleeter on one T4 GPU. The rap edit is deliberately two seconds long to make the change easier to judge.</p>
+</main>
+<script>
+const player=document.getElementById('player');
+const version=document.getElementById('version');
+const track=document.getElementById('track');
+const message=document.getElementById('message');
+const nearEdit=document.getElementById('near-edit');
+const tracks={
+  rap:{title:'I Be On My Shit',artist:'Smiz The Cryptokid · about 1:19',source:'https://audius.co/PraiseGod/i-be-on-my-shit',base:'/spleeter-test/rap',start:20,end:22,interval:'0:20–0:22',button:'Play from 0:15 to hear the edit'},
+  acoustic:{title:'Fading (Acoustic)',artist:'SneakyFox · 2 minutes',source:'https://audius.co/SneakyFox/fading-acoustic',base:'/spleeter-test',start:30,end:30.5,interval:'0:30–0:30.5',button:'Play from 0:25 to hear the edit'}
+};
+let pendingPosition=null;
+let resume=false;
+function currentTrack(){return tracks[track.value];}
+function play(){player.play().catch(()=>{message.textContent='Tap the audio play button to start listening.';});}
+function status(){
+  const t=currentTrack();
+  document.getElementById('playback-status').textContent=version.value==='edited'?(player.currentTime>=t.start&&player.currentTime<t.end?'Instrumental only — the selected vocal interval is removed.':'Original mix — vocals and beat.'):version.value==='vocals'?'Isolated vocal track.':version.value==='instrumental'?'Instrumental track.':'Original mix — vocals and beat.';
+}
+function loadVersion(position,shouldResume){
+  pendingPosition=position;
+  resume=shouldResume;
+  player.pause();
+  message.textContent='Loading selected version…';
+  player.src=currentTrack().base+'/'+version.value+'.mp3';
+  player.load();
+}
+version.addEventListener('change',()=>loadVersion(pendingPosition??player.currentTime,resume||!player.paused));
+track.addEventListener('change',()=>{
+  const t=currentTrack();
+  document.getElementById('title').textContent=t.title;
+  document.getElementById('artist').textContent=t.artist;
+  document.getElementById('source').href=t.source;
+  document.getElementById('interval').textContent=t.interval;
+  nearEdit.textContent=t.button;
+  loadVersion(0,resume||!player.paused);
+});
+player.addEventListener('loadedmetadata',()=>{
+  if(pendingPosition!==null){player.currentTime=Math.min(pendingPosition,Math.max(0,player.duration-.05));pendingPosition=null;}
+  message.textContent='';
+  if(resume){resume=false;play();}
+  status();
+});
+nearEdit.addEventListener('click',()=>{
+  const position=Math.max(0,currentTrack().start-5);
+  if(version.value!=='edited'){
+    version.value='edited';
+    loadVersion(position,true);
+  }else if(player.readyState>=1){player.currentTime=position;play();}
+  else{pendingPosition=position;resume=true;player.load();}
+});
+player.addEventListener('timeupdate',status);
+player.addEventListener('seeked',status);
+player.addEventListener('error',()=>{resume=false;message.textContent='Audio could not be loaded. Reload this page and try again.';});
+window.addEventListener('pagehide',()=>player.pause());
+</script>
+</body></html>

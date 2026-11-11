@@ -1,0 +1,824 @@
+{
+  "source_key": "aud:OG1aKGX",
+  "title": "Purple Poison",
+  "artist": "Kooka P",
+  "kind": "music",
+  "rules": [
+    {
+      "label": "Profanity",
+      "kind": "category",
+      "value": "profanity"
+    },
+    {
+      "label": "Slurs",
+      "kind": "category",
+      "value": "slurs"
+    },
+    {
+      "label": "Sexual content",
+      "kind": "category",
+      "value": "sexual"
+    },
+    {
+      "label": "Drugs",
+      "kind": "category",
+      "value": "drugs"
+    },
+    {
+      "label": "Graphic violence",
+      "kind": "category",
+      "value": "violence"
+    },
+    {
+      "label": "Blasphemy",
+      "kind": "category",
+      "value": "blasphemy"
+    }
+  ],
+  "transcript": {
+    "source_key": "aud:OG1aKGX",
+    "kind": "music",
+    "duration_ms": 190141,
+    "segments": [
+      {
+        "index": 0,
+        "start_ms": 40525,
+        "end_ms": 43645,
+        "text": "I see Minnie. You're not a genie.",
+        "words": [
+          {
+            "start_ms": 40525,
+            "end_ms": 40765,
+            "text": "I"
+          },
+          {
+            "start_ms": 40765,
+            "end_ms": 41405,
+            "text": "see"
+          },
+          {
+            "start_ms": 41405,
+            "end_ms": 42125,
+            "text": "Minnie."
+          },
+          {
+            "start_ms": 42125,
+            "end_ms": 42445,
+            "text": "You're"
+          },
+          {
+            "start_ms": 42445,
+            "end_ms": 42605,
+            "text": "not"
+          },
+          {
+            "start_ms": 42605,
+            "end_ms": 42765,
+            "text": "a"
+          },
+          {
+            "start_ms": 42765,
+            "end_ms": 43645,
+            "text": "genie."
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "start_ms": 43885,
+        "end_ms": 47245,
+        "text": "No one will believe me. I'm Speedy Stevie.",
+        "words": [
+          {
+            "start_ms": 43885,
+            "end_ms": 44205,
+            "text": "No"
+          },
+          {
+            "start_ms": 44205,
+            "end_ms": 44365,
+            "text": "one"
+          },
+          {
+            "start_ms": 44365,
+            "end_ms": 44605,
+            "text": "will"
+          },
+          {
+            "start_ms": 44605,
+            "end_ms": 45005,
+            "text": "believe"
+          },
+          {
+            "start_ms": 45005,
+            "end_ms": 45485,
+            "text": "me."
+          },
+          {
+            "start_ms": 45645,
+            "end_ms": 46045,
+            "text": "I'm"
+          },
+          {
+            "start_ms": 46045,
+            "end_ms": 46445,
+            "text": "Speedy"
+          },
+          {
+            "start_ms": 46445,
+            "end_ms": 47245,
+            "text": "Stevie."
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "start_ms": 47245,
+        "end_ms": 55165,
+        "text": "I won't pay your levy. That's because it's heavy. I see you on the telly. God is very smelly. I think I'm jelly.",
+        "words": [
+          {
+            "start_ms": 47245,
+            "end_ms": 47565,
+            "text": "I"
+          },
+          {
+            "start_ms": 47565,
+            "end_ms": 47885,
+            "text": "won't"
+          },
+          {
+            "start_ms": 47885,
+            "end_ms": 48045,
+            "text": "pay"
+          },
+          {
+            "start_ms": 48045,
+            "end_ms": 48365,
+            "text": "your"
+          },
+          {
+            "start_ms": 48365,
+            "end_ms": 49005,
+            "text": "levy."
+          },
+          {
+            "start_ms": 49085,
+            "end_ms": 49405,
+            "text": "That's"
+          },
+          {
+            "start_ms": 49405,
+            "end_ms": 49725,
+            "text": "because"
+          },
+          {
+            "start_ms": 49725,
+            "end_ms": 50045,
+            "text": "it's"
+          },
+          {
+            "start_ms": 50045,
+            "end_ms": 50685,
+            "text": "heavy."
+          },
+          {
+            "start_ms": 50685,
+            "end_ms": 50925,
+            "text": "I"
+          },
+          {
+            "start_ms": 50925,
+            "end_ms": 51165,
+            "text": "see"
+          },
+          {
+            "start_ms": 51165,
+            "end_ms": 51325,
+            "text": "you"
+          },
+          {
+            "start_ms": 51325,
+            "end_ms": 51485,
+            "text": "on"
+          },
+          {
+            "start_ms": 51485,
+            "end_ms": 51645,
+            "text": "the"
+          },
+          {
+            "start_ms": 51645,
+            "end_ms": 52365,
+            "text": "telly."
+          },
+          {
+            "start_ms": 52365,
+            "end_ms": 52765,
+            "text": "God"
+          },
+          {
+            "start_ms": 52765,
+            "end_ms": 53085,
+            "text": "is"
+          },
+          {
+            "start_ms": 53085,
+            "end_ms": 53485,
+            "text": "very"
+          },
+          {
+            "start_ms": 53485,
+            "end_ms": 54125,
+            "text": "smelly."
+          },
+          {
+            "start_ms": 54125,
+            "end_ms": 54285,
+            "text": "I"
+          },
+          {
+            "start_ms": 54285,
+            "end_ms": 54525,
+            "text": "think"
+          },
+          {
+            "start_ms": 54525,
+            "end_ms": 54765,
+            "text": "I'm"
+          },
+          {
+            "start_ms": 54765,
+            "end_ms": 55165,
+            "text": "jelly."
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "start_ms": 69295,
+        "end_ms": 72255,
+        "text": "Love your love. I wasn't sent from above.",
+        "words": [
+          {
+            "start_ms": 69295,
+            "end_ms": 69615,
+            "text": "Love"
+          },
+          {
+            "start_ms": 69615,
+            "end_ms": 69855,
+            "text": "your"
+          },
+          {
+            "start_ms": 69855,
+            "end_ms": 70495,
+            "text": "love."
+          },
+          {
+            "start_ms": 70495,
+            "end_ms": 70735,
+            "text": "I"
+          },
+          {
+            "start_ms": 70735,
+            "end_ms": 71055,
+            "text": "wasn't"
+          },
+          {
+            "start_ms": 71055,
+            "end_ms": 71295,
+            "text": "sent"
+          },
+          {
+            "start_ms": 71295,
+            "end_ms": 71535,
+            "text": "from"
+          },
+          {
+            "start_ms": 71535,
+            "end_ms": 72255,
+            "text": "above."
+          }
+        ]
+      },
+      {
+        "index": 4,
+        "start_ms": 72415,
+        "end_ms": 74175,
+        "text": "Give you a golden glow.",
+        "words": [
+          {
+            "start_ms": 72415,
+            "end_ms": 72655,
+            "text": "Give"
+          },
+          {
+            "start_ms": 72655,
+            "end_ms": 72815,
+            "text": "you"
+          },
+          {
+            "start_ms": 72815,
+            "end_ms": 73055,
+            "text": "a"
+          },
+          {
+            "start_ms": 73055,
+            "end_ms": 73455,
+            "text": "golden"
+          },
+          {
+            "start_ms": 73455,
+            "end_ms": 74175,
+            "text": "glow."
+          }
+        ]
+      },
+      {
+        "index": 5,
+        "start_ms": 74335,
+        "end_ms": 77695,
+        "text": "Don't give you a shout. Your love is poison.",
+        "words": [
+          {
+            "start_ms": 74335,
+            "end_ms": 74655,
+            "text": "Don't"
+          },
+          {
+            "start_ms": 74655,
+            "end_ms": 74895,
+            "text": "give"
+          },
+          {
+            "start_ms": 74895,
+            "end_ms": 75055,
+            "text": "you"
+          },
+          {
+            "start_ms": 75055,
+            "end_ms": 75295,
+            "text": "a"
+          },
+          {
+            "start_ms": 75295,
+            "end_ms": 75935,
+            "text": "shout."
+          },
+          {
+            "start_ms": 76095,
+            "end_ms": 76415,
+            "text": "Your"
+          },
+          {
+            "start_ms": 76415,
+            "end_ms": 76735,
+            "text": "love"
+          },
+          {
+            "start_ms": 76735,
+            "end_ms": 76895,
+            "text": "is"
+          },
+          {
+            "start_ms": 76895,
+            "end_ms": 77695,
+            "text": "poison."
+          }
+        ]
+      },
+      {
+        "index": 6,
+        "start_ms": 78015,
+        "end_ms": 83055,
+        "text": "Stick to your boyfriend. Feed him your purple poison. Purple poison. Purple poison.",
+        "words": [
+          {
+            "start_ms": 78015,
+            "end_ms": 78335,
+            "text": "Stick"
+          },
+          {
+            "start_ms": 78335,
+            "end_ms": 78495,
+            "text": "to"
+          },
+          {
+            "start_ms": 78495,
+            "end_ms": 78735,
+            "text": "your"
+          },
+          {
+            "start_ms": 78735,
+            "end_ms": 79455,
+            "text": "boyfriend."
+          },
+          {
+            "start_ms": 79455,
+            "end_ms": 79695,
+            "text": "Feed"
+          },
+          {
+            "start_ms": 79695,
+            "end_ms": 79855,
+            "text": "him"
+          },
+          {
+            "start_ms": 79855,
+            "end_ms": 80095,
+            "text": "your"
+          },
+          {
+            "start_ms": 80095,
+            "end_ms": 80495,
+            "text": "purple"
+          },
+          {
+            "start_ms": 80495,
+            "end_ms": 81135,
+            "text": "poison."
+          },
+          {
+            "start_ms": 81135,
+            "end_ms": 81535,
+            "text": "Purple"
+          },
+          {
+            "start_ms": 81535,
+            "end_ms": 82255,
+            "text": "poison."
+          },
+          {
+            "start_ms": 82255,
+            "end_ms": 82575,
+            "text": "Purple"
+          },
+          {
+            "start_ms": 82575,
+            "end_ms": 83055,
+            "text": "poison."
+          }
+        ]
+      },
+      {
+        "index": 7,
+        "start_ms": 114860,
+        "end_ms": 124060,
+        "text": "You're the one frozen by your purple poison. Why am not one frozen? I said this is finding your boyfriend. He got stung by your purple poison.",
+        "words": [
+          {
+            "start_ms": 114860,
+            "end_ms": 115260,
+            "text": "You're"
+          },
+          {
+            "start_ms": 115260,
+            "end_ms": 115340,
+            "text": "the"
+          },
+          {
+            "start_ms": 115340,
+            "end_ms": 115580,
+            "text": "one"
+          },
+          {
+            "start_ms": 115580,
+            "end_ms": 116380,
+            "text": "frozen"
+          },
+          {
+            "start_ms": 116380,
+            "end_ms": 116860,
+            "text": "by"
+          },
+          {
+            "start_ms": 116860,
+            "end_ms": 117100,
+            "text": "your"
+          },
+          {
+            "start_ms": 117100,
+            "end_ms": 117580,
+            "text": "purple"
+          },
+          {
+            "start_ms": 117580,
+            "end_ms": 118300,
+            "text": "poison."
+          },
+          {
+            "start_ms": 118380,
+            "end_ms": 118620,
+            "text": "Why"
+          },
+          {
+            "start_ms": 118620,
+            "end_ms": 118860,
+            "text": "am"
+          },
+          {
+            "start_ms": 118860,
+            "end_ms": 119100,
+            "text": "not"
+          },
+          {
+            "start_ms": 119100,
+            "end_ms": 119340,
+            "text": "one"
+          },
+          {
+            "start_ms": 119340,
+            "end_ms": 119980,
+            "text": "frozen?"
+          },
+          {
+            "start_ms": 119980,
+            "end_ms": 120140,
+            "text": "I"
+          },
+          {
+            "start_ms": 120140,
+            "end_ms": 120380,
+            "text": "said"
+          },
+          {
+            "start_ms": 120380,
+            "end_ms": 120540,
+            "text": "this"
+          },
+          {
+            "start_ms": 120540,
+            "end_ms": 120780,
+            "text": "is"
+          },
+          {
+            "start_ms": 120780,
+            "end_ms": 121180,
+            "text": "finding"
+          },
+          {
+            "start_ms": 121180,
+            "end_ms": 121420,
+            "text": "your"
+          },
+          {
+            "start_ms": 121420,
+            "end_ms": 122140,
+            "text": "boyfriend."
+          },
+          {
+            "start_ms": 122140,
+            "end_ms": 122380,
+            "text": "He"
+          },
+          {
+            "start_ms": 122380,
+            "end_ms": 122540,
+            "text": "got"
+          },
+          {
+            "start_ms": 122540,
+            "end_ms": 122860,
+            "text": "stung"
+          },
+          {
+            "start_ms": 122860,
+            "end_ms": 123100,
+            "text": "by"
+          },
+          {
+            "start_ms": 123100,
+            "end_ms": 123260,
+            "text": "your"
+          },
+          {
+            "start_ms": 123260,
+            "end_ms": 123660,
+            "text": "purple"
+          },
+          {
+            "start_ms": 123660,
+            "end_ms": 124060,
+            "text": "poison."
+          }
+        ]
+      },
+      {
+        "index": 8,
+        "start_ms": 150270,
+        "end_ms": 152110,
+        "text": "Playing my sermon dedicated",
+        "words": [
+          {
+            "start_ms": 150270,
+            "end_ms": 150750,
+            "text": "Playing"
+          },
+          {
+            "start_ms": 150750,
+            "end_ms": 150910,
+            "text": "my"
+          },
+          {
+            "start_ms": 150910,
+            "end_ms": 151310,
+            "text": "sermon"
+          },
+          {
+            "start_ms": 151310,
+            "end_ms": 152110,
+            "text": "dedicated"
+          }
+        ]
+      },
+      {
+        "index": 9,
+        "start_ms": 152110,
+        "end_ms": 164795,
+        "text": "to the vermin. Something start learning. You're probably burning. Write another song about me. The world will shout me. Cause you're full of doubt, please. Hey, g. Please. This is a reprieve,",
+        "words": [
+          {
+            "start_ms": 152110,
+            "end_ms": 152430,
+            "text": "to"
+          },
+          {
+            "start_ms": 152430,
+            "end_ms": 152590,
+            "text": "the"
+          },
+          {
+            "start_ms": 152590,
+            "end_ms": 153310,
+            "text": "vermin."
+          },
+          {
+            "start_ms": 153310,
+            "end_ms": 153950,
+            "text": "Something"
+          },
+          {
+            "start_ms": 153675,
+            "end_ms": 154075,
+            "text": "start"
+          },
+          {
+            "start_ms": 154075,
+            "end_ms": 154795,
+            "text": "learning."
+          },
+          {
+            "start_ms": 154795,
+            "end_ms": 155035,
+            "text": "You're"
+          },
+          {
+            "start_ms": 155035,
+            "end_ms": 155355,
+            "text": "probably"
+          },
+          {
+            "start_ms": 155355,
+            "end_ms": 156075,
+            "text": "burning."
+          },
+          {
+            "start_ms": 156075,
+            "end_ms": 156395,
+            "text": "Write"
+          },
+          {
+            "start_ms": 156395,
+            "end_ms": 156795,
+            "text": "another"
+          },
+          {
+            "start_ms": 156795,
+            "end_ms": 157195,
+            "text": "song"
+          },
+          {
+            "start_ms": 157195,
+            "end_ms": 157755,
+            "text": "about"
+          },
+          {
+            "start_ms": 157755,
+            "end_ms": 158315,
+            "text": "me."
+          },
+          {
+            "start_ms": 158475,
+            "end_ms": 158635,
+            "text": "The"
+          },
+          {
+            "start_ms": 158635,
+            "end_ms": 158955,
+            "text": "world"
+          },
+          {
+            "start_ms": 158955,
+            "end_ms": 159195,
+            "text": "will"
+          },
+          {
+            "start_ms": 159195,
+            "end_ms": 159515,
+            "text": "shout"
+          },
+          {
+            "start_ms": 159515,
+            "end_ms": 159915,
+            "text": "me."
+          },
+          {
+            "start_ms": 159915,
+            "end_ms": 160155,
+            "text": "Cause"
+          },
+          {
+            "start_ms": 160155,
+            "end_ms": 160315,
+            "text": "you're"
+          },
+          {
+            "start_ms": 160315,
+            "end_ms": 160555,
+            "text": "full"
+          },
+          {
+            "start_ms": 160555,
+            "end_ms": 160715,
+            "text": "of"
+          },
+          {
+            "start_ms": 160715,
+            "end_ms": 161355,
+            "text": "doubt,"
+          },
+          {
+            "start_ms": 161355,
+            "end_ms": 161835,
+            "text": "please."
+          },
+          {
+            "start_ms": 161835,
+            "end_ms": 162155,
+            "text": "Hey,"
+          },
+          {
+            "start_ms": 162155,
+            "end_ms": 162555,
+            "text": "g."
+          },
+          {
+            "start_ms": 162555,
+            "end_ms": 163115,
+            "text": "Please."
+          },
+          {
+            "start_ms": 163115,
+            "end_ms": 163595,
+            "text": "This"
+          },
+          {
+            "start_ms": 163595,
+            "end_ms": 163755,
+            "text": "is"
+          },
+          {
+            "start_ms": 163755,
+            "end_ms": 163995,
+            "text": "a"
+          },
+          {
+            "start_ms": 163995,
+            "end_ms": 164795,
+            "text": "reprieve,"
+          }
+        ]
+      },
+      {
+        "index": 10,
+        "start_ms": 164795,
+        "end_ms": 164955,
+        "text": "g.",
+        "words": [
+          {
+            "start_ms": 164795,
+            "end_ms": 164955,
+            "text": "g."
+          }
+        ]
+      }
+    ],
+    "audio_source": "vocals"
+  },
+  "expected": [],
+  "labeled_by": "human",
+  "labeled_at": "2026-11-11T14:29:31.227389+00:00",
+  "prefilled_from": null,
+  "notes": "god is very smelly is not a slur"
+}

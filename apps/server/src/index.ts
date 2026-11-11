@@ -1,4 +1,6 @@
 import { proxyAuth } from "./auth-proxy";
+import { serveAudio } from "./static-audio";
+import { RapWordTest } from "./rap-test";
 import { createServer } from "node:http";
 import { readFile, stat } from "node:fs/promises";
 import { resolve, extname, sep } from "node:path";
@@ -31,6 +33,7 @@ const types: Record<string, string> = {
 Effect.runPromise(config)
   .then(({ port, host, staticDir, authUpstream }) => {
     const root = resolve(staticDir);
+    const rapWordTest = new RapWordTest(process.env.RAP_TEST_CACHE_DIR);
     const lyricsProvider = new LrclibProvider({ fetch });
     const taddyProvider = new TaddyProvider({
       fetch,
@@ -52,6 +55,7 @@ Effect.runPromise(config)
       };
       const request = Effect.tryPromise(async () => {
         const pathname = new URL(req.url ?? "/", "http://server").pathname;
+        if (await rapWordTest.handle(req, res)) return;
         if (authUpstream && pathname.startsWith("/api/auth/")) {
           proxyAuth(req, res, authUpstream);
           return;
@@ -122,6 +126,10 @@ Effect.runPromise(config)
             return;
           }
           file = resolve(root, "index.html");
+        }
+        if (extname(file) === ".mp3") {
+          serveAudio(req, res, file, (await stat(file)).size);
+          return;
         }
         const body = await readFile(file);
         res.writeHead(200, {

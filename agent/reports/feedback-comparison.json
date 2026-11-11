@@ -1,0 +1,2641 @@
+[
+  {
+    "config": {
+      "model": "fireworks:accounts/fireworks/models/glm-5p3-flash",
+      "prompt_version": "v3",
+      "chunk_size": 25,
+      "search_method": "hybrid",
+      "min_confidence": 0.5,
+      "tools_enabled": true,
+      "lexicon_prematch": true
+    },
+    "summary": {
+      "cases": 15,
+      "micro_precision": 0.46534653465346537,
+      "micro_recall": 0.8392857142857143,
+      "micro_f1": 0.5987261146496815,
+      "macro_f1": 0.5900243673496477,
+      "mean_word_recall": 0.9717738791423002,
+      "judge_pass_rate": 0.6,
+      "judge_errors": 0,
+      "failed_cases": 0,
+      "mean_latency_ms": 43917.4,
+      "input_tokens": 567613,
+      "output_tokens": 120253,
+      "est_cost_usd": 0.14526845
+    },
+    "mean_judge_score": 0.7899999999999999,
+    "judge_scored_cases": 15,
+    "report": "/home/micah-johnson/.t3/worktrees/audio-angel/t3-a1d0b51e/agent/reports/eval-20261111-160337.json",
+    "cases": [
+      {
+        "source_key": "aud:4356bzr",
+        "expected": [
+          {
+            "line_index": 1,
+            "rule_id": "profanity",
+            "words": [
+              "asshole"
+            ]
+          },
+          {
+            "line_index": 24,
+            "rule_id": "profanity",
+            "words": [
+              "hell"
+            ]
+          },
+          {
+            "line_index": 25,
+            "rule_id": "profanity",
+            "words": [
+              "dumbass"
+            ]
+          },
+          {
+            "line_index": 27,
+            "rule_id": "profanity",
+            "words": [
+              "balls",
+              "ass"
+            ]
+          },
+          {
+            "line_index": 27,
+            "rule_id": "violence",
+            "words": [
+              "guns"
+            ]
+          }
+        ],
+        "raw_flags": [
+          {
+            "line_index": 1,
+            "rule_id": "drugs",
+            "words": [
+              "spoons",
+              "needles",
+              "weed"
+            ],
+            "confidence": 0.85
+          },
+          {
+            "line_index": 1,
+            "rule_id": "profanity",
+            "words": [
+              "asshole"
+            ],
+            "confidence": 0.9
+          },
+          {
+            "line_index": 1,
+            "rule_id": "sexual",
+            "words": [
+              "eat",
+              "asshole"
+            ],
+            "confidence": 0.6
+          },
+          {
+            "line_index": 15,
+            "rule_id": "drugs",
+            "words": [
+              "drunk",
+              "Drunk",
+              "high"
+            ],
+            "confidence": 0.75
+          },
+          {
+            "line_index": 17,
+            "rule_id": "drugs",
+            "words": [
+              "highs"
+            ],
+            "confidence": 0.5
+          },
+          {
+            "line_index": 19,
+            "rule_id": "drugs",
+            "words": [
+              "sedated"
+            ],
+            "confidence": 0.85
+          },
+          {
+            "line_index": 20,
+            "rule_id": "drugs",
+            "words": [
+              "hallucinations"
+            ],
+            "confidence": 0.5
+          },
+          {
+            "line_index": 21,
+            "rule_id": "drugs",
+            "words": [
+              "high"
+            ],
+            "confidence": 0.9
+          },
+          {
+            "line_index": 23,
+            "rule_id": "drugs",
+            "words": [
+              "overdose",
+              "Coke",
+              "smoke",
+              "balls"
+            ],
+            "confidence": 0.85
+          },
+          {
+            "line_index": 24,
+            "rule_id": "profanity",
+            "words": [
+              "hell"
+            ],
+            "confidence": 0.9
+          },
+          {
+            "line_index": 25,
+            "rule_id": "profanity",
+            "words": [
+              "dumbass"
+            ],
+            "confidence": 0.95
+          },
+          {
+            "line_index": 27,
+            "rule_id": "profanity",
+            "words": [
+              "balls",
+              "ass"
+            ],
+            "confidence": 0.9
+          },
+          {
+            "line_index": 27,
+            "rule_id": "drugs",
+            "words": [
+              "drugs"
+            ],
+            "confidence": 0.8
+          },
+          {
+            "line_index": 27,
+            "rule_id": "violence",
+            "words": [
+              "guns"
+            ],
+            "confidence": 0.6
+          }
+        ]
+      },
+      {
+        "source_key": "aud:5Ba63XY",
+        "expected": [
+          {
+            "line_index": 2,
+            "rule_id": "term:disrespect-toward-women",
+            "words": [
+              "baddies",
+              "spank"
+            ]
+          },
+          {
+            "line_index": 5,
+            "rule_id": "term:disrespect-toward-women",
+            "words": [
+              "baddies",
+              "spank"
+            ]
+          },
+          {
+            "line_index": 7,
+            "rule_id": "profanity",
+            "words": [
+              "head",
+              "head"
+            ]
+          },
+          {
+            "line_index": 8,
+            "rule_id": "drugs",
+            "words": [
+              "stash"
+            ]
+          },
+          {
+            "line_index": 9,
+            "rule_id": "term:disrespect-toward-women",
+            "words": [
+              "baddies",
+              "spank"
+            ]
+          },
+          {
+            "line_index": 7,
+            "rule_id": "sexual",
+            "words": [
+              "Sex",
+              "excess",
+              "flesh"
+            ]
+          }
+        ],
+        "raw_flags": [
+          {
+            "line_index": 2,
+            "rule_id": "term:disrespect-toward-women",
+            "words": [
+              "baddies",
+              "spank"
+            ],
+            "confidence": 0.7
+          },
+          {
+            "line_index": 2,
+            "rule_id": "sexual",
+            "words": [
+              "spank"
+            ],
+            "confidence": 0.5
+          },
+          {
+            "line_index": 5,
+            "rule_id": "term:disrespect-toward-women",
+            "words": [
+              "baddies",
+              "spank"
+            ],
+            "confidence": 0.7
+          },
+          {
+            "line_index": 5,
+            "rule_id": "sexual",
+            "words": [
+              "spank"
+            ],
+            "confidence": 0.5
+          },
+          {
+            "line_index": 7,
+            "rule_id": "sexual",
+            "words": [
+              "undressing",
+              "Sex",
+              "flesh",
+              "head",
+              "head"
+            ],
+            "confidence": 0.8
+          },
+          {
+            "line_index": 9,
+            "rule_id": "term:disrespect-toward-women",
+            "words": [
+              "baddies",
+              "spank"
+            ],
+            "confidence": 0.7
+          },
+          {
+            "line_index": 9,
+            "rule_id": "sexual",
+            "words": [
+              "spank"
+            ],
+            "confidence": 0.5
+          }
+        ]
+      },
+      {
+        "source_key": "aud:7945Qk9",
+        "expected": [
+          {
+            "line_index": 3,
+            "rule_id": "profanity",
+            "words": [
+              "damn"
+            ]
+          },
+          {
+            "line_index": 4,
+            "rule_id": "slurs",
+            "words": [
+              "Ho"
+            ]
+          },
+          {
+            "line_index": 5,
+            "rule_id": "slurs",
+            "words": [
+              "ho"
+            ]
+          },
+          {
+            "line_index": 8,
+            "rule_id": "slurs",
+            "words": [
+              "ho"
+            ]
+          },
+          {
+            "line_index": 8,
+            "rule_id": "profanity",
+            "words": [
+              "motherfucking"
+            ]
+          },
+          {
+            "line_index": 9,
+            "rule_id": "drugs",
+            "words": [
+              "weeds"
+            ]
+          },
+          {
+            "line_index": 11,
+            "rule_id": "profanity",
+            "words": [
+              "bitch"
+            ]
+          },
+          {
+            "line_index": 16,
+            "rule_id": "profanity",
+            "words": [
+              "dick"
+            ]
+          },
+          {
+            "line_index": 24,
+            "rule_id": "profanity",
+            "words": [
+              "bitch"
+            ]
+          },
+          {
+            "line_index": 25,
+            "rule_id": "profanity",
+            "words": [
+              "damn"
+            ]
+          },
+          {
+            "line_index": 26,
+            "rule_id": "profanity",
+            "words": [
+              "goddamn"
+            ]
+          },
+          {
+            "line_index": 31,
+            "rule_id": "profanity",
+            "words": [
+              "fuck",
+              "fucking",
+              "shit",
+              "fuck"
+            ]
+          },
+          {
+            "line_index": 31,
+            "rule_id": "slurs",
+            "words": [
+              "nigga",
+              "nigga"
+            ]
+          },
+          {
+            "line_index": 31,
+            "rule_id": "drugs",
+            "words": [
+              "high",
+              "sack",
+              "dime"
+            ]
+          },
+          {
+            "line_index": 34,
+            "rule_id": "profanity",
+            "words": [
+              "fuck"
+            ]
+          },
+          {
+            "line_index": 56,
+            "rule_id": "drugs",
+            "words": [
+              "Gone"
+            ]
+          },
+          {
+            "line_index": 57,
+            "rule_id": "slurs",
+            "words": [
+              "nigga",
+              "nigga"
+            ]
+          },
+          {
+            "line_index": 57,
+            "rule_id": "profanity",
+            "words": [
+              "Bitch"
+            ]
+          },
+          {
+            "line_index": 57,
+            "rule_id": "drugs",
+            "words": [
+              "Smoking",
+              "chop",
+              "mud",
+              "high"
+            ]
+          },
+          {
+            "line_index": 60,
+            "rule_id": "drugs",
+            "words": [
+              "high"
+            ]
+          },
+          {
+            "line_index": 64,
+            "rule_id": "profanity",
+            "words": [
+              "Holes"
+            ]
+          },
+          {
+            "line_index": 66,
+            "rule_id": "profanity",
+            "words": [
+              "Fuck"
+            ]
+          },
+          {
+            "line_index": 71,
+            "rule_id": "profanity",
+            "words": [
+              "ass"
+            ]
+          },
+          {
+            "line_index": 46,
+            "rule_id": "sexual",
+            "words": [
+              "titties"
+            ]
+          }
+        ],
+        "raw_flags": [
+          {
+            "line_index": 3,
+            "rule_id": "profanity",
+            "words": [
+              "damn"
+            ],
+            "confidence": 0.9
+          },
+          {
+            "line_index": 4,
+            "rule_id": "profanity",
+            "words": [
+              "Ho"
+            ],
+            "confidence": 0.5
+          },
+          {
+            "line_index": 5,
+            "rule_id": "profanity",
+            "words": [
+              "ho"
+            ],
+            "confidence": 0.7
+          },
+          {
+            "line_index": 8,
+            "rule_id": "profanity",
+            "words": [
+              "ho",
+              "motherfucking"
+            ],
+            "confidence": 0.9
+          },
+          {
+            "line_index": 9,
+            "rule_id": "sexual",
+            "words": [
+              "bone"
+            ],
+            "confidence": 0.5
+          },
+          {
+            "line_index": 9,
+            "rule_id": "drugs",
+            "words": [
+              "weeds"
+            ],
+            "confidence": 0.5
+          },
+          {
+            "line_index": 10,
+            "rule_id": "sexual",
+            "words": [
+              "nut"
+            ],
+            "confidence": 0.85
+          },
+          {
+            "line_index": 11,
+            "rule_id": "profanity",
+            "words": [
+              "bitch"
+            ],
+            "confidence": 0.9
+          },
+          {
+            "line_index": 11,
+            "rule_id": "sexual",
+            "words": [
+              "hit it in the butt"
+            ],
+            "confidence": 0.9
+          },
+          {
+            "line_index": 12,
+            "rule_id": "sexual",
+            "words": [
+              "hit it from behind"
+            ],
+            "confidence": 0.8
+          },
+          {
+            "line_index": 14,
+            "rule_id": "sexual",
+            "words": [
+              "give it to you"
+            ],
+            "confidence": 0.7
+          },
+          {
+            "line_index": 15,
+            "rule_id": "sexual",
+            "words": [
+              "catch a quick one"
+            ],
+            "confidence": 0.5
+          },
+          {
+            "line_index": 16,
+            "rule_id": "profanity",
+            "words": [
+              "dick"
+            ],
+            "confidence": 0.85
+          },
+          {
+            "line_index": 19,
+            "rule_id": "sexual",
+            "words": [
+              "get down"
+            ],
+            "confidence": 0.5
+          },
+          {
+            "line_index": 21,
+            "rule_id": "sexual",
+            "words": [
+              "nuts"
+            ],
+            "confidence": 0.8
+          },
+          {
+            "line_index": 24,
+            "rule_id": "profanity",
+            "words": [
+              "bitch"
+            ],
+            "confidence": 0.8
+          },
+          {
+            "line_index": 25,
+            "rule_id": "profanity",
+            "words": [
+              "damn"
+            ],
+            "confidence": 0.9
+          },
+          {
+            "line_index": 26,
+            "rule_id": "blasphemy",
+            "words": [
+              "goddamn"
+            ],
+            "confidence": 0.95
+          },
+          {
+            "line_index": 29,
+            "rule_id": "drugs",
+            "words": [
+              "light up"
+            ],
+            "confidence": 0.5
+          },
+          {
+            "line_index": 31,
+            "rule_id": "profanity",
+            "words": [
+              "fuck",
+              "fucking",
+              "fuck"
+            ],
+            "confidence": 0.95
+          },
+          {
+            "line_index": 31,
+            "rule_id": "slurs",
+            "words": [
+              "Nigga",
+              "Nigga"
+            ],
+            "confidence": 0.95
+          },
+          {
+            "line_index": 31,
+            "rule_id": "drugs",
+            "words": [
+              "high",
+              "sack"
+            ],
+            "confidence": 0.7
+          },
+          {
+            "line_index": 32,
+            "rule_id": "sexual",
+            "words": [
+              "sex"
+            ],
+            "confidence": 0.6
+          },
+          {
+            "line_index": 33,
+            "rule_id": "sexual",
+            "words": [
+              "sex"
+            ],
+            "confidence": 0.9
+          },
+          {
+            "line_index": 34,
+            "rule_id": "profanity",
+            "words": [
+              "fuck"
+            ],
+            "confidence": 0.95
+          },
+          {
+            "line_index": 44,
+            "rule_id": "sexual",
+            "words": [
+              "yellow bone"
+            ],
+            "confidence": 0.5
+          },
+          {
+            "line_index": 46,
+            "rule_id": "sexual",
+            "words": [
+              "titties"
+            ],
+            "confidence": 0.9
+          },
+          {
+            "line_index": 52,
+            "rule_id": "drugs",
+            "words": [
+              "OEs"
+            ],
+            "confidence": 0.5
+          },
+          {
+            "line_index": 53,
+            "rule_id": "drugs",
+            "words": [
+              "drunk"
+            ],
+            "confidence": 0.5
+          },
+          {
+            "line_index": 56,
+            "rule_id": "drugs",
+            "words": [
+              "Gone"
+            ],
+            "confidence": 0.5
+          },
+          {
+            "line_index": 57,
+            "rule_id": "drugs",
+            "words": [
+              "Smoking",
+              "chop",
+              "mud",
+              "Sprite",
+              "high"
+            ],
+            "confidence": 0.8
+          },
+          {
+            "line_index": 57,
+            "rule_id": "slurs",
+            "words": [
+              "Nigga",
+              "Nigga"
+            ],
+            "confidence": 0.95
+          },
+          {
+            "line_index": 57,
+            "rule_id": "profanity",
+            "words": [
+              "Bitch"
+            ],
+            "confidence": 0.9
+          },
+          {
+            "line_index": 60,
+            "rule_id": "drugs",
+            "words": [
+              "high"
+            ],
+            "confidence": 0.9
+          },
+          {
+            "line_index": 64,
+            "rule_id": "sexual",
+            "words": [
+              "Holes"
+            ],
+            "confidence": 0.5
+          },
+          {
+            "line_index": 66,
+            "rule_id": "profanity",
+            "words": [
+              "Fuck"
+            ],
+            "confidence": 0.95
+          },
+          {
+            "line_index": 71,
+            "rule_id": "profanity",
+            "words": [
+              "ass"
+            ],
+            "confidence": 0.8
+          }
+        ]
+      },
+      {
+        "source_key": "aud:BKjbEop",
+        "expected": [],
+        "raw_flags": []
+      },
+      {
+        "source_key": "aud:M2Y7WxQ",
+        "expected": [],
+        "raw_flags": []
+      },
+      {
+        "source_key": "aud:Ma6qb3x",
+        "expected": [
+          {
+            "line_index": 1,
+            "rule_id": "drugs",
+            "words": [
+              "Charlie"
+            ]
+          },
+          {
+            "line_index": 3,
+            "rule_id": "profanity",
+            "words": [
+              "Fucking"
+            ]
+          }
+        ],
+        "raw_flags": [
+          {
+            "line_index": 0,
+            "rule_id": "drugs",
+            "words": [
+              "white thing"
+            ],
+            "confidence": 0.6
+          },
+          {
+            "line_index": 1,
+            "rule_id": "drugs",
+            "words": [
+              "sniffing",
+              "Charlie"
+            ],
+            "confidence": 0.95
+          },
+          {
+            "line_index": 3,
+            "rule_id": "profanity",
+            "words": [
+              "Fucking",
+              "shit"
+            ],
+            "confidence": 0.95
+          },
+          {
+            "line_index": 3,
+            "rule_id": "violence",
+            "words": [
+              "sliced"
+            ],
+            "confidence": 0.5
+          },
+          {
+            "line_index": 4,
+            "rule_id": "sexual",
+            "words": [
+              "go through"
+            ],
+            "confidence": 0.5
+          }
+        ]
+      },
+      {
+        "source_key": "aud:OG1aKGX",
+        "expected": [],
+        "raw_flags": [
+          {
+            "line_index": 2,
+            "rule_id": "blasphemy",
+            "words": [
+              "God"
+            ],
+            "confidence": 0.55
+          }
+        ]
+      },
+      {
+        "source_key": "aud:Oo66dpz",
+        "expected": [
+          {
+            "line_index": 51,
+            "rule_id": "profanity",
+            "words": [
+              "damn"
+            ]
+          },
+          {
+            "line_index": 60,
+            "rule_id": "drugs",
+            "words": [
+              "trap"
+            ]
+          }
+        ],
+        "raw_flags": [
+          {
+            "line_index": 10,
+            "rule_id": "sexual",
+            "words": [
+              "gave her the night"
+            ],
+            "confidence": 0.5
+          },
+          {
+            "line_index": 15,
+            "rule_id": "blasphemy",
+            "words": [
+              "goddard"
+            ],
+            "confidence": 0.5
+          },
+          {
+            "line_index": 26,
+            "rule_id": "sexual",
+            "words": [
+              "sexy"
+            ],
+            "confidence": 0.5
+          },
+          {
+            "line_index": 51,
+            "rule_id": "profanity",
+            "words": [
+              "damn"
+            ],
+            "confidence": 0.9
+          },
+          {
+            "line_index": 60,
+            "rule_id": "drugs",
+            "words": [
+              "trap"
+            ],
+            "confidence": 0.65
+          }
+        ]
+      },
+      {
+        "source_key": "aud:PVVPyw0",
+        "expected": [
+          {
+            "line_index": 9,
+            "rule_id": "sexual",
+            "words": [
+              "ride"
+            ]
+          }
+        ],
+        "raw_flags": [
+          {
+            "line_index": 9,
+            "rule_id": "sexual",
+            "words": [
+              "ride"
+            ],
+            "confidence": 0.6
+          }
+        ]
+      },
+      {
+        "source_key": "aud:PgwGXNX",
+        "expected": [],
+        "raw_flags": [
+          {
+            "line_index": 8,
+            "rule_id": "profanity",
+            "words": [
+              "asshole"
+            ],
+            "confidence": 0.85
+          }
+        ]
+      },
+      {
+        "source_key": "aud:PjA2zP1",
+        "expected": [
+          {
+            "line_index": 2,
+            "rule_id": "profanity",
+            "words": [
+              "shit",
+              "shit"
+            ]
+          },
+          {
+            "line_index": 2,
+            "rule_id": "drugs",
+            "words": [
+              "gas",
+              "smoking",
+              "diesel",
+              "zipper",
+              "smoking",
+              "smoke it",
+              "smoke"
+            ]
+          },
+          {
+            "line_index": 3,
+            "rule_id": "slurs",
+            "words": [
+              "nigga"
+            ]
+          },
+          {
+            "line_index": 3,
+            "rule_id": "drugs",
+            "words": [
+              "OCB",
+              "THC",
+              "spark it",
+              "parchment",
+              "photocartridges"
+            ]
+          },
+          {
+            "line_index": 4,
+            "rule_id": "drugs",
+            "words": [
+              "Smokin'",
+              "parchment",
+              "gas",
+              "gas",
+              "diesel"
+            ]
+          }
+        ],
+        "raw_flags": [
+          {
+            "line_index": 2,
+            "rule_id": "profanity",
+            "words": [
+              "shit",
+              "shit"
+            ],
+            "confidence": 0.95
+          },
+          {
+            "line_index": 2,
+            "rule_id": "drugs",
+            "words": [
+              "gas",
+              "smoking",
+              "diesel",
+              "zipper",
+              "smoking",
+              "smoke it",
+              "smoke"
+            ],
+            "confidence": 0.8
+          },
+          {
+            "line_index": 3,
+            "rule_id": "slurs",
+            "words": [
+              "nigga"
+            ],
+            "confidence": 1.0
+          },
+          {
+            "line_index": 3,
+            "rule_id": "drugs",
+            "words": [
+              "OCB",
+              "THC",
+              "spark it"
+            ],
+            "confidence": 0.9
+          },
+          {
+            "line_index": 4,
+            "rule_id": "drugs",
+            "words": [
+              "Smokin'",
+              "gas",
+              "gas",
+              "diesel"
+            ],
+            "confidence": 0.8
+          }
+        ]
+      },
+      {
+        "source_key": "aud:V0dr43P",
+        "expected": [],
+        "raw_flags": []
+      },
+      {
+        "source_key": "aud:W6dKv9l",
+        "expected": [
+          {
+            "line_index": 5,
+            "rule_id": "slurs",
+            "words": [
+              "niggas"
+            ]
+          },
+          {
+            "line_index": 5,
+            "rule_id": "profanity",
+            "words": [
+              "hell",
+              "hell"
+            ]
+          },
+          {
+            "line_index": 5,
+            "rule_id": "violence",
+            "words": [
+              "slug",
+              "shots",
+              "pop",
+              "gunshots",
+              "flesh"
+            ]
+          },
+          {
+            "line_index": 5,
+            "rule_id": "topic:death-and-dying",
+            "words": []
+          },
+          {
+            "line_index": 8,
+            "rule_id": "profanity",
+            "words": [
+              "ass",
+              "bitch"
+            ]
+          },
+          {
+            "line_index": 8,
+            "rule_id": "term:insults-and-put-downs",
+            "words": [
+              "bitch"
+            ]
+          },
+          {
+            "line_index": 8,
+            "rule_id": "violence",
+            "words": [
+              "burner",
+              "murders",
+              "killer's",
+              "killed",
+              "kill"
+            ]
+          },
+          {
+            "line_index": 8,
+            "rule_id": "topic:death-and-dying",
+            "words": []
+          }
+        ],
+        "raw_flags": [
+          {
+            "line_index": 5,
+            "rule_id": "slurs",
+            "words": [
+              "niggas"
+            ],
+            "confidence": 1.0
+          },
+          {
+            "line_index": 5,
+            "rule_id": "profanity",
+            "words": [
+              "hell",
+              "hell"
+            ],
+            "confidence": 0.9
+          },
+          {
+            "line_index": 5,
+            "rule_id": "violence",
+            "words": [
+              "slug",
+              "pop",
+              "gunshots",
+              "flesh"
+            ],
+            "confidence": 0.8
+          },
+          {
+            "line_index": 5,
+            "rule_id": "drugs",
+            "words": [
+              "drug trade",
+              "dope",
+              "addicts",
+              "addicted"
+            ],
+            "confidence": 0.85
+          },
+          {
+            "line_index": 5,
+            "rule_id": "topic:death-and-dying",
+            "words": [
+              "coroner"
+            ],
+            "confidence": 0.85
+          },
+          {
+            "line_index": 5,
+            "rule_id": "term:insults-and-put-downs",
+            "words": [
+              "thugs",
+              "thugs"
+            ],
+            "confidence": 0.5
+          },
+          {
+            "line_index": 6,
+            "rule_id": "drugs",
+            "words": [
+              "addicted"
+            ],
+            "confidence": 0.5
+          },
+          {
+            "line_index": 8,
+            "rule_id": "profanity",
+            "words": [
+              "ass",
+              "bitch"
+            ],
+            "confidence": 0.9
+          },
+          {
+            "line_index": 8,
+            "rule_id": "violence",
+            "words": [
+              "burner",
+              "murders",
+              "killer's",
+              "killed",
+              "kill"
+            ],
+            "confidence": 0.85
+          },
+          {
+            "line_index": 8,
+            "rule_id": "term:insults-and-put-downs",
+            "words": [
+              "bitch"
+            ],
+            "confidence": 0.6
+          },
+          {
+            "line_index": 8,
+            "rule_id": "topic:death-and-dying",
+            "words": [
+              "murders",
+              "killed"
+            ],
+            "confidence": 0.6
+          },
+          {
+            "line_index": 8,
+            "rule_id": "drugs",
+            "words": [
+              "white girl"
+            ],
+            "confidence": 0.5
+          }
+        ]
+      },
+      {
+        "source_key": "aud:WNq6QP0",
+        "expected": [],
+        "raw_flags": [
+          {
+            "line_index": 3,
+            "rule_id": "profanity",
+            "words": [
+              "pissing"
+            ],
+            "confidence": 0.9
+          },
+          {
+            "line_index": 5,
+            "rule_id": "profanity",
+            "words": [
+              "pissed",
+              "shit"
+            ],
+            "confidence": 0.9
+          }
+        ]
+      },
+      {
+        "source_key": "aud:bbylX3M",
+        "expected": [
+          {
+            "line_index": 6,
+            "rule_id": "profanity",
+            "words": [
+              "bitch"
+            ]
+          },
+          {
+            "line_index": 7,
+            "rule_id": "violence",
+            "words": [
+              "bleeds"
+            ]
+          },
+          {
+            "line_index": 11,
+            "rule_id": "term:insults-and-put-downs",
+            "words": [
+              "haters"
+            ]
+          }
+        ],
+        "raw_flags": [
+          {
+            "line_index": 0,
+            "rule_id": "sexual",
+            "words": [
+              "lube",
+              "Hit",
+              "it",
+              "sandpaper",
+              "style",
+              "porn"
+            ],
+            "confidence": 0.8
+          },
+          {
+            "line_index": 2,
+            "rule_id": "sexual",
+            "words": [
+              "porn",
+              "pussies",
+              "rubbing"
+            ],
+            "confidence": 0.9
+          },
+          {
+            "line_index": 4,
+            "rule_id": "sexual",
+            "words": [
+              "Porn"
+            ],
+            "confidence": 0.9
+          },
+          {
+            "line_index": 6,
+            "rule_id": "profanity",
+            "words": [
+              "bitch",
+              "fucking",
+              "dick"
+            ],
+            "confidence": 0.9
+          },
+          {
+            "line_index": 6,
+            "rule_id": "sexual",
+            "words": [
+              "beat",
+              "dick"
+            ],
+            "confidence": 0.8
+          },
+          {
+            "line_index": 7,
+            "rule_id": "sexual",
+            "words": [
+              "till",
+              "it",
+              "bleeds"
+            ],
+            "confidence": 0.7
+          },
+          {
+            "line_index": 9,
+            "rule_id": "sexual",
+            "words": [
+              "doing",
+              "it",
+              "tits"
+            ],
+            "confidence": 0.7
+          },
+          {
+            "line_index": 9,
+            "rule_id": "term:insults-and-put-downs",
+            "words": [
+              "Fat",
+              "girl"
+            ],
+            "confidence": 0.5
+          },
+          {
+            "line_index": 10,
+            "rule_id": "sexual",
+            "words": [
+              "Porn"
+            ],
+            "confidence": 0.9
+          },
+          {
+            "line_index": 11,
+            "rule_id": "sexual",
+            "words": [
+              "Porn"
+            ],
+            "confidence": 0.9
+          },
+          {
+            "line_index": 11,
+            "rule_id": "drugs",
+            "words": [
+              "trapping"
+            ],
+            "confidence": 0.5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "config": {
+      "model": "fireworks:accounts/fireworks/models/glm-5p3-flash",
+      "prompt_version": "v4",
+      "chunk_size": 25,
+      "search_method": "hybrid",
+      "min_confidence": 0.5,
+      "tools_enabled": true,
+      "lexicon_prematch": true
+    },
+    "summary": {
+      "cases": 15,
+      "micro_precision": 0.5921052631578947,
+      "micro_recall": 0.8035714285714286,
+      "micro_f1": 0.6818181818181818,
+      "macro_f1": 0.6536569543006835,
+      "mean_word_recall": 0.9208024691358025,
+      "judge_pass_rate": 0.6,
+      "judge_errors": 0,
+      "failed_cases": 0,
+      "mean_latency_ms": 36921.8,
+      "input_tokens": 378242,
+      "output_tokens": 91551,
+      "est_cost_usd": 0.10251179999999999
+    },
+    "mean_judge_score": 0.7533333333333334,
+    "judge_scored_cases": 15,
+    "report": "/home/micah-johnson/.t3/worktrees/audio-angel/t3-a1d0b51e/agent/reports/eval-20261111-161630.json",
+    "cases": [
+      {
+        "source_key": "aud:4356bzr",
+        "expected": [
+          {
+            "line_index": 1,
+            "rule_id": "profanity",
+            "words": [
+              "asshole"
+            ]
+          },
+          {
+            "line_index": 24,
+            "rule_id": "profanity",
+            "words": [
+              "hell"
+            ]
+          },
+          {
+            "line_index": 25,
+            "rule_id": "profanity",
+            "words": [
+              "dumbass"
+            ]
+          },
+          {
+            "line_index": 27,
+            "rule_id": "profanity",
+            "words": [
+              "balls",
+              "ass"
+            ]
+          },
+          {
+            "line_index": 27,
+            "rule_id": "violence",
+            "words": [
+              "guns"
+            ]
+          }
+        ],
+        "raw_flags": [
+          {
+            "line_index": 1,
+            "rule_id": "drugs",
+            "words": [
+              "weed",
+              "heat of spoons and needles"
+            ],
+            "confidence": 0.85
+          },
+          {
+            "line_index": 1,
+            "rule_id": "profanity",
+            "words": [
+              "asshole"
+            ],
+            "confidence": 0.85
+          },
+          {
+            "line_index": 1,
+            "rule_id": "sexual",
+            "words": [
+              "eat an asshole"
+            ],
+            "confidence": 0.8
+          },
+          {
+            "line_index": 15,
+            "rule_id": "drugs",
+            "words": [
+              "drunk",
+              "Drunk",
+              "Extremely high"
+            ],
+            "confidence": 0.75
+          },
+          {
+            "line_index": 19,
+            "rule_id": "drugs",
+            "words": [
+              "sedated"
+            ],
+            "confidence": 0.8
+          },
+          {
+            "line_index": 21,
+            "rule_id": "drugs",
+            "words": [
+              "high"
+            ],
+            "confidence": 0.85
+          },
+          {
+            "line_index": 23,
+            "rule_id": "drugs",
+            "words": [
+              "overdose",
+              "Coke in my nose"
+            ],
+            "confidence": 0.9
+          },
+          {
+            "line_index": 24,
+            "rule_id": "profanity",
+            "words": [
+              "What the hell"
+            ],
+            "confidence": 0.9
+          },
+          {
+            "line_index": 25,
+            "rule_id": "profanity",
+            "words": [
+              "dumbass"
+            ],
+            "confidence": 0.9
+          },
+          {
+            "line_index": 27,
+            "rule_id": "profanity",
+            "words": [
+              "balls"
+            ],
+            "confidence": 0.7
+          },
+          {
+            "line_index": 27,
+            "rule_id": "drugs",
+            "words": [
+              "on drugs"
+            ],
+            "confidence": 0.85
+          },
+          {
+            "line_index": 27,
+            "rule_id": "violence",
+            "words": [
+              "guns"
+            ],
+            "confidence": 0.8
+          }
+        ]
+      },
+      {
+        "source_key": "aud:5Ba63XY",
+        "expected": [
+          {
+            "line_index": 2,
+            "rule_id": "term:disrespect-toward-women",
+            "words": [
+              "baddies",
+              "spank"
+            ]
+          },
+          {
+            "line_index": 5,
+            "rule_id": "term:disrespect-toward-women",
+            "words": [
+              "baddies",
+              "spank"
+            ]
+          },
+          {
+            "line_index": 7,
+            "rule_id": "profanity",
+            "words": [
+              "head",
+              "head"
+            ]
+          },
+          {
+            "line_index": 8,
+            "rule_id": "drugs",
+            "words": [
+              "stash"
+            ]
+          },
+          {
+            "line_index": 9,
+            "rule_id": "term:disrespect-toward-women",
+            "words": [
+              "baddies",
+              "spank"
+            ]
+          },
+          {
+            "line_index": 7,
+            "rule_id": "sexual",
+            "words": [
+              "Sex",
+              "excess",
+              "flesh"
+            ]
+          }
+        ],
+        "raw_flags": [
+          {
+            "line_index": 2,
+            "rule_id": "term:disrespect-toward-women",
+            "words": [
+              "baddies to spank"
+            ],
+            "confidence": 0.8
+          },
+          {
+            "line_index": 5,
+            "rule_id": "term:disrespect-toward-women",
+            "words": [
+              "baddies to spank"
+            ],
+            "confidence": 0.8
+          },
+          {
+            "line_index": 7,
+            "rule_id": "sexual",
+            "words": [
+              "Sex",
+              "head on the head"
+            ],
+            "confidence": 0.85
+          },
+          {
+            "line_index": 9,
+            "rule_id": "term:disrespect-toward-women",
+            "words": [
+              "baddies to spank"
+            ],
+            "confidence": 0.8
+          }
+        ]
+      },
+      {
+        "source_key": "aud:7945Qk9",
+        "expected": [
+          {
+            "line_index": 3,
+            "rule_id": "profanity",
+            "words": [
+              "damn"
+            ]
+          },
+          {
+            "line_index": 4,
+            "rule_id": "slurs",
+            "words": [
+              "Ho"
+            ]
+          },
+          {
+            "line_index": 5,
+            "rule_id": "slurs",
+            "words": [
+              "ho"
+            ]
+          },
+          {
+            "line_index": 8,
+            "rule_id": "slurs",
+            "words": [
+              "ho"
+            ]
+          },
+          {
+            "line_index": 8,
+            "rule_id": "profanity",
+            "words": [
+              "motherfucking"
+            ]
+          },
+          {
+            "line_index": 9,
+            "rule_id": "drugs",
+            "words": [
+              "weeds"
+            ]
+          },
+          {
+            "line_index": 11,
+            "rule_id": "profanity",
+            "words": [
+              "bitch"
+            ]
+          },
+          {
+            "line_index": 16,
+            "rule_id": "profanity",
+            "words": [
+              "dick"
+            ]
+          },
+          {
+            "line_index": 24,
+            "rule_id": "profanity",
+            "words": [
+              "bitch"
+            ]
+          },
+          {
+            "line_index": 25,
+            "rule_id": "profanity",
+            "words": [
+              "damn"
+            ]
+          },
+          {
+            "line_index": 26,
+            "rule_id": "profanity",
+            "words": [
+              "goddamn"
+            ]
+          },
+          {
+            "line_index": 31,
+            "rule_id": "profanity",
+            "words": [
+              "fuck",
+              "fucking",
+              "shit",
+              "fuck"
+            ]
+          },
+          {
+            "line_index": 31,
+            "rule_id": "slurs",
+            "words": [
+              "nigga",
+              "nigga"
+            ]
+          },
+          {
+            "line_index": 31,
+            "rule_id": "drugs",
+            "words": [
+              "high",
+              "sack",
+              "dime"
+            ]
+          },
+          {
+            "line_index": 34,
+            "rule_id": "profanity",
+            "words": [
+              "fuck"
+            ]
+          },
+          {
+            "line_index": 56,
+            "rule_id": "drugs",
+            "words": [
+              "Gone"
+            ]
+          },
+          {
+            "line_index": 57,
+            "rule_id": "slurs",
+            "words": [
+              "nigga",
+              "nigga"
+            ]
+          },
+          {
+            "line_index": 57,
+            "rule_id": "profanity",
+            "words": [
+              "Bitch"
+            ]
+          },
+          {
+            "line_index": 57,
+            "rule_id": "drugs",
+            "words": [
+              "Smoking",
+              "chop",
+              "mud",
+              "high"
+            ]
+          },
+          {
+            "line_index": 60,
+            "rule_id": "drugs",
+            "words": [
+              "high"
+            ]
+          },
+          {
+            "line_index": 64,
+            "rule_id": "profanity",
+            "words": [
+              "Holes"
+            ]
+          },
+          {
+            "line_index": 66,
+            "rule_id": "profanity",
+            "words": [
+              "Fuck"
+            ]
+          },
+          {
+            "line_index": 71,
+            "rule_id": "profanity",
+            "words": [
+              "ass"
+            ]
+          },
+          {
+            "line_index": 46,
+            "rule_id": "sexual",
+            "words": [
+              "titties"
+            ]
+          }
+        ],
+        "raw_flags": [
+          {
+            "line_index": 3,
+            "rule_id": "profanity",
+            "words": [
+              "damn"
+            ],
+            "confidence": 0.9
+          },
+          {
+            "line_index": 5,
+            "rule_id": "profanity",
+            "words": [
+              "ho"
+            ],
+            "confidence": 0.6
+          },
+          {
+            "line_index": 8,
+            "rule_id": "profanity",
+            "words": [
+              "ho",
+              "motherfucking"
+            ],
+            "confidence": 0.85
+          },
+          {
+            "line_index": 10,
+            "rule_id": "sexual",
+            "words": [
+              "catch a nut"
+            ],
+            "confidence": 0.9
+          },
+          {
+            "line_index": 11,
+            "rule_id": "profanity",
+            "words": [
+              "bitch"
+            ],
+            "confidence": 0.95
+          },
+          {
+            "line_index": 11,
+            "rule_id": "sexual",
+            "words": [
+              "hit it in the butt"
+            ],
+            "confidence": 0.85
+          },
+          {
+            "line_index": 12,
+            "rule_id": "sexual",
+            "words": [
+              "Hit it from behind"
+            ],
+            "confidence": 0.8
+          },
+          {
+            "line_index": 14,
+            "rule_id": "sexual",
+            "words": [
+              "give it to you till you feel it in your spine"
+            ],
+            "confidence": 0.7
+          },
+          {
+            "line_index": 15,
+            "rule_id": "sexual",
+            "words": [
+              "catch a quick one"
+            ],
+            "confidence": 0.6
+          },
+          {
+            "line_index": 16,
+            "rule_id": "profanity",
+            "words": [
+              "dick"
+            ],
+            "confidence": 0.9
+          },
+          {
+            "line_index": 16,
+            "rule_id": "sexual",
+            "words": [
+              "dick"
+            ],
+            "confidence": 0.7
+          },
+          {
+            "line_index": 21,
+            "rule_id": "sexual",
+            "words": [
+              "catch the nuts"
+            ],
+            "confidence": 0.85
+          },
+          {
+            "line_index": 24,
+            "rule_id": "profanity",
+            "words": [
+              "bitch"
+            ],
+            "confidence": 0.85
+          },
+          {
+            "line_index": 25,
+            "rule_id": "profanity",
+            "words": [
+              "damn"
+            ],
+            "confidence": 0.9
+          },
+          {
+            "line_index": 26,
+            "rule_id": "profanity",
+            "words": [
+              "goddamn"
+            ],
+            "confidence": 0.9
+          },
+          {
+            "line_index": 26,
+            "rule_id": "blasphemy",
+            "words": [
+              "goddamn"
+            ],
+            "confidence": 0.95
+          },
+          {
+            "line_index": 31,
+            "rule_id": "profanity",
+            "words": [
+              "fuck",
+              "fucking",
+              "shit",
+              "fuck"
+            ],
+            "confidence": 0.95
+          },
+          {
+            "line_index": 31,
+            "rule_id": "slurs",
+            "words": [
+              "Nigga",
+              "Nigga"
+            ],
+            "confidence": 0.95
+          },
+          {
+            "line_index": 31,
+            "rule_id": "drugs",
+            "words": [
+              "high",
+              "sell me a sack",
+              "flat dime"
+            ],
+            "confidence": 0.8
+          },
+          {
+            "line_index": 32,
+            "rule_id": "sexual",
+            "words": [
+              "sex"
+            ],
+            "confidence": 0.8
+          },
+          {
+            "line_index": 33,
+            "rule_id": "sexual",
+            "words": [
+              "having sex"
+            ],
+            "confidence": 0.9
+          },
+          {
+            "line_index": 34,
+            "rule_id": "profanity",
+            "words": [
+              "fuck"
+            ],
+            "confidence": 0.95
+          },
+          {
+            "line_index": 46,
+            "rule_id": "sexual",
+            "words": [
+              "titties"
+            ],
+            "confidence": 0.9
+          },
+          {
+            "line_index": 57,
+            "rule_id": "slurs",
+            "words": [
+              "Nigga",
+              "Nigga's"
+            ],
+            "confidence": 1.0
+          },
+          {
+            "line_index": 57,
+            "rule_id": "drugs",
+            "words": [
+              "Smoking chop",
+              "get it high",
+              "mud in the Sprite"
+            ],
+            "confidence": 0.8
+          },
+          {
+            "line_index": 57,
+            "rule_id": "profanity",
+            "words": [
+              "Bitch"
+            ],
+            "confidence": 0.95
+          },
+          {
+            "line_index": 60,
+            "rule_id": "drugs",
+            "words": [
+              "high"
+            ],
+            "confidence": 0.8
+          },
+          {
+            "line_index": 66,
+            "rule_id": "profanity",
+            "words": [
+              "Fuck"
+            ],
+            "confidence": 1.0
+          },
+          {
+            "line_index": 71,
+            "rule_id": "profanity",
+            "words": [
+              "Bad ass"
+            ],
+            "confidence": 0.85
+          }
+        ]
+      },
+      {
+        "source_key": "aud:BKjbEop",
+        "expected": [],
+        "raw_flags": []
+      },
+      {
+        "source_key": "aud:M2Y7WxQ",
+        "expected": [],
+        "raw_flags": []
+      },
+      {
+        "source_key": "aud:Ma6qb3x",
+        "expected": [
+          {
+            "line_index": 1,
+            "rule_id": "drugs",
+            "words": [
+              "Charlie"
+            ]
+          },
+          {
+            "line_index": 3,
+            "rule_id": "profanity",
+            "words": [
+              "Fucking"
+            ]
+          }
+        ],
+        "raw_flags": [
+          {
+            "line_index": 1,
+            "rule_id": "drugs",
+            "words": [
+              "sniffing up Charlie"
+            ],
+            "confidence": 0.95
+          },
+          {
+            "line_index": 3,
+            "rule_id": "profanity",
+            "words": [
+              "Fucking",
+              "shit"
+            ],
+            "confidence": 0.95
+          }
+        ]
+      },
+      {
+        "source_key": "aud:OG1aKGX",
+        "expected": [],
+        "raw_flags": [
+          {
+            "line_index": 2,
+            "rule_id": "blasphemy",
+            "words": [
+              "God is very smelly"
+            ],
+            "confidence": 0.6
+          }
+        ]
+      },
+      {
+        "source_key": "aud:Oo66dpz",
+        "expected": [
+          {
+            "line_index": 51,
+            "rule_id": "profanity",
+            "words": [
+              "damn"
+            ]
+          },
+          {
+            "line_index": 60,
+            "rule_id": "drugs",
+            "words": [
+              "trap"
+            ]
+          }
+        ],
+        "raw_flags": [
+          {
+            "line_index": 51,
+            "rule_id": "profanity",
+            "words": [
+              "damn"
+            ],
+            "confidence": 0.9
+          }
+        ]
+      },
+      {
+        "source_key": "aud:PVVPyw0",
+        "expected": [
+          {
+            "line_index": 9,
+            "rule_id": "sexual",
+            "words": [
+              "ride"
+            ]
+          }
+        ],
+        "raw_flags": [
+          {
+            "line_index": 9,
+            "rule_id": "sexual",
+            "words": [
+              "take you on a ride"
+            ],
+            "confidence": 0.7
+          }
+        ]
+      },
+      {
+        "source_key": "aud:PgwGXNX",
+        "expected": [],
+        "raw_flags": [
+          {
+            "line_index": 8,
+            "rule_id": "profanity",
+            "words": [
+              "asshole"
+            ],
+            "confidence": 0.85
+          }
+        ]
+      },
+      {
+        "source_key": "aud:PjA2zP1",
+        "expected": [
+          {
+            "line_index": 2,
+            "rule_id": "profanity",
+            "words": [
+              "shit",
+              "shit"
+            ]
+          },
+          {
+            "line_index": 2,
+            "rule_id": "drugs",
+            "words": [
+              "gas",
+              "smoking",
+              "diesel",
+              "zipper",
+              "smoking",
+              "smoke it",
+              "smoke"
+            ]
+          },
+          {
+            "line_index": 3,
+            "rule_id": "slurs",
+            "words": [
+              "nigga"
+            ]
+          },
+          {
+            "line_index": 3,
+            "rule_id": "drugs",
+            "words": [
+              "OCB",
+              "THC",
+              "spark it",
+              "parchment",
+              "photocartridges"
+            ]
+          },
+          {
+            "line_index": 4,
+            "rule_id": "drugs",
+            "words": [
+              "Smokin'",
+              "parchment",
+              "gas",
+              "gas",
+              "diesel"
+            ]
+          }
+        ],
+        "raw_flags": [
+          {
+            "line_index": 2,
+            "rule_id": "profanity",
+            "words": [
+              "shit",
+              "shit"
+            ],
+            "confidence": 0.95
+          },
+          {
+            "line_index": 2,
+            "rule_id": "drugs",
+            "words": [
+              "I miss smoking",
+              "If it's smoking, I'm a smoke it",
+              "smoke that"
+            ],
+            "confidence": 0.85
+          },
+          {
+            "line_index": 3,
+            "rule_id": "slurs",
+            "words": [
+              "nigga"
+            ],
+            "confidence": 0.98
+          },
+          {
+            "line_index": 3,
+            "rule_id": "drugs",
+            "words": [
+              "OCB and THC",
+              "spark it"
+            ],
+            "confidence": 0.9
+          },
+          {
+            "line_index": 4,
+            "rule_id": "drugs",
+            "words": [
+              "Smokin'"
+            ],
+            "confidence": 0.8
+          }
+        ]
+      },
+      {
+        "source_key": "aud:V0dr43P",
+        "expected": [],
+        "raw_flags": []
+      },
+      {
+        "source_key": "aud:W6dKv9l",
+        "expected": [
+          {
+            "line_index": 5,
+            "rule_id": "slurs",
+            "words": [
+              "niggas"
+            ]
+          },
+          {
+            "line_index": 5,
+            "rule_id": "profanity",
+            "words": [
+              "hell",
+              "hell"
+            ]
+          },
+          {
+            "line_index": 5,
+            "rule_id": "violence",
+            "words": [
+              "slug",
+              "shots",
+              "pop",
+              "gunshots",
+              "flesh"
+            ]
+          },
+          {
+            "line_index": 5,
+            "rule_id": "topic:death-and-dying",
+            "words": []
+          },
+          {
+            "line_index": 8,
+            "rule_id": "profanity",
+            "words": [
+              "ass",
+              "bitch"
+            ]
+          },
+          {
+            "line_index": 8,
+            "rule_id": "term:insults-and-put-downs",
+            "words": [
+              "bitch"
+            ]
+          },
+          {
+            "line_index": 8,
+            "rule_id": "violence",
+            "words": [
+              "burner",
+              "murders",
+              "killer's",
+              "killed",
+              "kill"
+            ]
+          },
+          {
+            "line_index": 8,
+            "rule_id": "topic:death-and-dying",
+            "words": []
+          }
+        ],
+        "raw_flags": [
+          {
+            "line_index": 5,
+            "rule_id": "slurs",
+            "words": [
+              "niggas"
+            ],
+            "confidence": 0.95
+          },
+          {
+            "line_index": 5,
+            "rule_id": "profanity",
+            "words": [
+              "hell",
+              "hell"
+            ],
+            "confidence": 0.75
+          },
+          {
+            "line_index": 5,
+            "rule_id": "violence",
+            "words": [
+              "slug",
+              "shots pop",
+              "gunshots"
+            ],
+            "confidence": 0.8
+          },
+          {
+            "line_index": 5,
+            "rule_id": "topic:death-and-dying",
+            "words": [
+              "coroner"
+            ],
+            "confidence": 0.85
+          },
+          {
+            "line_index": 5,
+            "rule_id": "drugs",
+            "words": [
+              "drug trade",
+              "dope",
+              "addicts",
+              "addicted"
+            ],
+            "confidence": 0.85
+          },
+          {
+            "line_index": 6,
+            "rule_id": "drugs",
+            "words": [
+              "addicted"
+            ],
+            "confidence": 0.9
+          },
+          {
+            "line_index": 8,
+            "rule_id": "violence",
+            "words": [
+              "burner",
+              "murders",
+              "killer's",
+              "killed",
+              "kill"
+            ],
+            "confidence": 0.8
+          },
+          {
+            "line_index": 8,
+            "rule_id": "topic:death-and-dying",
+            "words": [
+              "murders",
+              "killed",
+              "kill"
+            ],
+            "confidence": 0.7
+          },
+          {
+            "line_index": 8,
+            "rule_id": "profanity",
+            "words": [
+              "bitch"
+            ],
+            "confidence": 0.9
+          },
+          {
+            "line_index": 8,
+            "rule_id": "term:insults-and-put-downs",
+            "words": [
+              "bitch"
+            ],
+            "confidence": 0.7
+          }
+        ]
+      },
+      {
+        "source_key": "aud:WNq6QP0",
+        "expected": [],
+        "raw_flags": [
+          {
+            "line_index": 3,
+            "rule_id": "profanity",
+            "words": [
+              "pissing"
+            ],
+            "confidence": 0.85
+          },
+          {
+            "line_index": 5,
+            "rule_id": "profanity",
+            "words": [
+              "pissed",
+              "shit"
+            ],
+            "confidence": 0.95
+          }
+        ]
+      },
+      {
+        "source_key": "aud:bbylX3M",
+        "expected": [
+          {
+            "line_index": 6,
+            "rule_id": "profanity",
+            "words": [
+              "bitch"
+            ]
+          },
+          {
+            "line_index": 7,
+            "rule_id": "violence",
+            "words": [
+              "bleeds"
+            ]
+          },
+          {
+            "line_index": 11,
+            "rule_id": "term:insults-and-put-downs",
+            "words": [
+              "haters"
+            ]
+          }
+        ],
+        "raw_flags": [
+          {
+            "line_index": 0,
+            "rule_id": "sexual",
+            "words": [
+              "lube",
+              "Hit it sandpaper style",
+              "porn"
+            ],
+            "confidence": 0.85
+          },
+          {
+            "line_index": 2,
+            "rule_id": "sexual",
+            "words": [
+              "porn",
+              "pussies"
+            ],
+            "confidence": 0.95
+          },
+          {
+            "line_index": 4,
+            "rule_id": "sexual",
+            "words": [
+              "Porn"
+            ],
+            "confidence": 0.95
+          },
+          {
+            "line_index": 6,
+            "rule_id": "profanity",
+            "words": [
+              "bitch",
+              "fucking",
+              "dick"
+            ],
+            "confidence": 0.9
+          },
+          {
+            "line_index": 6,
+            "rule_id": "sexual",
+            "words": [
+              "beat my",
+              "dick"
+            ],
+            "confidence": 0.9
+          },
+          {
+            "line_index": 9,
+            "rule_id": "sexual",
+            "words": [
+              "tits"
+            ],
+            "confidence": 0.9
+          },
+          {
+            "line_index": 10,
+            "rule_id": "sexual",
+            "words": [
+              "Porn"
+            ],
+            "confidence": 0.95
+          },
+          {
+            "line_index": 11,
+            "rule_id": "sexual",
+            "words": [
+              "Porn"
+            ],
+            "confidence": 0.95
+          }
+        ]
+      }
+    ]
+  }
+]

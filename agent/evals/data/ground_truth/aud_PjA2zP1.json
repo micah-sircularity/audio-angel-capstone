@@ -1,0 +1,1035 @@
+{
+  "source_key": "aud:PjA2zP1",
+  "title": "2010 SOUR DIESEL (feat. mynameisntjmack)",
+  "artist": "elmjack",
+  "kind": "music",
+  "rules": [
+    {
+      "label": "Profanity",
+      "kind": "category",
+      "value": "profanity"
+    },
+    {
+      "label": "Slurs",
+      "kind": "category",
+      "value": "slurs"
+    },
+    {
+      "label": "Sexual content",
+      "kind": "category",
+      "value": "sexual"
+    },
+    {
+      "label": "Drugs",
+      "kind": "category",
+      "value": "drugs"
+    },
+    {
+      "label": "Graphic violence",
+      "kind": "category",
+      "value": "violence"
+    },
+    {
+      "label": "Blasphemy",
+      "kind": "category",
+      "value": "blasphemy"
+    },
+    {
+      "label": "bragging about money",
+      "kind": "term",
+      "value": "bragging about money"
+    },
+    {
+      "label": "police and crime",
+      "kind": "topic",
+      "value": "police and crime"
+    }
+  ],
+  "transcript": {
+    "source_key": "aud:PjA2zP1",
+    "kind": "music",
+    "duration_ms": 184952,
+    "segments": [
+      {
+        "index": 0,
+        "start_ms": 560,
+        "end_ms": 1200,
+        "text": "Two.",
+        "words": [
+          {
+            "start_ms": 560,
+            "end_ms": 1200,
+            "text": "Two."
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "start_ms": 2960,
+        "end_ms": 3440,
+        "text": "My fault.",
+        "words": [
+          {
+            "start_ms": 2960,
+            "end_ms": 3200,
+            "text": "My"
+          },
+          {
+            "start_ms": 3200,
+            "end_ms": 3440,
+            "text": "fault."
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "start_ms": 112550,
+        "end_ms": 137725,
+        "text": "Yeah. I hit the gas for the first time in the back of a Honda Civic, the 2012 used edition. Conscious and fumes is hitting. I'm rolling the windows down while I drive around music clipping the speakers. I'm praying to guide this air out. I miss smoking when we ain't have shit to care about. Evil wasn't people with a script of what to share around, and diesel wasn't legal. But the zipper looking fair now, everywhere got a rare house. Never been one to judge. If it's smoking, I'm a smoke it. We gonna smoke that shit regardless.",
+        "words": [
+          {
+            "start_ms": 112550,
+            "end_ms": 113030,
+            "text": "Yeah."
+          },
+          {
+            "start_ms": 113030,
+            "end_ms": 113350,
+            "text": "I"
+          },
+          {
+            "start_ms": 113350,
+            "end_ms": 113590,
+            "text": "hit"
+          },
+          {
+            "start_ms": 113590,
+            "end_ms": 113750,
+            "text": "the"
+          },
+          {
+            "start_ms": 113750,
+            "end_ms": 113990,
+            "text": "gas"
+          },
+          {
+            "start_ms": 113990,
+            "end_ms": 114150,
+            "text": "for"
+          },
+          {
+            "start_ms": 114150,
+            "end_ms": 114310,
+            "text": "the"
+          },
+          {
+            "start_ms": 114310,
+            "end_ms": 114550,
+            "text": "first"
+          },
+          {
+            "start_ms": 114550,
+            "end_ms": 114790,
+            "text": "time"
+          },
+          {
+            "start_ms": 114790,
+            "end_ms": 115030,
+            "text": "in"
+          },
+          {
+            "start_ms": 115030,
+            "end_ms": 115110,
+            "text": "the"
+          },
+          {
+            "start_ms": 115110,
+            "end_ms": 115350,
+            "text": "back"
+          },
+          {
+            "start_ms": 115350,
+            "end_ms": 115510,
+            "text": "of"
+          },
+          {
+            "start_ms": 115510,
+            "end_ms": 115670,
+            "text": "a"
+          },
+          {
+            "start_ms": 115670,
+            "end_ms": 115910,
+            "text": "Honda"
+          },
+          {
+            "start_ms": 115910,
+            "end_ms": 116390,
+            "text": "Civic,"
+          },
+          {
+            "start_ms": 116390,
+            "end_ms": 116550,
+            "text": "the"
+          },
+          {
+            "start_ms": 116550,
+            "end_ms": 117110,
+            "text": "2012"
+          },
+          {
+            "start_ms": 117110,
+            "end_ms": 117350,
+            "text": "used"
+          },
+          {
+            "start_ms": 117350,
+            "end_ms": 117910,
+            "text": "edition."
+          },
+          {
+            "start_ms": 117910,
+            "end_ms": 118310,
+            "text": "Conscious"
+          },
+          {
+            "start_ms": 118310,
+            "end_ms": 118470,
+            "text": "and"
+          },
+          {
+            "start_ms": 118470,
+            "end_ms": 118710,
+            "text": "fumes"
+          },
+          {
+            "start_ms": 118710,
+            "end_ms": 118870,
+            "text": "is"
+          },
+          {
+            "start_ms": 118870,
+            "end_ms": 119190,
+            "text": "hitting."
+          },
+          {
+            "start_ms": 119190,
+            "end_ms": 119350,
+            "text": "I'm"
+          },
+          {
+            "start_ms": 119350,
+            "end_ms": 119590,
+            "text": "rolling"
+          },
+          {
+            "start_ms": 119590,
+            "end_ms": 119750,
+            "text": "the"
+          },
+          {
+            "start_ms": 119750,
+            "end_ms": 120070,
+            "text": "windows"
+          },
+          {
+            "start_ms": 120070,
+            "end_ms": 120310,
+            "text": "down"
+          },
+          {
+            "start_ms": 120310,
+            "end_ms": 120470,
+            "text": "while"
+          },
+          {
+            "start_ms": 120470,
+            "end_ms": 120630,
+            "text": "I"
+          },
+          {
+            "start_ms": 120630,
+            "end_ms": 120870,
+            "text": "drive"
+          },
+          {
+            "start_ms": 120870,
+            "end_ms": 121110,
+            "text": "around"
+          },
+          {
+            "start_ms": 121110,
+            "end_ms": 121430,
+            "text": "music"
+          },
+          {
+            "start_ms": 121430,
+            "end_ms": 121830,
+            "text": "clipping"
+          },
+          {
+            "start_ms": 121830,
+            "end_ms": 121990,
+            "text": "the"
+          },
+          {
+            "start_ms": 121990,
+            "end_ms": 122470,
+            "text": "speakers."
+          },
+          {
+            "start_ms": 122470,
+            "end_ms": 122630,
+            "text": "I'm"
+          },
+          {
+            "start_ms": 122630,
+            "end_ms": 122870,
+            "text": "praying"
+          },
+          {
+            "start_ms": 122870,
+            "end_ms": 123030,
+            "text": "to"
+          },
+          {
+            "start_ms": 123030,
+            "end_ms": 123270,
+            "text": "guide"
+          },
+          {
+            "start_ms": 123270,
+            "end_ms": 123510,
+            "text": "this"
+          },
+          {
+            "start_ms": 123510,
+            "end_ms": 123750,
+            "text": "air"
+          },
+          {
+            "start_ms": 123750,
+            "end_ms": 124230,
+            "text": "out."
+          },
+          {
+            "start_ms": 124310,
+            "end_ms": 124470,
+            "text": "I"
+          },
+          {
+            "start_ms": 124470,
+            "end_ms": 124710,
+            "text": "miss"
+          },
+          {
+            "start_ms": 124710,
+            "end_ms": 125030,
+            "text": "smoking"
+          },
+          {
+            "start_ms": 125030,
+            "end_ms": 125270,
+            "text": "when"
+          },
+          {
+            "start_ms": 125270,
+            "end_ms": 125430,
+            "text": "we"
+          },
+          {
+            "start_ms": 125430,
+            "end_ms": 125670,
+            "text": "ain't"
+          },
+          {
+            "start_ms": 125670,
+            "end_ms": 126390,
+            "text": "have"
+          },
+          {
+            "start_ms": 125805,
+            "end_ms": 125965,
+            "text": "shit"
+          },
+          {
+            "start_ms": 125965,
+            "end_ms": 126125,
+            "text": "to"
+          },
+          {
+            "start_ms": 126125,
+            "end_ms": 126365,
+            "text": "care"
+          },
+          {
+            "start_ms": 126365,
+            "end_ms": 126845,
+            "text": "about."
+          },
+          {
+            "start_ms": 126925,
+            "end_ms": 127165,
+            "text": "Evil"
+          },
+          {
+            "start_ms": 127165,
+            "end_ms": 127485,
+            "text": "wasn't"
+          },
+          {
+            "start_ms": 127485,
+            "end_ms": 127805,
+            "text": "people"
+          },
+          {
+            "start_ms": 127805,
+            "end_ms": 128045,
+            "text": "with"
+          },
+          {
+            "start_ms": 128045,
+            "end_ms": 128125,
+            "text": "a"
+          },
+          {
+            "start_ms": 128125,
+            "end_ms": 128365,
+            "text": "script"
+          },
+          {
+            "start_ms": 128365,
+            "end_ms": 128525,
+            "text": "of"
+          },
+          {
+            "start_ms": 128525,
+            "end_ms": 128685,
+            "text": "what"
+          },
+          {
+            "start_ms": 128685,
+            "end_ms": 128845,
+            "text": "to"
+          },
+          {
+            "start_ms": 128845,
+            "end_ms": 129085,
+            "text": "share"
+          },
+          {
+            "start_ms": 129085,
+            "end_ms": 129405,
+            "text": "around,"
+          },
+          {
+            "start_ms": 129405,
+            "end_ms": 129565,
+            "text": "and"
+          },
+          {
+            "start_ms": 129565,
+            "end_ms": 129885,
+            "text": "diesel"
+          },
+          {
+            "start_ms": 129885,
+            "end_ms": 130205,
+            "text": "wasn't"
+          },
+          {
+            "start_ms": 130205,
+            "end_ms": 130685,
+            "text": "legal."
+          },
+          {
+            "start_ms": 130685,
+            "end_ms": 130765,
+            "text": "But"
+          },
+          {
+            "start_ms": 130765,
+            "end_ms": 130925,
+            "text": "the"
+          },
+          {
+            "start_ms": 130925,
+            "end_ms": 131165,
+            "text": "zipper"
+          },
+          {
+            "start_ms": 131165,
+            "end_ms": 131485,
+            "text": "looking"
+          },
+          {
+            "start_ms": 131485,
+            "end_ms": 131805,
+            "text": "fair"
+          },
+          {
+            "start_ms": 131805,
+            "end_ms": 132205,
+            "text": "now,"
+          },
+          {
+            "start_ms": 132205,
+            "end_ms": 132525,
+            "text": "everywhere"
+          },
+          {
+            "start_ms": 132525,
+            "end_ms": 132845,
+            "text": "got"
+          },
+          {
+            "start_ms": 132845,
+            "end_ms": 132925,
+            "text": "a"
+          },
+          {
+            "start_ms": 132925,
+            "end_ms": 133165,
+            "text": "rare"
+          },
+          {
+            "start_ms": 133165,
+            "end_ms": 133565,
+            "text": "house."
+          },
+          {
+            "start_ms": 133565,
+            "end_ms": 133725,
+            "text": "Never"
+          },
+          {
+            "start_ms": 133725,
+            "end_ms": 133965,
+            "text": "been"
+          },
+          {
+            "start_ms": 133965,
+            "end_ms": 134205,
+            "text": "one"
+          },
+          {
+            "start_ms": 134205,
+            "end_ms": 134285,
+            "text": "to"
+          },
+          {
+            "start_ms": 134285,
+            "end_ms": 134525,
+            "text": "judge."
+          },
+          {
+            "start_ms": 134525,
+            "end_ms": 134845,
+            "text": "If"
+          },
+          {
+            "start_ms": 134845,
+            "end_ms": 135085,
+            "text": "it's"
+          },
+          {
+            "start_ms": 135085,
+            "end_ms": 135485,
+            "text": "smoking,"
+          },
+          {
+            "start_ms": 135485,
+            "end_ms": 135565,
+            "text": "I'm"
+          },
+          {
+            "start_ms": 135565,
+            "end_ms": 135725,
+            "text": "a"
+          },
+          {
+            "start_ms": 135725,
+            "end_ms": 135885,
+            "text": "smoke"
+          },
+          {
+            "start_ms": 135885,
+            "end_ms": 136125,
+            "text": "it."
+          },
+          {
+            "start_ms": 136125,
+            "end_ms": 136205,
+            "text": "We"
+          },
+          {
+            "start_ms": 136205,
+            "end_ms": 136365,
+            "text": "gonna"
+          },
+          {
+            "start_ms": 136365,
+            "end_ms": 136605,
+            "text": "smoke"
+          },
+          {
+            "start_ms": 136605,
+            "end_ms": 136765,
+            "text": "that"
+          },
+          {
+            "start_ms": 136765,
+            "end_ms": 136925,
+            "text": "shit"
+          },
+          {
+            "start_ms": 136925,
+            "end_ms": 137725,
+            "text": "regardless."
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "start_ms": 137725,
+        "end_ms": 144560,
+        "text": "OCB and THC, you know me. We go spark it. My nigga passed me to parchment. The average rated consumption, we pass super photocartridges.",
+        "words": [
+          {
+            "start_ms": 137725,
+            "end_ms": 138205,
+            "text": "OCB"
+          },
+          {
+            "start_ms": 138205,
+            "end_ms": 138445,
+            "text": "and"
+          },
+          {
+            "start_ms": 138445,
+            "end_ms": 139005,
+            "text": "THC,"
+          },
+          {
+            "start_ms": 139005,
+            "end_ms": 139085,
+            "text": "you"
+          },
+          {
+            "start_ms": 139085,
+            "end_ms": 139485,
+            "text": "know"
+          },
+          {
+            "start_ms": 139200,
+            "end_ms": 139520,
+            "text": "me."
+          },
+          {
+            "start_ms": 139520,
+            "end_ms": 139600,
+            "text": "We"
+          },
+          {
+            "start_ms": 139600,
+            "end_ms": 139760,
+            "text": "go"
+          },
+          {
+            "start_ms": 139760,
+            "end_ms": 140080,
+            "text": "spark"
+          },
+          {
+            "start_ms": 140080,
+            "end_ms": 140240,
+            "text": "it."
+          },
+          {
+            "start_ms": 140240,
+            "end_ms": 140320,
+            "text": "My"
+          },
+          {
+            "start_ms": 140320,
+            "end_ms": 140560,
+            "text": "nigga"
+          },
+          {
+            "start_ms": 140560,
+            "end_ms": 140880,
+            "text": "passed"
+          },
+          {
+            "start_ms": 140880,
+            "end_ms": 141040,
+            "text": "me"
+          },
+          {
+            "start_ms": 141040,
+            "end_ms": 141200,
+            "text": "to"
+          },
+          {
+            "start_ms": 141200,
+            "end_ms": 141680,
+            "text": "parchment."
+          },
+          {
+            "start_ms": 141680,
+            "end_ms": 141760,
+            "text": "The"
+          },
+          {
+            "start_ms": 141760,
+            "end_ms": 142080,
+            "text": "average"
+          },
+          {
+            "start_ms": 142080,
+            "end_ms": 142320,
+            "text": "rated"
+          },
+          {
+            "start_ms": 142320,
+            "end_ms": 142960,
+            "text": "consumption,"
+          },
+          {
+            "start_ms": 142960,
+            "end_ms": 143040,
+            "text": "we"
+          },
+          {
+            "start_ms": 143040,
+            "end_ms": 143280,
+            "text": "pass"
+          },
+          {
+            "start_ms": 143280,
+            "end_ms": 143600,
+            "text": "super"
+          },
+          {
+            "start_ms": 143600,
+            "end_ms": 144560,
+            "text": "photocartridges."
+          }
+        ]
+      },
+      {
+        "index": 4,
+        "start_ms": 144560,
+        "end_ms": 152480,
+        "text": "Smokin' inside a parchment. It's probably buying gas. Fold it gas. We get in the car with that diesel. Take me to Parthens. The East, okay with a canvas. But wait, this what I make art with.",
+        "words": [
+          {
+            "start_ms": 144560,
+            "end_ms": 144880,
+            "text": "Smokin'"
+          },
+          {
+            "start_ms": 144880,
+            "end_ms": 145120,
+            "text": "inside"
+          },
+          {
+            "start_ms": 145120,
+            "end_ms": 145280,
+            "text": "a"
+          },
+          {
+            "start_ms": 145280,
+            "end_ms": 145760,
+            "text": "parchment."
+          },
+          {
+            "start_ms": 145760,
+            "end_ms": 145920,
+            "text": "It's"
+          },
+          {
+            "start_ms": 145920,
+            "end_ms": 146240,
+            "text": "probably"
+          },
+          {
+            "start_ms": 146240,
+            "end_ms": 146640,
+            "text": "buying"
+          },
+          {
+            "start_ms": 146640,
+            "end_ms": 146960,
+            "text": "gas."
+          },
+          {
+            "start_ms": 146960,
+            "end_ms": 147120,
+            "text": "Fold"
+          },
+          {
+            "start_ms": 147120,
+            "end_ms": 147200,
+            "text": "it"
+          },
+          {
+            "start_ms": 147200,
+            "end_ms": 147440,
+            "text": "gas."
+          },
+          {
+            "start_ms": 147440,
+            "end_ms": 147520,
+            "text": "We"
+          },
+          {
+            "start_ms": 147520,
+            "end_ms": 147760,
+            "text": "get"
+          },
+          {
+            "start_ms": 147760,
+            "end_ms": 147920,
+            "text": "in"
+          },
+          {
+            "start_ms": 147920,
+            "end_ms": 148000,
+            "text": "the"
+          },
+          {
+            "start_ms": 148000,
+            "end_ms": 148160,
+            "text": "car"
+          },
+          {
+            "start_ms": 148160,
+            "end_ms": 148400,
+            "text": "with"
+          },
+          {
+            "start_ms": 148400,
+            "end_ms": 148560,
+            "text": "that"
+          },
+          {
+            "start_ms": 148560,
+            "end_ms": 148960,
+            "text": "diesel."
+          },
+          {
+            "start_ms": 148960,
+            "end_ms": 149120,
+            "text": "Take"
+          },
+          {
+            "start_ms": 149120,
+            "end_ms": 149200,
+            "text": "me"
+          },
+          {
+            "start_ms": 149200,
+            "end_ms": 149360,
+            "text": "to"
+          },
+          {
+            "start_ms": 149360,
+            "end_ms": 149840,
+            "text": "Parthens."
+          },
+          {
+            "start_ms": 149840,
+            "end_ms": 149920,
+            "text": "The"
+          },
+          {
+            "start_ms": 149920,
+            "end_ms": 150240,
+            "text": "East,"
+          },
+          {
+            "start_ms": 150240,
+            "end_ms": 150400,
+            "text": "okay"
+          },
+          {
+            "start_ms": 150400,
+            "end_ms": 150640,
+            "text": "with"
+          },
+          {
+            "start_ms": 150640,
+            "end_ms": 150800,
+            "text": "a"
+          },
+          {
+            "start_ms": 150800,
+            "end_ms": 151200,
+            "text": "canvas."
+          },
+          {
+            "start_ms": 151200,
+            "end_ms": 151280,
+            "text": "But"
+          },
+          {
+            "start_ms": 151280,
+            "end_ms": 151520,
+            "text": "wait,"
+          },
+          {
+            "start_ms": 151520,
+            "end_ms": 151680,
+            "text": "this"
+          },
+          {
+            "start_ms": 151680,
+            "end_ms": 151840,
+            "text": "what"
+          },
+          {
+            "start_ms": 151840,
+            "end_ms": 151920,
+            "text": "I"
+          },
+          {
+            "start_ms": 151920,
+            "end_ms": 152160,
+            "text": "make"
+          },
+          {
+            "start_ms": 152160,
+            "end_ms": 152320,
+            "text": "art"
+          },
+          {
+            "start_ms": 152320,
+            "end_ms": 152480,
+            "text": "with."
+          }
+        ]
+      },
+      {
+        "index": 5,
+        "start_ms": 178600,
+        "end_ms": 182997,
+        "text": "Family business is trust. The late nights waiting for the train.",
+        "words": [
+          {
+            "start_ms": 178600,
+            "end_ms": 179080,
+            "text": "Family"
+          },
+          {
+            "start_ms": 179080,
+            "end_ms": 179640,
+            "text": "business"
+          },
+          {
+            "start_ms": 179640,
+            "end_ms": 179880,
+            "text": "is"
+          },
+          {
+            "start_ms": 179880,
+            "end_ms": 180280,
+            "text": "trust."
+          },
+          {
+            "start_ms": 180597,
+            "end_ms": 180917,
+            "text": "The"
+          },
+          {
+            "start_ms": 180917,
+            "end_ms": 181237,
+            "text": "late"
+          },
+          {
+            "start_ms": 181237,
+            "end_ms": 181797,
+            "text": "nights"
+          },
+          {
+            "start_ms": 181797,
+            "end_ms": 182277,
+            "text": "waiting"
+          },
+          {
+            "start_ms": 182277,
+            "end_ms": 182517,
+            "text": "for"
+          },
+          {
+            "start_ms": 182517,
+            "end_ms": 182677,
+            "text": "the"
+          },
+          {
+            "start_ms": 182677,
+            "end_ms": 182997,
+            "text": "train."
+          }
+        ]
+      }
+    ],
+    "audio_source": "vocals"
+  },
+  "expected": [
+    {
+      "line_index": 2,
+      "rule_id": "profanity",
+      "words": [
+        "shit",
+        "shit"
+      ]
+    },
+    {
+      "line_index": 2,
+      "rule_id": "drugs",
+      "words": [
+        "gas",
+        "smoking",
+        "diesel",
+        "zipper",
+        "smoking",
+        "smoke it",
+        "smoke"
+      ]
+    },
+    {
+      "line_index": 3,
+      "rule_id": "slurs",
+      "words": [
+        "nigga"
+      ]
+    },
+    {
+      "line_index": 3,
+      "rule_id": "drugs",
+      "words": [
+        "OCB",
+        "THC",
+        "spark it",
+        "parchment",
+        "photocartridges"
+      ]
+    },
+    {
+      "line_index": 4,
+      "rule_id": "drugs",
+      "words": [
+        "Smokin'",
+        "parchment",
+        "gas",
+        "gas",
+        "diesel"
+      ]
+    }
+  ],
+  "labeled_by": "human",
+  "labeled_at": "2026-11-11T14:33:24.880996+00:00",
+  "prefilled_from": null,
+  "notes": "no notes nothing to mute"
+}

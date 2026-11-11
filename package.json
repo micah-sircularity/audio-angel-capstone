@@ -14,13 +14,18 @@
     "dev:convex": "convex dev"
   },
   "devDependencies": {
+    "@edge-runtime/vm": "5.0.0",
     "@types/node": "^22.0.0",
+    "convex-test": "0.0.66",
     "typescript": "~6.0.3",
+    "vite": "^8.3.5",
     "vitest": "^4.1.0"
   },
   "dependencies": {
     "@convex-dev/better-auth": "^0.12.6",
+    "@convex-dev/workflow": "0.4.10",
     "better-auth": "~1.6.33",
-    "convex": "^1.48.0"
+    "convex": "^1.48.0",
+    "fast-xml-parser": "5.11.2"
   }
 }

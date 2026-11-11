@@ -1,0 +1,1565 @@
+{
+  "source_key": "aud:PgwGXNX",
+  "title": "Turn It Up",
+  "artist": "Xyntha",
+  "kind": "music",
+  "rules": [
+    {
+      "label": "Profanity",
+      "kind": "category",
+      "value": "profanity"
+    },
+    {
+      "label": "Slurs",
+      "kind": "category",
+      "value": "slurs"
+    },
+    {
+      "label": "Sexual content",
+      "kind": "category",
+      "value": "sexual"
+    },
+    {
+      "label": "Drugs",
+      "kind": "category",
+      "value": "drugs"
+    },
+    {
+      "label": "Graphic violence",
+      "kind": "category",
+      "value": "violence"
+    },
+    {
+      "label": "Blasphemy",
+      "kind": "category",
+      "value": "blasphemy"
+    }
+  ],
+  "transcript": {
+    "source_key": "aud:PgwGXNX",
+    "kind": "music",
+    "duration_ms": 189560,
+    "segments": [
+      {
+        "index": 0,
+        "start_ms": 27920,
+        "end_ms": 29600,
+        "text": "Over the dance floor.",
+        "words": [
+          {
+            "start_ms": 27920,
+            "end_ms": 28240,
+            "text": "Over"
+          },
+          {
+            "start_ms": 28240,
+            "end_ms": 28560,
+            "text": "the"
+          },
+          {
+            "start_ms": 28560,
+            "end_ms": 29040,
+            "text": "dance"
+          },
+          {
+            "start_ms": 29040,
+            "end_ms": 29600,
+            "text": "floor."
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "start_ms": 29920,
+        "end_ms": 34880,
+        "text": "No small talk. Just vibes. Just vibes. I'm the most wanted to remain a charge.",
+        "words": [
+          {
+            "start_ms": 29920,
+            "end_ms": 30160,
+            "text": "No"
+          },
+          {
+            "start_ms": 30160,
+            "end_ms": 30720,
+            "text": "small"
+          },
+          {
+            "start_ms": 30720,
+            "end_ms": 31120,
+            "text": "talk."
+          },
+          {
+            "start_ms": 31120,
+            "end_ms": 31280,
+            "text": "Just"
+          },
+          {
+            "start_ms": 31280,
+            "end_ms": 31760,
+            "text": "vibes."
+          },
+          {
+            "start_ms": 31760,
+            "end_ms": 31920,
+            "text": "Just"
+          },
+          {
+            "start_ms": 31920,
+            "end_ms": 32560,
+            "text": "vibes."
+          },
+          {
+            "start_ms": 32560,
+            "end_ms": 32720,
+            "text": "I'm"
+          },
+          {
+            "start_ms": 32720,
+            "end_ms": 32800,
+            "text": "the"
+          },
+          {
+            "start_ms": 32800,
+            "end_ms": 33040,
+            "text": "most"
+          },
+          {
+            "start_ms": 33040,
+            "end_ms": 33360,
+            "text": "wanted"
+          },
+          {
+            "start_ms": 33360,
+            "end_ms": 33600,
+            "text": "to"
+          },
+          {
+            "start_ms": 33600,
+            "end_ms": 33920,
+            "text": "remain"
+          },
+          {
+            "start_ms": 33920,
+            "end_ms": 34160,
+            "text": "a"
+          },
+          {
+            "start_ms": 34160,
+            "end_ms": 34880,
+            "text": "charge."
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "start_ms": 35840,
+        "end_ms": 38080,
+        "text": "You know what's happening now. One",
+        "words": [
+          {
+            "start_ms": 35840,
+            "end_ms": 36080,
+            "text": "You"
+          },
+          {
+            "start_ms": 36080,
+            "end_ms": 36320,
+            "text": "know"
+          },
+          {
+            "start_ms": 36320,
+            "end_ms": 36560,
+            "text": "what's"
+          },
+          {
+            "start_ms": 36560,
+            "end_ms": 36880,
+            "text": "happening"
+          },
+          {
+            "start_ms": 36880,
+            "end_ms": 37280,
+            "text": "now."
+          },
+          {
+            "start_ms": 37280,
+            "end_ms": 38080,
+            "text": "One"
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "start_ms": 38320,
+        "end_ms": 46355,
+        "text": "for the beat, two for the emotion. The moment is hot. We can't stay still. Are you ready for the drive? Bring the bass. Let's bro to the top.",
+        "words": [
+          {
+            "start_ms": 38320,
+            "end_ms": 38560,
+            "text": "for"
+          },
+          {
+            "start_ms": 38560,
+            "end_ms": 38720,
+            "text": "the"
+          },
+          {
+            "start_ms": 38720,
+            "end_ms": 39040,
+            "text": "beat,"
+          },
+          {
+            "start_ms": 39040,
+            "end_ms": 39200,
+            "text": "two"
+          },
+          {
+            "start_ms": 39200,
+            "end_ms": 39440,
+            "text": "for"
+          },
+          {
+            "start_ms": 39440,
+            "end_ms": 39840,
+            "text": "the"
+          },
+          {
+            "start_ms": 39840,
+            "end_ms": 40320,
+            "text": "emotion."
+          },
+          {
+            "start_ms": 40320,
+            "end_ms": 40400,
+            "text": "The"
+          },
+          {
+            "start_ms": 40400,
+            "end_ms": 40720,
+            "text": "moment"
+          },
+          {
+            "start_ms": 40720,
+            "end_ms": 40960,
+            "text": "is"
+          },
+          {
+            "start_ms": 40960,
+            "end_ms": 41280,
+            "text": "hot."
+          },
+          {
+            "start_ms": 41280,
+            "end_ms": 41440,
+            "text": "We"
+          },
+          {
+            "start_ms": 41440,
+            "end_ms": 41840,
+            "text": "can't"
+          },
+          {
+            "start_ms": 41840,
+            "end_ms": 42240,
+            "text": "stay"
+          },
+          {
+            "start_ms": 41955,
+            "end_ms": 42435,
+            "text": "still."
+          },
+          {
+            "start_ms": 42435,
+            "end_ms": 42595,
+            "text": "Are"
+          },
+          {
+            "start_ms": 42595,
+            "end_ms": 42675,
+            "text": "you"
+          },
+          {
+            "start_ms": 42675,
+            "end_ms": 42995,
+            "text": "ready"
+          },
+          {
+            "start_ms": 42995,
+            "end_ms": 43155,
+            "text": "for"
+          },
+          {
+            "start_ms": 43155,
+            "end_ms": 43315,
+            "text": "the"
+          },
+          {
+            "start_ms": 43315,
+            "end_ms": 43955,
+            "text": "drive?"
+          },
+          {
+            "start_ms": 43955,
+            "end_ms": 44275,
+            "text": "Bring"
+          },
+          {
+            "start_ms": 44275,
+            "end_ms": 44435,
+            "text": "the"
+          },
+          {
+            "start_ms": 44435,
+            "end_ms": 44755,
+            "text": "bass."
+          },
+          {
+            "start_ms": 44755,
+            "end_ms": 44915,
+            "text": "Let's"
+          },
+          {
+            "start_ms": 44915,
+            "end_ms": 45155,
+            "text": "bro"
+          },
+          {
+            "start_ms": 45155,
+            "end_ms": 45395,
+            "text": "to"
+          },
+          {
+            "start_ms": 45395,
+            "end_ms": 45555,
+            "text": "the"
+          },
+          {
+            "start_ms": 45555,
+            "end_ms": 46355,
+            "text": "top."
+          }
+        ]
+      },
+      {
+        "index": 4,
+        "start_ms": 47795,
+        "end_ms": 48515,
+        "text": "Yeah.",
+        "words": [
+          {
+            "start_ms": 47795,
+            "end_ms": 48515,
+            "text": "Yeah."
+          }
+        ]
+      },
+      {
+        "index": 5,
+        "start_ms": 49475,
+        "end_ms": 50995,
+        "text": "I've got fire",
+        "words": [
+          {
+            "start_ms": 49475,
+            "end_ms": 49715,
+            "text": "I've"
+          },
+          {
+            "start_ms": 49715,
+            "end_ms": 49955,
+            "text": "got"
+          },
+          {
+            "start_ms": 49955,
+            "end_ms": 50995,
+            "text": "fire"
+          }
+        ]
+      },
+      {
+        "index": 6,
+        "start_ms": 50995,
+        "end_ms": 53475,
+        "text": "in my veins.",
+        "words": [
+          {
+            "start_ms": 50995,
+            "end_ms": 51635,
+            "text": "in"
+          },
+          {
+            "start_ms": 51635,
+            "end_ms": 52195,
+            "text": "my"
+          },
+          {
+            "start_ms": 52195,
+            "end_ms": 53475,
+            "text": "veins."
+          }
+        ]
+      },
+      {
+        "index": 7,
+        "start_ms": 54275,
+        "end_ms": 59130,
+        "text": "Yeah. Turn it up. Make it loud. We own the dance floor. Let's take control.",
+        "words": [
+          {
+            "start_ms": 54275,
+            "end_ms": 54835,
+            "text": "Yeah."
+          },
+          {
+            "start_ms": 54835,
+            "end_ms": 55075,
+            "text": "Turn"
+          },
+          {
+            "start_ms": 55075,
+            "end_ms": 55235,
+            "text": "it"
+          },
+          {
+            "start_ms": 55235,
+            "end_ms": 55475,
+            "text": "up."
+          },
+          {
+            "start_ms": 55475,
+            "end_ms": 55635,
+            "text": "Make"
+          },
+          {
+            "start_ms": 55635,
+            "end_ms": 55795,
+            "text": "it"
+          },
+          {
+            "start_ms": 55795,
+            "end_ms": 56115,
+            "text": "loud."
+          },
+          {
+            "start_ms": 56115,
+            "end_ms": 56355,
+            "text": "We"
+          },
+          {
+            "start_ms": 56355,
+            "end_ms": 56675,
+            "text": "own"
+          },
+          {
+            "start_ms": 56675,
+            "end_ms": 56915,
+            "text": "the"
+          },
+          {
+            "start_ms": 56915,
+            "end_ms": 57315,
+            "text": "dance"
+          },
+          {
+            "start_ms": 57315,
+            "end_ms": 57795,
+            "text": "floor."
+          },
+          {
+            "start_ms": 57795,
+            "end_ms": 58595,
+            "text": "Let's"
+          },
+          {
+            "start_ms": 57930,
+            "end_ms": 58330,
+            "text": "take"
+          },
+          {
+            "start_ms": 58330,
+            "end_ms": 59130,
+            "text": "control."
+          }
+        ]
+      },
+      {
+        "index": 8,
+        "start_ms": 59530,
+        "end_ms": 62090,
+        "text": "Show the baby's deep in the asshole.",
+        "words": [
+          {
+            "start_ms": 59530,
+            "end_ms": 59610,
+            "text": "Show"
+          },
+          {
+            "start_ms": 59610,
+            "end_ms": 59690,
+            "text": "the"
+          },
+          {
+            "start_ms": 59690,
+            "end_ms": 60010,
+            "text": "baby's"
+          },
+          {
+            "start_ms": 60010,
+            "end_ms": 60330,
+            "text": "deep"
+          },
+          {
+            "start_ms": 60330,
+            "end_ms": 60570,
+            "text": "in"
+          },
+          {
+            "start_ms": 60570,
+            "end_ms": 60890,
+            "text": "the"
+          },
+          {
+            "start_ms": 60890,
+            "end_ms": 62090,
+            "text": "asshole."
+          }
+        ]
+      },
+      {
+        "index": 9,
+        "start_ms": 62170,
+        "end_ms": 71725,
+        "text": "Yes, sir. Yes. Yes. Yes. Yes. Let's go. They wanna test my style, but they can match my speed. I give the crowd exactly what they need. Elect your rap queen dominating",
+        "words": [
+          {
+            "start_ms": 62170,
+            "end_ms": 62570,
+            "text": "Yes,"
+          },
+          {
+            "start_ms": 62570,
+            "end_ms": 62810,
+            "text": "sir."
+          },
+          {
+            "start_ms": 62810,
+            "end_ms": 63370,
+            "text": "Yes."
+          },
+          {
+            "start_ms": 63370,
+            "end_ms": 63690,
+            "text": "Yes."
+          },
+          {
+            "start_ms": 63690,
+            "end_ms": 64490,
+            "text": "Yes."
+          },
+          {
+            "start_ms": 64490,
+            "end_ms": 65050,
+            "text": "Yes."
+          },
+          {
+            "start_ms": 65050,
+            "end_ms": 65290,
+            "text": "Let's"
+          },
+          {
+            "start_ms": 65290,
+            "end_ms": 65530,
+            "text": "go."
+          },
+          {
+            "start_ms": 65530,
+            "end_ms": 65690,
+            "text": "They"
+          },
+          {
+            "start_ms": 65690,
+            "end_ms": 65930,
+            "text": "wanna"
+          },
+          {
+            "start_ms": 65930,
+            "end_ms": 66170,
+            "text": "test"
+          },
+          {
+            "start_ms": 66170,
+            "end_ms": 66330,
+            "text": "my"
+          },
+          {
+            "start_ms": 66330,
+            "end_ms": 66650,
+            "text": "style,"
+          },
+          {
+            "start_ms": 66650,
+            "end_ms": 66810,
+            "text": "but"
+          },
+          {
+            "start_ms": 66810,
+            "end_ms": 66890,
+            "text": "they"
+          },
+          {
+            "start_ms": 66890,
+            "end_ms": 67050,
+            "text": "can"
+          },
+          {
+            "start_ms": 67050,
+            "end_ms": 67290,
+            "text": "match"
+          },
+          {
+            "start_ms": 67290,
+            "end_ms": 67530,
+            "text": "my"
+          },
+          {
+            "start_ms": 67530,
+            "end_ms": 68010,
+            "text": "speed."
+          },
+          {
+            "start_ms": 68010,
+            "end_ms": 68170,
+            "text": "I"
+          },
+          {
+            "start_ms": 68170,
+            "end_ms": 68330,
+            "text": "give"
+          },
+          {
+            "start_ms": 68330,
+            "end_ms": 68410,
+            "text": "the"
+          },
+          {
+            "start_ms": 68410,
+            "end_ms": 68650,
+            "text": "crowd"
+          },
+          {
+            "start_ms": 68650,
+            "end_ms": 69130,
+            "text": "exactly"
+          },
+          {
+            "start_ms": 69130,
+            "end_ms": 69450,
+            "text": "what"
+          },
+          {
+            "start_ms": 69450,
+            "end_ms": 69690,
+            "text": "they"
+          },
+          {
+            "start_ms": 69690,
+            "end_ms": 70090,
+            "text": "need."
+          },
+          {
+            "start_ms": 70090,
+            "end_ms": 70330,
+            "text": "Elect"
+          },
+          {
+            "start_ms": 70330,
+            "end_ms": 70490,
+            "text": "your"
+          },
+          {
+            "start_ms": 70490,
+            "end_ms": 70730,
+            "text": "rap"
+          },
+          {
+            "start_ms": 70605,
+            "end_ms": 70925,
+            "text": "queen"
+          },
+          {
+            "start_ms": 70925,
+            "end_ms": 71725,
+            "text": "dominating"
+          }
+        ]
+      },
+      {
+        "index": 10,
+        "start_ms": 71725,
+        "end_ms": 79565,
+        "text": "the scene by the end of the night. You remember my name fall. Jump. Move to the beat. We're turning this dance floor upside down.",
+        "words": [
+          {
+            "start_ms": 71725,
+            "end_ms": 71965,
+            "text": "the"
+          },
+          {
+            "start_ms": 71965,
+            "end_ms": 72285,
+            "text": "scene"
+          },
+          {
+            "start_ms": 72285,
+            "end_ms": 72605,
+            "text": "by"
+          },
+          {
+            "start_ms": 72605,
+            "end_ms": 72765,
+            "text": "the"
+          },
+          {
+            "start_ms": 72765,
+            "end_ms": 72925,
+            "text": "end"
+          },
+          {
+            "start_ms": 72925,
+            "end_ms": 73165,
+            "text": "of"
+          },
+          {
+            "start_ms": 73165,
+            "end_ms": 73245,
+            "text": "the"
+          },
+          {
+            "start_ms": 73245,
+            "end_ms": 73565,
+            "text": "night."
+          },
+          {
+            "start_ms": 73565,
+            "end_ms": 73645,
+            "text": "You"
+          },
+          {
+            "start_ms": 73645,
+            "end_ms": 74125,
+            "text": "remember"
+          },
+          {
+            "start_ms": 74125,
+            "end_ms": 74445,
+            "text": "my"
+          },
+          {
+            "start_ms": 74445,
+            "end_ms": 74765,
+            "text": "name"
+          },
+          {
+            "start_ms": 74765,
+            "end_ms": 75485,
+            "text": "fall."
+          },
+          {
+            "start_ms": 75485,
+            "end_ms": 76045,
+            "text": "Jump."
+          },
+          {
+            "start_ms": 76045,
+            "end_ms": 76365,
+            "text": "Move"
+          },
+          {
+            "start_ms": 76365,
+            "end_ms": 76525,
+            "text": "to"
+          },
+          {
+            "start_ms": 76525,
+            "end_ms": 76605,
+            "text": "the"
+          },
+          {
+            "start_ms": 76605,
+            "end_ms": 76925,
+            "text": "beat."
+          },
+          {
+            "start_ms": 76925,
+            "end_ms": 77165,
+            "text": "We're"
+          },
+          {
+            "start_ms": 77165,
+            "end_ms": 77485,
+            "text": "turning"
+          },
+          {
+            "start_ms": 77485,
+            "end_ms": 77725,
+            "text": "this"
+          },
+          {
+            "start_ms": 77725,
+            "end_ms": 78045,
+            "text": "dance"
+          },
+          {
+            "start_ms": 78045,
+            "end_ms": 78285,
+            "text": "floor"
+          },
+          {
+            "start_ms": 78285,
+            "end_ms": 78925,
+            "text": "upside"
+          },
+          {
+            "start_ms": 78925,
+            "end_ms": 79565,
+            "text": "down."
+          }
+        ]
+      },
+      {
+        "index": 11,
+        "start_ms": 81085,
+        "end_ms": 82925,
+        "text": "Try to keep it with me.",
+        "words": [
+          {
+            "start_ms": 81085,
+            "end_ms": 81885,
+            "text": "Try"
+          },
+          {
+            "start_ms": 81885,
+            "end_ms": 82045,
+            "text": "to"
+          },
+          {
+            "start_ms": 82045,
+            "end_ms": 82285,
+            "text": "keep"
+          },
+          {
+            "start_ms": 82285,
+            "end_ms": 82525,
+            "text": "it"
+          },
+          {
+            "start_ms": 82525,
+            "end_ms": 82685,
+            "text": "with"
+          },
+          {
+            "start_ms": 82685,
+            "end_ms": 82925,
+            "text": "me."
+          }
+        ]
+      },
+      {
+        "index": 12,
+        "start_ms": 102945,
+        "end_ms": 104145,
+        "text": "Yes.",
+        "words": [
+          {
+            "start_ms": 102945,
+            "end_ms": 104145,
+            "text": "Yes."
+          }
+        ]
+      },
+      {
+        "index": 13,
+        "start_ms": 109745,
+        "end_ms": 110705,
+        "text": "That's how we do it.",
+        "words": [
+          {
+            "start_ms": 109745,
+            "end_ms": 110145,
+            "text": "That's"
+          },
+          {
+            "start_ms": 110145,
+            "end_ms": 110305,
+            "text": "how"
+          },
+          {
+            "start_ms": 110305,
+            "end_ms": 110465,
+            "text": "we"
+          },
+          {
+            "start_ms": 110465,
+            "end_ms": 110545,
+            "text": "do"
+          },
+          {
+            "start_ms": 110545,
+            "end_ms": 110705,
+            "text": "it."
+          }
+        ]
+      },
+      {
+        "index": 14,
+        "start_ms": 120410,
+        "end_ms": 133065,
+        "text": "That's how we do it. Good. Good. That's how we do it. Good. Good. That's how we do it. Uh-huh. That's how we do it. That's",
+        "words": [
+          {
+            "start_ms": 120410,
+            "end_ms": 120570,
+            "text": "That's"
+          },
+          {
+            "start_ms": 120570,
+            "end_ms": 120730,
+            "text": "how"
+          },
+          {
+            "start_ms": 120730,
+            "end_ms": 120890,
+            "text": "we"
+          },
+          {
+            "start_ms": 120890,
+            "end_ms": 121210,
+            "text": "do"
+          },
+          {
+            "start_ms": 121210,
+            "end_ms": 121610,
+            "text": "it."
+          },
+          {
+            "start_ms": 121610,
+            "end_ms": 122090,
+            "text": "Good."
+          },
+          {
+            "start_ms": 122090,
+            "end_ms": 122490,
+            "text": "Good."
+          },
+          {
+            "start_ms": 122490,
+            "end_ms": 122810,
+            "text": "That's"
+          },
+          {
+            "start_ms": 122810,
+            "end_ms": 122970,
+            "text": "how"
+          },
+          {
+            "start_ms": 122970,
+            "end_ms": 123130,
+            "text": "we"
+          },
+          {
+            "start_ms": 123130,
+            "end_ms": 123450,
+            "text": "do"
+          },
+          {
+            "start_ms": 123450,
+            "end_ms": 123850,
+            "text": "it."
+          },
+          {
+            "start_ms": 123850,
+            "end_ms": 124330,
+            "text": "Good."
+          },
+          {
+            "start_ms": 124330,
+            "end_ms": 124730,
+            "text": "Good."
+          },
+          {
+            "start_ms": 124730,
+            "end_ms": 125050,
+            "text": "That's"
+          },
+          {
+            "start_ms": 125050,
+            "end_ms": 125210,
+            "text": "how"
+          },
+          {
+            "start_ms": 125210,
+            "end_ms": 125370,
+            "text": "we"
+          },
+          {
+            "start_ms": 125370,
+            "end_ms": 125690,
+            "text": "do"
+          },
+          {
+            "start_ms": 125690,
+            "end_ms": 126250,
+            "text": "it."
+          },
+          {
+            "start_ms": 126330,
+            "end_ms": 126730,
+            "text": "Uh-huh."
+          },
+          {
+            "start_ms": 126825,
+            "end_ms": 127305,
+            "text": "That's"
+          },
+          {
+            "start_ms": 127305,
+            "end_ms": 127465,
+            "text": "how"
+          },
+          {
+            "start_ms": 127465,
+            "end_ms": 127625,
+            "text": "we"
+          },
+          {
+            "start_ms": 127625,
+            "end_ms": 127945,
+            "text": "do"
+          },
+          {
+            "start_ms": 127945,
+            "end_ms": 128425,
+            "text": "it."
+          },
+          {
+            "start_ms": 128425,
+            "end_ms": 133065,
+            "text": "That's"
+          }
+        ]
+      },
+      {
+        "index": 15,
+        "start_ms": 134345,
+        "end_ms": 135625,
+        "text": "that's how we do it.",
+        "words": [
+          {
+            "start_ms": 134345,
+            "end_ms": 134745,
+            "text": "that's"
+          },
+          {
+            "start_ms": 134745,
+            "end_ms": 134905,
+            "text": "how"
+          },
+          {
+            "start_ms": 134905,
+            "end_ms": 135065,
+            "text": "we"
+          },
+          {
+            "start_ms": 135065,
+            "end_ms": 135225,
+            "text": "do"
+          },
+          {
+            "start_ms": 135225,
+            "end_ms": 135625,
+            "text": "it."
+          }
+        ]
+      },
+      {
+        "index": 16,
+        "start_ms": 137545,
+        "end_ms": 140985,
+        "text": "Through the church. Through the post crossing through your veins and intense frequencies to shatter",
+        "words": [
+          {
+            "start_ms": 137545,
+            "end_ms": 137785,
+            "text": "Through"
+          },
+          {
+            "start_ms": 137785,
+            "end_ms": 137945,
+            "text": "the"
+          },
+          {
+            "start_ms": 137945,
+            "end_ms": 138265,
+            "text": "church."
+          },
+          {
+            "start_ms": 138265,
+            "end_ms": 138345,
+            "text": "Through"
+          },
+          {
+            "start_ms": 138345,
+            "end_ms": 138505,
+            "text": "the"
+          },
+          {
+            "start_ms": 138505,
+            "end_ms": 138665,
+            "text": "post"
+          },
+          {
+            "start_ms": 138665,
+            "end_ms": 138985,
+            "text": "crossing"
+          },
+          {
+            "start_ms": 138985,
+            "end_ms": 139145,
+            "text": "through"
+          },
+          {
+            "start_ms": 139145,
+            "end_ms": 139305,
+            "text": "your"
+          },
+          {
+            "start_ms": 139305,
+            "end_ms": 139545,
+            "text": "veins"
+          },
+          {
+            "start_ms": 139545,
+            "end_ms": 139785,
+            "text": "and"
+          },
+          {
+            "start_ms": 139785,
+            "end_ms": 140025,
+            "text": "intense"
+          },
+          {
+            "start_ms": 140025,
+            "end_ms": 140505,
+            "text": "frequencies"
+          },
+          {
+            "start_ms": 140505,
+            "end_ms": 140745,
+            "text": "to"
+          },
+          {
+            "start_ms": 140745,
+            "end_ms": 140985,
+            "text": "shatter"
+          }
+        ]
+      },
+      {
+        "index": 17,
+        "start_ms": 142400,
+        "end_ms": 154960,
+        "text": "mind real strapped in the rhythm. No choice. No control. Forced to dance. The vibration of the base shakes every bone inside. Hypnotic power. No time to sit still. Close your eyes. Let the rhythm take over under the spell of the sound of bursting your body.",
+        "words": [
+          {
+            "start_ms": 142400,
+            "end_ms": 142560,
+            "text": "mind"
+          },
+          {
+            "start_ms": 142560,
+            "end_ms": 142800,
+            "text": "real"
+          },
+          {
+            "start_ms": 142800,
+            "end_ms": 143200,
+            "text": "strapped"
+          },
+          {
+            "start_ms": 143200,
+            "end_ms": 143360,
+            "text": "in"
+          },
+          {
+            "start_ms": 143360,
+            "end_ms": 143520,
+            "text": "the"
+          },
+          {
+            "start_ms": 143520,
+            "end_ms": 143840,
+            "text": "rhythm."
+          },
+          {
+            "start_ms": 143840,
+            "end_ms": 144000,
+            "text": "No"
+          },
+          {
+            "start_ms": 144000,
+            "end_ms": 144400,
+            "text": "choice."
+          },
+          {
+            "start_ms": 144400,
+            "end_ms": 144560,
+            "text": "No"
+          },
+          {
+            "start_ms": 144560,
+            "end_ms": 145120,
+            "text": "control."
+          },
+          {
+            "start_ms": 145200,
+            "end_ms": 145520,
+            "text": "Forced"
+          },
+          {
+            "start_ms": 145520,
+            "end_ms": 145760,
+            "text": "to"
+          },
+          {
+            "start_ms": 145760,
+            "end_ms": 146240,
+            "text": "dance."
+          },
+          {
+            "start_ms": 146240,
+            "end_ms": 146320,
+            "text": "The"
+          },
+          {
+            "start_ms": 146320,
+            "end_ms": 147040,
+            "text": "vibration"
+          },
+          {
+            "start_ms": 147040,
+            "end_ms": 147280,
+            "text": "of"
+          },
+          {
+            "start_ms": 147280,
+            "end_ms": 147360,
+            "text": "the"
+          },
+          {
+            "start_ms": 147360,
+            "end_ms": 147600,
+            "text": "base"
+          },
+          {
+            "start_ms": 147600,
+            "end_ms": 147920,
+            "text": "shakes"
+          },
+          {
+            "start_ms": 147920,
+            "end_ms": 148240,
+            "text": "every"
+          },
+          {
+            "start_ms": 148240,
+            "end_ms": 148400,
+            "text": "bone"
+          },
+          {
+            "start_ms": 148400,
+            "end_ms": 148880,
+            "text": "inside."
+          },
+          {
+            "start_ms": 148880,
+            "end_ms": 149360,
+            "text": "Hypnotic"
+          },
+          {
+            "start_ms": 149360,
+            "end_ms": 149920,
+            "text": "power."
+          },
+          {
+            "start_ms": 149920,
+            "end_ms": 150080,
+            "text": "No"
+          },
+          {
+            "start_ms": 150080,
+            "end_ms": 150320,
+            "text": "time"
+          },
+          {
+            "start_ms": 150320,
+            "end_ms": 150480,
+            "text": "to"
+          },
+          {
+            "start_ms": 150480,
+            "end_ms": 150640,
+            "text": "sit"
+          },
+          {
+            "start_ms": 150640,
+            "end_ms": 151040,
+            "text": "still."
+          },
+          {
+            "start_ms": 151040,
+            "end_ms": 151200,
+            "text": "Close"
+          },
+          {
+            "start_ms": 151200,
+            "end_ms": 151360,
+            "text": "your"
+          },
+          {
+            "start_ms": 151360,
+            "end_ms": 151600,
+            "text": "eyes."
+          },
+          {
+            "start_ms": 151600,
+            "end_ms": 151760,
+            "text": "Let"
+          },
+          {
+            "start_ms": 151760,
+            "end_ms": 151840,
+            "text": "the"
+          },
+          {
+            "start_ms": 151840,
+            "end_ms": 152080,
+            "text": "rhythm"
+          },
+          {
+            "start_ms": 152080,
+            "end_ms": 152480,
+            "text": "take"
+          },
+          {
+            "start_ms": 152480,
+            "end_ms": 152880,
+            "text": "over"
+          },
+          {
+            "start_ms": 152880,
+            "end_ms": 153200,
+            "text": "under"
+          },
+          {
+            "start_ms": 153200,
+            "end_ms": 153360,
+            "text": "the"
+          },
+          {
+            "start_ms": 153360,
+            "end_ms": 153600,
+            "text": "spell"
+          },
+          {
+            "start_ms": 153600,
+            "end_ms": 153680,
+            "text": "of"
+          },
+          {
+            "start_ms": 153680,
+            "end_ms": 153840,
+            "text": "the"
+          },
+          {
+            "start_ms": 153840,
+            "end_ms": 154000,
+            "text": "sound"
+          },
+          {
+            "start_ms": 154000,
+            "end_ms": 154160,
+            "text": "of"
+          },
+          {
+            "start_ms": 154160,
+            "end_ms": 154480,
+            "text": "bursting"
+          },
+          {
+            "start_ms": 154480,
+            "end_ms": 154720,
+            "text": "your"
+          },
+          {
+            "start_ms": 154720,
+            "end_ms": 154960,
+            "text": "body."
+          }
+        ]
+      },
+      {
+        "index": 18,
+        "start_ms": 156945,
+        "end_ms": 158225,
+        "text": "Feel that bass.",
+        "words": [
+          {
+            "start_ms": 156945,
+            "end_ms": 157185,
+            "text": "Feel"
+          },
+          {
+            "start_ms": 157185,
+            "end_ms": 157425,
+            "text": "that"
+          },
+          {
+            "start_ms": 157425,
+            "end_ms": 158225,
+            "text": "bass."
+          }
+        ]
+      },
+      {
+        "index": 19,
+        "start_ms": 158305,
+        "end_ms": 160225,
+        "text": "Now let it in. Let it in.",
+        "words": [
+          {
+            "start_ms": 158305,
+            "end_ms": 158785,
+            "text": "Now"
+          },
+          {
+            "start_ms": 158785,
+            "end_ms": 159025,
+            "text": "let"
+          },
+          {
+            "start_ms": 159025,
+            "end_ms": 159185,
+            "text": "it"
+          },
+          {
+            "start_ms": 159185,
+            "end_ms": 159585,
+            "text": "in."
+          },
+          {
+            "start_ms": 159585,
+            "end_ms": 159665,
+            "text": "Let"
+          },
+          {
+            "start_ms": 159665,
+            "end_ms": 159745,
+            "text": "it"
+          },
+          {
+            "start_ms": 159745,
+            "end_ms": 160225,
+            "text": "in."
+          }
+        ]
+      },
+      {
+        "index": 20,
+        "start_ms": 163665,
+        "end_ms": 166625,
+        "text": "Let it go. Uh-huh. Feel that bass.",
+        "words": [
+          {
+            "start_ms": 163665,
+            "end_ms": 163985,
+            "text": "Let"
+          },
+          {
+            "start_ms": 163985,
+            "end_ms": 164225,
+            "text": "it"
+          },
+          {
+            "start_ms": 164225,
+            "end_ms": 164785,
+            "text": "go."
+          },
+          {
+            "start_ms": 164945,
+            "end_ms": 165505,
+            "text": "Uh-huh."
+          },
+          {
+            "start_ms": 165505,
+            "end_ms": 165745,
+            "text": "Feel"
+          },
+          {
+            "start_ms": 165745,
+            "end_ms": 165985,
+            "text": "that"
+          },
+          {
+            "start_ms": 165985,
+            "end_ms": 166625,
+            "text": "bass."
+          }
+        ]
+      },
+      {
+        "index": 21,
+        "start_ms": 167585,
+        "end_ms": 168385,
+        "text": "Now let it in.",
+        "words": [
+          {
+            "start_ms": 167585,
+            "end_ms": 167825,
+            "text": "Now"
+          },
+          {
+            "start_ms": 167825,
+            "end_ms": 167985,
+            "text": "let"
+          },
+          {
+            "start_ms": 167985,
+            "end_ms": 168145,
+            "text": "it"
+          },
+          {
+            "start_ms": 168145,
+            "end_ms": 168385,
+            "text": "in."
+          }
+        ]
+      }
+    ],
+    "audio_source": "vocals"
+  },
+  "expected": [
+    {
+      "line_index": 8,
+      "rule_id": "profanity",
+      "words": [
+        "asshole"
+      ]
+    }
+  ],
+  "labeled_by": "human",
+  "labeled_at": "2026-11-11T14:32:45.906634+00:00",
+  "prefilled_from": null,
+  "notes": "no notes nothing to mute; corrected per user review: asshole is profanity under the selected rule"
+}

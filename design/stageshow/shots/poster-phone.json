@@ -1,0 +1,34 @@
+{
+  "status": "issues",
+  "mode": "still",
+  "stages": [
+    {
+      "key": "stage-1",
+      "label": "ss-fit aa-scene",
+      "coverage": {
+        "status": "complete",
+        "frames": 1,
+        "durationMs": 0,
+        "maxGapMs": 0,
+        "reasons": [],
+        "framingSamples": 1,
+        "layout": {
+          "controls": 0,
+          "paddedContainers": 9,
+          "compositionCrops": 0
+        }
+      },
+      "findings": [
+        "clipped: div.aa-orbit clipped right by 75px, bottom by 122px by div.aa-cover (still)",
+        "clipped: div.aa-orbit clipped right by 105px, bottom by 91px by div.aa-cover (still)",
+        "uneven padding: div.aa-cover has bottom -122px against 18px at the side; a card pads its content the same on every side (the outer radius is the inner radius plus the padding) (still)",
+        "framing: div.ss-phone ends 16px short of the right edge; give it a full gutter (24px) or run it well past the edge so it is clearly masked (still)",
+        "small text: span \"3:32\" renders at 9.1px on a phone; the floor is about 10px, so lay compact out at the column's width and set its type for it, not shrunk from the wide design (still)"
+      ],
+      "manual": []
+    }
+  ],
+  "errors": [],
+  "manualReviewRequired": false,
+  "exitCode": 0
+}

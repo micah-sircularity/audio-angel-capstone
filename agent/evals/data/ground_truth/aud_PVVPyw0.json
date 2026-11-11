@@ -1,0 +1,479 @@
+{
+  "source_key": "aud:PVVPyw0",
+  "title": "Fab Massimo - Cotton Candy Eyes (Doh Edit)",
+  "artist": "Doh",
+  "kind": "music",
+  "rules": [
+    {
+      "label": "Profanity",
+      "kind": "category",
+      "value": "profanity"
+    },
+    {
+      "label": "Slurs",
+      "kind": "category",
+      "value": "slurs"
+    },
+    {
+      "label": "Sexual content",
+      "kind": "category",
+      "value": "sexual"
+    },
+    {
+      "label": "Drugs",
+      "kind": "category",
+      "value": "drugs"
+    },
+    {
+      "label": "Graphic violence",
+      "kind": "category",
+      "value": "violence"
+    },
+    {
+      "label": "Blasphemy",
+      "kind": "category",
+      "value": "blasphemy"
+    }
+  ],
+  "transcript": {
+    "source_key": "aud:PVVPyw0",
+    "kind": "music",
+    "duration_ms": 281538,
+    "segments": [
+      {
+        "index": 0,
+        "start_ms": 30140,
+        "end_ms": 31900,
+        "text": "Let go of your ambitions.",
+        "words": [
+          {
+            "start_ms": 30140,
+            "end_ms": 30380,
+            "text": "Let"
+          },
+          {
+            "start_ms": 30380,
+            "end_ms": 30620,
+            "text": "go"
+          },
+          {
+            "start_ms": 30620,
+            "end_ms": 30780,
+            "text": "of"
+          },
+          {
+            "start_ms": 30780,
+            "end_ms": 31020,
+            "text": "your"
+          },
+          {
+            "start_ms": 31020,
+            "end_ms": 31900,
+            "text": "ambitions."
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "start_ms": 35420,
+        "end_ms": 36700,
+        "text": "So what you feel,",
+        "words": [
+          {
+            "start_ms": 35420,
+            "end_ms": 35500,
+            "text": "So"
+          },
+          {
+            "start_ms": 35500,
+            "end_ms": 35740,
+            "text": "what"
+          },
+          {
+            "start_ms": 35740,
+            "end_ms": 35900,
+            "text": "you"
+          },
+          {
+            "start_ms": 35900,
+            "end_ms": 36700,
+            "text": "feel,"
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "start_ms": 37260,
+        "end_ms": 39500,
+        "text": "do what you wanna do, say what you wanna say.",
+        "words": [
+          {
+            "start_ms": 37260,
+            "end_ms": 37500,
+            "text": "do"
+          },
+          {
+            "start_ms": 37500,
+            "end_ms": 37660,
+            "text": "what"
+          },
+          {
+            "start_ms": 37660,
+            "end_ms": 37820,
+            "text": "you"
+          },
+          {
+            "start_ms": 37820,
+            "end_ms": 38060,
+            "text": "wanna"
+          },
+          {
+            "start_ms": 38060,
+            "end_ms": 38460,
+            "text": "do,"
+          },
+          {
+            "start_ms": 38460,
+            "end_ms": 38620,
+            "text": "say"
+          },
+          {
+            "start_ms": 38620,
+            "end_ms": 38780,
+            "text": "what"
+          },
+          {
+            "start_ms": 38780,
+            "end_ms": 38940,
+            "text": "you"
+          },
+          {
+            "start_ms": 38940,
+            "end_ms": 39180,
+            "text": "wanna"
+          },
+          {
+            "start_ms": 39180,
+            "end_ms": 39500,
+            "text": "say."
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "start_ms": 40565,
+        "end_ms": 41525,
+        "text": "You know what I'm saying?",
+        "words": [
+          {
+            "start_ms": 40565,
+            "end_ms": 40885,
+            "text": "You"
+          },
+          {
+            "start_ms": 40885,
+            "end_ms": 41045,
+            "text": "know"
+          },
+          {
+            "start_ms": 41045,
+            "end_ms": 41125,
+            "text": "what"
+          },
+          {
+            "start_ms": 41125,
+            "end_ms": 41365,
+            "text": "I'm"
+          },
+          {
+            "start_ms": 41365,
+            "end_ms": 41525,
+            "text": "saying?"
+          }
+        ]
+      },
+      {
+        "index": 4,
+        "start_ms": 118710,
+        "end_ms": 120230,
+        "text": "Let go of your inhibitions.",
+        "words": [
+          {
+            "start_ms": 118710,
+            "end_ms": 119030,
+            "text": "Let"
+          },
+          {
+            "start_ms": 119030,
+            "end_ms": 119270,
+            "text": "go"
+          },
+          {
+            "start_ms": 119270,
+            "end_ms": 119430,
+            "text": "of"
+          },
+          {
+            "start_ms": 119430,
+            "end_ms": 119590,
+            "text": "your"
+          },
+          {
+            "start_ms": 119590,
+            "end_ms": 120230,
+            "text": "inhibitions."
+          }
+        ]
+      },
+      {
+        "index": 5,
+        "start_ms": 123925,
+        "end_ms": 125205,
+        "text": "Say what you feel.",
+        "words": [
+          {
+            "start_ms": 123925,
+            "end_ms": 124165,
+            "text": "Say"
+          },
+          {
+            "start_ms": 124165,
+            "end_ms": 124325,
+            "text": "what"
+          },
+          {
+            "start_ms": 124325,
+            "end_ms": 124485,
+            "text": "you"
+          },
+          {
+            "start_ms": 124485,
+            "end_ms": 125205,
+            "text": "feel."
+          }
+        ]
+      },
+      {
+        "index": 6,
+        "start_ms": 125925,
+        "end_ms": 128485,
+        "text": "Do what you wanna do. Say what you wanna say.",
+        "words": [
+          {
+            "start_ms": 125925,
+            "end_ms": 126165,
+            "text": "Do"
+          },
+          {
+            "start_ms": 126165,
+            "end_ms": 126325,
+            "text": "what"
+          },
+          {
+            "start_ms": 126325,
+            "end_ms": 126485,
+            "text": "you"
+          },
+          {
+            "start_ms": 126485,
+            "end_ms": 126725,
+            "text": "wanna"
+          },
+          {
+            "start_ms": 126725,
+            "end_ms": 127125,
+            "text": "do."
+          },
+          {
+            "start_ms": 127125,
+            "end_ms": 127285,
+            "text": "Say"
+          },
+          {
+            "start_ms": 127285,
+            "end_ms": 127445,
+            "text": "what"
+          },
+          {
+            "start_ms": 127445,
+            "end_ms": 127525,
+            "text": "you"
+          },
+          {
+            "start_ms": 127525,
+            "end_ms": 127765,
+            "text": "wanna"
+          },
+          {
+            "start_ms": 127765,
+            "end_ms": 128485,
+            "text": "say."
+          }
+        ]
+      },
+      {
+        "index": 7,
+        "start_ms": 129365,
+        "end_ms": 130485,
+        "text": "You know what I say?",
+        "words": [
+          {
+            "start_ms": 129365,
+            "end_ms": 129525,
+            "text": "You"
+          },
+          {
+            "start_ms": 129525,
+            "end_ms": 129685,
+            "text": "know"
+          },
+          {
+            "start_ms": 129685,
+            "end_ms": 129765,
+            "text": "what"
+          },
+          {
+            "start_ms": 129765,
+            "end_ms": 129845,
+            "text": "I"
+          },
+          {
+            "start_ms": 129845,
+            "end_ms": 130485,
+            "text": "say?"
+          }
+        ]
+      },
+      {
+        "index": 8,
+        "start_ms": 131605,
+        "end_ms": 132565,
+        "text": "Let's go.",
+        "words": [
+          {
+            "start_ms": 131605,
+            "end_ms": 132005,
+            "text": "Let's"
+          },
+          {
+            "start_ms": 132005,
+            "end_ms": 132565,
+            "text": "go."
+          }
+        ]
+      },
+      {
+        "index": 9,
+        "start_ms": 132885,
+        "end_ms": 138805,
+        "text": "I'm candy eyes. Give me sugar. You were five. I wanna take you on a ride at the",
+        "words": [
+          {
+            "start_ms": 132885,
+            "end_ms": 133285,
+            "text": "I'm"
+          },
+          {
+            "start_ms": 133285,
+            "end_ms": 133685,
+            "text": "candy"
+          },
+          {
+            "start_ms": 133685,
+            "end_ms": 134325,
+            "text": "eyes."
+          },
+          {
+            "start_ms": 134325,
+            "end_ms": 134485,
+            "text": "Give"
+          },
+          {
+            "start_ms": 134485,
+            "end_ms": 134725,
+            "text": "me"
+          },
+          {
+            "start_ms": 134725,
+            "end_ms": 135205,
+            "text": "sugar."
+          },
+          {
+            "start_ms": 135205,
+            "end_ms": 135445,
+            "text": "You"
+          },
+          {
+            "start_ms": 135445,
+            "end_ms": 135685,
+            "text": "were"
+          },
+          {
+            "start_ms": 135685,
+            "end_ms": 136005,
+            "text": "five."
+          },
+          {
+            "start_ms": 136005,
+            "end_ms": 136405,
+            "text": "I"
+          },
+          {
+            "start_ms": 136405,
+            "end_ms": 136485,
+            "text": "wanna"
+          },
+          {
+            "start_ms": 136485,
+            "end_ms": 136885,
+            "text": "take"
+          },
+          {
+            "start_ms": 136885,
+            "end_ms": 137045,
+            "text": "you"
+          },
+          {
+            "start_ms": 137045,
+            "end_ms": 137285,
+            "text": "on"
+          },
+          {
+            "start_ms": 137285,
+            "end_ms": 137525,
+            "text": "a"
+          },
+          {
+            "start_ms": 137525,
+            "end_ms": 138005,
+            "text": "ride"
+          },
+          {
+            "start_ms": 138005,
+            "end_ms": 138245,
+            "text": "at"
+          },
+          {
+            "start_ms": 138245,
+            "end_ms": 138805,
+            "text": "the"
+          }
+        ]
+      }
+    ],
+    "audio_source": "vocals"
+  },
+  "expected": [
+    {
+      "line_index": 9,
+      "rule_id": "sexual",
+      "words": [
+        "ride"
+      ]
+    }
+  ],
+  "labeled_by": "human",
+  "labeled_at": "2026-11-11T14:32:01.975214+00:00",
+  "prefilled_from": null,
+  "notes": "[4] 1:58 Let go of your inhibitions."
+}

@@ -22,7 +22,6 @@ colors:
   light-button: "#203832"
   light-button-text: "#f6f3ec"
   light-danger: "#b91c1c"
-  toggle-off: "#666666"
   toggle-thumb: "#ffffff"
 typography:
   title:
@@ -47,9 +46,9 @@ rounded:
   artwork-large: "7px"
   control: "9px"
   group: "12px"
-  icon-button: "30px"
+  icon-button: "32px"
   filter-trigger: "22px"
-  sheet-top: "24px"
+  sheet-top: "28px"
 spacing:
   row-gap: "12px"
   group-inset: "16px"
@@ -106,7 +105,7 @@ Teal `primary` marks selected mobile tabs, selected chip borders/text, enabled s
 
 ### Neutral
 
-`screen` is the page canvas, `card` the navigation/mini-player surface, and `grouped` the list, field, chip and notice fill. `text`, `muted`, and `border` carry the information hierarchy. Toggle off and thumb colors are explicit fixed component values.
+`screen` is the page canvas, `card` the navigation/mini-player surface, and `grouped` the list, field, chip and notice fill. `text`, `muted`, and `border` carry the information hierarchy. Toggle tracks interpolate from the theme’s muted role to primary; the thumb is white.
 
 ## Typography
 
@@ -122,21 +121,21 @@ Groups have 16px horizontal inset and 16px vertical margins. Shared rows use a 1
 
 ## Elevation & Depth
 
-The implemented system uses flat tonal surfaces, without shared shadows or animated elevation. Tonal surface changes and thin dividers provide structure. Web keyboard focus uses a 2px solid #256b5b outline with a 3px offset in `apps/app/global.css`, including in light mode. Pressed opacity provides immediate feedback; explicit player and sheet motion is documented below.
+The implemented system uses flat tonal surfaces, without shared shadows or animated elevation. Tonal surface changes and thin dividers provide structure. Web keyboard focus uses a 2px solid #256b5b outline with a 3px offset in `apps/app/global.css`, with #8ccdbb used in dark mode, including the sheet portal; increased contrast uses a 3px outline. Pressed opacity provides immediate feedback; explicit player and sheet motion is documented below.
 
 ## Shapes
 
-Groups and notices use 12px corners. Buttons, fields, chips and navigation items use 9px corners. Artwork uses 7px large and 6px small corners with clipped geometry. Icon buttons use a 30px radius with 44px or 56px square targets. The demo badge uses 5px corners. List dividers use React Native hairlines; shell and field borders use 1px strokes.
+Groups and notices use 12px corners. Buttons, fields, chips and navigation items use 9px corners. Artwork uses 7px large and 6px small corners with clipped geometry. Icon buttons use a 32px radius with 44px or 64px square targets. The demo badge uses 5px corners. List dividers use React Native hairlines; shell and field borders use 1px strokes.
 
 ## Components
 
 ### Buttons
 
-Primary buttons use inverted neutral theme colors; secondary buttons use grouped fill and text foreground. Both have 11px vertical/16px horizontal padding and 44px minimum height. Pressed opacity is 0.65; disabled opacity is 0.4. Icon buttons are transparent at rest, or neutral-filled at 56px when prominent; pressed opacity is 0.6 and disabled opacity is 0.4. Tabler icons typically use 1.7 stroke width.
+Primary buttons use inverted neutral theme colors; secondary buttons use grouped fill and text foreground. Both have 11px vertical/16px horizontal padding and 44px minimum height. Shared tactile pressed opacity is 0.78; disabled opacity is 0.4. Icon buttons are transparent at rest, or neutral-filled at 64px when prominent, with 28px transport icons. Tabler icons typically use 1.7 stroke width.
 
 ### Chips
 
-Grouped fill, 1px border and 12px labels distinguish profile/filter choices. Selected chips use the primary color for both border and text. Padding is 10px vertical/13px horizontal with 44px minimum height; pressed opacity is 0.65.
+Grouped fill, 1px border and 12px labels distinguish profile/filter choices. Selected chips use the primary color for both border and text. Padding is 10px vertical/13px horizontal with 44px minimum height; pressed opacity is 0.78.
 
 ### Cards / Containers
 
@@ -148,7 +147,7 @@ Fields use grouped fill, border stroke, muted placeholder, 9px corners and 13px 
 
 ### Navigation
 
-Five destinations remain available: Now Playing, Library, Profiles, Activity and Settings. Selected phone tabs use primary-colored icon/text. Selected desktop items use grouped fill and normal text; other items use muted foreground. Pressed opacity is 0.6. The shell identifies the current route and displays a bordered status badge: DEMO on scaffold routes, SPOTIFY on Library and catalog search, and UNFILTERED, FILTERING or STOPPED on the Spotify playback pilot according to opt-in filtering and fault state. FILTERING identifies the experimental mode, not verified protection.
+Five destinations remain available: Now Playing, Library, Profiles, Activity and Settings. Selected phone tabs use primary-colored icon/text. Selected desktop items use grouped fill and normal text; other items use muted foreground. Highlight-only pressed opacity is 0.78 without compression. The shell identifies the current route and displays a bordered status badge: DEMO on scaffold routes, SPOTIFY on Library and catalog search, and UNFILTERED, FILTERING or STOPPED on the Spotify playback pilot according to opt-in filtering and fault state. FILTERING identifies the experimental mode, not verified protection.
 
 ### Playback and artwork
 
@@ -156,15 +155,21 @@ The player combines fictional geometric album art, title/artist, timeline, contr
 
 ### Demo player, preferences and motion
 
-The landing player says “Your listening space” and labels itself illustrative: fictional music, simulated playback, no audio or content analysis, screen open only. Ready, Loading and Unavailable are local preview states. Loading disables the primary play control; switching away from Ready pauses simulated playback. No category detection or protection is established by the preview.
+The landing player says “Your listening space” and labels itself illustrative: fictional music, simulated playback, no audio or content analysis, screen open only. Ready, Loading and Unavailable are local preview states. Loading disables play, previous and next; previous/next action handlers also guard loading; switching away from Ready pauses simulated playback. No category detection or protection is established by the preview.
 
-Artwork expansion and minimization use 380ms with `Easing.out(Easing.exp)`, interpolating region height from 70px to 234px and artwork scale from 0.3 to 1. The preferences sheet enters from a 32px vertical offset over 300ms with the same easing. Closing is immediate: the Modal uses `animationType="none"`. Reduced motion sets both durations to zero and sheet entry offset to zero. The accessibility preference hook starts with reduced motion enabled, then observes the platform preference and its changes.
+Shared `TactilePressable` powers buttons, chips, transport and navigation. Web pointer press compresses to 0.97 using a 160ms `cubic-bezier(0.23, 1, 0.32, 1)` transform transition and 120ms ease-out opacity transition. Focus-visible keyboard presses, highlight-only controls and reduced motion keep geometry still. Fine-pointer hover uses brightness 0.96. Native scale uses a native-driver spring (stiffness 500, damping 45, mass 1); opacity uses 100ms in/160ms out. Native reduced motion retains opacity feedback without compression. No haptics are implemented or claimed.
 
-The sheet uses a #10251f66 backdrop, card fill, 24px top corners and padding, a 620px maximum width and 88% maximum height. “Your filters” and “Inspect active filters” open the same sheet; its trigger has 22px corners. Toggles update this device’s active profile and show a local confirmation. Details describe preview actions discreetly. Done and Return to listening close the sheet. App profiles stay local; the refresh does not change Spotify services or product boundaries.
+One `MotionProvider` wraps the shell, starts conservatively with reduced motion enabled, observes the platform preference and tracks last web input with capture-phase keydown/pointerdown listeners. Player, switch, details and sheet transitions are immediate for keyboard input or reduced motion. Artwork expansion interpolates region height 70–234px and scale 0.3–1 with an overshoot-clamped spring (stiffness 300, damping 35, mass 1). Height requires `useNativeDriver: false`: this is a bounded layout-animation exception. Retargeting the existing value without resetting or stopping it on effect cleanup preserves rapid reversal continuity; it stops on unmount.
+
+Switch tracks measure 50×30px within a 54px-wide, minimum 44px-high target. A 24px white thumb travels 20px over 180ms with `cubic-bezier(0.23, 1, 0.32, 1)` easing while track color interpolates muted to primary. Shared web pressables explicitly map disabled, checked, selected, expanded and busy to ARIA attributes; switches expose switch semantics and checked state. Details reveal measured height over 180ms with the same easing; closed details are hidden from accessibility and pointer interaction.
+
+The sheet stays present through exit and unmounts after translation completes. It enters from 64px, exits to measured sheet height and snaps back with an overshoot-clamped, native-driver spring (stiffness 500, damping 45, mass 1, approximately critical damping). The #10251f66 scrim fades over 220ms in/160ms out. Reopening retargets the current value. The 44px header handle accepts single-touch vertical drags beyond 8px, with 0.18 upward resistance. Release dismisses beyond 22% of measured height or a downward flick beyond 8px with velocity above 0.5; otherwise it snaps back. Flick velocity seeds dismissal. Reduced motion retains direct tracking with immediate snapback/transitions; Done and Return to listening provide button alternatives.
+
+The sheet uses card fill, 28px top corners, 24px content inset, 620px maximum width and 90% maximum height. Bottom padding is the larger of 20px and the safe-area bottom inset. A scrolling preferences body preserves footer actions. Modal semantics, Escape/platform close, backdrop dismissal and polite preference confirmations accompany named controls. “Your filters” and “Inspect active filters” open the same sheet; the trigger has 22px corners. Toggles update this device’s active profile. App profiles stay local; Spotify services and product boundaries remain unchanged.
 
 The desktop shell uses a 30px inline SVG brand mark: a sheltering arc above an audio waveform, primary-colored 2px stroke with round caps. Filter controls retain shield icons.
 
-This reference records source inspection only, without verified visual, keyboard, screen-reader or device results. Never capture, read, record, decode or analyze Spotify audio. AI receives no Spotify content or payloads. PRODUCT.md remains the authority for product facts and live-filtering limitations.
+Source inspection is supplemented by Chromium evidence in `.impeccable/review/tactile/interaction-report.json` and `gesture-report.json`, with accompanying screenshots. Recorded checks cover loading transport, playback, preferences/confirmation, disclosure/reopening, Escape, rapid expansion reversal, reduced-motion keyboard opening, press compression/cancellation, drag tracking/snapback/flick, focus containment/return and dark portal focus contrast. No physical-device, native assistive-technology, haptic or audible-playback verification is claimed. Never capture, read, record, decode or analyze Spotify audio. AI receives no Spotify content or payloads. PRODUCT.md remains the authority for product facts and live-filtering limitations.
 
 ## Do's and Don'ts
 

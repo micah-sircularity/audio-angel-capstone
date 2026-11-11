@@ -1,12 +1,12 @@
+import { TactilePressable } from "../ui/tactile-pressable";
 import React, { useEffect, useState } from "react";
 import { useLocalSearchParams, useRouter } from "expo-router";
 import { useSpotify } from "../services/spotify/use-spotify";
 import { useSpotifyPlayer } from "../services/spotify/player-provider";
 import { useRecentlyPlayed, relativeTime } from "../services/recently-played";
 import { LivePlayer, PlayerStatus } from "../ui/live-player";
-import { DemoPlayer } from "../ui/demo-player";
-import { Button, Label, Notice, Row } from "../ui/components";
-import { Image, Pressable, View } from "react-native";
+import { Button, Label, Notice, Row, Title } from "../ui/components";
+import { ActivityIndicator, Image, View } from "react-native";
 import { IconMusic } from "../ui/icons";
 import { useTheme } from "../ui/theme";
 
@@ -30,18 +30,56 @@ export default function NowPlaying() {
   }, [uri, live.service, live.snapshot.status]);
 
   if (!spotify.playbackAuthorized) {
+    const checking = spotify.status === "connecting" || spotify.permissionsLoading;
     return (
-      <View style={{ gap: 16 }}>
-        <DemoPlayer />
-        <Notice>
-          <Label size={12}>
+      <View style={{ gap: 16, maxWidth: 640, alignSelf: "center", width: "100%" }}>
+        <Title>Now playing.</Title>
+        {!spotify.available ? (
+          <Notice>
+            <Label bold size={14}>Spotify playback runs in the web app</Label>
+            <Label muted size={12} style={{ marginTop: 6 }}>
+              Open Audio Angel in a browser to connect Spotify and listen.
+              Filter profiles still work here and stay on this device.
+            </Label>
+          </Notice>
+        ) : checking ? (
+          <Notice>
+            <Row style={{ justifyContent: "flex-start", gap: 12 }}>
+              <ActivityIndicator color={t.primary} accessibilityLabel="Checking Spotify connection" />
+              <Label size={13}>Checking your Spotify connection…</Label>
+            </Row>
+          </Notice>
+        ) : spotify.status === "error" ? (
+          <Notice>
+            <Label bold size={14}>Spotify connection failed</Label>
+            <Label muted size={12} style={{ marginTop: 6 }}>
+              {spotify.error ?? "The connection could not be checked."}
+            </Label>
+          </Notice>
+        ) : spotify.status === "connected" ? (
+          <Notice>
+            <Label bold size={14}>Playback permission needed</Label>
+            <Label muted size={12} style={{ marginTop: 6 }}>
+              Your Spotify connection predates playback access. Reconnect to
+              allow listening here.
+            </Label>
+          </Notice>
+        ) : (
+          <Notice>
+            <Label bold size={14}>Connect Spotify to start listening</Label>
+            <Label muted size={12} style={{ marginTop: 6 }}>
+              Playback and timed filtering need a Spotify account with
+              Premium.
+            </Label>
+          </Notice>
+        )}
+        {!checking && (
+          <Button onPress={() => router.navigate("/filtering")}>
             {spotify.status === "connected"
-              ? "Your Spotify connection predates playback access. Reconnect from Settings to allow live playback."
-              : "Connect Spotify from Settings before testing playback."}
-          </Label>
-        </Notice>
-        <Button secondary onPress={() => router.navigate("/settings")}>Open Settings</Button>
-        <Label muted size={12}>Spotify playback is a separate experimental flow.</Label>
+              ? "Reconnect in Filtering"
+              : "Open Filtering"}
+          </Button>
+        )}
       </View>
     );
   }
@@ -87,12 +125,12 @@ export default function NowPlaying() {
         ) : (
           <>
             {recentItems.map((item) => (
-              <Pressable key={item.uri} accessibilityRole="button" accessibilityLabel={`Play ${item.name}`}
+              <TactilePressable feedback="highlight" key={item.uri} accessibilityRole="button" accessibilityLabel={`Play ${item.name}`}
                 onPress={() => {
                   if(live.service&&live.snapshot.status==="ready") live.startPlayback(item.uri);
                   else router.navigate({ pathname: "/", params: { uri: item.uri } });
                 }}
-                style={({ pressed }) => ({ minHeight: 56, opacity: pressed ? 0.65 : 1 })}>
+                style={{ minHeight: 56 }}>
                 <Row>
                   {item.imageUrl ? (
                     <Image source={{ uri: item.imageUrl }} style={{ width: 48, height: 48, borderRadius: 6 }} />
@@ -107,7 +145,7 @@ export default function NowPlaying() {
                   </View>
                   <Label muted size={11}>{relativeTime(item.playedAt, now)}</Label>
                 </Row>
-              </Pressable>
+              </TactilePressable>
             ))}
             {recent.items.length > 6 && (
               <Button secondary onPress={() => setShowAll(!showAll)}>
